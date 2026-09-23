@@ -1,5 +1,5 @@
 ---
-tags: [sqlite, setup]
+tags: [sqlite, setup, flashcards]
 cssclasses: [cerebro-nota, cerebro-sqlite]
 ---
 
@@ -69,6 +69,16 @@ Esse é o padrão que você já viu em [[../Python/09-Listas-Tuplas-Dicionarios]
 ## Exercício
 
 Rode `python -c "import sqlite3; print(sqlite3.sqlite_version)"` para confirmar que está tudo pronto. Se quiser, instale também o cliente `sqlite3` de linha de comando e crie um banco `teste.db` vazio, confirmando com `.tables` que ele não tem nenhuma tabela ainda.
+
+## Perguntas de revisão
+
+Como usar SQLite em Python sem instalar nada? :: Com o módulo sqlite3, que já vem embutido no Python.
+
+Para que servem comandos como .tables e .schema? :: São comandos do cliente de linha de comando sqlite3, não SQL; funcionam só nesse terminal.
+
+Como abrir ou criar um banco pelo cliente sqlite3? :: Com sqlite3 banco.db, que cria o arquivo se não existir.
+
+Qual ferramenta gráfica é dedicada ao SQLite? :: O DB Browser for SQLite.
 
 ---
 Próxima nota: [[03-Tipos-Dinamicos-e-Tabelas]]

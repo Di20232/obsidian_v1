@@ -1,5 +1,5 @@
 ---
-tags: [sqlite, mysql, comparacao]
+tags: [sqlite, mysql, comparacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-sqlite]
 ---
 
@@ -47,6 +47,18 @@ Como você viu ao longo desta trilha, o SQL que você aprendeu em [[../MySQL/00-
 ## Exercício
 
 Para cada cenário abaixo, decida SQLite ou MySQL e justifique em uma frase: (1) um aplicativo de anotações para celular, sem sincronização online; (2) um site de e-commerce com milhares de pedidos por dia; (3) um script pessoal que organiza seus arquivos de música localmente; (4) uma rede social com posts e comentários de múltiplos usuários.
+
+## Perguntas de revisão
+
+Quando SQLite é suficiente? :: Quando um único programa usa o banco, os dados são locais, a escrita simultânea é baixa ou se está prototipando.
+
+Quando é preciso MySQL ou PostgreSQL? :: Com vários usuários alterando dados ao mesmo tempo, permissões por usuário, vários servidores ou crescimento grande.
+
+Qual caminho comum entre SQLite e MySQL em projetos? :: Começar com SQLite no desenvolvimento e migrar para MySQL ou PostgreSQL em produção, facilitado pelo ORM.
+
+Um aplicativo de anotações offline deve usar SQLite ou MySQL? :: SQLite, porque os dados são locais a um único usuário.
+
+Um e-commerce com milhares de pedidos por dia deve usar SQLite ou MySQL? :: MySQL ou PostgreSQL, pela concorrência de muitos usuários escrevendo ao mesmo tempo.
 
 ---
 Próxima nota: [[07-Boas-Praticas-e-Proximos-Passos]]

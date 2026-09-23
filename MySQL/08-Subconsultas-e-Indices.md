@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql, performance]
+tags: [mysql, sql, performance, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -65,6 +65,20 @@ EXPLAIN SELECT * FROM clientes WHERE email = 'diego@exemplo.com';
 ## Exercício
 
 Escreva uma subconsulta que encontre livros (tabela de [[03-Criando-Bancos-e-Tabelas]]) que **nunca** foram emprestados, usando `NOT IN` com uma subconsulta em vez do `LEFT JOIN` do exercício de [[06-Joins]] — compare as duas abordagens para o mesmo resultado.
+
+## Perguntas de revisão
+
+O que é uma subconsulta? :: Um SELECT dentro de outra consulta, usado quando o filtro depende de um resultado calculado antes.
+
+O que faz EXISTS? :: Verifica se a subconsulta encontra alguma linha, sem se importar com o valor.
+
+O que é full table scan? :: Examinar a tabela linha por linha para achar o que o WHERE pede, por falta de índice.
+
+Qual o custo de criar índices? :: Aceleram leituras mas deixam INSERT, UPDATE e DELETE mais lentos, porque o índice precisa ser atualizado.
+
+Quais colunas já têm índice automático? :: Chaves primárias e colunas UNIQUE.
+
+Como saber se uma consulta usa índice? :: Com EXPLAIN antes do SELECT.
 
 ---
 Veja o exemplo em `MySQL/exemplos/08_subconsultas_indices.sql`. Próxima nota: [[09-Transacoes-e-Usuarios]]

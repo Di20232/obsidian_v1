@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql]
+tags: [mysql, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -74,6 +74,18 @@ Se já existir uma linha com esse `id` (ou outra coluna `UNIQUE`), atualiza em v
 ## Exercício
 
 Na tabela `livros` criada em [[03-Criando-Bancos-e-Tabelas]], insira 4 livros. Atualize o ano de publicação de um deles. Apague um livro específico pelo `id`. Confira o resultado final com `SELECT * FROM livros;` depois de cada passo.
+
+## Perguntas de revisão
+
+O que significa CRUD? :: Create, Read, Update e Delete: criar, ler, atualizar e apagar, com INSERT, SELECT, UPDATE e DELETE.
+
+O que acontece com UPDATE ou DELETE sem WHERE? :: Altera ou apaga todas as linhas da tabela.
+
+Qual hábito evita apagar a linha errada? :: Rodar primeiro um SELECT com o mesmo WHERE para conferir quais linhas seriam afetadas.
+
+Qual a diferença entre DELETE FROM tabela e DROP TABLE? :: DELETE sem WHERE apaga todas as linhas e mantém a tabela; DROP apaga a tabela inteira.
+
+O que é upsert? :: Inserir se não existe e atualizar se já existe; no MySQL, INSERT ... ON DUPLICATE KEY UPDATE.
 
 ---
 Veja o exemplo em `MySQL/exemplos/04_crud.sql`. Próxima nota: [[05-Where-Order-Limit]]

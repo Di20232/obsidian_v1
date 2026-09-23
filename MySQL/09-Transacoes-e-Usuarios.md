@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql]
+tags: [mysql, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -78,6 +78,20 @@ REVOKE DELETE ON loja.* FROM 'app_loja'@'localhost';   -- remove uma permissão 
 ## Exercício
 
 Crie um usuário `app_biblioteca` com permissão apenas de `SELECT` e `INSERT` no banco `biblioteca` (sem `UPDATE`/`DELETE`). Depois, pense: por que um sistema que só cadastra empréstimos (nunca edita ou apaga) se beneficiaria de um usuário com permissões tão restritas?
+
+## Perguntas de revisão
+
+Para que serve uma transação? :: Para que um grupo de comandos seja aplicado por inteiro ou não seja aplicado, como numa transferência bancária.
+
+O que fazem COMMIT e ROLLBACK? :: COMMIT confirma as mudanças da transação; ROLLBACK desfaz tudo desde o início dela.
+
+O que significa ACID? :: Atomicidade, Consistência, Isolamento e Durabilidade, as garantias das transações.
+
+Quando usar transação? :: Sempre que uma operação de negócio envolve mais de um comando que precisam ser tratados como unidade.
+
+O que é o princípio do menor privilégio no banco? :: Cada aplicação usa um usuário próprio só com as permissões de que precisa, nunca o root.
+
+Como dar permissão de CRUD a um usuário num banco? :: GRANT SELECT, INSERT, UPDATE, DELETE ON banco.* TO 'usuario'@'localhost'.
 
 ---
 Veja o exemplo em `MySQL/exemplos/09_transacoes_usuarios.sql`. Próxima nota: [[10-MySQL-com-PHP-e-Python]]

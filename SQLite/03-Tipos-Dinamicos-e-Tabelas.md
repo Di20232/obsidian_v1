@@ -1,5 +1,5 @@
 ---
-tags: [sqlite, sql]
+tags: [sqlite, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-sqlite]
 ---
 
@@ -66,6 +66,18 @@ CREATE TABLE emprestimos (
 ## Exercício
 
 Crie uma tabela `produtos` (id, nome, preco) no SQLite. Tente inserir um valor de texto na coluna `preco` (que você declarou como `REAL`) e observe que o SQLite aceita, diferente do que aconteceria em MySQL — reflita sobre por que essa flexibilidade pode ser útil, e também por que pode ser perigosa se você não validar os dados na aplicação.
+
+## Perguntas de revisão
+
+Como funciona a tipagem de colunas no SQLite? :: É dinâmica por valor: a coluna aceita qualquer tipo, e o tipo declarado é só uma afinidade que orienta o armazenamento.
+
+Quais são as 5 classes de armazenamento do SQLite? :: NULL, INTEGER, REAL, TEXT e BLOB.
+
+Como se escreve a chave primária autoincrementada no SQLite? :: INTEGER PRIMARY KEY AUTOINCREMENT.
+
+O SQLite verifica chaves estrangeiras por padrão? :: Não; é preciso rodar PRAGMA foreign_keys = ON a cada conexão.
+
+Por que a tipagem flexível do SQLite pode ser perigosa? :: Porque aceita, por exemplo, texto numa coluna de preço; a aplicação precisa validar os dados.
 
 ---
 Veja o exemplo em `SQLite/exemplos/03_tipos_tabelas.py`. Próxima nota: [[04-CRUD-Basico]]

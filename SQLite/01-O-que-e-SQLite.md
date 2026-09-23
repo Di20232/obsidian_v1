@@ -1,5 +1,5 @@
 ---
-tags: [sqlite, sql, conceitos]
+tags: [sqlite, sql, conceitos, flashcards]
 cssclasses: [cerebro-nota, cerebro-sqlite]
 ---
 
@@ -40,6 +40,18 @@ SQLite implementa o mesmo padrão SQL que você já viu em [[../Programacao-Gera
 ## Exercício
 
 Sem escrever código ainda: pense em um aplicativo de celular que você usa offline (sem internet) e ainda assim guarda seus dados (notas, tarefas, mensagens salvas). É bem provável que ele use SQLite por trás — reflita sobre por que "sem servidor" faz sentido nesse cenário específico, comparado a um site que várias pessoas acessam ao mesmo tempo.
+
+## Perguntas de revisão
+
+O que é SQLite? :: Um banco de dados relacional sem servidor, em que o banco inteiro é um único arquivo lido e escrito pelo próprio programa.
+
+Quais as vantagens do SQLite? :: Zero configuração, portabilidade (copiar o banco é copiar um arquivo) e suporte embutido em linguagens como Python.
+
+Onde o SQLite é usado no mundo real? :: Em apps de celular, navegadores e ferramentas de desktop; é provavelmente o banco mais implantado do mundo.
+
+Quando o SQLite não é a escolha certa? :: Com muitas escritas simultâneas, como sites com muitos usuários ao mesmo tempo.
+
+O SQLite tem usuários e permissões? :: Não; quem tem acesso ao arquivo tem acesso ao banco inteiro.
 
 ---
 Próxima nota: [[02-Usando-SQLite]]

@@ -1,5 +1,5 @@
 ---
-tags: [mysql, boas-praticas]
+tags: [mysql, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -65,6 +65,20 @@ Em produção, ferramentas como o **slow query log** do MySQL registram automati
 - **Pratique com um projeto completo**: uma API PHP ([[../PHP/00-Indice]]) ou Python que faça CRUD completo sobre uma tabela MySQL.
 - **Compare com SQLite**: veja [[../SQLite/00-Indice]] e, especificamente, [[../SQLite/06-SQLite-vs-MySQL]] para entender quando cada um faz mais sentido.
 - **Aprenda sobre réplicas e escalabilidade** quando o volume de dados/tráfego crescer — tópico avançado, mas bom de saber que existe.
+
+## Perguntas de revisão
+
+Qual a convenção de nomes de tabelas e colunas? :: Tabelas no plural em snake_case e colunas em snake_case; chave estrangeira como cliente_id.
+
+Como fazer backup de um banco MySQL? :: Com mysqldump -u root -p banco > backup.sql, restaurando com mysql -u root -p banco < backup.sql.
+
+O que é uma migration? :: Um arquivo que descreve uma mudança incremental na estrutura do banco, versionado junto com o código.
+
+Por que evitar SELECT * em código de produção? :: Traz colunas desnecessárias e muda silenciosamente quando alguém adiciona uma coluna.
+
+Onde guardar a senha do banco? :: Em variáveis de ambiente, nunca no código-fonte.
+
+O que é o slow query log? :: Um registro automático das consultas que demoram mais que um limite, primeiro lugar a olhar em lentidão.
 
 ---
 Fim da trilha de MySQL. Volte ao [[00-Indice|índice deste curso]], ao [[../Programacao-Geral/09-SQL-e-Bancos-de-Dados|resumo geral de SQL]] ou ao [[../SQLite/00-Indice|curso de SQLite]] a qualquer momento.

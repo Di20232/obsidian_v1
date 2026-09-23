@@ -1,5 +1,5 @@
 ---
-tags: [sqlite, boas-praticas]
+tags: [sqlite, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-sqlite]
 ---
 
@@ -64,6 +64,16 @@ print("Teste passou!")
 - **Pratique com um projeto pequeno completo**: um app de linha de comando (Python, [[../Python/00-Indice]]) ou um site simples (PHP, [[../PHP/00-Indice]]) que guarde dados em SQLite.
 - Volte para [[06-SQLite-vs-MySQL]] sempre que precisar decidir qual banco usar em um projeto novo.
 - Se o projeto crescer e precisar de mais concorrência/usuários, migre para [[../MySQL/00-Indice]] — o SQL que você aprendeu aqui transfere quase direto.
+
+## Perguntas de revisão
+
+O que o erro database is locked indica no SQLite? :: Escrita concorrente no mesmo arquivo; se for frequente, é sinal para migrar para um banco com servidor.
+
+Para que serve o VACUUM? :: Reconstrói e compacta o arquivo do banco depois de muitas exclusões.
+
+O with sqlite3.connect() fecha a conexão sozinho? :: Não; faz commit ao sair do bloco, mas a conexão precisa ser fechada explicitamente.
+
+Por que SQLite é ideal para testes automatizados? :: Com :memory:, cada teste cria um banco limpo, rápido e sem depender de servidor.
 
 ---
 Fim da trilha de SQLite. Volte ao [[00-Indice|índice deste curso]], ao [[../MySQL/00-Indice|curso de MySQL]] ou ao [[../Programacao-Geral/09-SQL-e-Bancos-de-Dados|resumo geral de SQL]] a qualquer momento.

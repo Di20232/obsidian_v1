@@ -1,5 +1,5 @@
 ---
-tags: [mysql, php, python]
+tags: [mysql, php, python, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -76,6 +76,18 @@ Um ORM não substitui saber SQL — ele só evita escrever manualmente as consul
 ## Exercício
 
 Escreva um script em PHP **ou** Python que se conecte ao banco `biblioteca`, insira um novo livro recebido como entrada (`$_POST` em PHP, ou `input()`/argumento de linha de comando em Python), e liste todos os livros depois da inserção.
+
+## Perguntas de revisão
+
+Por que usar charset=utf8mb4 na conexão MySQL? :: Para evitar problemas de acentuação com texto em português.
+
+Qual marcador de parâmetro o conector MySQL do Python usa? :: %s, enquanto o PDO do PHP usa ?; nos dois casos nunca se concatena o valor.
+
+O que faz cursor(dictionary=True) no Python? :: Faz cada linha vir como dicionário em vez de tupla.
+
+O que é um ORM? :: Uma biblioteca que trata tabelas como classes e gera o SQL automaticamente, como Eloquent e SQLAlchemy.
+
+Por que fechar conexões com o banco? :: Para não esgotar o limite de conexões simultâneas em aplicações de longa duração.
 
 ---
 Próxima nota: [[11-Boas-Praticas-e-Proximos-Passos]]

@@ -1,5 +1,5 @@
 ---
-tags: [mysql, setup]
+tags: [mysql, setup, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -67,6 +67,18 @@ Isso executa cada comando do arquivo `script.sql`, em ordem, no banco `loja` —
 ## Exercício
 
 Instale o MySQL, conecte com `mysql -u root -p`, rode `SHOW DATABASES;` para ver os bancos padrão que já vêm instalados, crie um banco chamado `estudos`, e confirme com `SHOW DATABASES;` novamente que ele aparece na lista.
+
+## Perguntas de revisão
+
+Como conectar ao MySQL pela linha de comando? :: Com mysql -u root -p, que pede a senha antes de conectar.
+
+Para que serve o comando USE? :: Define o banco usado pelos comandos seguintes, evitando o erro No database selected.
+
+Como rodar um arquivo .sql inteiro no MySQL? :: Com mysql -u root -p nome_do_banco < script.sql.
+
+A senha do root do MySQL é a mesma do Windows? :: Não; são completamente separadas.
+
+Quais interfaces gráficas servem para o MySQL? :: MySQL Workbench, a oficial, e DBeaver, que também funciona com SQLite.
 
 ---
 Próxima nota: [[03-Criando-Bancos-e-Tabelas]]

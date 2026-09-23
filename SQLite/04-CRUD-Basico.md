@@ -1,5 +1,5 @@
 ---
-tags: [sqlite, sql]
+tags: [sqlite, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-sqlite]
 ---
 
@@ -47,6 +47,16 @@ Equivalente ao `INSERT ... ON DUPLICATE KEY UPDATE` do MySQL ([[../MySQL/04-CRUD
 ## Exercício
 
 Recrie a tabela `livros` (id, titulo, autor, ano_publicacao) e a tabela `emprestimos` (id, livro_id, nome_leitor) em SQLite — praticamente copiando o SQL de [[../MySQL/03-Criando-Bancos-e-Tabelas]], ajustando só `AUTOINCREMENT`. Insira alguns dados e refaça o exercício de `JOIN` de [[../MySQL/06-Joins]] aqui, confirmando que o resultado é o mesmo.
+
+## Perguntas de revisão
+
+O CRUD do SQLite é diferente do MySQL? :: Quase nada; INSERT, SELECT, UPDATE, DELETE, WHERE, JOIN e GROUP BY funcionam do mesmo jeito.
+
+Como obter a data atual no SQLite? :: Com date('now') ou datetime('now'), em vez do NOW() do MySQL.
+
+O que faz INSERT OR REPLACE no SQLite? :: Insere ou, se a chave já existir, substitui a linha inteira.
+
+Qual forma de LIMIT preferir no SQLite? :: LIMIT 10 OFFSET 5, mais legível que a forma abreviada LIMIT 5, 10.
 
 ---
 Veja o exemplo em `SQLite/exemplos/04_crud.py`. Próxima nota: [[05-SQLite-com-Python-e-PHP]]

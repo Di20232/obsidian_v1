@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql]
+tags: [mysql, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -71,6 +71,20 @@ SELECT DISTINCT cidade FROM clientes;   -- lista cada cidade uma única vez, mes
 ## Exercício
 
 Na tabela `livros`, escreva uma consulta que retorne todos os livros publicados depois de 1900, ordenados do mais recente para o mais antigo, trazendo só as 2 primeiras linhas. Depois, escreva uma consulta usando `LIKE` para encontrar livros cujo título contenha a palavra "Sertão".
+
+## Perguntas de revisão
+
+Como verificar se uma coluna é nula em SQL? :: Com IS NULL ou IS NOT NULL; coluna = NULL nunca é verdadeiro.
+
+O que significam % e _ no LIKE? :: % é qualquer sequência de caracteres, inclusive vazia; _ é exatamente um caractere.
+
+BETWEEN inclui os limites? :: Sim; BETWEEN 18 AND 65 inclui 18 e 65.
+
+Para que serve LIMIT com OFFSET? :: Para paginar resultados: LIMIT 5 OFFSET 10 pula 10 linhas e traz as 5 seguintes.
+
+Qual a ordem obrigatória das cláusulas num SELECT? :: SELECT, FROM, WHERE, ORDER BY e LIMIT.
+
+O que faz DISTINCT? :: Elimina valores duplicados do resultado.
 
 ---
 Veja o exemplo em `MySQL/exemplos/05_where_order_limit.sql`. Próxima nota: [[06-Joins]]

@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql, conceitos]
+tags: [mysql, sql, conceitos, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -40,6 +40,20 @@ O padrão SQL cobre o essencial (`SELECT`, `WHERE`, `JOIN`), mas cada banco tem 
 ## Exercício
 
 Sem escrever SQL ainda: pense em um sistema que você usa (uma rede social, um app de delivery) e imagine 3 tabelas que provavelmente existem por trás dele, e quais colunas cada uma teria. Pense também em como elas se relacionam (por exemplo, um "pedido" está ligado a um "cliente" e a vários "itens").
+
+## Perguntas de revisão
+
+Qual a diferença entre SQL e MySQL? :: SQL é o padrão de linguagem; MySQL é um sistema gerenciador de banco de dados (SGBD) que implementa esse padrão com particularidades próprias.
+
+Em que porta o MySQL escuta por padrão? :: 3306.
+
+O que é chave primária? :: A coluna ou conjunto de colunas que identifica unicamente cada linha, sem nunca se repetir na tabela.
+
+O que é chave estrangeira? :: Uma coluna que referencia a chave primária de outra tabela, criando um relacionamento entre elas.
+
+O que é o MariaDB? :: Uma ramificação independente do MySQL criada pelos fundadores originais, compatível na imensa maioria dos casos.
+
+Qual a principal diferença entre MySQL e SQLite? :: O MySQL roda como servidor próprio; o SQLite não tem servidor e o banco inteiro é um único arquivo.
 
 ---
 Próxima nota: [[02-Instalando-e-Configurando]]

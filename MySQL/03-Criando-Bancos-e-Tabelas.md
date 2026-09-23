@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql]
+tags: [mysql, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -83,6 +83,20 @@ SHOW TABLES;
 ## Exercício
 
 Crie um banco `biblioteca` com duas tabelas: `livros` (id, titulo, autor, ano_publicacao) e `emprestimos` (id, livro_id como chave estrangeira, nome_leitor, data_emprestimo). Confira a estrutura com `DESCRIBE`.
+
+## Perguntas de revisão
+
+O que faz AUTO_INCREMENT numa coluna id? :: O MySQL gera e incrementa o valor automaticamente a cada novo registro.
+
+Qual tipo usar para dinheiro no MySQL? :: DECIMAL(10,2), com casas decimais exatas; FLOAT e DOUBLE são aproximados e geram erros de arredondamento.
+
+O que fazem NOT NULL e UNIQUE? :: NOT NULL impede deixar a coluna vazia; UNIQUE impede dois registros com o mesmo valor na coluna.
+
+O que é integridade referencial? :: O banco recusar um valor de chave estrangeira que não existe na tabela referenciada.
+
+O DROP TABLE pede confirmação? :: Não; é permanente, sem lixeira, por isso é preciso conferir o banco conectado antes.
+
+Como ver a estrutura de uma tabela no MySQL? :: Com DESCRIBE nome_da_tabela.
 
 ---
 Veja o exemplo em `MySQL/exemplos/03_criando_tabelas.sql`. Próxima nota: [[04-CRUD-Insert-Select-Update-Delete]]

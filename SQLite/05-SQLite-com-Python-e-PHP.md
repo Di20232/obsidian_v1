@@ -1,5 +1,5 @@
 ---
-tags: [sqlite, python, php]
+tags: [sqlite, python, php, flashcards]
 cssclasses: [cerebro-nota, cerebro-sqlite]
 ---
 
@@ -69,6 +69,18 @@ conexao = sqlite3.connect(":memory:")   # usado em todos os exemplos desta trilh
 ## Exercício
 
 Escreva um script em Python (ou PHP) que crie um arquivo `tarefas.db` real (não `:memory:`), insira 3 tarefas, feche a conexão, e depois **abra de novo** em um segundo script separado para confirmar que os dados persistiram no arquivo entre as duas execuções.
+
+## Perguntas de revisão
+
+Por que chamar conexao.commit() no sqlite3 do Python? :: Porque sem commit as mudanças não são gravadas no arquivo.
+
+O que faz conexao.row_factory = sqlite3.Row? :: Permite acessar as colunas de cada linha pelo nome, como num dicionário.
+
+O PDO do PHP exige commit explícito com SQLite? :: Não; cada execute é confirmado automaticamente, a menos que se use beginTransaction.
+
+Onde não deixar o arquivo .db em produção? :: Numa pasta acessível pelo navegador, como public/, onde alguém poderia baixá-lo.
+
+Para que serve sqlite3.connect(":memory:")? :: Cria um banco só na memória, rápido e limpo a cada execução, ideal para testes.
 
 ---
 Veja o exemplo em `SQLite/exemplos/05_persistencia.py`. Próxima nota: [[06-SQLite-vs-MySQL]]

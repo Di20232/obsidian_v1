@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql]
+tags: [mysql, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -82,6 +82,18 @@ Cada `JOIN` adicional encadeia mais uma tabela ao resultado — comum em sistema
 ## Exercício
 
 Usando as tabelas `livros` e `emprestimos` criadas em [[03-Criando-Bancos-e-Tabelas]], insira alguns empréstimos e escreva uma consulta com `JOIN` que mostre o título do livro junto com o nome de quem pegou emprestado. Depois, escreva uma consulta com `LEFT JOIN` que mostre **todos** os livros, incluindo os que nunca foram emprestados.
+
+## Perguntas de revisão
+
+Qual a diferença entre INNER JOIN e LEFT JOIN? :: INNER JOIN traz só as linhas com correspondência nos dois lados; LEFT JOIN traz todas da esquerda, com NULL onde não há correspondência.
+
+Como achar clientes que nunca fizeram pedido? :: LEFT JOIN de clientes com pedidos e WHERE pedidos.id IS NULL.
+
+Por que RIGHT JOIN é pouco usado? :: Porque qualquer RIGHT JOIN pode ser reescrito como LEFT JOIN trocando a ordem das tabelas.
+
+Para que servem alias de tabela como clientes c? :: Para encurtar os nomes nas referências, muito útil com várias tabelas.
+
+Por que dados ficam em tabelas separadas ligadas por chave? :: Por normalização, para evitar duplicação; o JOIN recombina as tabelas na consulta.
 
 ---
 Veja o exemplo em `MySQL/exemplos/06_joins.sql`. Próxima nota: [[07-Funcoes-de-Agregacao-e-Group-By]]

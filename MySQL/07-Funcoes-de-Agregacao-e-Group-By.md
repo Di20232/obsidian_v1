@@ -1,5 +1,5 @@
 ---
-tags: [mysql, sql]
+tags: [mysql, sql, flashcards]
 cssclasses: [cerebro-nota, cerebro-mysql]
 ---
 
@@ -69,6 +69,18 @@ FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT
 ## Exercício
 
 Na tabela `emprestimos` criada em [[06-Joins]], escreva uma consulta que mostre quantos empréstimos cada `nome_leitor` fez, ordenado do maior para o menor número de empréstimos, usando `GROUP BY`. Depois, adicione um `HAVING` para mostrar só leitores com mais de 1 empréstimo.
+
+## Perguntas de revisão
+
+Quais são as funções de agregação principais? :: COUNT, SUM, AVG, MIN e MAX.
+
+Qual a diferença entre COUNT(*) e COUNT(coluna)? :: COUNT(*) conta linhas; COUNT(coluna) conta só as linhas em que a coluna não é NULL.
+
+O que faz GROUP BY? :: Separa as linhas em grupos por valor e aplica a agregação dentro de cada grupo, devolvendo uma linha por grupo.
+
+Qual a diferença entre WHERE e HAVING? :: WHERE filtra linhas antes de agrupar; HAVING filtra grupos depois da agregação.
+
+Qual a ordem lógica de execução de uma consulta SQL? :: FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY e LIMIT.
 
 ---
 Veja o exemplo em `MySQL/exemplos/07_agregacao.sql`. Próxima nota: [[08-Subconsultas-e-Indices]]
