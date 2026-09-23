@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -99,6 +99,18 @@ for (let linha = 0; linha < 3; linha++) {
 ## Exercício
 
 Escreva um script que receba um número como argumento (`process.argv`, [[06-Entrada-e-Saida]]) e imprima a tabuada dele de 1 a 10, usando um `for` clássico. Depois, use `for...of` para percorrer um array de 3 nomes e cumprimentar cada um com template string.
+
+## Perguntas de revisão
+
+Quais as três partes do for clássico em JavaScript? :: Inicialização (roda uma vez), condição (checada antes de cada volta) e incremento (roda depois de cada volta).
+
+Qual a diferença entre for...of e for...in? :: for...of percorre os valores de um array; for...in percorre as chaves de um objeto.
+
+Qual laço de JavaScript é mais parecido com o for do Python? :: O for...of.
+
+Como escrever sem quebrar linha no Node.js? :: Com process.stdout.write, equivalente ao print com end no Python.
+
+Quando usar while em vez de for? :: Quando a repetição depende de uma condição, não de uma quantidade fixa.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/08_lacos.js`. Próxima nota: [[09-Arrays-e-Objetos]]

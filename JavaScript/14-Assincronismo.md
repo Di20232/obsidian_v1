@@ -1,5 +1,5 @@
 ---
-tags: [javascript, assincronismo]
+tags: [javascript, assincronismo, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -121,6 +121,22 @@ Praticamente toda interação com o mundo externo em JavaScript é assíncrona p
 ## Exercício
 
 Escreva uma função `async` que usa `fetch` para buscar dados de `https://api.github.com/users/octocat`, e exiba o nome e a quantidade de repositórios públicos (`public_repos`) dessa conta, tratando possíveis erros com `try`/`catch`.
+
+## Perguntas de revisão
+
+Por que JavaScript usa operações assíncronas? :: Porque roda numa única thread, que também mantém a página respondendo; esperar parado travaria tudo.
+
+Em que ordem aparecem 1, setTimeout(2) e 3? :: 1, 3 e depois 2, porque o setTimeout agenda a função e libera a execução imediatamente.
+
+O que é callback hell? :: Callbacks dentro de callbacks ao encadear operações assíncronas, difícil de ler e manter.
+
+O que é uma Promise? :: Um valor que no futuro estará pronto ou falhará, encadeado com .then() e .catch().
+
+Onde pode ser usado await? :: Só dentro de funções marcadas com async.
+
+Qual a vantagem de async/await sobre .then()? :: O código parece síncrono e usa try/catch normal para tratar erros.
+
+Por que fetch usa await duas vezes? :: Uma para a resposta chegar e outra para interpretar o corpo JSON.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/14_assincronismo.js`. Próxima nota: [[15-Classes-e-POO]]

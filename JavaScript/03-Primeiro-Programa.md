@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -78,6 +78,18 @@ Assim como o traceback do Python ([[../Python/03-Primeiro-Programa]]), o Node.js
 ## Exercício
 
 Altere `03_ola_mundo.js` para imprimir seu nome em uma linha e uma frase sobre por que você está aprendendo JavaScript em outra (dois `console.log`).
+
+## Perguntas de revisão
+
+O que é console.log? :: Um método do objeto global console que escreve no terminal ou no console do navegador.
+
+O ponto e vírgula é obrigatório em JavaScript? :: Na maioria dos casos é opcional, mas colocar sempre é a convenção, porque evita ambiguidades sutis.
+
+A indentação muda o funcionamento do código JavaScript? :: Não; os blocos são definidos por chaves, mas indentar é essencial para a leitura.
+
+Como escrever comentário de várias linhas em JavaScript? :: Entre /* e */.
+
+Quais tipos de aspas JavaScript aceita e qual a diferença? :: Simples, duplas e crase; a crase cria template strings, que aceitam variáveis dentro do texto.
 
 ---
 Próxima nota: [[04-Variaveis-e-Tipos]]

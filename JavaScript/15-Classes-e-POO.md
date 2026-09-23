@@ -1,5 +1,5 @@
 ---
-tags: [javascript, poo]
+tags: [javascript, poo, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -134,6 +134,18 @@ Em Python, para agrupar dados você quase sempre usa dicionário **ou** classe, 
 ## Exercício
 
 Crie uma classe `Produto` com `nome` e `preco`, e um método `aplicarDesconto(percentual)` que reduz `this.preco` proporcionalmente (mesmo exercício de [[../Python/15-Programacao-Orientada-a-Objetos]], agora em JS). Crie 3 produtos, aplique descontos diferentes, e exiba o preço final de cada um.
+
+## Perguntas de revisão
+
+Qual o equivalente de __init__ e self em JavaScript? :: constructor e this.
+
+O que JavaScript exige ao criar uma instância e Python não? :: A palavra new, como new Pessoa("Diego", 25).
+
+Como declarar herança em JavaScript? :: Com extends, como class Cachorro extends Animal.
+
+Para que serve super() numa classe JavaScript? :: super(...) chama o construtor da classe-pai e super.metodo() chama um método dela.
+
+Quando JavaScript prefere objeto literal em vez de classe? :: Quando só se agrupam dados; a classe entra quando o molde se repete com comportamento próprio.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/15_classes.js`. Próxima nota: [[16-DOM-e-Eventos]]

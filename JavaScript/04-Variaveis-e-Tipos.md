@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -91,6 +91,22 @@ Essa inconsistência (`+` concatena, `-` e `*` convertem) é uma fonte clássica
 ## Exercício
 
 Crie variáveis `nome`, `idade` e `cidade` com `const`/`let` apropriados, e exiba uma frase juntando as três com `console.log`. Depois, teste no console do navegador (ou em um arquivo `.js`) o que `"10" + 5` e `"10" - 5` retornam, e explique para si mesmo por que a diferença acontece.
+
+## Perguntas de revisão
+
+Qual a diferença entre let, const e var? :: let permite reatribuir, const não permite reatribuir, e var é a forma antiga com escopo confuso, que não se usa em código novo.
+
+Qual a regra prática para declarar variáveis em JavaScript? :: Usar const por padrão e trocar para let só quando precisar reatribuir.
+
+Quantos tipos numéricos JavaScript tem? :: Um só, number, para inteiros e decimais, diferente de Python que separa int e float.
+
+Qual a diferença entre undefined e null? :: undefined é variável que ainda não recebeu valor; null é um vazio atribuído de propósito.
+
+Qual a convenção de nomes de variáveis em JavaScript? :: camelCase, como nomeCompleto.
+
+Quanto dá "5" + 3 e "5" - 3 em JavaScript? :: "53" e 2: o + concatena convertendo o número em texto, e o - converte o texto em número.
+
+Como evitar bugs de conversão automática de tipos em JavaScript? :: Convertendo explicitamente com Number() e String() em vez de depender da coerção.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/04_variaveis.js`. Próxima nota: [[05-Operadores]]

@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -96,6 +96,20 @@ Essa é uma diferença de sintaxe que costuma confundir quem vem de Python: lá,
 ## Exercício
 
 Receba um e-mail como argumento de linha de comando ([[06-Entrada-e-Saida]]) e verifique se contém `"@"` e termina com `.com`. Depois, receba uma frase e conte quantas palavras ela tem usando `.split(" ").length`.
+
+## Perguntas de revisão
+
+Como obter o tamanho de uma string em JavaScript? :: Pela propriedade .length, sem parênteses.
+
+Qual a diferença entre replace e replaceAll? :: replace troca só a primeira ocorrência; replaceAll troca todas.
+
+Como formatar um número com duas casas decimais em JavaScript? :: Com .toFixed(2).
+
+Como verificar se uma string contém um trecho em JavaScript? :: Com o método .includes(), como email.includes("@").
+
+Qual a diferença do join em Python e em JavaScript? :: Em Python é chamado na string separadora (" ".join(lista)); em JavaScript é chamado no array (array.join(" ")).
+
+Quais os equivalentes de strip, lower e upper em JavaScript? :: trim(), toLowerCase() e toUpperCase().
 
 ---
 Veja o exemplo em `JavaScript/exemplos/10_strings.js`. Próxima nota: [[11-Funcoes]]

@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -118,6 +118,18 @@ console.log(resultado);   // ERRO: ReferenceError: resultado is not defined
 ## Exercício
 
 Escreva uma **arrow function** `ehPar` que recebe um número e retorna `true`/`false`. Depois, use um `for...of` (de [[08-Lacos-de-Repeticao]]) para testá-la com os números de 1 a 10.
+
+## Perguntas de revisão
+
+Quais as três formas de escrever função em JavaScript? :: Declaração com function, expressão de função guardada em variável e arrow function (=>).
+
+Quando o return é implícito numa arrow function? :: Quando o corpo é uma única expressão sem chaves, como n => n * 2.
+
+Como simular argumentos nomeados em JavaScript? :: Passando um objeto e desestruturando nos parâmetros, como function f({ nome, idade }).
+
+O que significa funções serem valores em JavaScript? :: Podem ser guardadas em variáveis, passadas como argumento e retornadas por outras funções.
+
+Que erro aparece ao usar uma variável fora do escopo da função em JavaScript? :: ReferenceError.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/11_funcoes.js`. Próxima nota: [[12-Modulos-e-NPM]]

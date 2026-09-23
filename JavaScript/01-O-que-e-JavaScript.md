@@ -1,5 +1,5 @@
 ---
-tags: [javascript, conceitos]
+tags: [javascript, conceitos, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -44,6 +44,20 @@ Essa presença em praticamente qualquer ambiente é o que torna JavaScript uma l
 ## Exercício
 
 Sem escrever código ainda: liste três coisas que você usa no dia a dia que provavelmente rodam JavaScript por trás (dica: qualquer site que reage sem recarregar a página inteira — um feed que carrega mais posts ao rolar, um carrinho de compras que atualiza o total sem sair da página).
+
+## Perguntas de revisão
+
+Por que JavaScript é tão usado na web? :: Porque é a única linguagem que todo navegador executa nativamente, sendo a base do front-end.
+
+O que é o Node.js? :: Um ambiente que roda JavaScript fora do navegador, em servidores, scripts e ferramentas de linha de comando.
+
+O que é o V8? :: O motor JavaScript do Chrome e do Node.js, que compila o código na hora (JIT) logo antes de rodar.
+
+O que é ECMAScript? :: O nome oficial do padrão da linguagem; JavaScript é a implementação mais popular dele, e ES6 (ES2015) é uma versão importante.
+
+Qual a diferença entre motor e runtime JavaScript? :: O motor executa o código; o runtime é o ambiente completo, com extras como o DOM no navegador ou acesso a arquivos no Node.js.
+
+Como JavaScript marca blocos de código e comentários? :: Blocos com chaves { } e comentários com //, enquanto Python usa indentação e #.
 
 ---
 Próxima nota: [[02-Preparando-o-Ambiente]]

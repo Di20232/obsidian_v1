@@ -1,5 +1,5 @@
 ---
-tags: [javascript, setup]
+tags: [javascript, setup, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -73,6 +73,18 @@ Isso é o equivalente direto de `python arquivo.py`.
 ## Exercício
 
 Rode `node --version` e `npm --version` no terminal para confirmar a instalação. Depois abra o console do navegador e digite `2 + 2`, comparando com o que você fez no modo interativo do Python em [[../Python/02-Instalando-Python]].
+
+## Perguntas de revisão
+
+Quais as duas formas comuns de rodar JavaScript? :: No console do navegador (F12, aba Console) e com o Node.js pelo terminal.
+
+Qual versão do Node.js baixar? :: A LTS, a mais estável e recomendada para a maioria dos casos.
+
+Como rodar um arquivo JavaScript pelo terminal? :: Com node nome_do_arquivo.js, na pasta do arquivo.
+
+O que vem instalado junto com o Node.js? :: O npm, gerenciador de pacotes do JavaScript.
+
+Por que testar manipulação de página no navegador e não no Node.js? :: Porque só o navegador tem o DOM.
 
 ---
 Próxima nota: [[03-Primeiro-Programa]]

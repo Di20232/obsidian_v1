@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -118,6 +118,18 @@ const os = require("os");           // informações do sistema operacional
 ## Exercício
 
 Crie um arquivo `matematica.js` com uma função `quadrado(numero)`, exportando-a. Em outro arquivo `principal.js`, importe essa função e use-a para imprimir o quadrado dos números de 1 a 5.
+
+## Perguntas de revisão
+
+Qual a diferença entre CommonJS e ES Modules? :: CommonJS usa require e module.exports; ES Modules usa import e export, a sintaxe moderna também usada no navegador.
+
+Como habilitar import/export em arquivos .js no Node? :: Declarando "type": "module" no package.json, ou usando a extensão .mjs.
+
+Para que serve o package.json? :: Descreve o projeto e lista suas dependências, como o requirements do Python.
+
+Por que node_modules não vai para o Git? :: Porque é recriado com npm install a partir do package.json e pode ter milhares de arquivos.
+
+Qual o equivalente do pip em JavaScript? :: O npm.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/utilidades.js` + `JavaScript/exemplos/12_modulos.js`. Próxima nota: [[13-Tratamento-de-Erros]]

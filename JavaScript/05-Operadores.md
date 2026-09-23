@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -85,6 +85,18 @@ let resultado2 = (2 + 3) * 4;   // 20
 ## Exercício
 
 Calcule quantas semanas completas e quantos dias sobram em 100 dias, usando `Math.floor()` e `%` (compare com a solução que você já fez em Python, [[../Python/05-Operadores]]). Depois, escreva uma expressão com `===` que verifique se uma variável `nota` é estritamente igual a `10` (número), e teste o que acontece se `nota` for a string `"10"`.
+
+## Perguntas de revisão
+
+Qual a diferença entre == e === em JavaScript? :: == compara só o valor convertendo tipos; === compara valor e tipo sem converter.
+
+Qual comparação usar sempre em JavaScript? :: === e !==, nunca == e !=.
+
+Como fazer divisão inteira em JavaScript? :: Com Math.floor(a / b), porque não existe o operador // do Python.
+
+Quais são os operadores lógicos de JavaScript? :: && (e), || (ou) e ! (não).
+
+O que faz x++ em JavaScript? :: Soma 1 a x, o mesmo que x += 1; Python não tem esse operador.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/05_operadores.js`. Próxima nota: [[06-Entrada-e-Saida]]

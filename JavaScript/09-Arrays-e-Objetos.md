@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico, estruturas-de-dados]
+tags: [javascript, basico, estruturas-de-dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -130,6 +130,20 @@ Igual mencionado em [[../Python/09-Listas-Tuplas-Dicionarios]]: essa é a forma 
 ## Exercício
 
 Crie um array de objetos representando 3 produtos, cada um com `nome` e `preco`. Use `forEach` para exibir cada um, e use `reduce` para calcular o preço total de todos.
+
+## Perguntas de revisão
+
+Quais os equivalentes em JavaScript de lista e dicionário do Python? :: Array e objeto.
+
+Como pegar o último item de um array em JavaScript? :: Com array[array.length - 1] ou array.at(-1); não existe índice negativo direto como em Python.
+
+O que fazem push, pop, shift e unshift? :: push adiciona no fim, pop remove o último, shift remove o primeiro e unshift adiciona no início.
+
+O que fazem map, filter e reduce? :: map transforma cada item, filter mantém os que passam num teste e reduce reduz tudo a um único valor.
+
+const impede alterar o conteúdo de um array? :: Não; impede só reatribuir a variável. Para travar o conteúdo existe Object.freeze().
+
+Quando acessar objeto com colchetes em vez de ponto? :: Quando o nome da chave vem de uma variável ou não segue as regras de nome.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/09_estruturas.js`. Próxima nota: [[10-Strings]]

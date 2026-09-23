@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -93,6 +93,18 @@ if (Number.isNaN(idade)) {
 ## Exercício
 
 Escreva uma função `dividir(a, b)` que lança um erro (`throw new Error(...)`) se `b` for zero. Chame-a dentro de um `try`/`catch`, testando com um divisor válido e depois com zero, mostrando as duas saídas.
+
+## Perguntas de revisão
+
+O que Number("abc") retorna em JavaScript? :: NaN, sem lançar erro, contaminando os cálculos seguintes.
+
+Como verificar se um valor é NaN? :: Com Number.isNaN(valor).
+
+Qual o equivalente do raise do Python em JavaScript? :: throw new Error("mensagem").
+
+Como ler a mensagem de um erro capturado? :: Pela propriedade erro.message, dentro do catch.
+
+Qual erro de JavaScript equivale ao NameError do Python? :: ReferenceError.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/13_erros.js`. Próxima nota: [[14-Assincronismo]]

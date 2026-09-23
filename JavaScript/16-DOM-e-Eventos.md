@@ -1,5 +1,5 @@
 ---
-tags: [javascript, web, dom]
+tags: [javascript, web, dom, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -125,6 +125,22 @@ Esse é, na prática, o equivalente no navegador do `input()` de Python ([[../Py
 ## Exercício
 
 Abra `JavaScript/exemplos/16_dom.html` diretamente no navegador (duplo clique no arquivo, ou arraste para uma aba). Interaja com o botão e o campo de texto, depois abra o console (`F12`) para ver mensagens extras que o script escreve lá. Depois, tente adicionar você mesmo um segundo botão que muda a cor do título.
+
+## Perguntas de revisão
+
+O que é o DOM? :: A árvore de elementos que representa a página HTML carregada, permitindo ao JavaScript ler e modificar a página.
+
+O DOM existe no Node.js? :: Não; só dentro do navegador.
+
+Como selecionar elementos da página? :: Com document.getElementById, document.querySelector ou document.querySelectorAll.
+
+Por que preferir textContent a innerHTML com dados do usuário? :: Porque innerHTML interpreta HTML e permite injetar código malicioso, o ataque XSS.
+
+Como reagir a um clique num botão? :: Com addEventListener("click", funcao) no elemento.
+
+Por que colocar o script no fim do body? :: Para que os elementos já existam quando o script procurá-los.
+
+Como ler o texto digitado num campo input? :: Pela propriedade .value do elemento.
 
 ---
 Próxima nota: [[17-Boas-Praticas-e-Proximos-Passos]]

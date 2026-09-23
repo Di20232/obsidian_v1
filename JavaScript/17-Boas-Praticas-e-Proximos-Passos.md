@@ -1,5 +1,5 @@
 ---
-tags: [javascript, boas-praticas]
+tags: [javascript, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -80,6 +80,18 @@ Como mencionado em [[../Programacao-Geral/08-JavaScript-Basico]], **TypeScript**
 - **Explore frameworks de front-end** (React, Vue, Svelte) — todos são construídos em cima dos conceitos desta trilha (funções, componentes reativos ao estado, eventos); eles ficam muito mais fáceis de aprender já sabendo JavaScript puro.
 - **Explore o Node.js como back-end**: frameworks como Express permitem construir APIs (conceito visto em [[../Programacao-Geral/10-Como-a-Web-Funciona]]) inteiramente em JavaScript.
 - Volte para [[../Programacao-Geral/00-Indice|o conhecimento geral de programação]] se ainda não tiver visto — muitas das notas de lá (Git, estruturas de dados, SQL, testes) se aplicam igualmente a projetos em JavaScript.
+
+## Perguntas de revisão
+
+O que faz "use strict"? :: Deixa o JavaScript mais rígido, por exemplo proibindo criar variável sem declarar.
+
+Quais os equivalentes de black e ruff em JavaScript? :: Prettier para formatar e ESLint para apontar problemas.
+
+Como funciona console.assert? :: Só imprime algo quando a condição é falsa.
+
+O que o TypeScript adiciona ao JavaScript? :: Tipagem estática, que aponta erros de tipo antes de rodar.
+
+Quais bibliotecas de teste são usadas em JavaScript? :: Jest e Vitest.
 
 ---
 Fim da trilha de JavaScript. Volte ao [[00-Indice|índice deste curso]], ao [[../Python/00-Indice|curso de Python]], ou ao [[../Programacao-Geral/00-Indice|conhecimento geral de programação]] a qualquer momento.

@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -92,6 +92,18 @@ Isso é mais verboso que o `input()` do Python porque é **assíncrono** — o p
 ## Exercício
 
 Crie um script que receba nome e idade como argumentos de linha de comando (`node script.js Diego 25`), convertendo a idade para número com `Number()` (visto em [[04-Variaveis-e-Tipos]]), e exiba uma frase usando template string dizendo em que ano a pessoa completa 100 anos (você pode fixar o ano atual como uma constante no próprio código para simplificar).
+
+## Perguntas de revisão
+
+Qual o equivalente da f-string do Python em JavaScript? :: A template string, com crase e ${variavel} dentro do texto.
+
+Por que JavaScript não tem um input() simples no terminal? :: Porque a linguagem nasceu para o navegador, onde receber entrada funciona de outro jeito.
+
+Onde funcionam prompt() e alert()? :: Só no navegador, não no Node.js pelo terminal.
+
+Em que posição de process.argv começam os argumentos do usuário? :: Na posição 2; as posições 0 e 1 são o caminho do Node e do arquivo.
+
+Qual módulo do Node lê entrada interativa no terminal? :: O readline, que é assíncrono e usa uma função chamada quando a resposta chega.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/06_entrada_saida.js`. Próxima nota: [[07-Condicionais]]

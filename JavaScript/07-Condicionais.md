@@ -1,5 +1,5 @@
 ---
-tags: [javascript, basico]
+tags: [javascript, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-javascript]
 ---
 
@@ -102,6 +102,18 @@ if (nome) {
 ## Exercício
 
 Escreva um script que receba um número como argumento de linha de comando (`process.argv`, visto em [[06-Entrada-e-Saida]]) e diga se ele é positivo, negativo ou zero, e também se é par ou ímpar. Compare com a solução que você já fez em Python, [[../Python/07-Condicionais]].
+
+## Perguntas de revisão
+
+Como o elif do Python se escreve em JavaScript? :: else if, com a condição entre parênteses e o bloco entre chaves.
+
+O que é o operador ternário? :: Um if/else compacto que escolhe um valor: condição ? valorSeVerdadeiro : valorSeFalso.
+
+Por que o break é essencial no switch? :: Sem ele a execução cai no case seguinte, o chamado fall-through.
+
+Quais valores são falsy em JavaScript? :: false, 0, string vazia, null, undefined e NaN.
+
+Array e objeto vazios são falsos em JavaScript? :: Não; [] e {} são truthy em JavaScript, ao contrário do Python.
 
 ---
 Veja o exemplo em `JavaScript/exemplos/07_condicionais.js`. Próxima nota: [[08-Lacos-de-Repeticao]]
