@@ -62,6 +62,7 @@ O mesmo padrão de identificador interpolado apareceu no [[09-Nome-de-Tabela-em-
 - Projeto: [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Prática: [[../Praticas/07-Seguranca-em-Apps-Locais|Segurança em apps locais]] · [[../Praticas/06-Caca-de-Bugs|Caça de bugs]]
 - Relacionado: [[09-Nome-de-Tabela-em-F-String-no-SQL|O mesmo erro no CTL-TINTA-FL]]
+- Trilha: [[../../Seguranca-Web/09-Injecao-SQL-e-Comandos|Injeção de SQL e comandos]]
 
 ## Perguntas de revisão
 

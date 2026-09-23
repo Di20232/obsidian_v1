@@ -47,6 +47,8 @@ Decisões automatizadas que afetam a pessoa (crédito, recusa de pedido) dão ao
 - **Código inseguro:** consulta SQL montada com texto do usuário, como no caso de [[Cerebro/Problemas-Resolvidos/21-SQL-Injection-por-Token-de-URL|SQL injection por token de URL]]. Código gerado passa pelos mesmos testes e revisões que código escrito à mão.
 - **Viés:** o modelo repete padrões dos dados de treino. Revise textos que falam de pessoas e decisões sobre pessoas.
 
+As defesas de aplicação web que valem também para sistemas com IA — injeção, controle de acesso, segredos, dependências (inclusive pacotes inventados pela IA) — estão na [[Seguranca-Web/00-Indice|trilha de Segurança Web]].
+
 ## Direitos autorais
 
 Texto e imagem gerados podem se parecer com obras existentes. Para conteúdo publicado pela marca (descrições, anúncios), revise e reescreva. Para treino, use só conteúdo seu ou com licença que permita ([[06-Preparar-Dados-para-Treinar-IA|preparar dados]]).

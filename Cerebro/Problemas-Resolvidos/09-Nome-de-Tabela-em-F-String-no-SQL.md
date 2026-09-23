@@ -60,6 +60,7 @@ O mesmo padrão apareceu no [[21-SQL-Injection-por-Token-de-URL|Projeto W]], por
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Prática: [[../Praticas/07-Seguranca-em-Apps-Locais|Segurança em apps locais]]
 - Relacionado: [[21-SQL-Injection-por-Token-de-URL|O mesmo erro no Projeto W]]
+- Trilha: [[../../Seguranca-Web/09-Injecao-SQL-e-Comandos|Injeção de SQL e comandos]]
 
 ## Perguntas de revisão
 

@@ -75,6 +75,7 @@ Esta trilha cobre o que acontece **fora do código** de uma loja virtual: escolh
 ## Onde isso encontra o resto do cofre
 
 - [[Financas/00-Indice|Finanças do pequeno negócio]] — fluxo de caixa, DRE, capital de giro, impostos e crédito: a base financeira de qualquer loja
+- [[Seguranca-Web/00-Indice|Segurança web]] — senhas, controle de acesso, pagamentos e vazamentos: o que protege a loja e os clientes
 - [[Cerebro/Projetos/03-Loja-de-Infoprodutos-sobre-IA|Loja de infoprodutos sobre IA]] — ideia de produto digital a validar
 - [[Cerebro/Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]] — controle de vendas e estoque de verdade
 - [[Cerebro/GitHub/Conhecimento/04-Previsao-de-Reposicao|Previsão de reposição]] — a conta de dias até o estoque acabar

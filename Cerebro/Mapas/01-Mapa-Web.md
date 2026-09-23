@@ -47,6 +47,8 @@ Antes de publicar, confirme ambiente, variáveis secretas, migrações, backups,
 
 Para testar uma página localmente com `fetch` e módulos JavaScript, veja [[../Guias/06-Servidor-Local-para-HTML|Servidor local para HTML]].
 
+Antes de publicar, passe pela [[../../Seguranca-Web/18-Checklist-de-Seguranca-Web|checklist de segurança web]]. A trilha completa está em [[../../Seguranca-Web/00-Indice|Segurança Web]].
+
 ## Perguntas de revisão
 
 Qual o caminho de uma aplicação web, da pessoa aos dados? :: Pessoa, navegador, HTML/CSS/JavaScript, HTTP/API, servidor e banco de dados.

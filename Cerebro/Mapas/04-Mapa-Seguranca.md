@@ -30,6 +30,10 @@ Segurança não é uma etapa final; é um hábito de reduzir riscos desde a prim
 
 Segurança se cruza com [[01-Mapa-Web|Web]], [[02-Mapa-Dados|Dados]] e [[03-Mapa-Engenharia|Engenharia]]. Para aprofundar, registre exemplos reais e recomendações de fontes confiáveis em [[../Referencias/00-Referencias-Confiaveis|Referências]].
 
+## Trilha completa
+
+O passo a passo com exemplos em Flask, Express e SQL está na [[../../Seguranca-Web/00-Indice|trilha de Segurança Web]]: princípios e OWASP Top 10:2025, senhas e sessões, JWT e OAuth, controle de acesso, injeção, XSS, CSRF, CORS, uploads, cabeçalhos, segredos, dependências, incidentes e uma [[../../Seguranca-Web/18-Checklist-de-Seguranca-Web|checklist por fase]].
+
 ## Perguntas de revisão
 
 Qual a diferença entre identidade e autorização? :: Identidade confirma quem a pessoa é; autorização define quais ações e dados ela pode acessar.

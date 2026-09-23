@@ -63,6 +63,7 @@ Se ele **encontrar** o arquivo, há problema.
 
 - Prática: [[06-Caca-de-Bugs|Caça de bugs]]
 - Mapa: [[../Mapas/04-Mapa-Seguranca|Mapa de Segurança]]
+- Trilha: [[../../Seguranca-Web/00-Indice|Segurança Web]] — em especial [[../../Seguranca-Web/09-Injecao-SQL-e-Comandos|injeção]], [[../../Seguranca-Web/11-CSRF-e-Cookies|CSRF]] e [[../../Seguranca-Web/15-Segredos-e-Configuracao-Segura|segredos]]
 
 ## Perguntas de revisão
 

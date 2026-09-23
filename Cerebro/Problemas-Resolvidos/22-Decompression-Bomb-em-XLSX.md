@@ -39,6 +39,7 @@ Severidade: **baixa/média**, por ser negação de serviço em uma aplicação l
 
 - Projeto: [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Prática: [[../Praticas/07-Seguranca-em-Apps-Locais|Segurança em apps locais]] · [[../Praticas/05-Importacao-de-Planilhas|Importação de planilhas]]
+- Trilha: [[../../Seguranca-Web/13-SSRF-Uploads-e-Caminhos|SSRF, uploads e caminhos]]
 
 ## Perguntas de revisão
 

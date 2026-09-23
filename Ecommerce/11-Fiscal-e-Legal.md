@@ -61,6 +61,7 @@ Na Shopify: rodapé com dados da empresa, [[05-Shopify-Configurando-a-Loja|polí
 ## Outros cuidados
 
 - **Produtos regulados** (alimentos, cosméticos, suplementos, eletrônicos, produtos infantis) podem exigir registro na Anvisa, certificação do Inmetro ou rotulagem específica.
+- **Vazamento de dados:** incidente com dados de clientes que possa causar dano relevante precisa ser comunicado à ANPD e aos titulares em até 3 dias úteis. Veja [[Seguranca-Web/17-Logs-Monitoramento-e-Incidentes|logs e incidentes]] e a [[Seguranca-Web/18-Checklist-de-Seguranca-Web|checklist de segurança]].
 - **Marca:** antes de investir num nome, pesquise no INPI se já existe registro.
 - **Imagens:** use fotos próprias ou autorizadas pelo fornecedor. Copiar foto de concorrente é violação de direito autoral.
 

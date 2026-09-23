@@ -106,6 +106,8 @@ Como um servidor sabe quem está fazendo a requisição? Formas comuns:
 
 Quando você abre uma rede social, o front-end pede dados ao back-end via API (HTTP + JSON), e o back-end busca esses dados no banco de dados — esse ciclo completo é o que "fazer um site" realmente envolve por trás.
 
+Cada peça desse ciclo — HTTPS, cookies, cabeçalhos, CORS, o banco — tem um ataque típico e uma defesa. Isso é assunto da [[Seguranca-Web/00-Indice|trilha de Segurança Web]].
+
 ## Exercício
 
 Use `requests` em Python para buscar dados de uma API pública gratuita (por exemplo, `https://api.github.com/users/octocat`), imprima o código de status da resposta e alguns campos do JSON retornado.
