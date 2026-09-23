@@ -1,5 +1,5 @@
 ---
-tags: [guia, cerebro, obsidian, git]
+tags: [guia, cerebro, obsidian, git, flashcards]
 aliases: [Rotina do Cofre, Revisão Semanal]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
@@ -84,3 +84,15 @@ Lista as notas **isoladas** (nenhuma ligação), **sem entrada** (ninguém apont
 | Fora da busca e do grafo | `Cerebro/GitHub/Second-Brain/Fontes/` (código de terceiros com links de exemplo) |
 
 Veja também: [[Guias/05-Git-e-VS-Code-no-Dia-a-Dia|Git e VS Code no dia a dia]] · [[Praticas/09-Como-Trabalhamos|Como trabalhamos]]
+
+## Perguntas de revisão
+
+Como salvar um ponto de restauração do cofre? :: Clicando duas vezes em ferramentas/salvar-cofre.bat, que verifica os links e grava no git.
+
+Como ver o histórico de uma nota do cofre? :: Com git log --oneline -- "caminho/da/nota.md".
+
+Como restaurar uma nota para uma versão anterior? :: Com git restore --source CODIGO -- "caminho/da/nota.md", usando o código que o git log mostrar.
+
+Onde caem as notas novas criadas com Ctrl+N? :: Na pasta Inbox, de onde saem na revisão semanal.
+
+Quanto tempo leva a revisão semanal do cofre? :: De 20 a 30 minutos.

@@ -1,5 +1,5 @@
 ---
-tags: [guia, documentacao, aprendizado]
+tags: [guia, documentacao, aprendizado, flashcards]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
 
@@ -22,3 +22,11 @@ Depois de um projeto, um bug ou uma decisão, reserve cinco minutos para impedir
 - evita culpar pessoas e foca no sistema e nos fatos;
 - tem links para o projeto e os conceitos relacionados;
 - registra a prevenção, não somente a solução momentânea.
+
+## Perguntas de revisão
+
+Onde registrar uma solução que exigiu investigação? :: Em Problemas Resolvidos, com sintoma, causa, correção e prevenção.
+
+Onde registrar uma forma de trabalhar que deu resultado? :: Em Práticas, com situação, passos e evidência.
+
+Quais as qualidades de uma boa anotação pós-trabalho? :: Curta para escrever agora, com contexto para daqui a meses, focada em fatos e não em culpados, com links e com a prevenção.

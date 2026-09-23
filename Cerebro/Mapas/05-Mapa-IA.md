@@ -1,5 +1,5 @@
 ---
-tags: [moc, inteligencia-artificial, automacao]
+tags: [moc, inteligencia-artificial, automacao, flashcards]
 aliases: [Mapa de IA]
 cssclasses: [cerebro-nota, cerebro-ia]
 ---
@@ -36,3 +36,11 @@ Conecte ideias de IA a [[00-Mapa-Programacao|Programação]], [[02-Mapa-Dados|Da
 ## Trilha completa
 
 A prática de tudo isso está na trilha [[../../IA-Aplicada/00-Indice|IA Aplicada]]: como os modelos funcionam, prompts, busca semântica, RAG, fine-tuning, preparação de dados, avaliação, agentes e riscos.
+
+## Perguntas de revisão
+
+O que significa humano no circuito? :: Uma pessoa responsável revisa as decisões importantes tomadas com IA.
+
+Quais as regras de uso responsável de IA? :: Definir o resultado avaliado, não enviar segredos ou dados pessoais, verificar fatos e código, documentar limites e manter um caminho de reversão.
+
+Que projetos ajudam a aprender IA? :: Organizar arquivos, buscar em anotações com fontes visíveis, um classificador com conjunto de teste e um assistente de checklist.

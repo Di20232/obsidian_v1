@@ -1,5 +1,5 @@
 ---
-tags: [moc, seguranca, privacidade]
+tags: [moc, seguranca, privacidade, flashcards]
 aliases: [Mapa de Segurança]
 cssclasses: [cerebro-nota, cerebro-seguranca]
 ---
@@ -29,3 +29,11 @@ Segurança não é uma etapa final; é um hábito de reduzir riscos desde a prim
 - [ ] Dependências e ambiente têm um processo de atualização.
 
 Segurança se cruza com [[01-Mapa-Web|Web]], [[02-Mapa-Dados|Dados]] e [[03-Mapa-Engenharia|Engenharia]]. Para aprofundar, registre exemplos reais e recomendações de fontes confiáveis em [[../Referencias/00-Referencias-Confiaveis|Referências]].
+
+## Perguntas de revisão
+
+Qual a diferença entre identidade e autorização? :: Identidade confirma quem a pessoa é; autorização define quais ações e dados ela pode acessar.
+
+O que checar antes de publicar um sistema? :: Segredos fora do repositório, validação no servidor, permissões em toda ação sensível, erros sem dados internos, backups e atualização de dependências.
+
+Segurança é uma etapa final do projeto? :: Não; é um hábito desde a primeira tela e a primeira tabela.

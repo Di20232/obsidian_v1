@@ -1,5 +1,5 @@
 ---
-tags: [guia, debugging, problemas]
+tags: [guia, debugging, problemas, flashcards]
 aliases: [Resolver Problemas]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
@@ -33,3 +33,13 @@ Observar → reproduzir → reduzir → formular hipótese → testar → corrig
 - [ ] Registrei a lição para não pagar o mesmo custo duas vezes?
 
 Veja também [[../../Programacao-Geral/12-Debugging-e-Testes|Debugging e Testes]] e [[../Problemas-Resolvidos/00-Indice|Problemas Resolvidos]].
+
+## Perguntas de revisão
+
+Qual o ciclo de depuração do cofre? :: Observar, reproduzir, reduzir, formular hipótese, testar, corrigir, prevenir e registrar.
+
+Por que testar uma hipótese por vez? :: Porque mudar várias coisas às cegas impede saber qual alteração teve efeito.
+
+Que evidências guardar ao investigar um problema? :: Mensagem de erro, entrada usada, versão, horário, logs seguros e captura relevante.
+
+O que significa corrigir a causa e não o sintoma? :: Resolver a origem do problema e confirmar que os casos vizinhos continuam funcionando.

@@ -1,5 +1,5 @@
 ---
-tags: [github, projeto, python, react, ecommerce]
+tags: [github, projeto, python, react, ecommerce, flashcards]
 cssclasses: [cerebro-nota, cerebro-web]
 source: https://github.com/Di20232/byteShop
 source_commit: 515ae40e505206cd9057bbe5ffcdb3dab36080b5
@@ -54,3 +54,14 @@ Leitura de documentação e código realizada nesta importação. A suíte do pr
 
 [[Cerebro/GitHub/byteShop/00-Indice|Todos os arquivos]] · [[Cerebro/GitHub/Conhecimento/01-Estoque-Concorrente|Estoque concorrente]] · [[Cerebro/GitHub/00-Indice|GitHub]]
 
+## Perguntas de revisão
+
+Qual a stack do byteShop? :: React com TypeScript no front-end, API FastAPI, SQLAlchemy e SQLite.
+
+O pagamento do byteShop é real? :: Não; é simulado, e criar um pedido já grava o estado pago.
+
+Por que o byteShop usa o preço do banco e não o enviado pela tela? :: Porque o preço vindo da interface pode ser alterado; o servidor é a fonte de verdade.
+
+Por que os itens do pedido guardam nome e preço praticados? :: Para preservar a informação da compra mesmo que o produto mude depois.
+
+O que o byteShop exige da SECRET_KEY? :: Que não seja um valor fraco conhecido e tenha pelo menos 32 caracteres.

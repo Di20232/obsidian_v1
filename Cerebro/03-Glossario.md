@@ -1,5 +1,5 @@
 ---
-tags: [glossario, programacao]
+tags: [glossario, programacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
 
@@ -20,3 +20,15 @@ cssclasses: [cerebro-nota, cerebro-geral]
 | Teste | verificação automatizada ou manual de um comportamento esperado | [[../Programacao-Geral/12-Debugging-e-Testes|Testes]] |
 
 Este glossário deve crescer por links: ao surgir uma sigla ou termo novo, crie uma explicação curta e conecte-a ao assunto que a utiliza.
+
+## Perguntas de revisão
+
+O que é deploy? :: Disponibilizar uma versão do sistema para uso.
+
+O que é um framework? :: Uma estrutura pronta que orienta a criação de aplicações.
+
+O que é um repositório? :: Uma pasta de projeto acompanhada pelo Git.
+
+O que é uma API? :: Um contrato para programas conversarem entre si.
+
+O que é um bug? :: Um comportamento diferente do esperado.

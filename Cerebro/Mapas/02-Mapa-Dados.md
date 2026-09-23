@@ -1,5 +1,5 @@
 ---
-tags: [moc, dados, banco-de-dados, sql]
+tags: [moc, dados, banco-de-dados, sql, flashcards]
 aliases: [Mapa de Dados]
 cssclasses: [cerebro-nota, cerebro-dados]
 ---
@@ -39,3 +39,11 @@ Pergunta → entidades → relações → restrições → consultas → relató
 ## Conexões
 
 Dados atravessam [[01-Mapa-Web|Web]], [[03-Mapa-Engenharia|Engenharia]], [[04-Mapa-Seguranca|Segurança]] e [[05-Mapa-IA|IA]].
+
+## Perguntas de revisão
+
+Qual o caminho saudável para modelar dados? :: Pergunta de negócio, entidades, relações, restrições, consultas e relatórios.
+
+O que é uma restrição num banco de dados? :: Uma regra que impede dados inválidos ou inconsistentes.
+
+O que perguntar antes de mudar dados importantes? :: Qual regra e registro são afetados, se há backup, se pode rodar duas vezes sem estragar, se há validação no servidor e como conferir e reverter.

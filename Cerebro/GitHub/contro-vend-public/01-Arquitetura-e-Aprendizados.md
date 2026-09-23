@@ -1,5 +1,5 @@
 ---
-tags: [github, projeto, javascript, estoque, prisma]
+tags: [github, projeto, javascript, estoque, prisma, flashcards]
 cssclasses: [cerebro-nota, cerebro-dados]
 source: https://github.com/Di20232/contro-vend-public
 source_commit: 8ca882161809413bbadfe4997e80a2ec7ae29991
@@ -53,3 +53,14 @@ A árvore pública deste commit **não contém** `src/spreadsheet.js`, `src/prod
 
 Leitura de código e documentação; testes anteriores mencionados pelo autor não foram repetidos nesta importação.
 
+## Perguntas de revisão
+
+O que cada movimentação de estoque registra no Contro Vend? :: Quantidade, saldo anterior, saldo novo, responsável e motivo.
+
+Quais perfis de usuário o Contro Vend diferencia? :: ADMIN e CASHIER.
+
+Por que guardar saldo anterior e novo em cada movimento? :: Para tornar a auditoria do estoque verificável.
+
+Por que centralizar a previsão num único arquivo? :: Para que painel, relatórios e alertas usem o mesmo cálculo.
+
+Qual o cuidado com a suíte de integração do Contro Vend? :: Ela limpa o banco de teste; os requisitos precisam ser respeitados antes de rodar.

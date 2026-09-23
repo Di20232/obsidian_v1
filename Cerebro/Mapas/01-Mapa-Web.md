@@ -1,5 +1,5 @@
 ---
-tags: [moc, web, frontend, backend]
+tags: [moc, web, frontend, backend, flashcards]
 aliases: [Mapa Web]
 cssclasses: [cerebro-nota, cerebro-web]
 ---
@@ -46,3 +46,11 @@ Veja: [[../../PHP/00-Indice|PHP]], [[../../Programacao-Geral/10-Como-a-Web-Funci
 Antes de publicar, confirme ambiente, variáveis secretas, migrações, backups, logs e uma forma simples de desfazer uma versão ruim. Veja [[03-Mapa-Engenharia|Engenharia de Software]].
 
 Para testar uma página localmente com `fetch` e módulos JavaScript, veja [[../Guias/06-Servidor-Local-para-HTML|Servidor local para HTML]].
+
+## Perguntas de revisão
+
+Qual o caminho de uma aplicação web, da pessoa aos dados? :: Pessoa, navegador, HTML/CSS/JavaScript, HTTP/API, servidor e banco de dados.
+
+O que faz o back-end? :: Recebe requisições, valida dados, aplica regras de negócio, conversa com bancos e serviços, devolve páginas ou JSON e controla autenticação e autorização.
+
+O que conferir antes de publicar uma aplicação web? :: Ambiente, variáveis secretas, migrações, backups, logs e uma forma de desfazer uma versão ruim.

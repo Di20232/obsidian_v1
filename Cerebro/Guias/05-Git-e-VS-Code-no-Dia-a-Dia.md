@@ -1,5 +1,5 @@
 ---
-tags: [guia, git, vscode, programacao]
+tags: [guia, git, vscode, programacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -28,3 +28,11 @@ Comentários servem para registrar intenção breve. Não escondem senhas, token
 
 - [[../../Programacao-Geral/02-Terminal-e-Linha-de-Comando|Terminal]]
 - [[../../Programacao-Geral/03-Git-e-Controle-de-Versao|Git]]
+
+## Perguntas de revisão
+
+Como clonar um repositório? :: Com git clone URL-DO-REPOSITORIO, e ler o README antes de instalar ou alterar algo.
+
+Como abrir o VS Code na pasta atual pelo terminal? :: Com o comando code .
+
+Um comentário HTML esconde informação sensível? :: Não; o comentário continua legível no código da página.

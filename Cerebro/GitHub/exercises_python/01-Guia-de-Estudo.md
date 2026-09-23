@@ -1,5 +1,5 @@
 ---
-tags: [github, python, exercicios, testes]
+tags: [github, python, exercicios, testes, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 source: https://github.com/Di20232/exercises_python
 source_commit: 7ff4a840eb4ac382de7e47166414facee981b6f3
@@ -38,3 +38,12 @@ Limitação declarada: o exercício 03 ainda aceita conversões numéricas que p
 > [!problema] Não confundir com os exercícios do professor
 > O cofre também documenta [[Cerebro/Projetos/08-Exercicios-IMP|Exercícios IMP]] — outro conjunto de exercícios em Python, clonado de `profedsonvieira/AlgoritmosExercicios`, com push ainda bloqueado por conta Git errada. É um projeto diferente: exercícios diferentes, sem relação de commit ou branch com este repositório.
 
+## Perguntas de revisão
+
+Como o repositório exercises_python resolve cada exercício? :: Duas vezes: combo_a com funções e tabelas de decisão, combo_b com classes, dataclasses e enums, mantendo saídas equivalentes.
+
+Como foi resolvido o problema de aparecer R$ R$ no recibo? :: A função passou a devolver só o número, e o recibo acrescenta a moeda.
+
+Para que serve if __name__ == "__main__": em Python? :: Impede que o código principal, como perguntas de teclado, rode quando o arquivo é importado, por exemplo num teste.
+
+Por que formatar números explicitamente em vez de usar o locale? :: Para não depender da disponibilidade do locale brasileiro na máquina.

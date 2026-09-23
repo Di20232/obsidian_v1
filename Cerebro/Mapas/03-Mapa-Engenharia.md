@@ -1,5 +1,5 @@
 ---
-tags: [moc, engenharia-de-software, qualidade]
+tags: [moc, engenharia-de-software, qualidade, flashcards]
 aliases: [Engenharia de Software]
 cssclasses: [cerebro-nota, cerebro-engenharia]
 ---
@@ -43,3 +43,13 @@ Entender necessidade → planejar → implementar → revisar → testar → pub
 - Mantenha segredos fora do código e fora do histórico.
 - Automatize o que é repetitivo, crítico e verificável.
 - Registre decisões que seriam difíceis de redescobrir depois.
+
+## Perguntas de revisão
+
+O que é engenharia de software? :: A disciplina de tornar uma solução confiável para evoluir, usar e manter ao longo do tempo.
+
+Qual o ciclo de entrega de software? :: Entender a necessidade, planejar, implementar, revisar, testar, publicar, observar e melhorar.
+
+O que é observabilidade? :: A capacidade de descobrir o que aconteceu quando o sistema falha, por logs e registros.
+
+O que vale automatizar? :: O que é repetitivo, crítico e verificável.

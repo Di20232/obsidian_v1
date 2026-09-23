@@ -1,5 +1,5 @@
 ---
-tags: [guia, projeto, planejamento]
+tags: [guia, projeto, planejamento, flashcards]
 aliases: [Criar Projetos]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
@@ -38,3 +38,11 @@ Crie uma nota em [[../Projetos/00-Indice|Projetos]] a partir de [[../Templates/T
 - [ ] Dados importantes têm backup ou plano de recuperação?
 - [ ] README explica como iniciar e testar?
 - [ ] Próximas melhorias estão priorizadas, não perdidas na cabeça?
+
+## Perguntas de revisão
+
+O que definir antes de escrever código num projeto? :: Problema, resultado mínimo, dados, fluxo principal, riscos e critério de pronto.
+
+O que é avançar em fatias verticais? :: Entregar tela, regra e dado de uma função pequena de ponta a ponta, em vez de uma camada inteira por vez.
+
+O que conferir antes de chamar um projeto de pronto? :: Fluxo principal, feedback de erros, rejeição de dados inválidos, backup, README e próximas melhorias priorizadas.

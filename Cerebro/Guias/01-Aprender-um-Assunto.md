@@ -1,5 +1,5 @@
 ---
-tags: [guia, aprendizado]
+tags: [guia, aprendizado, flashcards]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
 
@@ -32,3 +32,13 @@ cssclasses: [cerebro-nota, cerebro-geral]
 - deixar dúvidas vagas em vez de convertê-las em perguntas pesquisáveis.
 
 Volte ao [[../01-Painel-de-Estudo|Painel de Estudo]] para escolher a próxima sessão.
+
+## Perguntas de revisão
+
+Qual o método do cofre para aprender um assunto novo? :: Delimitar o objetivo, ver o mapa, construir algo pequeno, explicar com suas palavras, testar a recuperação sem consulta e conectar a outras notas.
+
+Por que delimitar o objetivo de estudo? :: Porque um resultado concreto, como criar uma API que salva tarefas, orienta melhor que um tema vago como aprender back-end.
+
+Qual a diferença entre reconhecimento e domínio? :: Reconhecimento é já ter visto; domínio é conseguir usar sem consultar.
+
+Quais são antipadrões de estudo? :: Colecionar links sem conclusão, trocar de ferramenta antes de terminar um exemplo, copiar código sem testar e deixar dúvidas vagas.

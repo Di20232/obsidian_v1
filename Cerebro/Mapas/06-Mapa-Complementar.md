@@ -1,5 +1,5 @@
 ---
-tags: [moc, interdisciplinar, aprendizado]
+tags: [moc, interdisciplinar, aprendizado, flashcards]
 aliases: [Conhecimentos Complementares]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
@@ -21,3 +21,11 @@ Programação melhora quando conversa com outras áreas. Estas frentes ajudam a 
 ## Como registrar novos assuntos
 
 Crie uma nota usando [[../Templates/Template-Conceito|Template de Conceito]], conecte-a a este mapa e, quando houver várias notas, crie um índice próprio. A meta é expandir por necessidade real, mantendo a navegação simples.
+
+## Perguntas de revisão
+
+Por que estudar áreas além da programação? :: Porque matemática, design, negócio, comunicação e gestão ajudam a criar soluções que fazem sentido fora do editor.
+
+Qual a pergunta de partida do design e UX? :: A pessoa entende o próximo passo sem explicação?
+
+Qual a pergunta de partida da gestão de projetos? :: Qual o menor resultado útil e como saberemos que deu certo?

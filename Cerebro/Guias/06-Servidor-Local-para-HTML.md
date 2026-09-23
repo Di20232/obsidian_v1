@@ -1,5 +1,5 @@
 ---
-tags: [guia, html, localhost, web]
+tags: [guia, html, localhost, web, flashcards]
 cssclasses: [cerebro-nota, cerebro-web]
 ---
 
@@ -28,3 +28,11 @@ Depois, abra o endereço mostrado, normalmente `http://localhost:porta`.
 
 - [[../Mapas/01-Mapa-Web|Mapa Web]]
 - [[../../Programacao-Geral/10-Como-a-Web-Funciona|Como a Web Funciona]]
+
+## Perguntas de revisão
+
+Por que usar um servidor local em vez de abrir o HTML direto? :: Porque recursos como fetch e módulos JavaScript não funcionam pelo endereço file://.
+
+Como subir um servidor local com Python? :: Com python -m http.server 8080 na pasta do projeto.
+
+O que fazer se a porta do servidor local estiver ocupada? :: Escolher outra porta em vez de encerrar processos desconhecidos.
