@@ -43,6 +43,15 @@ Esta trilha cobre o que acontece **fora do código** de uma loja virtual: escolh
 18. [[18-Checklist-de-Lancamento|Checklist de lançamento]] — o que conferir antes de abrir as portas
 19. [[19-Rotina-de-Gestao-da-Loja|Rotina de gestão da loja]] — o que fazer todo dia, toda semana e todo mês
 
+### Marketplaces
+20. [[20-Marketplaces-Visao-Geral|Marketplaces: visão geral]] — quando usar, a conta por canal, degraus de preço
+21. [[21-Mercado-Livre|Mercado Livre]] — Clássico vs. Premium, Mercado Envios, Full, termômetro de reputação
+22. [[22-Shopee|Shopee]] — tabela de comissão, degraus de preço, CPF vs. CNPJ, frete grátis, penalidades
+23. [[23-Outros-Marketplaces|Amazon, Magalu, TikTok Shop e nichos]] — perfis e como escolher o próximo canal
+24. [[24-Anuncios-em-Marketplace|Anúncios que vendem]] — título, fotos, ficha técnica, variações, primeiras vendas
+25. [[25-Reputacao-e-Operacao-em-Marketplace|Reputação e operação]] — o que derruba a conta, mediação, Full
+26. [[26-Integracao-Multicanal|Integração multicanal]] — um estoque para vários canais, ERP, preço por canal
+
 ## As três ideias que atravessam a trilha
 
 1. **Faturamento não é lucro.** Taxa de pagamento, taxa da plataforma, imposto, frete e anúncio saem de cada venda. Uma loja pode crescer em pedidos e perder dinheiro em cada um. → [[02-Planejamento-e-Precificacao|a conta completa]]

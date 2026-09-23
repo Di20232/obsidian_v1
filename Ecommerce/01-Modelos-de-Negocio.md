@@ -17,7 +17,7 @@ Antes de escolher plataforma ou tema, é preciso decidir **de onde vem o produto
 | **Combinado** | marketplace para volume, loja própria para margem e recompra | equilibra risco | exige estoque sincronizado entre canais |
 
 > [!tip] Caminho comum
-> Muitas lojas começam no marketplace para validar se o produto vende, e abrem a loja própria quando já sabem **o que** vende e **para quem**. A Shopify importa pedidos de marketplaces para um painel só (ver [[04-Shopify-Visao-Geral|visão geral]]).
+> Muitas lojas começam no marketplace para validar se o produto vende, e abrem a loja própria quando já sabem **o que** vende e **para quem**. A Shopify importa pedidos de marketplaces para um painel só (ver [[04-Shopify-Visao-Geral|visão geral]]). Os marketplaces em detalhe estão em [[20-Marketplaces-Visao-Geral|Marketplaces]], com notas próprias para [[21-Mercado-Livre|Mercado Livre]] e [[22-Shopee|Shopee]].
 
 ## De onde vem o produto
 

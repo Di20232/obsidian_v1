@@ -57,4 +57,4 @@ Alterações na loja (criar produto, cupom, mudar estoque) sempre pedem confirma
 Os problemas da loja seguem o mesmo ciclo do resto do cérebro: sintoma → causa-raiz → correção → registro. Um mês de notas diárias ([[Cerebro/Diario/00-Diario|Diário]]) sobre a operação mostra padrões que nenhum painel mostra. Veja a [[Cerebro/Guias/07-Rotina-do-Cofre|rotina do cofre]].
 
 ---
-Anterior: [[18-Checklist-de-Lancamento|Checklist de lançamento]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]
+Anterior: [[18-Checklist-de-Lancamento|Checklist de lançamento]] · Próxima: [[20-Marketplaces-Visao-Geral|Marketplaces]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]
