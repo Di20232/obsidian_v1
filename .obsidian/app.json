@@ -1,3 +1,10 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Cerebro/Inbox",
+  "attachmentFolderPath": "Cerebro/Anexos",
+  "userIgnoreFilters": [
+    "Cerebro/GitHub/Second-Brain/Fontes/"
+  ]
 }

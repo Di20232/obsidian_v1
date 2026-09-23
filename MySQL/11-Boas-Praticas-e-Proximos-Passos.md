@@ -63,7 +63,7 @@ Em produção, ferramentas como o **slow query log** do MySQL registram automati
 ## Para onde ir a partir daqui
 
 - **Pratique com um projeto completo**: uma API PHP ([[../PHP/00-Indice]]) ou Python que faça CRUD completo sobre uma tabela MySQL.
-- **Compare com SQLite**: veja [[../SQLite/00-Indice]] e, especificamente, [[../SQLite/07-SQLite-vs-MySQL]] para entender quando cada um faz mais sentido.
+- **Compare com SQLite**: veja [[../SQLite/00-Indice]] e, especificamente, [[../SQLite/06-SQLite-vs-MySQL]] para entender quando cada um faz mais sentido.
 - **Aprenda sobre réplicas e escalabilidade** quando o volume de dados/tráfego crescer — tópico avançado, mas bom de saber que existe.
 
 ---

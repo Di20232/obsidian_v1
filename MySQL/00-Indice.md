@@ -26,5 +26,5 @@ Mesmo formato das outras trilhas: conceito, porquê, sintaxe correta, exercício
 ## Onde isto se conecta
 
 - [[../Programacao-Geral/09-SQL-e-Bancos-de-Dados]] — a introdução geral que esta trilha aprofunda.
-- [[../SQLite/00-Indice]] — outro banco relacional, mais simples, para comparar trade-offs (ver [[../SQLite/07-SQLite-vs-MySQL]]).
+- [[../SQLite/00-Indice]] — outro banco relacional, mais simples, para comparar trade-offs (ver [[../SQLite/06-SQLite-vs-MySQL]]).
 - [[../PHP/14-PHP-com-Banco-de-Dados]] e [[../Python/09-Listas-Tuplas-Dicionarios]] — como consumir esses dados a partir de código de aplicação.

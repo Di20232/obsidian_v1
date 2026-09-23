@@ -23,7 +23,8 @@ Ponto de entrada do cofre. Aqui convergem duas coisas que se sustentam: **o que 
 | Estudar de forma organizada | [[01-Painel-de-Estudo\|Painel de Estudo]] |
 | Resolver um problema parecido com um já enfrentado | [[Problemas-Resolvidos/00-Indice\|Problemas Resolvidos]] |
 | Retomar um projeto | [[Projetos/00-Indice\|Projetos]] |
-| Anotar algo agora, sem organizar | [[Inbox/00-Capturar\|Caixa de Captura]] |
+| Anotar algo agora, sem organizar | [[Inbox/00-Capturar\|Caixa de Captura]] ou a nota de hoje no [[Diario/00-Diario\|Diário]] |
+| Fazer a revisão da semana, salvar ou desfazer uma mudança | [[Guias/07-Rotina-do-Cofre\|Rotina do cofre]] |
 | Ver o mapa visual | [[Mapa-do-Cerebro.canvas\|Mapa do Cérebro]] |
 
 ## As áreas

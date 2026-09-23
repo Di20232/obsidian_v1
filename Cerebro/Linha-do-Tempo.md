@@ -76,6 +76,12 @@ Volta para [[00-Cerebro|🧠 Cérebro]].
 - **Por que importa:** o código publicado é uma fotografia de um commit específico, não um espelho do histórico de sessões. Antes de dizer que algo "já está no GitHub", vale conferir a nota da importação, não presumir pelo nome do repositório.
 - **Links:** [[GitHub/00-Indice|Central GitHub]] · [[GitHub/04-Registro-da-Importacao|Registro da importação]] · [[Projetos/06-Mercadinho-Seu-Joao|Mercadinho]] · [[Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]] · [[Projetos/08-Exercicios-IMP|Exercícios IMP]]
 
+### 2026-09-23 — O cofre ganha desfazer e rotina
+
+- **O que aconteceu:** o cofre virou repositório git, com uma fotografia de todo o estado anterior. O Obsidian passou a criar notas novas no Inbox e notas diárias no Diário, com modelos próprios, e ganhou uma revisão semanal guiada e um verificador de links. Os dois únicos links realmente quebrados (MySQL → comparação com SQLite) foram corrigidos; os outros 76 eram exemplos dentro de código de terceiros.
+- **Por que importa:** a perda de 15/09 — um índice sobrescrito sem volta — deixa de ser possível para qualquer coisa já salva. E o cofre deixa de depender de uma sessão grande de consolidação: passa a crescer um pouco por dia.
+- **Links:** [[Guias/07-Rotina-do-Cofre|Rotina do cofre]] · [[Diario/00-Diario|Diário]] · [[Templates/Template-Revisao-Semanal|Revisão semanal]]
+
 ## Revisão
 
 Ao fim de um projeto ou trimestre, releia os marcos e transforme padrões recorrentes em notas de prática, tecnologia ou problema resolvido.

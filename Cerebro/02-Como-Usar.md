@@ -36,4 +36,6 @@ cssclasses: [cerebro-nota, cerebro-geral]
 - **Problemas resolvidos:** logo após confirmar a solução.
 - **Mapas:** quando um assunto ganhar várias notas ou uma tecnologia nova entrar no cofre.
 
+O passo a passo do dia e da semana, e como salvar e desfazer, está em [[Guias/07-Rotina-do-Cofre|Rotina do cofre]].
+
 Veja também: [[Guias/01-Aprender-um-Assunto|Como aprender um assunto novo]] e [[Templates/00-Modelos|Modelos de Nota]].
