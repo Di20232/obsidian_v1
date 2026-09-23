@@ -29,3 +29,9 @@ Exemplo ou analogia.
 
 - Fonte:
 - Revisar em:
+
+## Perguntas de revisão
+
+<!-- De 3 a 6 perguntas, uma por linha, com linha em branco entre elas:
+Pergunta objetiva? :: Resposta correta e completa numa frase, que faz sentido sozinha.
+Dado que muda? Coloque a data na resposta: (conferido em AAAA-MM-DD). -->

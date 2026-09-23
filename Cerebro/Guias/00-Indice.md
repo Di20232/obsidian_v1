@@ -12,6 +12,7 @@ Guias são **roteiros de como fazer**: diferente das notas de conceito, eles des
 - [[01-Aprender-um-Assunto|Como aprender um assunto novo]] — do primeiro contato à nota com exemplo próprio
 - [[04-Transformar-Experiencia-em-Conhecimento|Transformar experiência em conhecimento]] — os cinco minutos depois de um bug, projeto ou decisão
 - [[07-Rotina-do-Cofre|Rotina do cofre]] — dia, semana, salvar e desfazer
+- [[08-Cofre-para-IA-e-Lembretes|Cofre para IA e lembretes]] — perguntas de revisão, lembretes diários, exportação para treinar IA
 
 ## Construir
 - [[02-Resolver-Problemas|Resolver problemas]] — investigar até a causa-raiz

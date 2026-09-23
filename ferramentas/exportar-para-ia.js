@@ -25,7 +25,8 @@ for (const caminho of listarNotas()) {
   const { meta, corpo, titulo } = lerNota(caminho);
   const texto = limparMarkdown(corpo.replace(/\n{3,}/g, '\n\n'));
   if (texto.length < 80) { puladas++; continue; }
-  const trilha = caminho.split('/')[0] === 'Cerebro' ? caminho.split('/')[1] : caminho.split('/')[0];
+  const partes = caminho.split('/');
+  const trilha = partes[0] === 'Cerebro' && partes.length > 2 ? partes[1] : partes[0];
   notas.push({
     id: caminho,
     titulo,

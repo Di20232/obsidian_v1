@@ -60,6 +60,10 @@ node ferramentas/verificar-links.js
 
 Por padrão ignora as cópias de código em `*/Fontes/*`, onde links como `[[people/Sam Patel]]` são exemplos do repositório original, não notas. Para ver tudo, acrescente `--tudo`.
 
+## Lembretes e exportação para IA
+
+`ferramentas/lembretes.bat` sorteia perguntas de revisão do cofre para relembrar, e `node ferramentas/exportar-para-ia.js` gera os arquivos de treino. Convenções e comandos em [[08-Cofre-para-IA-e-Lembretes|Cofre para IA e lembretes]].
+
 ## Encontrar notas soltas
 
 ```bash

@@ -42,7 +42,7 @@ function lerNota(caminho) {
 // "Pergunta :: Resposta" em linha própria, só dentro da seção "## Perguntas de revisão"
 // (assim `std::cout` e outros "::" de código nunca viram pergunta).
 function extrairPerguntas(corpo) {
-  const semCodigo = corpo.replace(/```[\s\S]*?```/g, '');
+  const semCodigo = corpo.replace(/```[\s\S]*?```/g, '').replace(/<!--[\s\S]*?-->/g, '');
   const pares = [];
   let naSecao = false;
   for (const linha of semCodigo.split('\n')) {

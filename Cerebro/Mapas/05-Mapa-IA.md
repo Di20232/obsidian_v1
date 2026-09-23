@@ -32,3 +32,7 @@ IA é uma ferramenta para ampliar análise, criação e automação — não uma
 - assistente para revisar checklist, nunca para tomar decisões sensíveis sozinho.
 
 Conecte ideias de IA a [[00-Mapa-Programacao|Programação]], [[02-Mapa-Dados|Dados]] e [[04-Mapa-Seguranca|Segurança]].
+
+## Trilha completa
+
+A prática de tudo isso está na trilha [[../../IA-Aplicada/00-Indice|IA Aplicada]]: como os modelos funcionam, prompts, busca semântica, RAG, fine-tuning, preparação de dados, avaliação, agentes e riscos.
