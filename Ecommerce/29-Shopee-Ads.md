@@ -90,4 +90,4 @@ O painel sugere ajustes ("Tipos de Recomendações"): criar anúncios para produ
 - [ ] **Mensal:** faturamento total do produto com e sem anúncio (canibalização)
 
 ---
-Anterior: [[28-Mercado-Ads|Mercado Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]
+Anterior: [[28-Mercado-Ads|Mercado Ads]] · Próxima: [[30-Google-Ads|Google Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

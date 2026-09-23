@@ -57,6 +57,11 @@ Esta trilha cobre o que acontece **fora do código** de uma loja virtual: escolh
 28. [[28-Mercado-Ads|Mercado Ads]] — Product Ads, Brand Ads, Display Ads; ROAS Objetivo e orçamento
 29. [[29-Shopee-Ads|Shopee Ads]] — anúncios de produto e da loja, palavras-chave, ROAS total contra direto
 
+### Google e Meta
+30. [[30-Google-Ads|Google Ads]] — Performance Max, Shopping, Pesquisa; estratégias de lance e ROAS desejado
+31. [[31-Meta-Ads|Meta Ads]] — objetivos, Advantage+, fase de aprendizado, criativos e públicos
+32. [[32-Rastreamento-e-Mensuracao|Rastreamento e mensuração]] — pixel, API de Conversões, UTMs, MER e por que os números não batem
+
 ## As três ideias que atravessam a trilha
 
 1. **Faturamento não é lucro.** Taxa de pagamento, taxa da plataforma, imposto, frete e anúncio saem de cada venda. Uma loja pode crescer em pedidos e perder dinheiro em cada um. → [[02-Planejamento-e-Precificacao|a conta completa]]

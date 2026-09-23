@@ -34,12 +34,14 @@ Anúncio que **interrompe** a navegação: bom para **gerar demanda** em quem ai
 - Campanha com objetivo de **vendas**, com o pixel e a API de conversões configurados (na Shopify, pelo canal do Facebook e Instagram);
 - públicos: amplo com bons criativos, interesses do nicho, e **retargeting** (quem visitou ou abandonou o carrinho);
 - o **criativo** (imagem ou vídeo) é o que mais pesa no resultado: teste vários.
+- Guia completo: [[31-Meta-Ads|Meta Ads]].
 
 ### Google Ads
 Anúncio que **responde a uma busca**: bom para **capturar demanda** de quem já está procurando.
 - **Shopping / Performance Max** com o catálogo do Merchant Center (ver [[14-SEO-e-Conteudo|SEO]]);
 - **pesquisa** para termos com intenção de compra ("comprar ...", "... preço");
 - **marca**: proteger o nome da loja quando concorrentes anunciam nele.
+- Guia completo: [[30-Google-Ads|Google Ads]]. Para medir os dois canais sem se enganar, veja [[32-Rastreamento-e-Mensuracao|rastreamento e mensuração]].
 
 ### TikTok Ads
 Descoberta com vídeo nativo. O criativo precisa parecer conteúdo, não comercial.

@@ -54,7 +54,7 @@ LTV / CAC = 55,80 / 33,33    ≈ 1,7
 Uma referência muito usada é LTV/CAC de pelo menos 3. Com 1,7, a loja conquista cliente caro demais para o quanto ele compra. As saídas são aumentar a recompra ([[16-Email-e-Retencao|retenção]]), o ticket (kits, frete grátis acima de um valor) ou a margem, ou reduzir o CAC (SEO, conteúdo, indicação).
 
 > [!tip] ROAS alto pode enganar
-> O ROAS do painel de anúncios conta vendas que talvez acontecessem de qualquer jeito (cliente que já ia comprar e clicou no anúncio de marca). Compare sempre com o resultado da loja inteira: se o gasto em anúncio dobra e a receita total não se mexe, o ROAS do painel está otimista.
+> O ROAS do painel de anúncios conta vendas que talvez acontecessem de qualquer jeito (cliente que já ia comprar e clicou no anúncio de marca). Compare sempre com o resultado da loja inteira: se o gasto em anúncio dobra e a receita total não se mexe, o ROAS do painel está otimista. A métrica para essa comparação é o **MER**, explicado em [[32-Rastreamento-e-Mensuracao|rastreamento e mensuração]].
 
 ## Onde ver na Shopify
 
