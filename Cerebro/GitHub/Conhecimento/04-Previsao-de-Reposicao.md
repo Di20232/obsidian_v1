@@ -1,5 +1,5 @@
 ---
-tags: [github, conceito, estoque, dados]
+tags: [github, conceito, estoque, dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-dados]
 verificado_em: 2026-09-15
 ---
@@ -32,3 +32,12 @@ Compare a previsão com o consumo real após uma semana. Registre erro e context
 
 [[Cerebro/GitHub/contro-vend-public/01-Arquitetura-e-Aprendizados|Contro Vend]] · [[Cerebro/GitHub/00-Indice|GitHub]]
 
+## Perguntas de revisão
+
+Como calcular os dias até o estoque acabar? :: Estoque atual dividido pela média diária de vendas.
+
+Vendendo 60 unidades em 30 dias com 10 em estoque, em quantos dias acaba? :: Em cerca de 5 dias, com média de 2 por dia.
+
+O que a fórmula simples de reposição não considera sozinha? :: Promoções, sazonalidade, ruptura que esconde demanda, devoluções, produtos novos, prazo do fornecedor e estoque de segurança.
+
+Como melhorar uma previsão simples com o tempo? :: Comparar com o consumo real, registrar o erro e ajustar a janela por categoria.

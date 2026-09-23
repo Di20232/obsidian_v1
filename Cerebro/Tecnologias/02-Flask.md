@@ -1,5 +1,5 @@
 ---
-tags: [tecnologia, python, flask, web]
+tags: [tecnologia, python, flask, web, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -42,3 +42,13 @@ done
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Tecnologia: [[01-Reflex|Reflex — a fase seguinte]]
 - Trilha: [[../../Python/00-Indice|Python]]
+
+## Perguntas de revisão
+
+O que é o Flask? :: Um micro-framework web em Python.
+
+Por que a secret_key do Flask precisa ser persistida? :: Porque se for gerada a cada inicialização todas as sessões e tokens CSRF são invalidados no reinício.
+
+Qual a lição estrutural da fase Flask do CTL-TINTA-FL? :: Separar banco de interface: o db.py atravessou Tkinter, Flask e Reflex sem reescrita.
+
+Como verificar rapidamente todas as rotas de um app? :: Com um laço de curl mostrando o código HTTP de cada rota.

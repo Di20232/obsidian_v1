@@ -1,5 +1,5 @@
 ---
-tags: [pratica, processo, colaboracao]
+tags: [pratica, processo, colaboracao, flashcards]
 cssclasses: [cerebro-nota, cerebro-praticas]
 ---
 
@@ -54,3 +54,15 @@ Use [[../Templates/Template-Problema|Template de Problema]] logo após confirmar
 
 - Práticas: [[01-Feedback-Rapido|Feedback rápido]] · [[02-Definicao-de-Pronto|Definição de pronto]] · [[03-Documentacao-Que-Ajuda|Documentação que ajuda]] · [[06-Caca-de-Bugs|Caça de bugs]]
 - Tecnologia: [[../Tecnologias/08-Claude-Code|Claude Code]]
+
+## Perguntas de revisão
+
+Qual o ciclo de trabalho que funcionou nos projetos? :: Usar o sistema de verdade, achar o problema real, investigar até a causa-raiz, corrigir, confirmar com evidência e registrar.
+
+Como a maioria dos bugs do cofre foi encontrada? :: Usando o sistema de verdade, não lendo o código.
+
+Qual o sinal de que a causa-raiz não foi encontrada? :: A correção é aplicada e o sintoma volta.
+
+Qual o sinal de que uma explicação ainda é suposição? :: Ela depende de deve ser ou provavelmente, sem evidência.
+
+Quando registrar um problema resolvido? :: Logo depois de confirmar a correção, enquanto o detalhe está fresco.

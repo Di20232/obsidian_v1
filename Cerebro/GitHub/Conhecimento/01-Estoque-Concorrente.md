@@ -1,5 +1,5 @@
 ---
-tags: [github, conceito, banco-de-dados, concorrencia]
+tags: [github, conceito, banco-de-dados, concorrencia, flashcards]
 cssclasses: [cerebro-nota, cerebro-dados]
 verificado_em: 2026-09-15
 ---
@@ -41,3 +41,12 @@ A presença desse padrão não equivale a certificação de segurança; o compor
 
 [[Cerebro/Mapas/02-Mapa-Dados|Dados]] · [[Cerebro/GitHub/00-Indice|GitHub]]
 
+## Perguntas de revisão
+
+O que é sobrevenda por concorrência? :: Duas compras leem o mesmo saldo antes de gravar e ambas vendem a última unidade.
+
+Como impedir sobrevenda no banco? :: Com UPDATE que subtrai o estoque com a condição estoque >= quantidade na mesma instrução, verificando as linhas alteradas.
+
+O que fazer quando o UPDATE condicional de estoque altera zero linhas? :: Tratar como falha controlada, nunca como venda concluída.
+
+Como testar a regra de estoque concorrente? :: Com requisições simultâneas contra estoque pequeno num banco descartável, conferindo aceitas, saldo final e extrato.

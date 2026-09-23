@@ -1,5 +1,5 @@
 ---
-tags: [tecnologia, sqlite, banco-de-dados, python]
+tags: [tecnologia, sqlite, banco-de-dados, python, flashcards]
 cssclasses: [cerebro-nota, cerebro-dados]
 ---
 
@@ -45,3 +45,13 @@ Imprimir as **chaves** da primeira linha é o teste de dez segundos que pega a c
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Trilha: [[../../SQLite/00-Indice|SQLite]]
 - Mapa: [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
+
+## Perguntas de revisão
+
+Quando o SQLite é a escolha certa num projeto? :: Em aplicação local, com um usuário por vez, dados que cabem num arquivo e backup simples.
+
+Por que o SQLite não serve para várias pessoas escrevendo? :: Porque trava o arquivo inteiro durante a escrita.
+
+Por que capturar sqlite3.IntegrityError em vez de Exception? :: Para tratar especificamente a violação de integridade sem esconder outros erros.
+
+Qual o teste de dez segundos que pega bugs de alias no SQLite? :: Imprimir as chaves da primeira linha de cada consulta com list(row.keys()).

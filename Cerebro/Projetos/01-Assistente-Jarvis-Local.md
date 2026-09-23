@@ -1,5 +1,5 @@
 ---
-tags: [projeto, ia, automacao, javascript, node]
+tags: [projeto, ia, automacao, javascript, node, flashcards]
 status: entregue-localmente
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -50,3 +50,11 @@ Criar uma assistente pessoal local em português, com painel de foco e tarefas, 
 - [[../Mapas/05-Mapa-IA|IA e Automação]]
 - [[../Mapas/03-Mapa-Engenharia|Engenharia de Software]]
 - [[../Guias/03-Criar-Projeto|Guia para Criar Projetos]]
+
+## Perguntas de revisão
+
+O que é o projeto Assistente JARVIS Local? :: Uma assistente pessoal local em português, com painel de foco, tarefas, rotinas, Pomodoro, conversa por texto e voz e memória no navegador.
+
+Onde o JARVIS Local guarda os dados? :: No navegador, com backup em JSON, dependendo do perfil e das configurações locais.
+
+O que fazer antes de limpar o navegador usado pelo JARVIS? :: Verificar onde os dados locais estão guardados e fazer backup.

@@ -1,5 +1,5 @@
 ---
-tags: [tecnologia, docker, ambiente, containers]
+tags: [tecnologia, docker, ambiente, containers, flashcards]
 cssclasses: [cerebro-nota, cerebro-engenharia]
 ---
 
@@ -51,3 +51,13 @@ docker cp script.py nome-do-container:/tmp/script.py
 - Projetos: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho]] · [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Ambiente: [[../Ambiente/02-Portas-e-Conflitos|Portas e conflitos]]
 - Mapa: [[../Mapas/03-Mapa-Engenharia|Engenharia de Software]]
+
+## Perguntas de revisão
+
+Quais os comandos Docker Compose do dia a dia? :: docker compose up -d, ps, logs -f app e down.
+
+Por que usar volume nomeado para dados? :: Para que os dados sobrevivam quando o container é parado ou recriado.
+
+Como copiar um arquivo para dentro de um container sem problema de caminho? :: Com docker cp arquivo nome-do-container:/caminho.
+
+Por que rodar migrations no start do container? :: Para não depender de um passo manual que pode ser esquecido.

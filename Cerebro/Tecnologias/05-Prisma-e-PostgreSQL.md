@@ -1,5 +1,5 @@
 ---
-tags: [tecnologia, prisma, postgresql, banco-de-dados, nodejs]
+tags: [tecnologia, prisma, postgresql, banco-de-dados, nodejs, flashcards]
 cssclasses: [cerebro-nota, cerebro-dados]
 ---
 
@@ -50,3 +50,13 @@ docker compose exec db psql -U postgres -c "\l"
 - Projeto: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]]
 - Tecnologia: [[04-Docker|Docker]]
 - Trilha: [[../../MySQL/00-Indice|MySQL]] (conceitos de SQL relacional aplicáveis)
+
+## Perguntas de revisão
+
+O que é o Prisma? :: Um ORM que gera um cliente tipado a partir de um schema declarativo.
+
+Quando o Prisma Client é gerado? :: No npm install; por isso rodar no host exige npm install mesmo com o Docker funcionando.
+
+Como rodar testes de integração sem tocar nos dados de desenvolvimento? :: Usando um banco de teste separado, passando a DATABASE_URL dele e aplicando as migrations nele.
+
+Quais comandos verificam e aplicam migrations do Prisma? :: npx prisma migrate status e npx prisma migrate deploy.

@@ -1,5 +1,5 @@
 ---
-tags: [projeto, requisitos, estoque, vendas, banco-de-dados]
+tags: [projeto, requisitos, estoque, vendas, banco-de-dados, flashcards]
 status: requisitos-iniciais
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -50,3 +50,11 @@ Validar o fluxo diário com quem vende e repõe produtos antes de escolher tecno
 - [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
 - [[../Mapas/01-Mapa-Web|Mapa Web]]
 - [[../Guias/03-Criar-Projeto|Guia para Criar Projetos]]
+
+## Perguntas de revisão
+
+Qual o MVP de um sistema de vendas e estoque para pequeno comércio? :: Cadastro de produtos, venda que baixa estoque, entradas e ajustes com motivo, alertas de mínimo e vencimento, e relatórios de mais vendidos e parados.
+
+O que decidir antes de escolher a tecnologia do sistema de vendas? :: Validar o fluxo diário com quem vende e repõe os produtos.
+
+Quais entidades formam o modelo de dados inicial de vendas e estoque? :: Produto, movimento de estoque, venda, item de venda e fornecedor.

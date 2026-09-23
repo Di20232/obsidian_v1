@@ -1,5 +1,5 @@
 ---
-tags: [ambiente, windows, ferramentas]
+tags: [ambiente, windows, ferramentas, flashcards]
 cssclasses: [cerebro-nota, cerebro-ambiente]
 ---
 
@@ -59,3 +59,13 @@ Stop-Process -Id 11240 -Force
 
 - Ambiente: [[02-Portas-e-Conflitos|Portas e conflitos]] · [[03-Contas-Git|Contas Git]]
 - Tecnologia: [[../Tecnologias/04-Docker|Docker]]
+
+## Perguntas de revisão
+
+Por que usar py em vez de python no Windows? :: Porque o alias python pode cair no atalho da Microsoft Store e falhar; py é o lançador do Python no Windows.
+
+O que acontece com os containers se o Docker Desktop for fechado? :: Eles param junto, derrubando serviços como o banco de dados.
+
+Quais as armadilhas específicas do Windows nos projetos? :: Alias python, conversão de caminhos do Git Bash, terminal abrindo em System32, serviços nativos disputando portas e processos órfãos.
+
+Como encerrar com segurança um processo que ocupa uma porta? :: Descobrir o PID com Get-NetTCPConnection, conferir a linha de comando com Get-CimInstance Win32_Process e só então usar Stop-Process.

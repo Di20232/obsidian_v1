@@ -1,5 +1,5 @@
 ---
-tags: [pratica, debugging, seguranca, processo]
+tags: [pratica, debugging, seguranca, processo, flashcards]
 cssclasses: [cerebro-nota, cerebro-praticas]
 ---
 
@@ -62,3 +62,13 @@ O passo 5 é o que transforma horas de investigação em minutos da próxima vez
 
 - Prática: [[04-Auditoria-de-Projetos|Auditoria de projetos]] · [[07-Seguranca-em-Apps-Locais|Segurança em apps locais]]
 - Mapa: [[../Mapas/04-Mapa-Seguranca|Mapa de Segurança]]
+
+## Perguntas de revisão
+
+Por que auditoria empírica vence análise estática? :: Porque ler o código gera suspeitas e rodar o código gera fatos, com a entrada, o erro e a linha exata.
+
+Quais vetores atacar numa caça de bugs? :: Injeção SQL, path traversal, confusão de tipos, entradas extremas, concorrência e upload de arquivos.
+
+Quais os três níveis de severidade de um achado? :: Real e explorável hoje, real e latente, e ponto de atenção.
+
+Quais os passos para fechar uma caçada de bugs? :: Confirmar com evidência executada, classificar a severidade, corrigir, reverificar e registrar com a causa-raiz.

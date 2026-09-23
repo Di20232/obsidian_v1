@@ -1,5 +1,5 @@
 ---
-tags: [tecnologia, ferramentas, claude-code, automacao]
+tags: [tecnologia, ferramentas, claude-code, automacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-engenharia]
 ---
 
@@ -61,3 +61,13 @@ Com isso, se a porta preferida estiver ocupada, o servidor escolhe outra em vez 
 
 - Prática: [[../Praticas/09-Como-Trabalhamos|Como trabalhamos]]
 - Problema: [[../Problemas-Resolvidos/02-Repositorio-nao-e-Marketplace|Repositório não é marketplace]]
+
+## Perguntas de revisão
+
+Para que servem CLAUDE.md, settings.json e launch.json num projeto? :: CLAUDE.md dá contexto e convenções, settings.json define permissões e launch.json diz como subir o servidor.
+
+Qual a diferença entre plugin.json e marketplace.json? :: plugin.json indica um plugin individual; marketplace.json indica um marketplace que lista vários plugins.
+
+Onde guardar chaves de API de provedores? :: Em variável de ambiente; no cofre, só o nome da variável.
+
+O que faz autoPort: true no launch.json? :: Escolhe outra porta automaticamente quando a preferida está ocupada.

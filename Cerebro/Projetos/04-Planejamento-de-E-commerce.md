@@ -1,5 +1,5 @@
 ---
-tags: [projeto, ecommerce, requisitos, engenharia]
+tags: [projeto, ecommerce, requisitos, engenharia, flashcards]
 status: planejamento
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -38,3 +38,11 @@ Não comece pelo checkout completo. Entregue primeiro um catálogo navegável co
 - [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
 - [[../Mapas/03-Mapa-Engenharia|Engenharia de Software]]
 - [[../Mapas/04-Mapa-Seguranca|Segurança]]
+
+## Perguntas de revisão
+
+Qual a regra de ouro para construir um e-commerce do zero? :: Não começar pelo checkout: primeiro catálogo, depois carrinho, pedido e só então pagamento.
+
+O que precisa ser recalculado no servidor num e-commerce? :: Preço, desconto, frete e estoque; o front-end não é fonte de verdade.
+
+Onde nunca expor chaves de pagamento? :: No front-end; a integração de pagamento e os webhooks rodam no servidor.

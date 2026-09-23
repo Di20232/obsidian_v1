@@ -1,5 +1,5 @@
 ---
-tags: [pratica, seguranca, banco-de-dados]
+tags: [pratica, seguranca, banco-de-dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-seguranca]
 ---
 
@@ -63,3 +63,15 @@ Se ele **encontrar** o arquivo, há problema.
 
 - Prática: [[06-Caca-de-Bugs|Caça de bugs]]
 - Mapa: [[../Mapas/04-Mapa-Seguranca|Mapa de Segurança]]
+
+## Perguntas de revisão
+
+Por que um app local também precisa de segurança? :: Porque local hoje pode ir para a rede amanhã, falhas latentes podem ser ativadas e o hábito do app local vai para o app público.
+
+Para que serve um token CSRF em formulários? :: Para impedir que outro site envie formulários em nome do usuário; a chave secreta precisa ser persistida para não invalidar sessões a cada reinício.
+
+Como verificar se o .env está no Git? :: Com git ls-files --error-unmatch .env; se o arquivo for encontrado, há um problema.
+
+Por que registrar erros em log e não em print? :: Porque o print não persiste e some quando ninguém está olhando o console.
+
+O que registrar sobre segredos no cofre? :: Só o nome da variável e onde obtê-la, nunca o valor.

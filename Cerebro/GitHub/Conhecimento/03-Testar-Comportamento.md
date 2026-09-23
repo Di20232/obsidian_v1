@@ -1,5 +1,5 @@
 ---
-tags: [github, conceito, testes, python]
+tags: [github, conceito, testes, python, flashcards]
 cssclasses: [cerebro-nota, cerebro-engenharia]
 verificado_em: 2026-09-15
 ---
@@ -35,3 +35,10 @@ No ByteShop há testes de API organizados por assunto. No Contro Vend a suíte d
 
 [[Programacao-Geral/12-Debugging-e-Testes|Debugging e testes]] · [[Cerebro/GitHub/00-Indice|GitHub]]
 
+## Perguntas de revisão
+
+O que é um teste de equivalência numa refatoração? :: Rodar a versão antiga e a nova com a mesma entrada e comparar saídas e código de término.
+
+Por que só comparar duas versões não basta? :: Porque as duas podem estar igualmente erradas; é preciso teste com o resultado correto esperado.
+
+Que tipo de teste usar para duas vendas disputando a última unidade? :: Teste de concorrência.

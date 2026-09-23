@@ -1,5 +1,5 @@
 ---
-tags: [ambiente, git, github]
+tags: [ambiente, git, github, flashcards]
 cssclasses: [cerebro-nota, cerebro-ambiente]
 ---
 
@@ -57,3 +57,13 @@ Os [[../Projetos/08-Exercicios-IMP|Exercícios IMP]] seguem sem push. Resolver e
 
 - Problema: [[../Problemas-Resolvidos/24-Push-403-com-Conta-Git-Errada|Push 403 com conta errada]]
 - Tecnologia: [[../Tecnologias/06-Git-e-GitHub|Git e GitHub]]
+
+## Perguntas de revisão
+
+Quem define o autor do commit e quem define a conta do push? :: O autor vem de git config user.name e user.email; o push usa a conta do Git Credential Manager.
+
+O que um erro 403 no push costuma indicar? :: Conta errada ou sem permissão, e não senha inválida.
+
+Como forçar outra conta no push no Windows? :: Removendo as credenciais git:https://github.com do Gerenciador de Credenciais e tentando o push de novo.
+
+Onde configurar um token pessoal do GitHub? :: No Credential Manager ou em variável de ambiente, nunca colado em conversa ou nota.

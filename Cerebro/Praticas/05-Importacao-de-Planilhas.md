@@ -1,5 +1,5 @@
 ---
-tags: [pratica, dados, importacao]
+tags: [pratica, dados, importacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-praticas]
 ---
 
@@ -58,3 +58,17 @@ Vale ter as duas: automático para o caso comum, manual como saída sempre dispo
 
 - Projetos: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho]] · [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Mapa: [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
+
+## Perguntas de revisão
+
+Qual o princípio de uma importação segura de planilhas? :: Nada é gravado antes da confirmação.
+
+Quais os quatro passos de uma boa importação? :: Escolher o arquivo, conferir as colunas, conferir linha a linha o que será feito e confirmar.
+
+Como interpretar R$ 1.234,56 numa importação brasileira? :: Como 1234.56: o ponto é separador de milhar e a vírgula é decimal.
+
+O que é um número como 45678 numa coluna de data do Excel? :: Uma data serial do Excel, não um número comum.
+
+Por que o Excel pode estragar códigos de barras? :: Porque converte números longos em notação científica ao abrir o arquivo.
+
+Como tratar uma importação em massa? :: Como escrita destrutiva, igual a um UPDATE sem WHERE: pré-visualização antes, auditoria depois e recusa em vez de palpite.

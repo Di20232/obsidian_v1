@@ -1,5 +1,5 @@
 ---
-tags: [projeto, python, streamlit, dados, docker, seguranca]
+tags: [projeto, python, streamlit, dados, docker, seguranca, flashcards]
 status: em-uso
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -77,3 +77,13 @@ Depois disso, teste de estresse com volume absurdo para confirmar que o site nã
 ## Estado
 
 ✅ Rodando via Docker · dados de exemplo carregados · auditado e corrigido · correções commitadas e enviadas.
+
+## Perguntas de revisão
+
+O que é o Projeto W? :: Um sistema web local que processa planilhas de vendas e estoque e gera dashboard, alertas e sugestão de compras.
+
+Qual a stack do Projeto W? :: Python, Streamlit, Pandas, Plotly e Docker.
+
+Como o Projeto W lida com nomes de colunas diferentes? :: Tenta identificar sozinho e, se falhar, abre uma etapa de mapeamento manual.
+
+Quais achados de segurança a auditoria do Projeto W encontrou? :: Uma SQL injection latente via token de URL e uma decompression bomb em upload de .xlsx.

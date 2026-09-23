@@ -1,5 +1,5 @@
 ---
-tags: [projeto, python, reflex, sqlite, estoque]
+tags: [projeto, python, reflex, sqlite, estoque, flashcards]
 status: em-desenvolvimento
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -102,3 +102,15 @@ Estas não estavam no pedido inicial; foram surgindo:
 ## Links relacionados
 
 - GitHub: [[../GitHub/CTL-TINTA/00-Indice|Estado do repositório público (vazio)]]
+
+## Perguntas de revisão
+
+O que é o CTL-TINTA-FL? :: Um sistema local e offline para controlar compra e despacho de tinta e toner para as filiais, com relatórios por filial, departamento e período.
+
+Quais foram as três fases de interface do CTL-TINTA-FL? :: Tkinter, depois Flask com Jinja2 e por fim Reflex.
+
+Quais as regras de unidade do CTL-TINTA-FL? :: Tinta em litros com despacho em mililitros convertido antes de gravar; toner e cartucho em unidades inteiras.
+
+Quais os alertas de estoque baixo do CTL-TINTA-FL? :: Tinta abaixo de 1 litro e toner abaixo de 5 unidades.
+
+Por que nada pode ser excluído no banco de exemplo do CTL-TINTA-FL? :: Porque o seed vincula lançamentos a todos os registros e a chave estrangeira impede a exclusão.

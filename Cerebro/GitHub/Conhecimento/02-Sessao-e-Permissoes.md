@@ -1,5 +1,5 @@
 ---
-tags: [github, conceito, autenticacao, seguranca]
+tags: [github, conceito, autenticacao, seguranca, flashcards]
 cssclasses: [cerebro-nota, cerebro-seguranca]
 verificado_em: 2026-09-15
 ---
@@ -32,3 +32,10 @@ Teste sessão expirada, token inválido, usuário sem papel administrativo e mud
 
 [[Cerebro/Mapas/04-Mapa-Seguranca|Segurança]] · [[Cerebro/GitHub/00-Indice|GitHub]]
 
+## Perguntas de revisão
+
+Por que consultar o usuário no banco mesmo com token válido? :: Porque o papel e o status gravados no token podem estar desatualizados depois de uma desativação ou mudança de papel.
+
+O que o front-end deve fazer ao receber 401 numa requisição autenticada? :: Remover o token local e encaminhar para o login.
+
+Esconder um botão basta para proteger uma ação administrativa? :: Não; a rota no servidor precisa rejeitar a ação não autorizada.

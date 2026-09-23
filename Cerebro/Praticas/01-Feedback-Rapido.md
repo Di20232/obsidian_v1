@@ -1,5 +1,5 @@
 ---
-tags: [pratica, feedback, qualidade]
+tags: [pratica, feedback, qualidade, flashcards]
 cssclasses: [cerebro-nota, cerebro-praticas]
 ---
 
@@ -21,3 +21,11 @@ Reduzir o tempo entre fazer uma mudança e descobrir seu efeito. Isso diminui a 
 Feedback rápido não substitui testes mais amplos, revisão ou validação com dados reais. Ele apenas torna o ciclo diário menos arriscado.
 
 Veja [[02-Definicao-de-Pronto|Definição de pronto]] e [[../Guias/02-Resolver-Problemas|Resolver Problemas]].
+
+## Perguntas de revisão
+
+O que é feedback rápido no desenvolvimento? :: Reduzir o tempo entre fazer uma mudança e ver o efeito dela, diminuindo a área de investigação quando algo quebra.
+
+Como aplicar feedback rápido? :: Fazer uma alteração pequena, rodar o menor teste ou fluxo que mostre o resultado, comparar com o esperado e registrar o que descobriu.
+
+Feedback rápido substitui testes amplos? :: Não; só deixa o ciclo diário menos arriscado, sem substituir testes, revisão e validação com dados reais.

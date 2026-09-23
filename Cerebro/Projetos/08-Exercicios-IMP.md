@@ -1,5 +1,5 @@
 ---
-tags: [projeto, python, git]
+tags: [projeto, python, git, flashcards]
 status: bloqueado
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -44,3 +44,9 @@ O push falhou com **403**: o Git da máquina está autenticado como **Di20232**,
 > | Conteúdo | `ex01.py`…`ex05.py`, algoritmos genéricos do professor | `combo_a`/`combo_b`: os mesmos 5 temas (variáveis, carrinho, recibo, regras de acesso, sistema escolar) resolvidos **duas vezes** — uma com funções, outra com classes — ver [[../GitHub/exercises_python/01-Guia-de-Estudo|guia de estudo]] |
 >
 > Ou seja: `exercises_python` é um **projeto de estudo separado**, já publicado com sucesso, e não a solução do bloqueio de push descrito nesta nota. As duas sessões nunca se cruzaram — vale não apresentar uma como continuação da outra sem confirmar com o usuário.
+
+## Perguntas de revisão
+
+Por que o push dos Exercícios IMP está bloqueado? :: Porque o Git está autenticado com uma conta que não tem permissão de escrita no repositório de destino, gerando 403.
+
+Como os Exercícios IMP viraram repositório próprio? :: Apagando o .git do clone do professor e rodando git init -b main.

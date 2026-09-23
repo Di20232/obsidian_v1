@@ -1,5 +1,5 @@
 ---
-tags: [projeto, nodejs, express, prisma, banco-de-dados, docker]
+tags: [projeto, nodejs, express, prisma, banco-de-dados, docker, flashcards]
 status: em-uso
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -95,3 +95,13 @@ O fluxo tem **4 passos e nada é gravado antes da confirmação**:
 
 - Código-fonte: [[../GitHub/contro-vend-public/00-Indice|Todos os arquivos (GitHub)]] · [[../GitHub/contro-vend-public/01-Arquitetura-e-Aprendizados|Arquitetura e soluções reaproveitáveis]]
 - Conceito cruzado com outros repositórios: [[../GitHub/Conhecimento/01-Estoque-Concorrente|Estoque concorrente]] · [[../GitHub/Conhecimento/02-Sessao-e-Permissoes|Sessão e permissões]] · [[../GitHub/Conhecimento/04-Previsao-de-Reposicao|Previsão de reposição]]
+
+## Perguntas de revisão
+
+Qual a stack do Mercadinho Seu João? :: Node.js, Express, Prisma, PostgreSQL 16 e Docker Compose.
+
+Por que o Postgres do Mercadinho usa a porta 5433? :: Porque a 5432 estava ocupada pelo PostgreSQL nativo do Windows.
+
+Por que gerar dados de exemplo no Mercadinho? :: Sem produtos e vendas simulados, painel, relatórios e previsão mostram só zeros.
+
+Quais opções controlam a importação de produtos do Mercadinho? :: Cadastrar, atualizar ou ambos; identificar por código de barras ou nome; e como tratar a coluna de estoque.

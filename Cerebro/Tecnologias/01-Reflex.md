@@ -1,5 +1,5 @@
 ---
-tags: [tecnologia, python, reflex, interface]
+tags: [tecnologia, python, reflex, interface, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -61,3 +61,15 @@ Separar **estados** de **páginas** foi o que tornou possível mover a lógica p
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Trilha: [[../../Python/00-Indice|Python]]
 - Mapa: [[../Mapas/01-Mapa-Web|Mapa Web]]
+
+## Perguntas de revisão
+
+O que é o Reflex? :: Um framework em que se escreve Python e o resultado compila para uma aplicação React.
+
+O que é um Var no Reflex? :: Uma referência a um valor que só vira dado real no navegador; tratá-la como valor Python comum causa a maioria dos erros.
+
+Qual a regra que evita os erros com Var no Reflex? :: Calcular no estado, no event handler, e só apresentar no template.
+
+Onde fica o bundle compilado do Reflex? :: Na pasta .web; inspecioná-lo confirma o que cada componente virou.
+
+Como organizar um app Reflex? :: Separar estados (lógica), páginas (composição visual) e componentes reutilizáveis.

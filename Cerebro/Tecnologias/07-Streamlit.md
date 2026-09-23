@@ -1,5 +1,5 @@
 ---
-tags: [tecnologia, python, streamlit, dados]
+tags: [tecnologia, python, streamlit, dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -50,3 +50,13 @@ O app **declara que os números são estimativas, não garantias**, e recomenda 
 - Projeto: [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Tecnologia: [[04-Docker|Docker]]
 - Mapa: [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
+
+## Perguntas de revisão
+
+O que é o Streamlit? :: Um framework que transforma scripts Python em aplicações web de dados, sem front-end separado.
+
+Por que st.query_params é perigoso? :: Porque vem da URL e é entrada hostil, tão externa quanto um formulário.
+
+Qual arquitetura funcionou no app Streamlit? :: Cálculo em core, dados em data e interface em ui, permitindo testar a lógica sem subir a tela.
+
+O que todo sistema de previsão deve dizer na tela? :: Que os números são estimativas, não garantias, e que pedem validação humana.

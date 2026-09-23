@@ -1,5 +1,5 @@
 ---
-tags: [pratica, auditoria, engenharia, qualidade]
+tags: [pratica, auditoria, engenharia, qualidade, flashcards]
 cssclasses: [cerebro-nota, cerebro-praticas]
 ---
 
@@ -28,3 +28,11 @@ Preço, estoque, pagamento, permissões e dados pessoais devem ser tratados como
 - [[../Projetos/04-Planejamento-de-E-commerce|Planejamento de E-commerce]]
 - [[../Mapas/03-Mapa-Engenharia|Engenharia de Software]]
 - [[../Mapas/04-Mapa-Seguranca|Segurança]]
+
+## Perguntas de revisão
+
+Por que auditar um projeto antes de uma grande mudança? :: Para entender o sistema antes e não remover algo importante nem introduzir falhas invisíveis.
+
+Qual o roteiro de auditoria de um projeto? :: Mapear stack e ambiente, ler README e configurações, identificar dados sensíveis, listar bugs, reproduzir uma linha de base e propor mudanças pequenas com reversão.
+
+Quais áreas são críticas num e-commerce? :: Preço, estoque, pagamento, permissões e dados pessoais; o front-end nunca é a fonte final de verdade delas.

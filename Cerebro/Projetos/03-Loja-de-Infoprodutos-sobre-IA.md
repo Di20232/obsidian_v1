@@ -1,5 +1,5 @@
 ---
-tags: [projeto, ia, ecommerce, produto-digital]
+tags: [projeto, ia, ecommerce, produto-digital, flashcards]
 status: ideia-validar
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
@@ -47,3 +47,11 @@ Material gratuito → kit de prompts → mini curso prático → curso completo
 - [[../Mapas/05-Mapa-IA|IA e Automação]]
 - [[../Mapas/01-Mapa-Web|Mapa Web]]
 - [[../Mapas/04-Mapa-Seguranca|Segurança]]
+
+## Perguntas de revisão
+
+Qual a esteira sugerida para a loja de infoprodutos sobre IA? :: Material gratuito, kit de prompts, mini curso prático e curso completo.
+
+O que validar antes de produzir um curso completo? :: A demanda, conversando com potenciais alunos e criando uma amostra útil.
+
+Que práticas são proibidas na venda de infoprodutos? :: Usar depoimentos, resultados ou estatísticas inventadas e prometer renda.

@@ -1,5 +1,5 @@
 ---
-tags: [pratica, dados, regra-de-negocio]
+tags: [pratica, dados, regra-de-negocio, flashcards]
 cssclasses: [cerebro-nota, cerebro-dados]
 ---
 
@@ -48,3 +48,13 @@ Um sistema que mostra `5` sem dizer `5 o quê` está pedindo um erro de operaç�
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Problema: [[../Problemas-Resolvidos/11-Saldo-Geral-Misturando-Unidades|Saldo geral misturando unidades]]
 - Mapa: [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
+
+## Perguntas de revisão
+
+Por que unidade de medida é regra de negócio? :: Porque quantidade sem unidade não é dado; somar unidades diferentes gera totais sem sentido.
+
+Qual o princípio para guardar quantidades com unidades diferentes? :: Guardar sempre numa unidade canônica e converter só na borda, na entrada e na exibição.
+
+Por que concentrar as regras de unidade num único módulo? :: Para que telas, estados e exportações usem a mesma conversão e não divirjam entre si.
+
+Onde a unidade precisa aparecer? :: Em entradas, saídas, saldos, histórico, painel, relatórios e arquivos exportados.

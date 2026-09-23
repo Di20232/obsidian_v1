@@ -1,5 +1,5 @@
 ---
-tags: [ambiente, rede, portas]
+tags: [ambiente, rede, portas, flashcards]
 cssclasses: [cerebro-nota, cerebro-ambiente]
 ---
 
@@ -59,3 +59,13 @@ E só então decida entre encerrar o processo ou deslocar a sua porta.
 
 - Ambiente: [[01-Maquina-Windows|Máquina Windows]]
 - Tecnologia: [[../Tecnologias/04-Docker|Docker]]
+
+## Perguntas de revisão
+
+Quais são os três tipos de conflito de porta? :: Porta ocupada e servidor não sobe; porta ocupada por serviço do mesmo tipo e conexão no alvo errado; e nada escutando na porta.
+
+Por que preferir deslocar a porta a matar o processo? :: Porque evita derrubar serviços nativos e elimina a classe inteira de conflito silencioso.
+
+Quais portas deslocadas usar para Postgres, MySQL e Redis em containers? :: 5433, 3307 e 6380.
+
+Em que porta o Streamlit roda por padrão? :: Na 8501.
