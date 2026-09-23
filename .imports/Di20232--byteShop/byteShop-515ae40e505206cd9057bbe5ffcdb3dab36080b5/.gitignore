@@ -1,0 +1,4 @@
+# Este diretório também contém outros projetos não relacionados ao ByteShop
+# (pastas site-*), que não fazem parte deste repositório.
+site-*/
+.claude/

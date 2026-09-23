@@ -1,0 +1,109 @@
+/* Cores por assunto: leitura, edição, árvore e links. */
+.theme-light { --cerebro-geral: #6d28d9; }
+.theme-dark { --cerebro-geral: #c4b5fd; }
+.cerebro-geral { --cerebro-cor: var(--cerebro-geral); }
+.theme-light { --cerebro-programacao: #0369a1; }
+.theme-dark { --cerebro-programacao: #7dd3fc; }
+.cerebro-programacao { --cerebro-cor: var(--cerebro-programacao); }
+.theme-light { --cerebro-python: #166534; }
+.theme-dark { --cerebro-python: #86efac; }
+.cerebro-python { --cerebro-cor: var(--cerebro-python); }
+.theme-light { --cerebro-javascript: #854d0e; }
+.theme-dark { --cerebro-javascript: #fde047; }
+.cerebro-javascript { --cerebro-cor: var(--cerebro-javascript); }
+.theme-light { --cerebro-php: #7e22ce; }
+.theme-dark { --cerebro-php: #d8b4fe; }
+.cerebro-php { --cerebro-cor: var(--cerebro-php); }
+.theme-light { --cerebro-css: #0e7490; }
+.theme-dark { --cerebro-css: #67e8f9; }
+.cerebro-css { --cerebro-cor: var(--cerebro-css); }
+.theme-light { --cerebro-bootstrap: #a21caf; }
+.theme-dark { --cerebro-bootstrap: #f0abfc; }
+.cerebro-bootstrap { --cerebro-cor: var(--cerebro-bootstrap); }
+.theme-light { --cerebro-tailwind: #115e59; }
+.theme-dark { --cerebro-tailwind: #5eead4; }
+.cerebro-tailwind { --cerebro-cor: var(--cerebro-tailwind); }
+.theme-light { --cerebro-mysql: #1d4ed8; }
+.theme-dark { --cerebro-mysql: #93c5fd; }
+.cerebro-mysql { --cerebro-cor: var(--cerebro-mysql); }
+.theme-light { --cerebro-sqlite: #047857; }
+.theme-dark { --cerebro-sqlite: #6ee7b7; }
+.cerebro-sqlite { --cerebro-cor: var(--cerebro-sqlite); }
+.theme-light { --cerebro-web: #9a3412; }
+.theme-dark { --cerebro-web: #fdba74; }
+.cerebro-web { --cerebro-cor: var(--cerebro-web); }
+.theme-light { --cerebro-dados: #0f766e; }
+.theme-dark { --cerebro-dados: #5eead4; }
+.cerebro-dados { --cerebro-cor: var(--cerebro-dados); }
+.theme-light { --cerebro-engenharia: #4338ca; }
+.theme-dark { --cerebro-engenharia: #a5b4fc; }
+.cerebro-engenharia { --cerebro-cor: var(--cerebro-engenharia); }
+.theme-light { --cerebro-seguranca: #b91c1c; }
+.theme-dark { --cerebro-seguranca: #fca5a5; }
+.cerebro-seguranca { --cerebro-cor: var(--cerebro-seguranca); }
+.theme-light { --cerebro-ia: #a21caf; }
+.theme-dark { --cerebro-ia: #f0abfc; }
+.cerebro-ia { --cerebro-cor: var(--cerebro-ia); }
+.theme-light { --cerebro-projetos: #c2410c; }
+.theme-dark { --cerebro-projetos: #fdba74; }
+.cerebro-projetos { --cerebro-cor: var(--cerebro-projetos); }
+.theme-light { --cerebro-problemas: #be123c; }
+.theme-dark { --cerebro-problemas: #fda4af; }
+.cerebro-problemas { --cerebro-cor: var(--cerebro-problemas); }
+.theme-light { --cerebro-praticas: #3f6212; }
+.theme-dark { --cerebro-praticas: #bef264; }
+.cerebro-praticas { --cerebro-cor: var(--cerebro-praticas); }
+.theme-light { --cerebro-ambiente: #475569; }
+.theme-dark { --cerebro-ambiente: #cbd5e1; }
+.cerebro-ambiente { --cerebro-cor: var(--cerebro-ambiente); }
+.theme-light { --cerebro-github: #6d28d9; }
+.theme-dark { --cerebro-github: #c4b5fd; }
+.cerebro-github { --cerebro-cor: var(--cerebro-github); }
+
+.cerebro-nota {
+  --h1-color: var(--cerebro-cor);
+  --h2-color: var(--cerebro-cor);
+  --h3-color: var(--cerebro-cor);
+  --h4-color: var(--cerebro-cor);
+  --h5-color: var(--cerebro-cor);
+  --h6-color: var(--cerebro-cor);
+  --inline-title-color: var(--cerebro-cor);
+  --link-color: var(--cerebro-cor);
+  --link-color-hover: var(--cerebro-cor);
+  --link-unresolved-color: var(--cerebro-cor);
+  --list-marker-color: var(--cerebro-cor);
+}
+.cerebro-nota.markdown-preview-view,
+.cerebro-nota.markdown-source-view.mod-cm6 {
+  box-shadow: inset 4px 0 0 var(--cerebro-cor);
+  background-color: color-mix(in srgb, var(--cerebro-cor) 5%, var(--background-primary));
+}
+.cerebro-nota :is(h1,h2,h3,h4,h5,h6,.inline-title,.cm-header) { color: var(--cerebro-cor); }
+.cerebro-nota blockquote { border-inline-start-color: var(--cerebro-cor); }
+.nav-folder-title[data-path="Python"], .nav-file-title[data-path^="Python/"], .nav-folder-title[data-path^="Python/"] { color: var(--cerebro-python); }
+.nav-folder-title[data-path="JavaScript"], .nav-file-title[data-path^="JavaScript/"], .nav-folder-title[data-path^="JavaScript/"] { color: var(--cerebro-javascript); }
+.nav-folder-title[data-path="PHP"], .nav-file-title[data-path^="PHP/"], .nav-folder-title[data-path^="PHP/"] { color: var(--cerebro-php); }
+.nav-folder-title[data-path="CSS"], .nav-file-title[data-path^="CSS/"], .nav-folder-title[data-path^="CSS/"] { color: var(--cerebro-css); }
+.nav-folder-title[data-path="Bootstrap"], .nav-file-title[data-path^="Bootstrap/"], .nav-folder-title[data-path^="Bootstrap/"] { color: var(--cerebro-bootstrap); }
+.nav-folder-title[data-path="TailwindCSS"], .nav-file-title[data-path^="TailwindCSS/"], .nav-folder-title[data-path^="TailwindCSS/"] { color: var(--cerebro-tailwind); }
+.nav-folder-title[data-path="MySQL"], .nav-file-title[data-path^="MySQL/"], .nav-folder-title[data-path^="MySQL/"] { color: var(--cerebro-mysql); }
+.nav-folder-title[data-path="SQLite"], .nav-file-title[data-path^="SQLite/"], .nav-folder-title[data-path^="SQLite/"] { color: var(--cerebro-sqlite); }
+.nav-folder-title[data-path="Programacao-Geral"], .nav-file-title[data-path^="Programacao-Geral/"], .nav-folder-title[data-path^="Programacao-Geral/"] { color: var(--cerebro-programacao); }
+.nav-folder-title[data-path="Cerebro"], .nav-file-title[data-path^="Cerebro/"], .nav-folder-title[data-path^="Cerebro/"] { color: var(--cerebro-geral); }
+.nav-folder-title[data-path="Cerebro/Projetos"], .nav-file-title[data-path^="Cerebro/Projetos/"], .nav-folder-title[data-path^="Cerebro/Projetos/"] { color: var(--cerebro-projetos); }
+.nav-folder-title[data-path="Cerebro/Problemas-Resolvidos"], .nav-file-title[data-path^="Cerebro/Problemas-Resolvidos/"], .nav-folder-title[data-path^="Cerebro/Problemas-Resolvidos/"] { color: var(--cerebro-problemas); }
+.nav-folder-title[data-path="Cerebro/GitHub"], .nav-file-title[data-path^="Cerebro/GitHub/"], .nav-folder-title[data-path^="Cerebro/GitHub/"] { color: var(--cerebro-github); }
+.nav-folder-title[data-path="Cerebro/Praticas"], .nav-file-title[data-path^="Cerebro/Praticas/"], .nav-folder-title[data-path^="Cerebro/Praticas/"] { color: var(--cerebro-praticas); }
+.nav-folder-title[data-path="Cerebro/Ambiente"], .nav-file-title[data-path^="Cerebro/Ambiente/"], .nav-folder-title[data-path^="Cerebro/Ambiente/"] { color: var(--cerebro-ambiente); }
+.nav-folder-title[data-path="Cerebro/GitHub/Second-Brain"], .nav-file-title[data-path^="Cerebro/GitHub/Second-Brain/"], .nav-folder-title[data-path^="Cerebro/GitHub/Second-Brain/"] { color: var(--cerebro-ia); }
+.nav-folder-title[data-path="Cerebro/GitHub/byteShop"], .nav-file-title[data-path^="Cerebro/GitHub/byteShop/"], .nav-folder-title[data-path^="Cerebro/GitHub/byteShop/"] { color: var(--cerebro-web); }
+.nav-folder-title[data-path="Cerebro/GitHub/contro-vend-public"], .nav-file-title[data-path^="Cerebro/GitHub/contro-vend-public/"], .nav-folder-title[data-path^="Cerebro/GitHub/contro-vend-public/"] { color: var(--cerebro-dados); }
+.nav-folder-title[data-path="Cerebro/GitHub/exercises_python"], .nav-file-title[data-path^="Cerebro/GitHub/exercises_python/"], .nav-folder-title[data-path^="Cerebro/GitHub/exercises_python/"] { color: var(--cerebro-python); }
+a.tag[href="#python"] { color: var(--cerebro-python); }
+a.tag[href="#javascript"] { color: var(--cerebro-javascript); }
+a.tag[href="#php"] { color: var(--cerebro-php); }
+a.tag[href="#css"] { color: var(--cerebro-css); }
+a.tag[href="#sql"] { color: var(--cerebro-dados); }
+a.tag[href="#seguranca"] { color: var(--cerebro-seguranca); }
+a.tag[href="#ia"] { color: var(--cerebro-ia); }
+a.tag[href="#github"] { color: var(--cerebro-github); }

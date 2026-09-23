@@ -1,0 +1,34 @@
+---
+tags: [moc, inteligencia-artificial, automacao]
+aliases: [Mapa de IA]
+cssclasses: [cerebro-nota, cerebro-ia]
+---
+
+# 🤖 Mapa de IA e Automação
+
+IA é uma ferramenta para ampliar análise, criação e automação — não uma fonte infalível de verdade. Bons resultados dependem de objetivo claro, contexto suficiente, revisão humana e cuidado com dados.
+
+## Fundamentos
+
+- **Automação:** executar tarefas repetíveis por regras ou fluxos.
+- **Dados:** exemplos e informações que um sistema usa para aprender ou decidir.
+- **Modelo:** mecanismo que identifica padrões e produz uma saída provável.
+- **Avaliação:** teste estruturado para verificar qualidade, segurança e utilidade.
+- **Humano no circuito:** alguém responsável revisa decisões importantes.
+
+## Uso responsável
+
+1. Defina o resultado que será avaliado, não apenas uma pergunta vaga.
+2. Não envie segredos, dados pessoais ou material confidencial sem autorização e proteção adequadas.
+3. Verifique fatos, cálculos, código e fontes antes de usar o resultado.
+4. Documente limitações, versões, dados de teste e quem aprovou decisões de alto impacto.
+5. Mantenha um caminho manual ou de reversão para automações críticas.
+
+## Projetos para aprender
+
+- script que organiza arquivos ou dados de exemplo;
+- busca em anotações pessoais com fontes visíveis;
+- classificador simples com conjunto de teste;
+- assistente para revisar checklist, nunca para tomar decisões sensíveis sozinho.
+
+Conecte ideias de IA a [[00-Mapa-Programacao|Programação]], [[02-Mapa-Dados|Dados]] e [[04-Mapa-Seguranca|Segurança]].

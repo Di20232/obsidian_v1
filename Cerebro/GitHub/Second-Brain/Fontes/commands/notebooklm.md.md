@@ -1,0 +1,77 @@
+---
+tags: [github, fonte-importada]
+cssclasses: [cerebro-nota, cerebro-ia]
+source: https://github.com/eugeniughelbur/obsidian-second-brain/blob/02fba47d3e4904caa2026d07f3cacfb4abfb34b9/commands/notebooklm.md
+source_commit: 02fba47d3e4904caa2026d07f3cacfb4abfb34b9
+importado_em: 2026-09-15
+status: fonte-do-repositorio
+---
+
+# commands/notebooklm.md
+
+Origem: [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain/blob/02fba47d3e4904caa2026d07f3cacfb4abfb34b9/commands/notebooklm.md). Versao consultada: 02fba47d3e49.
+
+[[Cerebro/GitHub/Second-Brain/00-Indice|Indice deste repositorio]] Â· [[Cerebro/GitHub/Arquivos/eugeniughelbur--obsidian-second-brain--02fba47d3e49.zip|Arquivo completo ZIP]]
+
+> [!info] Documento de referencia importado
+> Conteudo do autor, preservado para consulta. Comandos e instrucoes descrevem o projeto de origem; sua importacao nao os instala nem executa. Exemplos de pessoas e projetos do segundo cerebro sao ficticios.
+
+
+Use the obsidian-second-brain skill. Execute `/notebooklm [topic]`:
+
+1. Resolve the topic from the user's argument. If no topic, ask: "What topic for source-grounded research?"
+
+2. Run the script from the skill root (its absolute path was given at session start as **Skill root**; substitute it for `SKILL_ROOT`):
+   ```bash
+   uv run --directory "SKILL_ROOT" -m scripts.research.notebooklm --topic "<topic>"
+   ```
+
+3. The script does the whole flow end-to-end:
+   - Scans the vault for the top 12 relevant notes (same shape as `/research-deep` Phase 1).
+   - Uploads them to a fresh Gemini File Search store.
+   - Asks Gemini (default `gemini-2.5-flash`, override via `NOTEBOOKLM_MODEL` env) for a synthesis grounded against those sources.
+   - Writes the AI-first synthesis to `Research/NotebookLM/YYYY-MM-DD - <slug>.md`.
+   - Deletes the File Search store so nothing is left behind.
+   - Emits a `<<<NOTEBOOKLM_PROPAGATION_PAYLOAD>>>` JSON block.
+
+4. **After save, do the propagation step.** Same flow as `/research-deep`:
+   - Parse the propagation payload.
+   - Read the saved synthesis at `saved_note`.
+   - Treat the synthesis as the "conversation context" input to `/obsidian-save`.
+   - Run the standard `/obsidian-save` flow: spawn parallel subagents (People, Projects, Tasks, Decisions, Ideas) and update vault notes per any "Recommended next reads or angles" bullets if they map to entities or projects.
+   - Link the new synthesis note from today's daily note.
+
+5. Report back to the user: "Saved <code>[[YYYY-MM-DD - &lt;slug&gt;]]</code> to Research/NotebookLM/. Linked from today's daily note. Updated <code>[[X]]</code>, created <code>[[Y]]</code>."
+
+6. Plain English triggers: "notebooklm this", "ground research on X using my vault", "source-grounded research on X", "ask my own notes about X".
+
+7. When to choose `/notebooklm` over `/research-deep`:
+   - `/research-deep` (Perplexity + Grok): when you want OPEN-WEB + X-discourse coverage. Cost: $0.20-0.80.
+   - `/notebooklm` (Gemini File Search): when you want answers GROUNDED IN your own vault. Cost: ~$0.01-0.05.
+   - Run both for high-value topics. The web view and the grounded view rarely contradict, and the contradictions are where the insight is.
+
+8. Configuration: requires `GEMINI_API_KEY` in `~/.config/obsidian-second-brain/.env`. Get one free at https://aistudio.google.com/apikey. Optional `NOTEBOOKLM_MODEL` override (default `gemini-2.5-flash`).
+
+---
+
+**AI-first rule:** Every note created or updated by this command MUST follow `references/ai-first-rules.md`. If that path does not resolve from your working directory, search upward for it; if you still cannot read it, say so before writing rather than producing a note that silently skips the rule. The saved synthesis at `Research/NotebookLM/YYYY-MM-DD - <slug>.md` follows the template baked into the script (preamble, frontmatter, vault-baseline links, response verbatim). Do not strip those.
+
+**Anti-fabrication:** Search exhaustively before claiming any note, person, or file is absent - false absence is the most common failure mode - and never invent facts, entities, or dates (mark unknowns as `TBD`). See the anti-fabrication and search-completeness hard rules in `references/ai-first-rules.md`.
+
+**Why Gemini File Search and not the browser:** NotebookLM has no public API for personal Google accounts. Gemini File Search (generally available, plain API key, same Gemini model family) gives the same architectural shape: source-grounded retrieval, multi-document context, citation-style synthesis. One HTTP call, no manual paste step.
+
+**Cost:** $0.15 per million tokens indexed, storage free, generation at standard Gemini token rates. For a 12-note vault bundle (~30K tokens), expect $0.01-0.05 per run.
+
+## Metadados originais
+
+```yaml
+---
+description: Vault-first source-grounded research via Gemini File Search. One command, no browser. The grounded parallel to /research-deep (which is open-web via Perplexity).
+category: research
+triggers_en: ["notebooklm", "research grounded", "ground research in vault", "ask my notebook", "source-grounded research"]
+triggers_es: ["notebooklm", "investigación fundamentada en mis notas", "basa esto en mi vault", "pregúntale a mis notas", "investigación con fuentes propias", "investiga en mis notas"]
+triggers_pt: ["notebooklm", "pesquisa ancorada", "ancore a pesquisa no vault", "pergunte ao meu notebook", "pesquisa ancorada em fontes"]
+triggers_zh: ["用我的资料做研究", "基于知识库回答", "问问我的笔记", "做有来源依据的研究", "用 NotebookLM 研究"]
+---
+
+```

@@ -1,0 +1,111 @@
+"""Exercicio 04 - liberacao de entrada por idade e ingresso.
+
+Variacao B (orientada a objetos): cada situacao possivel e um membro de um
+Enum, a decisao fica num metodo do Visitante e a portaria cuida do dialogo.
+"""
+
+from dataclasses import dataclass
+from enum import Enum
+
+LARGURA = 50
+IDADE_MINIMA = 16
+
+RESPOSTAS_SIM = ("sim", "s", "yes", "y")
+RESPOSTAS_NAO = ("nao", "não", "n", "no")
+
+
+class Acesso(Enum):
+    """Situacoes possiveis na portaria, como (mensagem, motivo)."""
+
+    NEGADO = (
+        "Acesso não permitido",
+        f"Idade mínima para acesso é {IDADE_MINIMA} anos.",
+    )
+    PERMITIDO = (
+        "Entrada liberada",
+        "Idade e ingresso verificados com sucesso.",
+    )
+    PENDENTE = (
+        "Compre um ingresso",
+        "É necessário adquirir um ingresso para entrar.",
+    )
+
+    @property
+    def mensagem(self):
+        return self.value[0]
+
+    @property
+    def motivo(self):
+        return self.value[1]
+
+
+@dataclass
+class Visitante:
+    """Quem chegou na portaria."""
+
+    idade: int
+    tem_ingresso: bool
+
+    def classificar(self):
+        if self.idade < IDADE_MINIMA:
+            return Acesso.NEGADO
+        if self.tem_ingresso:
+            return Acesso.PERMITIDO
+        return Acesso.PENDENTE
+
+
+class Portaria:
+    """Pergunta os dados do visitante e mostra a decisao."""
+
+    @staticmethod
+    def perguntar_idade():
+        while True:
+            try:
+                idade = int(input("Digite sua idade: "))
+            except ValueError:
+                print("Entrada inválida! Digite um número inteiro para a idade.")
+                continue
+
+            if idade < 0:
+                print("Idade não pode ser negativa. Tente novamente.")
+                continue
+
+            return idade
+
+    @staticmethod
+    def perguntar_ingresso():
+        while True:
+            resposta = input("Você possui ingresso? (Digite 'sim' ou 'nao'): ").strip().lower()
+
+            if resposta in RESPOSTAS_SIM:
+                return True
+            if resposta in RESPOSTAS_NAO:
+                return False
+
+            print("Resposta inválida! Digite 'sim' ou 'nao'.")
+
+    @staticmethod
+    def exibir(visitante, acesso):
+        print("\n" + "=" * LARGURA)
+        print("           RESULTADO DA CLASSIFICAÇÃO")
+        print("=" * LARGURA)
+        print(f"Idade informada:        {visitante.idade} anos")
+        print(f"Possui ingresso:        {'Sim' if visitante.tem_ingresso else 'Não'}")
+        print("-" * LARGURA)
+        print(f"Status:                 {acesso.mensagem.upper()}")
+        print(f"Motivo: {acesso.motivo}")
+        print("=" * LARGURA)
+
+    def atender(self):
+        # A idade e perguntada antes do ingresso porque os argumentos sao
+        # avaliados da esquerda para a direita.
+        visitante = Visitante(self.perguntar_idade(), self.perguntar_ingresso())
+        self.exibir(visitante, visitante.classificar())
+
+
+def main():
+    Portaria().atender()
+
+
+if __name__ == "__main__":
+    main()

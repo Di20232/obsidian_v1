@@ -1,0 +1,12 @@
+# Estado da janela do Obsidian: muda a cada clique, não é conhecimento
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Lixeira interna do Obsidian
+.trash/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini

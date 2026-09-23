@@ -1,0 +1,2043 @@
+[
+  {
+    "name": "Di20232/byteShop",
+    "branch": "master",
+    "sha": "515ae40e505206cd9057bbe5ffcdb3dab36080b5",
+    "size": 195,
+    "license": null,
+    "truncated": false,
+    "files": [
+      {
+        "path": ".gitignore",
+        "size": 157
+      },
+      {
+        "path": "README.md",
+        "size": 2591
+      },
+      {
+        "path": "backend/.env.example",
+        "size": 166
+      },
+      {
+        "path": "backend/.gitignore",
+        "size": 83
+      },
+      {
+        "path": "backend/app/__init__.py",
+        "size": 0
+      },
+      {
+        "path": "backend/app/auth.py",
+        "size": 2430
+      },
+      {
+        "path": "backend/app/config.py",
+        "size": 1397
+      },
+      {
+        "path": "backend/app/database.py",
+        "size": 934
+      },
+      {
+        "path": "backend/app/main.py",
+        "size": 1804
+      },
+      {
+        "path": "backend/app/make_admin.py",
+        "size": 753
+      },
+      {
+        "path": "backend/app/migrate.py",
+        "size": 615
+      },
+      {
+        "path": "backend/app/models.py",
+        "size": 3182
+      },
+      {
+        "path": "backend/app/rate_limit.py",
+        "size": 1652
+      },
+      {
+        "path": "backend/app/routers/__init__.py",
+        "size": 0
+      },
+      {
+        "path": "backend/app/routers/admin.py",
+        "size": 5093
+      },
+      {
+        "path": "backend/app/routers/auth.py",
+        "size": 2050
+      },
+      {
+        "path": "backend/app/routers/categories.py",
+        "size": 428
+      },
+      {
+        "path": "backend/app/routers/orders.py",
+        "size": 3068
+      },
+      {
+        "path": "backend/app/routers/products.py",
+        "size": 2457
+      },
+      {
+        "path": "backend/app/schemas.py",
+        "size": 4003
+      },
+      {
+        "path": "backend/app/seed.py",
+        "size": 27323
+      },
+      {
+        "path": "backend/app/utils.py",
+        "size": 734
+      },
+      {
+        "path": "backend/requirements-dev.txt",
+        "size": 79
+      },
+      {
+        "path": "backend/requirements.txt",
+        "size": 221
+      },
+      {
+        "path": "backend/tests/__init__.py",
+        "size": 0
+      },
+      {
+        "path": "backend/tests/conftest.py",
+        "size": 3708
+      },
+      {
+        "path": "backend/tests/test_admin.py",
+        "size": 3801
+      },
+      {
+        "path": "backend/tests/test_auth.py",
+        "size": 2032
+      },
+      {
+        "path": "backend/tests/test_orders.py",
+        "size": 4222
+      },
+      {
+        "path": "backend/tests/test_products.py",
+        "size": 2170
+      },
+      {
+        "path": "backend/tests/test_security.py",
+        "size": 3585
+      },
+      {
+        "path": "frontend/.env.example",
+        "size": 35
+      },
+      {
+        "path": "frontend/.gitignore",
+        "size": 258
+      },
+      {
+        "path": "frontend/.oxlintrc.json",
+        "size": 245
+      },
+      {
+        "path": "frontend/README.md",
+        "size": 1278
+      },
+      {
+        "path": "frontend/index.html",
+        "size": 594
+      },
+      {
+        "path": "frontend/package-lock.json",
+        "size": 77947
+      },
+      {
+        "path": "frontend/package.json",
+        "size": 651
+      },
+      {
+        "path": "frontend/public/favicon.svg",
+        "size": 9522
+      },
+      {
+        "path": "frontend/public/icons.svg",
+        "size": 5031
+      },
+      {
+        "path": "frontend/public/products/case.svg",
+        "size": 1062
+      },
+      {
+        "path": "frontend/public/products/cooler.svg",
+        "size": 1089
+      },
+      {
+        "path": "frontend/public/products/cpu.svg",
+        "size": 1658
+      },
+      {
+        "path": "frontend/public/products/gpu.svg",
+        "size": 1389
+      },
+      {
+        "path": "frontend/public/products/headset.svg",
+        "size": 967
+      },
+      {
+        "path": "frontend/public/products/keyboard.svg",
+        "size": 2187
+      },
+      {
+        "path": "frontend/public/products/monitor.svg",
+        "size": 852
+      },
+      {
+        "path": "frontend/public/products/motherboard.svg",
+        "size": 1516
+      },
+      {
+        "path": "frontend/public/products/mouse.svg",
+        "size": 803
+      },
+      {
+        "path": "frontend/public/products/psu.svg",
+        "size": 1086
+      },
+      {
+        "path": "frontend/public/products/ram.svg",
+        "size": 1752
+      },
+      {
+        "path": "frontend/public/products/storage.svg",
+        "size": 985
+      },
+      {
+        "path": "frontend/src/App.tsx",
+        "size": 2522
+      },
+      {
+        "path": "frontend/src/api/client.ts",
+        "size": 1252
+      },
+      {
+        "path": "frontend/src/assets/hero.png",
+        "size": 13057
+      },
+      {
+        "path": "frontend/src/assets/react.svg",
+        "size": 4126
+      },
+      {
+        "path": "frontend/src/assets/vite.svg",
+        "size": 8709
+      },
+      {
+        "path": "frontend/src/components/AdminRoute.tsx",
+        "size": 412
+      },
+      {
+        "path": "frontend/src/components/ErrorBoundary.tsx",
+        "size": 1104
+      },
+      {
+        "path": "frontend/src/components/Navbar.tsx",
+        "size": 3439
+      },
+      {
+        "path": "frontend/src/components/ProductCard.tsx",
+        "size": 1453
+      },
+      {
+        "path": "frontend/src/components/ProtectedRoute.tsx",
+        "size": 467
+      },
+      {
+        "path": "frontend/src/context/AuthContext.tsx",
+        "size": 1782
+      },
+      {
+        "path": "frontend/src/context/CartContext.tsx",
+        "size": 2337
+      },
+      {
+        "path": "frontend/src/index.css",
+        "size": 303
+      },
+      {
+        "path": "frontend/src/main.tsx",
+        "size": 632
+      },
+      {
+        "path": "frontend/src/pages/Cart.tsx",
+        "size": 3026
+      },
+      {
+        "path": "frontend/src/pages/Catalog.tsx",
+        "size": 4940
+      },
+      {
+        "path": "frontend/src/pages/Checkout.tsx",
+        "size": 3249
+      },
+      {
+        "path": "frontend/src/pages/Home.tsx",
+        "size": 2341
+      },
+      {
+        "path": "frontend/src/pages/Login.tsx",
+        "size": 2320
+      },
+      {
+        "path": "frontend/src/pages/NotFound.tsx",
+        "size": 432
+      },
+      {
+        "path": "frontend/src/pages/OrderDetail.tsx",
+        "size": 2266
+      },
+      {
+        "path": "frontend/src/pages/Orders.tsx",
+        "size": 1872
+      },
+      {
+        "path": "frontend/src/pages/ProductDetail.tsx",
+        "size": 4000
+      },
+      {
+        "path": "frontend/src/pages/Register.tsx",
+        "size": 2699
+      },
+      {
+        "path": "frontend/src/pages/admin/AdminCategories.tsx",
+        "size": 2492
+      },
+      {
+        "path": "frontend/src/pages/admin/AdminLayout.tsx",
+        "size": 948
+      },
+      {
+        "path": "frontend/src/pages/admin/AdminProductForm.tsx",
+        "size": 7094
+      },
+      {
+        "path": "frontend/src/pages/admin/AdminProducts.tsx",
+        "size": 3892
+      },
+      {
+        "path": "frontend/src/types/index.ts",
+        "size": 743
+      },
+      {
+        "path": "frontend/src/utils/errors.ts",
+        "size": 955
+      },
+      {
+        "path": "frontend/src/utils/format.ts",
+        "size": 205
+      },
+      {
+        "path": "frontend/src/utils/safeRedirect.ts",
+        "size": 495
+      },
+      {
+        "path": "frontend/tsconfig.app.json",
+        "size": 655
+      },
+      {
+        "path": "frontend/tsconfig.json",
+        "size": 119
+      },
+      {
+        "path": "frontend/tsconfig.node.json",
+        "size": 558
+      },
+      {
+        "path": "frontend/vite.config.ts",
+        "size": 225
+      }
+    ]
+  },
+  {
+    "name": "Di20232/contro-vend-public",
+    "branch": "master",
+    "sha": "8ca882161809413bbadfe4997e80a2ec7ae29991",
+    "size": 91,
+    "license": null,
+    "truncated": false,
+    "files": [
+      {
+        "path": ".dockerignore",
+        "size": 84
+      },
+      {
+        "path": ".env.example",
+        "size": 2267
+      },
+      {
+        "path": ".gitignore",
+        "size": 98
+      },
+      {
+        "path": "DOCUMENTATION.md",
+        "size": 15877
+      },
+      {
+        "path": "Dockerfile",
+        "size": 1340
+      },
+      {
+        "path": "README.md",
+        "size": 18181
+      },
+      {
+        "path": "docker-compose.yml",
+        "size": 2705
+      },
+      {
+        "path": "package-lock.json",
+        "size": 55019
+      },
+      {
+        "path": "package.json",
+        "size": 1196
+      },
+      {
+        "path": "prisma/migrations/20260827005750_init/migration.sql",
+        "size": 3998
+      },
+      {
+        "path": "prisma/migrations/migration_lock.toml",
+        "size": 126
+      },
+      {
+        "path": "prisma/resetPassword.js",
+        "size": 1744
+      },
+      {
+        "path": "prisma/schema.prisma",
+        "size": 2743
+      },
+      {
+        "path": "prisma/seed.js",
+        "size": 1208
+      },
+      {
+        "path": "prisma/seedProducts.js",
+        "size": 7173
+      },
+      {
+        "path": "prisma/simulateSales.js",
+        "size": 4881
+      },
+      {
+        "path": "public/app.html",
+        "size": 10656
+      },
+      {
+        "path": "public/css/style.css",
+        "size": 9490
+      },
+      {
+        "path": "public/index.html",
+        "size": 1000
+      },
+      {
+        "path": "public/js/api.js",
+        "size": 2400
+      },
+      {
+        "path": "public/js/app.js",
+        "size": 22218
+      },
+      {
+        "path": "public/js/login.js",
+        "size": 764
+      },
+      {
+        "path": "src/app.js",
+        "size": 2739
+      },
+      {
+        "path": "src/auth.js",
+        "size": 3592
+      },
+      {
+        "path": "src/config.js",
+        "size": 3382
+      },
+      {
+        "path": "src/db.js",
+        "size": 271
+      },
+      {
+        "path": "src/forecast.js",
+        "size": 3447
+      },
+      {
+        "path": "src/httpError.js",
+        "size": 140
+      },
+      {
+        "path": "src/jobs/dailyAlerts.js",
+        "size": 5133
+      },
+      {
+        "path": "src/queryHelpers.js",
+        "size": 1654
+      },
+      {
+        "path": "src/routes/auth.js",
+        "size": 2190
+      },
+      {
+        "path": "src/routes/dashboard.js",
+        "size": 1981
+      },
+      {
+        "path": "src/routes/products.js",
+        "size": 7514
+      },
+      {
+        "path": "src/routes/reports.js",
+        "size": 2370
+      },
+      {
+        "path": "src/routes/sales.js",
+        "size": 8098
+      },
+      {
+        "path": "src/routes/stock.js",
+        "size": 3511
+      },
+      {
+        "path": "src/routes/users.js",
+        "size": 3193
+      },
+      {
+        "path": "src/server.js",
+        "size": 1558
+      },
+      {
+        "path": "src/stockOps.js",
+        "size": 2931
+      },
+      {
+        "path": "src/validate.js",
+        "size": 572
+      },
+      {
+        "path": "test/helpers/db.js",
+        "size": 1494
+      },
+      {
+        "path": "test/helpers/http.js",
+        "size": 1493
+      },
+      {
+        "path": "test/integration.test.js",
+        "size": 10213
+      }
+    ]
+  },
+  {
+    "name": "Di20232/CTL-TINTA",
+    "branch": "main",
+    "sha": null,
+    "size": 0,
+    "license": null,
+    "truncated": null,
+    "files": []
+  },
+  {
+    "name": "Di20232/exercises_python",
+    "branch": "main",
+    "sha": "7ff4a840eb4ac382de7e47166414facee981b6f3",
+    "size": 15,
+    "license": null,
+    "truncated": false,
+    "files": [
+      {
+        "path": ".gitignore",
+        "size": 76
+      },
+      {
+        "path": "README.md",
+        "size": 4209
+      },
+      {
+        "path": "combo_a/ex01.py",
+        "size": 713
+      },
+      {
+        "path": "combo_a/ex02.py",
+        "size": 1042
+      },
+      {
+        "path": "combo_a/ex03.py",
+        "size": 2552
+      },
+      {
+        "path": "combo_a/ex04.py",
+        "size": 2937
+      },
+      {
+        "path": "combo_a/ex05.py",
+        "size": 9031
+      },
+      {
+        "path": "combo_b/ex01.py",
+        "size": 976
+      },
+      {
+        "path": "combo_b/ex02.py",
+        "size": 1222
+      },
+      {
+        "path": "combo_b/ex03.py",
+        "size": 2899
+      },
+      {
+        "path": "combo_b/ex04.py",
+        "size": 2991
+      },
+      {
+        "path": "combo_b/ex05.py",
+        "size": 10570
+      },
+      {
+        "path": "comparar_saidas.py",
+        "size": 3659
+      }
+    ]
+  },
+  {
+    "name": "eugeniughelbur/obsidian-second-brain",
+    "branch": "main",
+    "sha": "02fba47d3e4904caa2026d07f3cacfb4abfb34b9",
+    "size": 22171,
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+      {
+        "path": ".claude-plugin/marketplace.json",
+        "size": 1086
+      },
+      {
+        "path": ".claude-plugin/plugin.json",
+        "size": 803
+      },
+      {
+        "path": ".env.example",
+        "size": 4220
+      },
+      {
+        "path": ".gitattributes",
+        "size": 299
+      },
+      {
+        "path": ".github/FUNDING.yml",
+        "size": 532
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+        "size": 3592
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/config.yml",
+        "size": 778
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+        "size": 3155
+      },
+      {
+        "path": ".github/PULL_REQUEST_TEMPLATE.md",
+        "size": 1863
+      },
+      {
+        "path": ".github/dependabot.yml",
+        "size": 757
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "size": 2870
+      },
+      {
+        "path": ".github/workflows/scorecard.yml",
+        "size": 1395
+      },
+      {
+        "path": ".gitignore",
+        "size": 934
+      },
+      {
+        "path": "AI-FIRST.md",
+        "size": 5067
+      },
+      {
+        "path": "CHANGELOG.md",
+        "size": 256030
+      },
+      {
+        "path": "CITATION.cff",
+        "size": 1942
+      },
+      {
+        "path": "CLAUDE.md",
+        "size": 7762
+      },
+      {
+        "path": "CODE_OF_CONDUCT.md",
+        "size": 5474
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "size": 11232
+      },
+      {
+        "path": "DEMOS.md",
+        "size": 3814
+      },
+      {
+        "path": "ECOSYSTEM.md",
+        "size": 3371
+      },
+      {
+        "path": "FORK_INSIGHTS.md",
+        "size": 24277
+      },
+      {
+        "path": "LICENSE",
+        "size": 1072
+      },
+      {
+        "path": "README.md",
+        "size": 72114
+      },
+      {
+        "path": "SECURITY.md",
+        "size": 2259
+      },
+      {
+        "path": "SKILL.md",
+        "size": 84368
+      },
+      {
+        "path": "_config.yml",
+        "size": 1194
+      },
+      {
+        "path": "_includes/head_custom.html",
+        "size": 7475
+      },
+      {
+        "path": "adapters/OWNERS.md",
+        "size": 3639
+      },
+      {
+        "path": "adapters/agent-skills/adapter.sh",
+        "size": 14429
+      },
+      {
+        "path": "adapters/claude-code/adapter.sh",
+        "size": 2132
+      },
+      {
+        "path": "adapters/codex-cli/adapter.sh",
+        "size": 8292
+      },
+      {
+        "path": "adapters/gemini-cli/adapter.sh",
+        "size": 3174
+      },
+      {
+        "path": "adapters/grok-bot/adapter.sh",
+        "size": 14465
+      },
+      {
+        "path": "adapters/hermes/adapter.sh",
+        "size": 19529
+      },
+      {
+        "path": "adapters/lib.sh",
+        "size": 18543
+      },
+      {
+        "path": "adapters/opencode/adapter.sh",
+        "size": 4370
+      },
+      {
+        "path": "adapters/pi/adapter.sh",
+        "size": 6768
+      },
+      {
+        "path": "architecture.md",
+        "size": 13184
+      },
+      {
+        "path": "commands/create-command.md",
+        "size": 8867
+      },
+      {
+        "path": "commands/idea-discovery.md",
+        "size": 3352
+      },
+      {
+        "path": "commands/notebooklm.md",
+        "size": 4513
+      },
+      {
+        "path": "commands/obsidian-architect.md",
+        "size": 5790
+      },
+      {
+        "path": "commands/obsidian-board-hygiene.md",
+        "size": 3497
+      },
+      {
+        "path": "commands/obsidian-board.md",
+        "size": 2391
+      },
+      {
+        "path": "commands/obsidian-brainstorm.md",
+        "size": 5446
+      },
+      {
+        "path": "commands/obsidian-calendar.md",
+        "size": 15003
+      },
+      {
+        "path": "commands/obsidian-capture.md",
+        "size": 2599
+      },
+      {
+        "path": "commands/obsidian-catchup.md",
+        "size": 4809
+      },
+      {
+        "path": "commands/obsidian-challenge.md",
+        "size": 3410
+      },
+      {
+        "path": "commands/obsidian-connect.md",
+        "size": 3354
+      },
+      {
+        "path": "commands/obsidian-daily.md",
+        "size": 3681
+      },
+      {
+        "path": "commands/obsidian-decide.md",
+        "size": 4809
+      },
+      {
+        "path": "commands/obsidian-distill.md",
+        "size": 6658
+      },
+      {
+        "path": "commands/obsidian-emerge.md",
+        "size": 3760
+      },
+      {
+        "path": "commands/obsidian-export.md",
+        "size": 4741
+      },
+      {
+        "path": "commands/obsidian-find.md",
+        "size": 2669
+      },
+      {
+        "path": "commands/obsidian-graduate.md",
+        "size": 3798
+      },
+      {
+        "path": "commands/obsidian-health.md",
+        "size": 10130
+      },
+      {
+        "path": "commands/obsidian-ingest.md",
+        "size": 16125
+      },
+      {
+        "path": "commands/obsidian-init.md",
+        "size": 6213
+      },
+      {
+        "path": "commands/obsidian-learn.md",
+        "size": 4916
+      },
+      {
+        "path": "commands/obsidian-log.md",
+        "size": 2449
+      },
+      {
+        "path": "commands/obsidian-merge.md",
+        "size": 6719
+      },
+      {
+        "path": "commands/obsidian-panel.md",
+        "size": 3406
+      },
+      {
+        "path": "commands/obsidian-person.md",
+        "size": 2507
+      },
+      {
+        "path": "commands/obsidian-project.md",
+        "size": 2712
+      },
+      {
+        "path": "commands/obsidian-projects.md",
+        "size": 5244
+      },
+      {
+        "path": "commands/obsidian-recap.md",
+        "size": 2984
+      },
+      {
+        "path": "commands/obsidian-reconcile.md",
+        "size": 4451
+      },
+      {
+        "path": "commands/obsidian-recurring.md",
+        "size": 2958
+      },
+      {
+        "path": "commands/obsidian-reindex.md",
+        "size": 3118
+      },
+      {
+        "path": "commands/obsidian-retrieval-eval.md",
+        "size": 5138
+      },
+      {
+        "path": "commands/obsidian-review.md",
+        "size": 2828
+      },
+      {
+        "path": "commands/obsidian-save.md",
+        "size": 4093
+      },
+      {
+        "path": "commands/obsidian-synthesize.md",
+        "size": 4132
+      },
+      {
+        "path": "commands/obsidian-task.md",
+        "size": 2306
+      },
+      {
+        "path": "commands/obsidian-visualize.md",
+        "size": 6588
+      },
+      {
+        "path": "commands/obsidian-world.md",
+        "size": 4927
+      },
+      {
+        "path": "commands/podcast.md",
+        "size": 5775
+      },
+      {
+        "path": "commands/research-deep.md",
+        "size": 7830
+      },
+      {
+        "path": "commands/research.md",
+        "size": 4653
+      },
+      {
+        "path": "commands/vault-deep-synthesis.md",
+        "size": 3579
+      },
+      {
+        "path": "commands/x-pulse.md",
+        "size": 3202
+      },
+      {
+        "path": "commands/x-read.md",
+        "size": 3417
+      },
+      {
+        "path": "commands/youtube.md",
+        "size": 5777
+      },
+      {
+        "path": "docs/.nojekyll",
+        "size": 0
+      },
+      {
+        "path": "docs/commands/create-command.html",
+        "size": 3595
+      },
+      {
+        "path": "docs/commands/idea-discovery.html",
+        "size": 3842
+      },
+      {
+        "path": "docs/commands/notebooklm.html",
+        "size": 3944
+      },
+      {
+        "path": "docs/commands/obsidian-architect.html",
+        "size": 4117
+      },
+      {
+        "path": "docs/commands/obsidian-board-hygiene.html",
+        "size": 3807
+      },
+      {
+        "path": "docs/commands/obsidian-board.html",
+        "size": 3559
+      },
+      {
+        "path": "docs/commands/obsidian-brainstorm.html",
+        "size": 3898
+      },
+      {
+        "path": "docs/commands/obsidian-calendar.html",
+        "size": 5263
+      },
+      {
+        "path": "docs/commands/obsidian-capture.html",
+        "size": 3579
+      },
+      {
+        "path": "docs/commands/obsidian-catchup.html",
+        "size": 4400
+      },
+      {
+        "path": "docs/commands/obsidian-challenge.html",
+        "size": 3798
+      },
+      {
+        "path": "docs/commands/obsidian-connect.html",
+        "size": 3753
+      },
+      {
+        "path": "docs/commands/obsidian-daily.html",
+        "size": 3650
+      },
+      {
+        "path": "docs/commands/obsidian-decide.html",
+        "size": 3870
+      },
+      {
+        "path": "docs/commands/obsidian-distill.html",
+        "size": 3908
+      },
+      {
+        "path": "docs/commands/obsidian-emerge.html",
+        "size": 3776
+      },
+      {
+        "path": "docs/commands/obsidian-export.html",
+        "size": 3754
+      },
+      {
+        "path": "docs/commands/obsidian-find.html",
+        "size": 3583
+      },
+      {
+        "path": "docs/commands/obsidian-graduate.html",
+        "size": 3681
+      },
+      {
+        "path": "docs/commands/obsidian-health.html",
+        "size": 3655
+      },
+      {
+        "path": "docs/commands/obsidian-ingest.html",
+        "size": 3858
+      },
+      {
+        "path": "docs/commands/obsidian-init.html",
+        "size": 3667
+      },
+      {
+        "path": "docs/commands/obsidian-learn.html",
+        "size": 3669
+      },
+      {
+        "path": "docs/commands/obsidian-log.html",
+        "size": 3612
+      },
+      {
+        "path": "docs/commands/obsidian-merge.html",
+        "size": 3668
+      },
+      {
+        "path": "docs/commands/obsidian-panel.html",
+        "size": 3979
+      },
+      {
+        "path": "docs/commands/obsidian-person.html",
+        "size": 3555
+      },
+      {
+        "path": "docs/commands/obsidian-project.html",
+        "size": 3618
+      },
+      {
+        "path": "docs/commands/obsidian-projects.html",
+        "size": 3669
+      },
+      {
+        "path": "docs/commands/obsidian-recap.html",
+        "size": 3524
+      },
+      {
+        "path": "docs/commands/obsidian-reconcile.html",
+        "size": 3654
+      },
+      {
+        "path": "docs/commands/obsidian-recurring.html",
+        "size": 3786
+      },
+      {
+        "path": "docs/commands/obsidian-reindex.html",
+        "size": 3688
+      },
+      {
+        "path": "docs/commands/obsidian-retrieval-eval.html",
+        "size": 4003
+      },
+      {
+        "path": "docs/commands/obsidian-review.html",
+        "size": 3531
+      },
+      {
+        "path": "docs/commands/obsidian-save.html",
+        "size": 3541
+      },
+      {
+        "path": "docs/commands/obsidian-synthesize.html",
+        "size": 3717
+      },
+      {
+        "path": "docs/commands/obsidian-task.html",
+        "size": 3532
+      },
+      {
+        "path": "docs/commands/obsidian-visualize.html",
+        "size": 3661
+      },
+      {
+        "path": "docs/commands/obsidian-world.html",
+        "size": 3721
+      },
+      {
+        "path": "docs/commands/podcast.html",
+        "size": 3676
+      },
+      {
+        "path": "docs/commands/research-deep.html",
+        "size": 3912
+      },
+      {
+        "path": "docs/commands/research.html",
+        "size": 3895
+      },
+      {
+        "path": "docs/commands/vault-deep-synthesis.html",
+        "size": 3908
+      },
+      {
+        "path": "docs/commands/x-pulse.html",
+        "size": 3657
+      },
+      {
+        "path": "docs/commands/x-read.html",
+        "size": 3671
+      },
+      {
+        "path": "docs/commands/youtube.html",
+        "size": 4091
+      },
+      {
+        "path": "docs/index.html",
+        "size": 39891
+      },
+      {
+        "path": "examples/README.md",
+        "size": 2769
+      },
+      {
+        "path": "examples/sample-vault/Daily/2026-04-27.md",
+        "size": 1385
+      },
+      {
+        "path": "examples/sample-vault/Ideas/2026-04-27 — Streak insurance feature.md",
+        "size": 2311
+      },
+      {
+        "path": "examples/sample-vault/Projects/Tide.md",
+        "size": 3133
+      },
+      {
+        "path": "examples/sample-vault/_CLAUDE.md",
+        "size": 2665
+      },
+      {
+        "path": "examples/sample-vault/people/Alex Rivera.md",
+        "size": 1696
+      },
+      {
+        "path": "examples/sample-vault/people/Sam Patel.md",
+        "size": 1277
+      },
+      {
+        "path": "examples/sample-vault/wiki/logs/2026-04-27 — Tide retention rebuild.md",
+        "size": 2667
+      },
+      {
+        "path": "hooks/hermes-hooks.config.example.yaml",
+        "size": 887
+      },
+      {
+        "path": "hooks/hooks.json",
+        "size": 835
+      },
+      {
+        "path": "hooks/load_vault_context.py",
+        "size": 7048
+      },
+      {
+        "path": "hooks/load_vault_context.sh",
+        "size": 2640
+      },
+      {
+        "path": "hooks/obsidian-bg-agent.hook.yaml",
+        "size": 805
+      },
+      {
+        "path": "hooks/obsidian-bg-agent.sh",
+        "size": 11979
+      },
+      {
+        "path": "hooks/obsidian-hermes-session-end.sh",
+        "size": 3632
+      },
+      {
+        "path": "hooks/obsidian-recall.py",
+        "size": 5860
+      },
+      {
+        "path": "hooks/postcompact.hook.example.json",
+        "size": 1713
+      },
+      {
+        "path": "hooks/recall.hook.example.json",
+        "size": 1188
+      },
+      {
+        "path": "hooks/validate-ai-first.hook.yaml",
+        "size": 532
+      },
+      {
+        "path": "hooks/validate-ai-first.sh",
+        "size": 23541
+      },
+      {
+        "path": "install.sh",
+        "size": 5350
+      },
+      {
+        "path": "integrations/obsidian-mcp-server/README.md",
+        "size": 7574
+      },
+      {
+        "path": "integrations/obsidian-mcp-server/live_test.py",
+        "size": 2704
+      },
+      {
+        "path": "integrations/obsidian-mcp-server/server.py",
+        "size": 8595
+      },
+      {
+        "path": "integrations/obsidian-mcp-server/vault_ops.py",
+        "size": 71846
+      },
+      {
+        "path": "integrations/obsidian-plugin/.gitignore",
+        "size": 46
+      },
+      {
+        "path": "integrations/obsidian-plugin/README.md",
+        "size": 2018
+      },
+      {
+        "path": "integrations/obsidian-plugin/esbuild.config.mjs",
+        "size": 712
+      },
+      {
+        "path": "integrations/obsidian-plugin/manifest.json",
+        "size": 398
+      },
+      {
+        "path": "integrations/obsidian-plugin/package-lock.json",
+        "size": 18265
+      },
+      {
+        "path": "integrations/obsidian-plugin/package.json",
+        "size": 600
+      },
+      {
+        "path": "integrations/obsidian-plugin/src/lint.ts",
+        "size": 6187
+      },
+      {
+        "path": "integrations/obsidian-plugin/src/main.ts",
+        "size": 7113
+      },
+      {
+        "path": "integrations/obsidian-plugin/styles.css",
+        "size": 1038
+      },
+      {
+        "path": "integrations/obsidian-plugin/test/lint.test.mjs",
+        "size": 7636
+      },
+      {
+        "path": "integrations/obsidian-plugin/tsconfig.json",
+        "size": 400
+      },
+      {
+        "path": "integrations/obsidian-plugin/versions.json",
+        "size": 23
+      },
+      {
+        "path": "integrations/telegram-journal/.gitignore",
+        "size": 181
+      },
+      {
+        "path": "integrations/telegram-journal/README.md",
+        "size": 8957
+      },
+      {
+        "path": "integrations/telegram-journal/com.user.telegram-journal.plist.example",
+        "size": 1469
+      },
+      {
+        "path": "integrations/telegram-journal/setup.sh",
+        "size": 3859
+      },
+      {
+        "path": "integrations/telegram-journal/telegram_journal.env.example",
+        "size": 2309
+      },
+      {
+        "path": "integrations/telegram-journal/telegram_journal.py",
+        "size": 29544
+      },
+      {
+        "path": "llms.txt",
+        "size": 22303
+      },
+      {
+        "path": "media/banner.png",
+        "size": 1565153
+      },
+      {
+        "path": "media/bootstrap-health.gif",
+        "size": 377604
+      },
+      {
+        "path": "media/bootstrap-health.tape",
+        "size": 468
+      },
+      {
+        "path": "media/obsidian-save.gif",
+        "size": 681774
+      },
+      {
+        "path": "media/obsidian-save.tape",
+        "size": 709
+      },
+      {
+        "path": "media/plugin-install.gif",
+        "size": 171001
+      },
+      {
+        "path": "media/plugin-install.tape",
+        "size": 487
+      },
+      {
+        "path": "pyproject.toml",
+        "size": 1622
+      },
+      {
+        "path": "references/DELTAS.template.md",
+        "size": 2426
+      },
+      {
+        "path": "references/ai-first-rules.md",
+        "size": 28531
+      },
+      {
+        "path": "references/bases/daily.base.template",
+        "size": 320
+      },
+      {
+        "path": "references/bases/people.base.template",
+        "size": 592
+      },
+      {
+        "path": "references/bases/projects.base.template",
+        "size": 1919
+      },
+      {
+        "path": "references/bases/tasks.base.template",
+        "size": 1162
+      },
+      {
+        "path": "references/claude-md-assistant-template.md",
+        "size": 2163
+      },
+      {
+        "path": "references/claude-md-template.md",
+        "size": 8874
+      },
+      {
+        "path": "references/folder-map.md",
+        "size": 2708
+      },
+      {
+        "path": "references/freshness-policy.md",
+        "size": 6249
+      },
+      {
+        "path": "references/pi-testing.md",
+        "size": 1683
+      },
+      {
+        "path": "references/taxonomy-format.md",
+        "size": 2943
+      },
+      {
+        "path": "references/vault-schema.md",
+        "size": 9256
+      },
+      {
+        "path": "references/write-rules.md",
+        "size": 8646
+      },
+      {
+        "path": "scripts/architect_scan.py",
+        "size": 8231
+      },
+      {
+        "path": "scripts/bootstrap_vault.py",
+        "size": 38948
+      },
+      {
+        "path": "scripts/build.sh",
+        "size": 5792
+      },
+      {
+        "path": "scripts/build_site.py",
+        "size": 11266
+      },
+      {
+        "path": "scripts/conformance_report.py",
+        "size": 7587
+      },
+      {
+        "path": "scripts/eval/BASELINE.md",
+        "size": 11684
+      },
+      {
+        "path": "scripts/eval/BENCHMARK.md",
+        "size": 5967
+      },
+      {
+        "path": "scripts/eval/README.md",
+        "size": 6083
+      },
+      {
+        "path": "scripts/eval/behavior_cases.example.jsonl",
+        "size": 1024
+      },
+      {
+        "path": "scripts/eval/behavior_eval.py",
+        "size": 20405
+      },
+      {
+        "path": "scripts/eval/corpus.py",
+        "size": 34146
+      },
+      {
+        "path": "scripts/eval/diagnose.py",
+        "size": 6080
+      },
+      {
+        "path": "scripts/eval/retrieval_cases.example.jsonl",
+        "size": 543
+      },
+      {
+        "path": "scripts/eval/retrieval_eval.py",
+        "size": 19528
+      },
+      {
+        "path": "scripts/eval/semantic_search.py",
+        "size": 22022
+      },
+      {
+        "path": "scripts/export_okf.py",
+        "size": 19205
+      },
+      {
+        "path": "scripts/freshness_lint.py",
+        "size": 19478
+      },
+      {
+        "path": "scripts/heal_links.py",
+        "size": 15234
+      },
+      {
+        "path": "scripts/install-codex-wrappers.sh",
+        "size": 840
+      },
+      {
+        "path": "scripts/lib.sh",
+        "size": 1001
+      },
+      {
+        "path": "scripts/link_graph.py",
+        "size": 18305
+      },
+      {
+        "path": "scripts/merge_notes.py",
+        "size": 16592
+      },
+      {
+        "path": "scripts/migrate_log.py",
+        "size": 6700
+      },
+      {
+        "path": "scripts/mine_commit_decisions.py",
+        "size": 3580
+      },
+      {
+        "path": "scripts/note_io.py",
+        "size": 5916
+      },
+      {
+        "path": "scripts/platform-home.sh",
+        "size": 1308
+      },
+      {
+        "path": "scripts/python-interpreter.sh",
+        "size": 2129
+      },
+      {
+        "path": "scripts/quick-install.sh",
+        "size": 2542
+      },
+      {
+        "path": "scripts/research/__init__.py",
+        "size": 0
+      },
+      {
+        "path": "scripts/research/lib/__init__.py",
+        "size": 0
+      },
+      {
+        "path": "scripts/research/lib/aggregator.py",
+        "size": 2876
+      },
+      {
+        "path": "scripts/research/lib/cache.py",
+        "size": 2423
+      },
+      {
+        "path": "scripts/research/lib/config.py",
+        "size": 2787
+      },
+      {
+        "path": "scripts/research/lib/gemini.py",
+        "size": 6229
+      },
+      {
+        "path": "scripts/research/lib/gpt.py",
+        "size": 3980
+      },
+      {
+        "path": "scripts/research/lib/grok.py",
+        "size": 4397
+      },
+      {
+        "path": "scripts/research/lib/groq.py",
+        "size": 13952
+      },
+      {
+        "path": "scripts/research/lib/http.py",
+        "size": 1871
+      },
+      {
+        "path": "scripts/research/lib/perplexity.py",
+        "size": 4541
+      },
+      {
+        "path": "scripts/research/lib/podcast.py",
+        "size": 18855
+      },
+      {
+        "path": "scripts/research/lib/result.py",
+        "size": 1055
+      },
+      {
+        "path": "scripts/research/lib/source_config.py",
+        "size": 3373
+      },
+      {
+        "path": "scripts/research/lib/sources/__init__.py",
+        "size": 0
+      },
+      {
+        "path": "scripts/research/lib/sources/arxiv.py",
+        "size": 2473
+      },
+      {
+        "path": "scripts/research/lib/sources/brave.py",
+        "size": 2025
+      },
+      {
+        "path": "scripts/research/lib/sources/crossref.py",
+        "size": 1990
+      },
+      {
+        "path": "scripts/research/lib/sources/devto.py",
+        "size": 1837
+      },
+      {
+        "path": "scripts/research/lib/sources/duckduckgo.py",
+        "size": 3750
+      },
+      {
+        "path": "scripts/research/lib/sources/hackernews.py",
+        "size": 1622
+      },
+      {
+        "path": "scripts/research/lib/sources/lobsters.py",
+        "size": 1776
+      },
+      {
+        "path": "scripts/research/lib/sources/openalex.py",
+        "size": 2227
+      },
+      {
+        "path": "scripts/research/lib/sources/reddit.py",
+        "size": 1800
+      },
+      {
+        "path": "scripts/research/lib/sources/semantic_scholar.py",
+        "size": 1950
+      },
+      {
+        "path": "scripts/research/lib/sources/tavily.py",
+        "size": 1846
+      },
+      {
+        "path": "scripts/research/lib/sources/wikipedia.py",
+        "size": 2203
+      },
+      {
+        "path": "scripts/research/lib/usage.py",
+        "size": 3626
+      },
+      {
+        "path": "scripts/research/lib/vault.py",
+        "size": 7395
+      },
+      {
+        "path": "scripts/research/lib/vault_terms.py",
+        "size": 1154
+      },
+      {
+        "path": "scripts/research/lib/video_frames.py",
+        "size": 10734
+      },
+      {
+        "path": "scripts/research/lib/web_reader.py",
+        "size": 3541
+      },
+      {
+        "path": "scripts/research/lib/youtube.py",
+        "size": 5609
+      },
+      {
+        "path": "scripts/research/notebooklm.py",
+        "size": 11367
+      },
+      {
+        "path": "scripts/research/podcast_extract.py",
+        "size": 11784
+      },
+      {
+        "path": "scripts/research/research.py",
+        "size": 7638
+      },
+      {
+        "path": "scripts/research/research_deep.py",
+        "size": 21229
+      },
+      {
+        "path": "scripts/research/x_pulse.py",
+        "size": 4208
+      },
+      {
+        "path": "scripts/research/x_read.py",
+        "size": 2976
+      },
+      {
+        "path": "scripts/research/youtube_extract.py",
+        "size": 13636
+      },
+      {
+        "path": "scripts/run-command.sh",
+        "size": 3366
+      },
+      {
+        "path": "scripts/setup.sh",
+        "size": 10762
+      },
+      {
+        "path": "scripts/setup_settings_hook.py",
+        "size": 2978
+      },
+      {
+        "path": "scripts/star_prompt.py",
+        "size": 3388
+      },
+      {
+        "path": "scripts/sweep_non_ascii.py",
+        "size": 7913
+      },
+      {
+        "path": "scripts/triage_links.py",
+        "size": 8454
+      },
+      {
+        "path": "scripts/update-vault-integration.sh",
+        "size": 7488
+      },
+      {
+        "path": "scripts/vault_health.py",
+        "size": 58584
+      },
+      {
+        "path": "scripts/vault_scan.py",
+        "size": 5550
+      },
+      {
+        "path": "scripts/vault_stats.py",
+        "size": 10865
+      },
+      {
+        "path": "tests/test_adapter_frontmatter_robustness.py",
+        "size": 4400
+      },
+      {
+        "path": "tests/test_ai_first_spec.py",
+        "size": 5343
+      },
+      {
+        "path": "tests/test_behavior_eval.py",
+        "size": 19456
+      },
+      {
+        "path": "tests/test_benchmark_corpus.py",
+        "size": 6568
+      },
+      {
+        "path": "tests/test_bg_agent_hook.py",
+        "size": 11665
+      },
+      {
+        "path": "tests/test_bom_frontmatter.py",
+        "size": 2993
+      },
+      {
+        "path": "tests/test_bootstrap_unit.py",
+        "size": 4477
+      },
+      {
+        "path": "tests/test_build_conformance.py",
+        "size": 7836
+      },
+      {
+        "path": "tests/test_build_site.py",
+        "size": 5148
+      },
+      {
+        "path": "tests/test_concurrent_writes.py",
+        "size": 7932
+      },
+      {
+        "path": "tests/test_config_int_knobs.py",
+        "size": 1057
+      },
+      {
+        "path": "tests/test_dispatcher_prose.py",
+        "size": 6624
+      },
+      {
+        "path": "tests/test_doc_roster.py",
+        "size": 1218
+      },
+      {
+        "path": "tests/test_eval_diagnose.py",
+        "size": 6452
+      },
+      {
+        "path": "tests/test_eval_ruler.py",
+        "size": 5921
+      },
+      {
+        "path": "tests/test_exclude_policy.py",
+        "size": 4898
+      },
+      {
+        "path": "tests/test_export_and_alias_fidelity.py",
+        "size": 4009
+      },
+      {
+        "path": "tests/test_export_okf.py",
+        "size": 8374
+      },
+      {
+        "path": "tests/test_folder_map_compliance.py",
+        "size": 2744
+      },
+      {
+        "path": "tests/test_freshness.py",
+        "size": 3619
+      },
+      {
+        "path": "tests/test_freshness_lint.py",
+        "size": 14354
+      },
+      {
+        "path": "tests/test_front_door.py",
+        "size": 3278
+      },
+      {
+        "path": "tests/test_frontmatter_parity.py",
+        "size": 7723
+      },
+      {
+        "path": "tests/test_groq.py",
+        "size": 19510
+      },
+      {
+        "path": "tests/test_heal_precision.py",
+        "size": 4821
+      },
+      {
+        "path": "tests/test_index_robustness.py",
+        "size": 5216
+      },
+      {
+        "path": "tests/test_index_staleness.py",
+        "size": 11881
+      },
+      {
+        "path": "tests/test_install_portability.py",
+        "size": 2605
+      },
+      {
+        "path": "tests/test_link_graph_mirror.py",
+        "size": 4695
+      },
+      {
+        "path": "tests/test_mcp_bookkeeping.py",
+        "size": 6852
+      },
+      {
+        "path": "tests/test_mcp_codex_parity.py",
+        "size": 7142
+      },
+      {
+        "path": "tests/test_mcp_vault_ops_safety.py",
+        "size": 6005
+      },
+      {
+        "path": "tests/test_merge_notes.py",
+        "size": 17939
+      },
+      {
+        "path": "tests/test_migrate_log.py",
+        "size": 3306
+      },
+      {
+        "path": "tests/test_multilingual_model.py",
+        "size": 2814
+      },
+      {
+        "path": "tests/test_no_banned_chars_in_instructions.py",
+        "size": 2054
+      },
+      {
+        "path": "tests/test_no_vault_content_in_eval_docs.py",
+        "size": 3092
+      },
+      {
+        "path": "tests/test_note_safety.py",
+        "size": 9188
+      },
+      {
+        "path": "tests/test_p1_p2_fixes.py",
+        "size": 6346
+      },
+      {
+        "path": "tests/test_perplexity_empty_completion.py",
+        "size": 5227
+      },
+      {
+        "path": "tests/test_platform_home.py",
+        "size": 3077
+      },
+      {
+        "path": "tests/test_platform_owners.py",
+        "size": 5530
+      },
+      {
+        "path": "tests/test_plugin_manifest.py",
+        "size": 11148
+      },
+      {
+        "path": "tests/test_podcast_resolution.py",
+        "size": 11848
+      },
+      {
+        "path": "tests/test_podcast_transcript_schema.py",
+        "size": 2118
+      },
+      {
+        "path": "tests/test_python_interpreter.py",
+        "size": 11511
+      },
+      {
+        "path": "tests/test_query_aware_default.py",
+        "size": 4150
+      },
+      {
+        "path": "tests/test_ranking_quality.py",
+        "size": 7448
+      },
+      {
+        "path": "tests/test_research_cjk_and_models.py",
+        "size": 15288
+      },
+      {
+        "path": "tests/test_research_sources.py",
+        "size": 16490
+      },
+      {
+        "path": "tests/test_scan_cache.py",
+        "size": 4391
+      },
+      {
+        "path": "tests/test_schema_coverage.py",
+        "size": 1091
+      },
+      {
+        "path": "tests/test_script_correctness.py",
+        "size": 6344
+      },
+      {
+        "path": "tests/test_search_cap.py",
+        "size": 2334
+      },
+      {
+        "path": "tests/test_session_context_cap.py",
+        "size": 5736
+      },
+      {
+        "path": "tests/test_setup_and_manual_drift.py",
+        "size": 9388
+      },
+      {
+        "path": "tests/test_setup_settings_hook.py",
+        "size": 2243
+      },
+      {
+        "path": "tests/test_showroom.py",
+        "size": 6628
+      },
+      {
+        "path": "tests/test_smoke.py",
+        "size": 70969
+      },
+      {
+        "path": "tests/test_source_payload.py",
+        "size": 7898
+      },
+      {
+        "path": "tests/test_star_prompt.py",
+        "size": 5145
+      },
+      {
+        "path": "tests/test_symlink_resilience.py",
+        "size": 2794
+      },
+      {
+        "path": "tests/test_taxonomy_audit.py",
+        "size": 3088
+      },
+      {
+        "path": "tests/test_telegram_ingest.py",
+        "size": 6846
+      },
+      {
+        "path": "tests/test_trigger_precedence.py",
+        "size": 3939
+      },
+      {
+        "path": "tests/test_untrusted_source_handling.py",
+        "size": 14743
+      },
+      {
+        "path": "tests/test_user_excludes.py",
+        "size": 5496
+      },
+      {
+        "path": "tests/test_validate_hook_cjk.py",
+        "size": 6289
+      },
+      {
+        "path": "tests/test_vault_health_precision.py",
+        "size": 10031
+      },
+      {
+        "path": "tests/test_vault_health_unicode.py",
+        "size": 3690
+      },
+      {
+        "path": "tests/test_vault_stats.py",
+        "size": 3412
+      },
+      {
+        "path": "tests/test_vector_math.py",
+        "size": 2116
+      },
+      {
+        "path": "tests/test_windows_compat.py",
+        "size": 17369
+      },
+      {
+        "path": "update.sh",
+        "size": 1118
+      },
+      {
+        "path": "uv.lock",
+        "size": 226175
+      }
+    ]
+  }
+]

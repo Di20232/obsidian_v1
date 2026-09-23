@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Box Model</title>
+<style>
+    body { font-family: sans-serif; padding: 20px; }
+
+    .caixa-padrao {
+        box-sizing: content-box;
+        width: 200px;
+        padding: 20px;
+        border: 2px solid black;
+        background: #fdd;
+        margin-bottom: 10px;
+    }
+
+    .caixa-border-box {
+        box-sizing: border-box;
+        width: 200px;
+        padding: 20px;
+        border: 2px solid black;
+        background: #dfd;
+    }
+
+    .a { margin-bottom: 30px; background: #ddf; }
+    .b { margin-top: 20px; background: #ffd; }
+
+    .bloco { display: block; background: #eee; }
+    .linha { display: inline; background: #ede; }
+    .hibrido { display: inline-block; width: 100px; height: 40px; background: #eed; }
+</style>
+</head>
+<body>
+    <h1>Box Model</h1>
+
+    <p>content-box (width real = 200 + 40 padding + 4 border = 244px):</p>
+    <div class="caixa-padrao">200px content-box</div>
+
+    <p>border-box (width real = exatamente 200px):</p>
+    <div class="caixa-border-box">200px border-box</div>
+
+    <h2>Margin collapse</h2>
+    <div class="a">Caixa A (margin-bottom: 30px)</div>
+    <div class="b">Caixa B (margin-top: 20px) — espaço real entre elas é 30px, não 50px</div>
+
+    <h2>Display</h2>
+    <div class="bloco">Eu sou block</div>
+    <span class="linha">Eu sou inline</span>
+    <span class="hibrido">inline-block</span>
+</body>
+</html>

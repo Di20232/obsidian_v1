@@ -1,0 +1,2 @@
+# Guardar cada arquivo byte a byte, sem converter quebras de linha
+* -text

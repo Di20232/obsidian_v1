@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "centro",
+      "type": "file",
+      "file": "Cerebro/00-Cerebro.md",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "programacao",
+      "type": "file",
+      "file": "Cerebro/Mapas/00-Mapa-Programacao.md",
+      "x": -520,
+      "y": -260,
+      "width": 300,
+      "height": 160,
+      "color": "4"
+    },
+    {
+      "id": "web",
+      "type": "file",
+      "file": "Cerebro/Mapas/01-Mapa-Web.md",
+      "x": -520,
+      "y": 10,
+      "width": 300,
+      "height": 160,
+      "color": "4"
+    },
+    {
+      "id": "dados",
+      "type": "file",
+      "file": "Cerebro/Mapas/02-Mapa-Dados.md",
+      "x": -520,
+      "y": 280,
+      "width": 300,
+      "height": 160,
+      "color": "4"
+    },
+    {
+      "id": "engenharia",
+      "type": "file",
+      "file": "Cerebro/Mapas/03-Mapa-Engenharia.md",
+      "x": 520,
+      "y": -260,
+      "width": 300,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "seguranca",
+      "type": "file",
+      "file": "Cerebro/Mapas/04-Mapa-Seguranca.md",
+      "x": 520,
+      "y": 10,
+      "width": 300,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "ia",
+      "type": "file",
+      "file": "Cerebro/Mapas/05-Mapa-IA.md",
+      "x": 520,
+      "y": 280,
+      "width": 300,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "pratica",
+      "type": "file",
+      "file": "Cerebro/Projetos/00-Indice.md",
+      "x": 20,
+      "y": 330,
+      "width": 300,
+      "height": 150,
+      "color": "2"
+    },
+    {
+      "id": "estudo",
+      "type": "file",
+      "file": "Cerebro/01-Painel-de-Estudo.md",
+      "x": 20,
+      "y": -330,
+      "width": 300,
+      "height": 150,
+      "color": "5"
+    },
+    {
+      "id": "github",
+      "type": "file",
+      "file": "Cerebro/GitHub/00-Indice.md",
+      "x": -350,
+      "y": 630,
+      "width": 330,
+      "height": 180,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "second-brain",
+      "type": "file",
+      "file": "Cerebro/GitHub/Second-Brain/01-Guia-em-Portugues.md",
+      "x": 420,
+      "y": 630,
+      "width": 330,
+      "height": 180,
+      "color": "#d946ef"
+    }
+  ],
+  "edges": [
+    { "id": "e1", "fromNode": "centro", "fromSide": "left", "toNode": "programacao", "toSide": "right", "color": "4" },
+    { "id": "e2", "fromNode": "centro", "fromSide": "left", "toNode": "web", "toSide": "right", "color": "4" },
+    { "id": "e3", "fromNode": "centro", "fromSide": "left", "toNode": "dados", "toSide": "right", "color": "4" },
+    { "id": "e4", "fromNode": "centro", "fromSide": "right", "toNode": "engenharia", "toSide": "left", "color": "3" },
+    { "id": "e5", "fromNode": "centro", "fromSide": "right", "toNode": "seguranca", "toSide": "left", "color": "3" },
+    { "id": "e6", "fromNode": "centro", "fromSide": "right", "toNode": "ia", "toSide": "left", "color": "3" },
+    { "id": "e7", "fromNode": "centro", "fromSide": "bottom", "toNode": "pratica", "toSide": "top", "color": "2" },
+    { "id": "e8", "fromNode": "centro", "fromSide": "top", "toNode": "estudo", "toSide": "bottom", "color": "5" },
+    { "id": "e9", "fromNode": "pratica", "fromSide": "bottom", "toNode": "github", "toSide": "top", "color": "6" },
+    { "id": "e10", "fromNode": "github", "fromSide": "right", "toNode": "second-brain", "toSide": "left", "color": "6" }
+  ]
+}

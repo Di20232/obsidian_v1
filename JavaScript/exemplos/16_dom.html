@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo DOM</title>
+</head>
+<body>
+    <h1 id="titulo">Contador: 0</h1>
+    <button id="botao">Clique aqui</button>
+
+    <hr>
+
+    <input type="text" id="campo-nome" placeholder="Digite seu nome">
+    <button id="botao-enviar">Enviar</button>
+    <p id="resultado"></p>
+
+    <script>
+        // Contador com clique
+        let contador = 0;
+        const titulo = document.getElementById("titulo");
+        const botao = document.getElementById("botao");
+
+        botao.addEventListener("click", () => {
+            contador++;
+            titulo.textContent = `Contador: ${contador}`;
+            console.log(`Botão clicado ${contador} vez(es)`);
+        });
+
+        // Lendo o que o usuário digitou
+        document.getElementById("botao-enviar").addEventListener("click", () => {
+            const nome = document.getElementById("campo-nome").value;
+            document.getElementById("resultado").textContent = `Olá, ${nome || "visitante"}!`;
+        });
+    </script>
+</body>
+</html>

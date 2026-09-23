@@ -1,0 +1,46 @@
+"""Exercicio 02 - carrinho de compras com valores fixos.
+
+Variacao B (orientada a objetos): uma dataclass guarda a compra, calcula o
+total em propriedades e devolve o texto pronto pelo __str__.
+"""
+
+from dataclasses import dataclass
+
+
+@dataclass
+class CarrinhoDeCompras:
+    """Um carrinho com preco, quantidade e desconto em reais."""
+
+    titulo: str = "Cálculo no carrinho de compras"
+    descricao: str = "Um cliente comprou dois livros, cada um por: "
+    conectivo: str = " e recebeu um desconto de: "
+    pergunta: str = "Quanto ele gastou?"
+    resposta: str = "Ele gastou: "
+    preco_unitario: float = 35.00
+    quantidade: int = 2
+    desconto: float = 10.00
+
+    @property
+    def subtotal(self):
+        return self.preco_unitario * self.quantidade
+
+    @property
+    def valor_final(self):
+        return self.subtotal - self.desconto
+
+    def __str__(self):
+        return (
+            f"{self.titulo}\n"
+            f"{self.descricao}R$ {self.preco_unitario:.2f}"
+            f"{self.conectivo}R$ {self.desconto:.2f}\n"
+            f"{self.pergunta}\n"
+            f"{self.resposta}R$ {self.valor_final:.2f}"
+        )
+
+
+def main():
+    print(CarrinhoDeCompras())
+
+
+if __name__ == "__main__":
+    main()

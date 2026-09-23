@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Transições e Animações</title>
+<style>
+    body { font-family: sans-serif; padding: 40px; }
+
+    .botao {
+        background: #3366ff;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .botao:hover {
+        background: #1a3fcc;
+        transform: translateY(-4px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    @keyframes girar {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    .girador {
+        width: 60px;
+        height: 60px;
+        background: #ff6633;
+        margin-top: 40px;
+        animation: girar 2s linear infinite;
+    }
+
+    @keyframes pulsar {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.15); opacity: 0.7; }
+    }
+    .notificacao {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: red;
+        margin-top: 40px;
+        animation: pulsar 1.2s ease-in-out infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; transition: none !important; }
+    }
+</style>
+</head>
+<body>
+    <h1>Transições e Animações</h1>
+
+    <button class="botao">Passe o mouse aqui</button>
+
+    <h2>Animação contínua (@keyframes)</h2>
+    <div class="girador"></div>
+    <div class="notificacao"></div>
+</body>
+</html>

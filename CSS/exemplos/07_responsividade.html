@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsividade</title>
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: sans-serif; margin: 0; padding: 20px; }
+
+    img { max-width: 100%; height: auto; }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;   /* mobile: 1 coluna */
+        gap: 16px;
+    }
+    .galeria .card {
+        background: #3366ff;
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+
+    @media (min-width: 768px) {
+        .galeria {
+            grid-template-columns: repeat(3, 1fr);   /* desktop: 3 colunas */
+        }
+    }
+
+    .menu-mobile { display: block; background: #333; color: white; padding: 10px; }
+    .menu-desktop { display: none; }
+
+    @media (min-width: 768px) {
+        .menu-mobile { display: none; }
+        .menu-desktop { display: flex; gap: 16px; background: #333; padding: 12px 20px; }
+        .menu-desktop a { color: white; text-decoration: none; }
+    }
+</style>
+</head>
+<body>
+    <h1>Responsividade</h1>
+    <p>Redimensione a janela (ou use o modo responsivo do navegador) para ver as mudanças.</p>
+
+    <div class="menu-mobile">☰ Menu (mobile)</div>
+    <nav class="menu-desktop">
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <h2>Galeria (1 coluna no mobile, 3 no desktop)</h2>
+    <div class="galeria">
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+    </div>
+</body>
+</html>

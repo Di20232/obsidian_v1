@@ -1,0 +1,105 @@
+"""Exercicio 03 - sistema de compras com recibo.
+
+Variacao B (orientada a objetos): a compra vira um objeto que calcula os
+proprios totais, e um segundo objeto cuida apenas de desenhar o recibo.
+"""
+
+from dataclasses import dataclass
+
+LARGURA = 50
+
+
+def formatar_real(valor):
+    """Formata no padrao brasileiro: 1234.5 -> '1.234,50'."""
+    return f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+@dataclass
+class Compra:
+    """Uma compra de um produto, com desconto em percentual."""
+
+    cliente: str
+    produto: str
+    preco: float
+    quantidade: int
+    percentual_desconto: float
+
+    @property
+    def subtotal(self):
+        return self.preco * self.quantidade
+
+    @property
+    def valor_desconto(self):
+        return self.subtotal * (self.percentual_desconto / 100)
+
+    @property
+    def total_final(self):
+        return self.subtotal - self.valor_desconto
+
+    @property
+    def valor_medio(self):
+        return self.total_final / self.quantidade if self.quantidade else 0
+
+
+class Recibo:
+    """Sabe desenhar uma Compra na tela."""
+
+    def __init__(self, compra):
+        self.compra = compra
+
+    @staticmethod
+    def _separador(caractere):
+        print(caractere * LARGURA)
+
+    @classmethod
+    def _faixa(cls, texto):
+        cls._separador("=")
+        print(texto)
+        cls._separador("=")
+
+    def imprimir(self):
+        compra = self.compra
+
+        print()
+        self._faixa("         RECIBO DA COMPRA")
+        print(f"Cliente:          {compra.cliente}")
+        print(f"Produto:          {compra.produto}")
+        print(f"Quantidade:       {compra.quantidade} unidade(s)")
+        print(f"Preco unitario:   R$ {formatar_real(compra.preco)}")
+        self._separador("-")
+        print(f"Subtotal:         R$ {formatar_real(compra.subtotal)}")
+        print(
+            f"Desconto:         {compra.percentual_desconto:.0f}%"
+            f" (R$ {formatar_real(compra.valor_desconto)})"
+        )
+        self._separador("-")
+        print(f"TOTAL A PAGAR:    R$ {formatar_real(compra.total_final)}")
+        print()
+        print(f"Valor medio por unidade: R$ {formatar_real(compra.valor_medio)}")
+        print()
+        self._faixa("          OBRIGADO PELA COMPRA!")
+
+
+def main():
+    print("=" * LARGURA)
+    print("         SISTEMA DE COMPRAS")
+    print("=" * LARGURA)
+
+    # Os argumentos sao avaliados de cima para baixo, entao as perguntas
+    # aparecem na mesma ordem da variacao A.
+    compra = Compra(
+        cliente=input("Nome do cliente: "),
+        produto=input("Nome do produto: "),
+        preco=float(input("Preco unitario (R$): ")),
+        quantidade=int(input("Quantidade: ")),
+        percentual_desconto=float(input("Percentual de desconto (%): ")),
+    )
+
+    Recibo(compra).imprimir()
+
+    print("Processando dados", end="... ")
+    print("Finalizado!", end="\n\n")
+
+
+if __name__ == "__main__":
+    main()

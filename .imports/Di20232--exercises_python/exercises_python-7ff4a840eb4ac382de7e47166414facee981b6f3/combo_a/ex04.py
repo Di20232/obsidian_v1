@@ -1,0 +1,99 @@
+"""Exercicio 04 - liberacao de entrada por idade e ingresso.
+
+Variacao A (orientada a dados): as regras de acesso ficam numa tabela de
+(condicao, resultado) e vence a primeira condicao que der verdadeira.
+"""
+
+LARGURA = 50
+IDADE_MINIMA = 16
+
+RESPOSTAS_SIM = ("sim", "s", "yes", "y")
+RESPOSTAS_NAO = ("nao", "não", "n", "no")
+
+# A ultima regra tem condicao sempre verdadeira e funciona como "senao".
+REGRAS = (
+    (
+        lambda idade, tem_ingresso: idade < IDADE_MINIMA,
+        {
+            "status": "negado",
+            "mensagem": "Acesso não permitido",
+            "motivo": f"Idade mínima para acesso é {IDADE_MINIMA} anos.",
+        },
+    ),
+    (
+        lambda idade, tem_ingresso: tem_ingresso,
+        {
+            "status": "permitido",
+            "mensagem": "Entrada liberada",
+            "motivo": "Idade e ingresso verificados com sucesso.",
+        },
+    ),
+    (
+        lambda idade, tem_ingresso: True,
+        {
+            "status": "pendente",
+            "mensagem": "Compre um ingresso",
+            "motivo": "É necessário adquirir um ingresso para entrar.",
+        },
+    ),
+)
+
+
+def validar_idade():
+    """Insiste ate receber um inteiro maior ou igual a zero."""
+    while True:
+        try:
+            idade = int(input("Digite sua idade: "))
+        except ValueError:
+            print("Entrada inválida! Digite um número inteiro para a idade.")
+            continue
+
+        if idade < 0:
+            print("Idade não pode ser negativa. Tente novamente.")
+            continue
+
+        return idade
+
+
+def validar_ingresso():
+    """Insiste ate receber uma resposta reconhecida como sim ou nao."""
+    while True:
+        resposta = input("Você possui ingresso? (Digite 'sim' ou 'nao'): ").strip().lower()
+
+        if resposta in RESPOSTAS_SIM:
+            return True
+        if resposta in RESPOSTAS_NAO:
+            return False
+
+        print("Resposta inválida! Digite 'sim' ou 'nao'.")
+
+
+def classificar_acesso(idade, tem_ingresso):
+    """Percorre a tabela e devolve o resultado da primeira regra que casa."""
+    for condicao, resultado in REGRAS:
+        if condicao(idade, tem_ingresso):
+            return resultado
+
+    raise AssertionError("a tabela REGRAS precisa terminar com uma condicao sempre verdadeira")
+
+
+def exibir_resultado(idade, tem_ingresso, resultado):
+    print("\n" + "=" * LARGURA)
+    print("           RESULTADO DA CLASSIFICAÇÃO")
+    print("=" * LARGURA)
+    print(f"Idade informada:        {idade} anos")
+    print(f"Possui ingresso:        {'Sim' if tem_ingresso else 'Não'}")
+    print("-" * LARGURA)
+    print(f"Status:                 {resultado['mensagem'].upper()}")
+    print(f"Motivo: {resultado['motivo']}")
+    print("=" * LARGURA)
+
+
+def main():
+    idade = validar_idade()
+    tem_ingresso = validar_ingresso()
+    exibir_resultado(idade, tem_ingresso, classificar_acesso(idade, tem_ingresso))
+
+
+if __name__ == "__main__":
+    main()

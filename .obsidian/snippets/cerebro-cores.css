@@ -1,0 +1,75 @@
+/* Paleta do Cérebro de Conhecimento — ativada em Aparência > Snippets CSS. */
+:root {
+  --cerebro-geral: #8b5cf6;
+  --cerebro-programacao: #38bdf8;
+  --cerebro-web: #f59e0b;
+  --cerebro-dados: #14b8a6;
+  --cerebro-engenharia: #6366f1;
+  --cerebro-seguranca: #ef4444;
+  --cerebro-ia: #d946ef;
+  --cerebro-projetos: #f97316;
+  --cerebro-problemas: #fb7185;
+  --cerebro-praticas: #84cc16;
+  --cerebro-ambiente: #94a3b8;
+  --cerebro-python: #22c55e;
+  --cerebro-javascript: #eab308;
+  --cerebro-php: #a78bfa;
+  --cerebro-css: #06b6d4;
+  --cerebro-sql: #2dd4bf;
+}
+
+/* Cores da árvore de arquivos: cada área é reconhecível sem abrir a nota. */
+.nav-folder-title[data-path="Cerebro"],
+.nav-file-title[data-path^="Cerebro/"] { color: var(--cerebro-geral); }
+.nav-folder-title[data-path="Programacao-Geral"],
+.nav-file-title[data-path^="Programacao-Geral/"] { color: var(--cerebro-programacao); }
+.nav-folder-title[data-path="Python"],
+.nav-file-title[data-path^="Python/"] { color: var(--cerebro-python); }
+.nav-folder-title[data-path="JavaScript"],
+.nav-file-title[data-path^="JavaScript/"] { color: var(--cerebro-javascript); }
+.nav-folder-title[data-path="PHP"],
+.nav-file-title[data-path^="PHP/"] { color: var(--cerebro-php); }
+.nav-folder-title[data-path="CSS"],
+.nav-file-title[data-path^="CSS/"] { color: var(--cerebro-css); }
+.nav-folder-title[data-path="Bootstrap"],
+.nav-file-title[data-path^="Bootstrap/"] { color: #a855f7; }
+.nav-folder-title[data-path="TailwindCSS"],
+.nav-file-title[data-path^="TailwindCSS/"] { color: #22d3ee; }
+.nav-folder-title[data-path="MySQL"],
+.nav-file-title[data-path^="MySQL/"],
+.nav-folder-title[data-path="SQLite"],
+.nav-file-title[data-path^="SQLite/"] { color: var(--cerebro-sql); }
+
+/* Títulos de notas importantes, controlados por `cssclasses` no frontmatter. */
+.cerebro-geral :is(h1, h2) { color: var(--cerebro-geral); }
+.cerebro-programacao :is(h1, h2) { color: var(--cerebro-programacao); }
+.cerebro-web :is(h1, h2) { color: var(--cerebro-web); }
+.cerebro-dados :is(h1, h2) { color: var(--cerebro-dados); }
+.cerebro-engenharia :is(h1, h2) { color: var(--cerebro-engenharia); }
+.cerebro-seguranca :is(h1, h2) { color: var(--cerebro-seguranca); }
+.cerebro-ia :is(h1, h2) { color: var(--cerebro-ia); }
+.cerebro-projetos :is(h1, h2) { color: var(--cerebro-projetos); }
+.cerebro-problemas :is(h1, h2) { color: var(--cerebro-problemas); }
+.cerebro-praticas :is(h1, h2) { color: var(--cerebro-praticas); }
+.cerebro-ambiente :is(h1, h2) { color: var(--cerebro-ambiente); }
+
+/* Tags de assunto com a mesma linguagem visual da navegação. */
+a.tag[href="#python"] { color: var(--cerebro-python); }
+a.tag[href="#javascript"] { color: var(--cerebro-javascript); }
+a.tag[href="#php"] { color: var(--cerebro-php); }
+a.tag[href="#mysql"], a.tag[href="#sqlite"], a.tag[href="#sql"], a.tag[href="#banco-de-dados"] { color: var(--cerebro-sql); }
+a.tag[href="#programacao"], a.tag[href="#fundamentos"] { color: var(--cerebro-programacao); }
+a.tag[href="#web"], a.tag[href="#frontend"], a.tag[href="#backend"] { color: var(--cerebro-web); }
+a.tag[href="#seguranca"] { color: var(--cerebro-seguranca); }
+a.tag[href="#inteligencia-artificial"], a.tag[href="#ia"] { color: var(--cerebro-ia); }
+a.tag[href="#projetos"], a.tag[href="#projeto"] { color: var(--cerebro-projetos); }
+a.tag[href="#problemas-resolvidos"], a.tag[href="#problema-resolvido"] { color: var(--cerebro-problemas); }
+
+/* Destaques semânticos para novas anotações. */
+.callout[data-callout="programacao"] { --callout-color: 56, 189, 248; }
+.callout[data-callout="web"] { --callout-color: 245, 158, 11; }
+.callout[data-callout="dados"] { --callout-color: 20, 184, 166; }
+.callout[data-callout="seguranca"] { --callout-color: 239, 68, 68; }
+.callout[data-callout="ia"] { --callout-color: 217, 70, 239; }
+.callout[data-callout="projeto"] { --callout-color: 249, 115, 22; }
+.callout[data-callout="problema"] { --callout-color: 251, 113, 133; }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Flexbox</title>
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: sans-serif; margin: 0; padding: 20px; }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #333;
+        color: white;
+        padding: 12px 20px;
+        margin-bottom: 20px;
+    }
+    nav .links { display: flex; gap: 16px; }
+    nav a { color: white; text-decoration: none; }
+
+    .linha-itens {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 20px;
+    }
+    .linha-itens .item {
+        flex: 1;
+        background: #eee;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .centralizador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        background: #f5f5f5;
+        border: 1px dashed #999;
+    }
+    .card {
+        width: 150px;
+        height: 80px;
+        background: #3366ff;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <div class="logo">MeuLogo</div>
+        <div class="links">
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+    </nav>
+
+    <div class="linha-itens">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="centralizador">
+        <div class="card">Centralizado!</div>
+    </div>
+</body>
+</html>

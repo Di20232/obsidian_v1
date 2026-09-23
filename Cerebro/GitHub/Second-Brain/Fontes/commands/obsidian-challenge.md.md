@@ -1,0 +1,59 @@
+---
+tags: [github, fonte-importada]
+cssclasses: [cerebro-nota, cerebro-ia]
+source: https://github.com/eugeniughelbur/obsidian-second-brain/blob/02fba47d3e4904caa2026d07f3cacfb4abfb34b9/commands/obsidian-challenge.md
+source_commit: 02fba47d3e4904caa2026d07f3cacfb4abfb34b9
+importado_em: 2026-09-15
+status: fonte-do-repositorio
+---
+
+# commands/obsidian-challenge.md
+
+Origem: [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain/blob/02fba47d3e4904caa2026d07f3cacfb4abfb34b9/commands/obsidian-challenge.md). Versao consultada: 02fba47d3e49.
+
+[[Cerebro/GitHub/Second-Brain/00-Indice|Indice deste repositorio]] Â· [[Cerebro/GitHub/Arquivos/eugeniughelbur--obsidian-second-brain--02fba47d3e49.zip|Arquivo completo ZIP]]
+
+> [!info] Documento de referencia importado
+> Conteudo do autor, preservado para consulta. Comandos e instrucoes descrevem o projeto de origem; sua importacao nao os instala nem executa. Exemplos de pessoas e projetos do segundo cerebro sao ficticios.
+
+
+Use the obsidian-second-brain skill. Execute `/obsidian-challenge $ARGUMENTS`:
+
+The optional argument is the idea, belief, or plan to challenge. If not provided, infer the user's current position from conversation context.
+
+1. Read `_CLAUDE.md` first if it exists in the vault root
+2. Identify the user's current claim, plan, or assumption - either from the argument or from recent conversation
+3. Extract the key premises behind that position
+4. Search the vault for counter-evidence - spawn parallel subagents:
+   - **Decisions agent**: search Key Decisions sections in project notes for past decisions that contradicted or reversed similar thinking
+   - **Failures agent**: search dev logs, daily notes, and archives for past failures, regrets, or lessons learned related to this topic
+   - **Contradictions agent**: search for notes where the user held the opposite position or flagged risks about this exact approach
+5. Synthesize a structured "Red Team" analysis:
+   - **Your position**: restate the claim clearly
+   - **Counter-evidence from your vault**: cite specific notes, dates, and quotes
+   - **Blind spots**: what the user might be ignoring based on their own history
+   - **Verdict**: is this position consistent with past experience, or does the vault suggest caution?
+6. Log the challenge in today's daily note under a Thinking section
+7. Offer to save the full challenge report as a standalone note in the concepts/ideas folder (resolved per `references/folder-map.md`), `type: challenge`, thinking-tool schema in `references/ai-first-rules.md`
+
+Do not be agreeable. The entire point is to pressure-test. Cite specific vault files. If you find nothing contradictory, say so honestly - but search thoroughly first.
+
+---
+
+**AI-first rule:** Every note created or updated by this command MUST follow `references/ai-first-rules.md` - `## For future agent` preamble, rich frontmatter (`type`, `date`, `tags`, `ai-first: true`, plus type-specific fields), recency markers per external claim, mandatory `<code>[[wikilinks]]</code>` for every person/project/concept referenced, sources preserved verbatim with URLs inline, and confidence levels where applicable. If that path does not resolve from your working directory, search upward for it; if you still cannot read it, say so before writing rather than producing a note that silently skips the rule. The vault is for future agent retrieval - not human reading.
+
+**Anti-fabrication:** Search exhaustively before claiming any note, person, or file is absent - false absence is the most common failure mode - and never invent facts, entities, or dates (mark unknowns as `TBD`). See the anti-fabrication and search-completeness hard rules in `references/ai-first-rules.md`.
+
+## Metadados originais
+
+```yaml
+---
+description: Red-team your current idea against your own vault history - finds contradictions, past failures, and flawed assumptions
+category: thinking
+triggers_en: ["challenge this", "grill me on this", "red team my idea", "stress test this"]
+triggers_es: ["cuestiona esta idea", "ponme a prueba con esto", "haz de abogado del diablo con mi idea", "pon esto a prueba", "dime por qué esto no funcionaría"]
+triggers_pt: ["desafie isto", "questione minha ideia", "faça um red team da minha ideia", "teste esta ideia"]
+triggers_zh: ["挑战一下这个想法", "帮我找这个方案的问题", "站在反方审视它", "给这个想法做压力测试", "别客气地质疑我"]
+---
+
+```

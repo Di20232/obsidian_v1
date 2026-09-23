@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Seletores e Especificidade</title>
+<style>
+    body { font-family: sans-serif; padding: 20px; }
+
+    .card p { color: gray; }
+    .card > p { font-weight: bold; }
+    h2 + p { margin-top: 0; color: darkblue; }
+
+    a:hover { color: red; }
+    li:first-child { font-weight: bold; }
+    li:nth-child(2) { background: #eee; }
+
+    p::first-letter { font-size: 150%; }
+    p.com-seta::before { content: "→ "; }
+
+    p#titulo.destaque { color: green; }  /* especificidade: id + classe vence */
+
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+    <h1>Seletores e Especificidade</h1>
+
+    <div class="card">
+        <p>Parágrafo filho direto de .card (negrito e cinza).</p>
+        <div><p>Parágrafo descendente, não filho direto (só cinza).</p></div>
+    </div>
+
+    <h2>Título</h2>
+    <p>Primeiro parágrafo depois do h2 (azul escuro, sem margem no topo).</p>
+
+    <ul>
+        <li>Primeiro item (negrito)</li>
+        <li>Segundo item (fundo cinza claro)</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <p class="com-seta">Este parágrafo tem uma seta antes.</p>
+
+    <p id="titulo" class="destaque">Qual cor vence? (deveria ser verde, por especificidade do id)</p>
+
+    <nav>
+        <a href="#">Link dentro do nav (sublinha só no hover)</a>
+    </nav>
+    <p><a href="#">Link fora do nav (sempre sem sublinhado, sem :hover definido aqui)</a></p>
+</body>
+</html>

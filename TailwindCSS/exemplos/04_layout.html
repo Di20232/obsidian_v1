@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind - Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-8 bg-gray-50">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">Layout: Flexbox e Grid</h1>
+
+    <nav class="flex justify-between items-center bg-white p-4 rounded shadow mb-8">
+        <strong class="text-gray-800">MeuLogo</strong>
+        <div class="flex space-x-4">
+            <a href="#" class="text-gray-600">Início</a>
+            <a href="#" class="text-gray-600">Sobre</a>
+        </div>
+    </nav>
+
+    <p class="text-gray-600 mb-2">Redimensione a janela para ver 1 coluna virar 3:</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white p-6 rounded shadow text-center">Card 1</div>
+        <div class="bg-white p-6 rounded shadow text-center">Card 2</div>
+        <div class="bg-white p-6 rounded shadow text-center">Card 3</div>
+    </div>
+
+    <div class="relative w-48 h-24 bg-blue-100 rounded mt-8">
+        <span class="absolute top-1 right-1 bg-red-500 text-white text-xs px-2 py-1 rounded">Novo</span>
+        <div class="p-4 text-gray-700">Conteúdo com selo</div>
+    </div>
+</body>
+</html>

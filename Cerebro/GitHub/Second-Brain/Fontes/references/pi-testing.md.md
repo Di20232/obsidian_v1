@@ -1,0 +1,74 @@
+---
+tags: [github, fonte-importada]
+cssclasses: [cerebro-nota, cerebro-ia]
+source: https://github.com/eugeniughelbur/obsidian-second-brain/blob/02fba47d3e4904caa2026d07f3cacfb4abfb34b9/references/pi-testing.md
+source_commit: 02fba47d3e4904caa2026d07f3cacfb4abfb34b9
+importado_em: 2026-09-15
+status: fonte-do-repositorio
+---
+
+# references/pi-testing.md
+
+Origem: [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain/blob/02fba47d3e4904caa2026d07f3cacfb4abfb34b9/references/pi-testing.md). Versao consultada: 02fba47d3e49.
+
+[[Cerebro/GitHub/Second-Brain/00-Indice|Indice deste repositorio]] Â· [[Cerebro/GitHub/Arquivos/eugeniughelbur--obsidian-second-brain--02fba47d3e49.zip|Arquivo completo ZIP]]
+
+> [!info] Documento de referencia importado
+> Conteudo do autor, preservado para consulta. Comandos e instrucoes descrevem o projeto de origem; sua importacao nao os instala nem executa. Exemplos de pessoas e projetos do segundo cerebro sao ficticios.
+
+# Testing the Pi adapter
+
+This doc covers testing the Pi adapter only. It does not cover the internal
+vault logic (that is exercised by the broader `tests/` suite and CLI smoke
+tests).
+
+## Run the Pi build
+
+```bash
+bash scripts/build.sh --platform pi
+```
+
+Inspect the output:
+
+```bash
+find dist/pi -maxdepth 4 -type f | sort
+```
+
+You should see:
+
+- `dist/pi/package.json`
+- `dist/pi/.pi/prompts/*.md`
+- `dist/pi/.pi/skills/obsidian-second-brain/SKILL.md`
+- `dist/pi/.pi/skills/obsidian-second-brain/references/*.md`
+- `dist/pi/.pi/skills/obsidian-second-brain/scripts/*.py`
+
+## Run the Pi smoke test
+
+```bash
+pytest -q tests/test_smoke.py::test_pi_build_generates_package -v
+```
+
+## Research toolkit setup
+
+If you run any `/research`, `/x-read`, `/youtube`, `/notebooklm`, or `/podcast`
+prompt template, copy `.env.example` to `~/.config/obsidian-second-brain/.env`,
+set permissions to `600`, and fill in the required API keys. Pi reads the same
+environment variables as the other platforms.
+
+## Coverage note
+
+The adapter tests are smoke tests that run the build script as a subprocess.
+Because pytest-cov only traces in-process Python, these tests do not appear in
+the Python coverage report. Coverage for the Pi adapter is measured by the
+assertions in `test_pi_build_generates_package`, which validate:
+
+- `package.json` exists and has the correct `pi` manifest
+- every command produces a prompt template with frontmatter
+- the discovery skill has valid Agent Skills frontmatter
+- Claude-specific paths are rewritten to the Pi layout
+
+To run the Python-coverage report for the importable modules:
+
+```bash
+pytest -q --cov=scripts --cov=integrations --cov-report=term-missing
+```

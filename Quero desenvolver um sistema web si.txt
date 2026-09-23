@@ -1,0 +1,453 @@
+Quero desenvolver um sistema web simples, leve e fácil de usar para análise de vendas e planejamento de estoque.
+
+O sistema deve rodar localmente no meu computador, preferencialmente utilizando Docker, acessível por localhost. Quero evitar uma arquitetura muito complexa. Dê preferência a tecnologias simples, como Python, Streamlit, Pandas, Plotly e Docker, ou outra alternativa leve que você considere mais adequada.
+OBJETIVO DO SISTEMA
+
+Quero poder abrir o sistema no navegador, anexar uma ou mais planilhas de vendas/estoque em Excel ou CSV e, automaticamente, o sistema deve processar os dados e gerar um dashboard de vendas e uma análise de estoque.
+
+O objetivo principal é responder:
+
+    Quanto estou vendendo?
+    Quais lojas estão vendendo mais?
+    Quais CDs estão movimentando mais produtos?
+    Quais produtos vendem mais?
+    Qual é a média de venda dos produtos?
+    Quanto estoque eu deveria manter?
+    Quantas unidades devo comprar?
+    Em quantos dias aproximadamente precisarei fazer um novo pedido?
+    Quais produtos estão em risco de faltar?
+    Quais produtos estão com estoque excessivo?
+
+UPLOAD DAS PLANILHAS
+
+Criar uma área de upload onde eu possa arrastar ou selecionar arquivos:
+
+    Excel (.xlsx)
+    Excel (.xls)
+    CSV
+
+O sistema deve aceitar uma ou mais planilhas.
+
+Após o upload, deve analisar automaticamente as colunas existentes.
+
+Idealmente, deve identificar colunas como:
+
+    Data
+    Loja
+    Código da loja
+    CD
+    Código do produto/SKU
+    Produto
+    Categoria
+    Quantidade vendida
+    Valor de venda
+    Estoque atual
+    Estoque mínimo
+    Fornecedor
+    Prazo de entrega/lead time
+
+Os nomes das colunas podem variar de uma planilha para outra.
+
+Por isso, criar uma etapa de mapeamento das colunas caso o sistema não consiga identificá-las automaticamente.
+
+Exemplo:
+
+DATA → [Data da Venda]
+LOJA → [Filial]
+PRODUTO → [Descrição Produto]
+SKU → [Código Produto]
+QUANTIDADE VENDIDA → [Quantidade]
+VALOR → [Valor Venda]
+ESTOQUE → [Estoque Atual]
+CD → [Centro de Distribuição]
+
+O usuário deve conseguir confirmar ou alterar esse mapeamento antes de gerar o relatório.
+DASHBOARD DE VENDAS
+
+Criar um dashboard visual e profissional, mas simples.
+
+Mostrar cards com:
+
+    Venda total
+    Quantidade total vendida
+    Número de lojas
+    Número de produtos
+    Número de CDs
+    Ticket médio, caso exista valor de venda
+
+Criar gráficos de:
+Evolução das vendas
+
+Mostrar vendas por:
+
+    Dia
+    Semana
+    Mês
+
+Permitir alterar o período analisado.
+Vendas por loja
+
+Mostrar:
+
+    Ranking de lojas
+    Valor vendido
+    Quantidade vendida
+    Participação percentual
+    Evolução das vendas
+
+Permitir clicar/filtrar por loja.
+Vendas por CD
+
+Mostrar:
+
+    Ranking dos CDs
+    Quantidade movimentada
+    Valor vendido, se disponível
+    Participação percentual
+
+Produtos mais vendidos
+
+Mostrar ranking dos produtos/SKUs:
+
+    Produto
+    SKU
+    Quantidade vendida
+    Valor vendido
+    Média diária
+    Média semanal
+    Média mensal
+
+Criar também uma lista dos produtos com menor venda.
+FILTROS
+
+O dashboard deve possuir filtros para:
+
+    Período
+    Loja
+    CD
+    Produto
+    SKU
+    Categoria
+    Fornecedor
+
+Os gráficos e indicadores devem ser atualizados automaticamente conforme os filtros.
+ANÁLISE DE ESTOQUE
+
+Criar uma segunda área chamada:
+
+"Planejamento de Estoque"
+
+Para cada produto, calcular:
+
+    Estoque atual
+    Venda média diária
+    Venda média semanal
+    Venda média mensal
+    Dias de estoque disponíveis
+    Estoque mínimo recomendado
+    Estoque de segurança
+    Lead time do fornecedor
+    Ponto de reposição
+    Quantidade sugerida de compra
+    Data aproximada para realizar novo pedido
+    Status do estoque
+
+Classificar os produtos em:
+
+🟢 Estoque saudável
+
+🟡 Atenção
+
+🔴 Risco de ruptura
+
+🔵 Excesso de estoque
+CÁLCULO DA PREVISÃO
+
+Utilizar inicialmente uma metodologia simples, transparente e fácil de entender.
+
+Calcular a média de vendas com base no histórico disponível.
+
+Por exemplo:
+
+Venda média diária =
+Quantidade vendida no período / número de dias do período
+
+Calcular:
+
+Dias de estoque =
+Estoque atual / Venda média diária
+
+Calcular também o estoque necessário durante o prazo de reposição:
+
+Demanda durante lead time =
+Venda média diária × Lead time
+
+Adicionar estoque de segurança configurável.
+
+Por exemplo:
+
+Estoque de segurança =
+Venda média diária × Dias de segurança
+
+Ponto de reposição =
+Demanda durante lead time + Estoque de segurança
+
+Se:
+
+Estoque atual < Ponto de reposição
+
+o sistema deve indicar que é necessário realizar um novo pedido.
+SUGESTÃO DE QUANTIDADE DE COMPRA
+
+Criar uma recomendação de compra.
+
+A quantidade sugerida deve considerar:
+
+    Venda média
+    Lead time
+    Estoque atual
+    Estoque de segurança
+    Cobertura desejada
+    Crescimento esperado, se configurado
+
+Criar parâmetros editáveis no sistema:
+
+Período histórico utilizado:
+[30 dias]
+
+Lead time padrão:
+[7 dias]
+
+Dias de estoque de segurança:
+[3 dias]
+
+Cobertura desejada:
+[30 dias]
+
+Crescimento esperado:
+[0%]
+
+O usuário poderá alterar esses valores e o sistema deverá recalcular as recomendações.
+EXEMPLO
+
+Se um produto possui:
+
+Estoque atual: 500 unidades
+Venda média diária: 80 unidades
+Lead time: 7 dias
+Estoque de segurança: 3 dias
+
+O sistema deve calcular aproximadamente:
+
+Demanda durante lead time:
+80 × 7 = 560 unidades
+
+Estoque de segurança:
+80 × 3 = 240 unidades
+
+Ponto de reposição:
+560 + 240 = 800 unidades
+
+Como o estoque atual é 500, o sistema deve sinalizar:
+
+🔴 RISCO DE RUPTURA
+
+E apresentar uma sugestão de compra baseada na cobertura desejada.
+
+IMPORTANTE: deixar claro na interface que essa é uma previsão/recomendação baseada no histórico de vendas e não uma garantia de demanda futura.
+PREVISÃO DE QUANDO COMPRAR
+
+Para cada produto, mostrar algo como:
+
+Produto: Produto A
+Estoque atual: 500
+Venda média diária: 80
+Cobertura atual: 6,25 dias
+Lead time: 7 dias
+Ponto de reposição: 800
+Status: 🔴 Comprar agora
+
+Outro exemplo:
+
+Produto B
+Estoque atual: 1.200
+Venda média diária: 50
+Cobertura: 24 dias
+Lead time: 7 dias
+Status: 🟢 Estoque saudável
+Próximo pedido estimado: em aproximadamente 17 dias
+ALERTAS
+
+Criar uma tela "Alertas de Estoque".
+
+Mostrar primeiro os produtos mais críticos.
+
+Exemplo:
+
+🔴 Produtos que podem faltar nos próximos 7 dias
+
+🟡 Produtos que precisam de atenção nos próximos 15 dias
+
+🟢 Produtos com estoque adequado
+
+🔵 Produtos com estoque acima do necessário
+
+Ordenar os produtos críticos pela urgência.
+TABELA DE RECOMENDAÇÃO DE COMPRA
+
+Criar uma tabela com:
+
+| SKU | Produto | Estoque | Venda/dia | Dias estoque | Ponto reposição | Sugestão compra | Pedido em | Status |
+
+Permitir exportar essa tabela para Excel/CSV.
+RELATÓRIO
+
+Criar uma opção:
+
+"Gerar Relatório"
+
+O relatório deve apresentar:
+
+    Resumo geral
+    Vendas por loja
+    Vendas por CD
+    Produtos mais vendidos
+    Produtos menos vendidos
+    Análise de estoque
+    Produtos em risco de ruptura
+    Sugestões de compra
+    Previsão de próximos pedidos
+
+Se possível, permitir exportar o relatório para Excel e PDF.
+INTERFACE
+
+Quero uma interface limpa, moderna e intuitiva.
+
+Menu lateral:
+
+📊 Dashboard
+🏪 Lojas
+🚚 CDs
+📦 Produtos
+📈 Análise de Vendas
+📋 Estoque
+⚠️ Alertas
+🛒 Sugestão de Compras
+⚙️ Configurações
+
+Na página inicial deve existir claramente:
+
+"Arraste sua planilha aqui"
+
+Depois do upload:
+
+"Processar dados"
+
+E então:
+
+"Gerar Dashboard"
+REQUISITOS TÉCNICOS
+
+O sistema deve:
+
+    Rodar localmente
+    Utilizar Docker
+    Ser simples de instalar
+    Não depender de serviços pagos
+    Não exigir internet para funcionar depois de instalado
+    Ser possível iniciar com um comando simples, como:
+
+docker compose up
+
+E acessar pelo navegador através de:
+
+http://localhost:8501
+
+Preferencialmente utilizar:
+
+    Python
+    Streamlit
+    Pandas
+    OpenPyXL
+    Plotly
+    Docker
+
+Caso você considere outra tecnologia mais adequada, explique antes de alterar a arquitetura.
+BANCO DE DADOS
+
+Na primeira versão, evitar banco de dados se não for necessário.
+
+Os arquivos podem ser processados temporariamente durante a sessão.
+
+Porém, estruture o código de forma que posteriormente seja possível adicionar SQLite ou PostgreSQL.
+QUALIDADE DO CÓDIGO
+
+Quero o projeto organizado em módulos.
+
+Separar:
+
+    Interface
+    Importação de arquivos
+    Tratamento dos dados
+    Cálculo de vendas
+    Cálculo de estoque
+    Previsão
+    Recomendações de compra
+    Exportação de relatórios
+
+Criar tratamento de erros para:
+
+    Planilha vazia
+    Colunas ausentes
+    Datas inválidas
+    Valores nulos
+    Quantidades negativas
+    Produtos duplicados
+    Arquivo em formato inválido
+
+Não inventar dados quando uma informação necessária não estiver disponível.
+
+Se o arquivo não possuir estoque atual, informar claramente que a análise de ruptura e sugestão de compra possui limitações.
+IMPORTANTE SOBRE OS DADOS
+
+Antes de desenvolver definitivamente, quero poder anexar uma planilha real.
+
+Analise a estrutura da planilha e adapte o sistema às colunas existentes.
+
+Não assuma que os nomes das colunas serão exatamente os exemplos acima.
+
+Primeiro identifique:
+
+    abas existentes
+    nomes das colunas
+    tipos de dados
+    quantidade de registros
+    campos disponíveis
+    possíveis relacionamentos entre vendas, produtos, lojas, CDs e estoque
+
+Depois proponha o mapeamento dos dados.
+ENTREGA
+
+Quero que você construa o projeto completo.
+
+Entregue:
+
+    Estrutura de pastas
+    Código completo de cada arquivo
+    requirements.txt
+    Dockerfile
+    docker-compose.yml
+    Arquivo README.md
+    Instruções para instalar
+    Instruções para executar
+    Exemplos de utilização
+    Explicação de como funciona o cálculo da previsão
+    Explicação de como adicionar novas colunas posteriormente
+
+O resultado final deve ser um sistema funcional que eu consiga baixar, colocar em uma pasta e executar com Docker.
+
+Priorize simplicidade, confiabilidade e facilidade de manutenção.
+
+Não crie funcionalidades desnecessárias antes de fazer o fluxo principal funcionar:
+
+UPLOAD DA PLANILHA → LEITURA DOS DADOS → DASHBOARD → ANÁLISE DE ESTOQUE → PREVISÃO → SUGESTÃO DE COMPRA.

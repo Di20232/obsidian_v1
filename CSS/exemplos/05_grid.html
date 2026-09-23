@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Grid</title>
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: sans-serif; margin: 0; padding: 20px; }
+
+    .pagina {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: 60px 1fr 50px;
+        grid-template-areas:
+            "cabecalho cabecalho"
+            "menu conteudo"
+            "rodape rodape";
+        gap: 8px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .cabecalho { grid-area: cabecalho; background: #333; color: white; display: flex; align-items: center; padding: 0 16px; }
+    .menu { grid-area: menu; background: #ddd; padding: 16px; }
+    .conteudo { grid-area: conteudo; background: #f5f5f5; padding: 16px; }
+    .rodape { grid-area: rodape; background: #333; color: white; display: flex; align-items: center; padding: 0 16px; }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+    }
+    .galeria .card {
+        background: #3366ff;
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <h1>Grid</h1>
+
+    <div class="pagina">
+        <div class="cabecalho">Cabeçalho</div>
+        <div class="menu">Menu</div>
+        <div class="conteudo">Conteúdo principal</div>
+        <div class="rodape">Rodapé</div>
+    </div>
+
+    <h2>Galeria responsiva (redimensione a janela)</h2>
+    <div class="galeria">
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+        <div class="card">5</div>
+        <div class="card">6</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cores, Unidades e Tipografia</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    html { font-size: 16px; }
+    body { font-family: "Roboto", sans-serif; padding: 20px; line-height: 1.5; }
+
+    .mesma-cor-hex { background: #3366ff; color: white; padding: 8px; margin-bottom: 4px; }
+    .mesma-cor-rgb { background: rgb(51, 102, 255); color: white; padding: 8px; margin-bottom: 4px; }
+    .mesma-cor-hsl { background: hsl(225, 100%, 60%); color: white; padding: 8px; margin-bottom: 4px; }
+
+    .fixo-px { font-size: 16px; }
+    .relativo-rem { font-size: 1rem; }
+</style>
+</head>
+<body>
+    <h1>Cores, Unidades e Tipografia</h1>
+
+    <p class="mesma-cor-hex">Cor definida em hex (#3366ff)</p>
+    <p class="mesma-cor-rgb">Cor definida em rgb(51, 102, 255)</p>
+    <p class="mesma-cor-hsl">Cor definida em hsl(225, 100%, 60%)</p>
+
+    <h2>px vs rem</h2>
+    <p class="fixo-px">Este texto é 16px fixo.</p>
+    <p class="relativo-rem">Este texto é 1rem (também 16px agora, mas escala se o &lt;html&gt; mudar).</p>
+    <p><small>Tente mudar "html { font-size: 16px; }" para 24px no CSS acima e recarregar — o rem muda, o px não.</small></p>
+</body>
+</html>

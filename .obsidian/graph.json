@@ -1,0 +1,163 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "[cssclasses:cerebro-geral]",
+      "color": {
+        "a": 1,
+        "rgb": 12891645
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-programacao]",
+      "color": {
+        "a": 1,
+        "rgb": 8246268
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-python]",
+      "color": {
+        "a": 1,
+        "rgb": 8843180
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-javascript]",
+      "color": {
+        "a": 1,
+        "rgb": 16638023
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-php]",
+      "color": {
+        "a": 1,
+        "rgb": 14202110
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-css]",
+      "color": {
+        "a": 1,
+        "rgb": 6809849
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-bootstrap]",
+      "color": {
+        "a": 1,
+        "rgb": 15772668
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-tailwind]",
+      "color": {
+        "a": 1,
+        "rgb": 6220500
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-mysql]",
+      "color": {
+        "a": 1,
+        "rgb": 9684477
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-sqlite]",
+      "color": {
+        "a": 1,
+        "rgb": 7268279
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-web]",
+      "color": {
+        "a": 1,
+        "rgb": 16628340
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-dados]",
+      "color": {
+        "a": 1,
+        "rgb": 6220500
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-engenharia]",
+      "color": {
+        "a": 1,
+        "rgb": 10859772
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-seguranca]",
+      "color": {
+        "a": 1,
+        "rgb": 16557477
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-ia]",
+      "color": {
+        "a": 1,
+        "rgb": 15772668
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-projetos]",
+      "color": {
+        "a": 1,
+        "rgb": 16628340
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-problemas]",
+      "color": {
+        "a": 1,
+        "rgb": 16622767
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-praticas]",
+      "color": {
+        "a": 1,
+        "rgb": 12513892
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-ambiente]",
+      "color": {
+        "a": 1,
+        "rgb": 13358561
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-github]",
+      "color": {
+        "a": 1,
+        "rgb": 12891645
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.10516585645045232,
+  "close": true
+}

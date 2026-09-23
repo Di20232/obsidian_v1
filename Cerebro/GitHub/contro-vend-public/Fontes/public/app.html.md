@@ -1,0 +1,248 @@
+---
+tags: [github, fonte-importada]
+cssclasses: [cerebro-nota, cerebro-dados]
+source: https://github.com/Di20232/contro-vend-public/blob/8ca882161809413bbadfe4997e80a2ec7ae29991/public/app.html
+source_commit: 8ca882161809413bbadfe4997e80a2ec7ae29991
+importado_em: 2026-09-15
+status: fonte-do-repositorio
+---
+
+# public/app.html
+
+Origem: [Di20232/contro-vend-public](https://github.com/Di20232/contro-vend-public/blob/8ca882161809413bbadfe4997e80a2ec7ae29991/public/app.html). Versao consultada: 8ca882161809.
+
+[[Cerebro/GitHub/contro-vend-public/00-Indice|Indice deste repositorio]] Â· [[Cerebro/GitHub/Arquivos/Di20232--contro-vend-public--8ca882161809.zip|Arquivo completo ZIP]]
+
+> [!info] Documento de referencia importado
+> Conteudo do autor, preservado para consulta. Comandos e instrucoes descrevem o projeto de origem; sua importacao nao os instala nem executa. Exemplos de pessoas e projetos do segundo cerebro sao ficticios.
+
+```html
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contro Vend</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Contro Vend</div>
+    <nav id="tabs" class="tabs">
+      <button data-tab="dashboard" class="tab-btn active">Painel</button>
+      <button data-tab="vendas" class="tab-btn">Vendas</button>
+      <button data-tab="produtos" class="tab-btn">Produtos</button>
+      <button data-tab="estoque" class="tab-btn" data-admin-only>Estoque</button>
+      <button data-tab="relatorios" class="tab-btn" data-admin-only>Relatórios</button>
+      <button data-tab="usuarios" class="tab-btn" data-admin-only>Usuários</button>
+    </nav>
+    <div class="user-box">
+      <span id="user-avatar" class="user-avatar" aria-hidden="true"></span>
+      <span id="user-name"></span>
+      <button id="logout-btn" class="secondary">Sair</button>
+    </div>
+  </header>
+
+  <main id="content" class="content"></main>
+
+  <template id="tpl-dashboard">
+    <section>
+      <h2>Painel</h2>
+      <div id="admin-summary" class="grid-cards" hidden>
+        <div class="card stat"><span class="stat-label">Vendas hoje</span><span id="stat-today" class="stat-value">—</span></div>
+        <div class="card stat"><span class="stat-label">Vendas no mês</span><span id="stat-month" class="stat-value">—</span></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Estoque baixo</h3>
+          <div class="table-wrap"><table class="table"><thead><tr><th>Produto</th><th>Estoque</th><th>Mínimo</th></tr></thead><tbody id="tb-low-stock"></tbody></table></div>
+        </div>
+        <div class="card">
+          <h3>Previsão de esgotar em 7 dias</h3>
+          <div class="table-wrap"><table class="table"><thead><tr><th>Produto</th><th>Estoque</th><th>Dias restantes</th></tr></thead><tbody id="tb-soon-out"></tbody></table></div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Vencendo em breve</h3>
+          <div class="table-wrap"><table class="table"><thead><tr><th>Produto</th><th>Validade</th><th>Estoque</th></tr></thead><tbody id="tb-expiring"></tbody></table></div>
+        </div>
+        <div class="card" id="card-slow-moving" hidden>
+          <h3>Produtos parados (sem venda em 60 dias)</h3>
+          <div class="table-wrap"><table class="table"><thead><tr><th>Produto</th><th>Estoque</th></tr></thead><tbody id="tb-slow-moving"></tbody></table></div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-vendas">
+    <section>
+      <h2>Nova venda</h2>
+      <div class="card">
+        <div class="sale-picker">
+          <input id="sale-search" type="text" placeholder="Buscar produto por nome ou código de barras..." aria-label="Buscar produto para adicionar à venda" />
+          <div id="sale-results" class="search-results"></div>
+        </div>
+        <div class="table-wrap"><table class="table">
+          <thead><tr><th>Produto</th><th>Qtd</th><th>Preço</th><th>Subtotal</th><th></th></tr></thead>
+          <tbody id="cart-body"></tbody>
+        </table></div>
+        <div class="cart-total">Total: <strong id="cart-total">R$ 0,00</strong></div>
+        <button id="confirm-sale-btn" disabled>Confirmar venda</button>
+        <p id="sale-msg" class="error" hidden></p>
+      </div>
+
+      <h2>Vendas recentes</h2>
+      <div class="card">
+        <div class="table-wrap"><table class="table">
+          <thead><tr><th>Data</th><th>Vendedor</th><th>Itens</th><th>Total</th><th></th></tr></thead>
+          <tbody id="sales-list"></tbody>
+        </table></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-produtos">
+    <section>
+      <div class="section-head">
+        <h2>Produtos</h2>
+        <button id="new-product-btn" data-admin-only>+ Novo produto</button>
+      </div>
+      <input id="product-search" type="text" placeholder="Buscar produtos..." class="full" aria-label="Buscar produtos" />
+      <div class="card">
+        <div class="table-wrap"><table class="table">
+          <thead><tr><th>Nome</th><th>Categoria</th><th>Estoque</th><th>Mín.</th><th>Preço</th><th data-admin-only>Custo</th><th>Validade</th><th></th></tr></thead>
+          <tbody id="products-list"></tbody>
+        </table></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-product-form">
+    <form id="product-form" class="card">
+      <h3 id="product-form-title">Novo produto</h3>
+      <input type="hidden" id="p-id" />
+      <label for="p-name">Nome</label><input id="p-name" required maxlength="150" />
+      <label for="p-category">Categoria</label><input id="p-category" maxlength="80" />
+      <label for="p-barcode">Código de barras (opcional)</label><input id="p-barcode" maxlength="64" />
+      <label for="p-unit">Unidade</label><input id="p-unit" value="UN" maxlength="10" required />
+      <label for="p-sale-price">Preço de venda (R$)</label><input id="p-sale-price" type="number" step="0.01" min="0.01" required />
+      <label for="p-cost-price">Preço de custo (R$)</label><input id="p-cost-price" type="number" step="0.01" min="0" required />
+      <label for="p-min-stock">Estoque mínimo</label><input id="p-min-stock" type="number" step="0.001" min="0" value="0" />
+      <label id="p-initial-stock-label" for="p-initial-stock">Estoque inicial</label><input id="p-initial-stock" type="number" step="0.001" min="0" value="0" />
+      <label for="p-expiry">Validade (opcional)</label><input id="p-expiry" type="date" />
+      <div class="form-actions">
+        <button type="submit">Salvar</button>
+        <button type="button" id="product-cancel-btn" class="secondary">Cancelar</button>
+        <button type="button" id="product-delete-btn" class="danger" hidden>Desativar produto</button>
+      </div>
+      <p id="product-form-msg" class="error" hidden></p>
+    </form>
+  </template>
+
+  <template id="tpl-estoque">
+    <section>
+      <h2>Estoque</h2>
+      <div class="grid-2">
+        <form id="entry-form" class="card">
+          <h3>Entrada de mercadoria (compra)</h3>
+          <label for="entry-product">Produto</label>
+          <select id="entry-product" required></select>
+          <label for="entry-qty">Quantidade</label><input id="entry-qty" type="number" step="0.001" min="0.001" required />
+          <label for="entry-reason">Observação</label><input id="entry-reason" maxlength="255" />
+          <button type="submit">Registrar entrada</button>
+          <p id="entry-msg" class="error" hidden></p>
+        </form>
+
+        <form id="adjustment-form" class="card">
+          <h3>Ajuste / perda (produto vencido, quebra etc.)</h3>
+          <label for="adjustment-product">Produto</label>
+          <select id="adjustment-product" required></select>
+          <label for="adjustment-qty">Quantidade a remover</label><input id="adjustment-qty" type="number" step="0.001" min="0.001" required />
+          <label for="adjustment-reason">Motivo</label><input id="adjustment-reason" maxlength="255" required placeholder="Ex: produto vencido" />
+          <button type="submit">Registrar perda/ajuste</button>
+          <p id="adjustment-msg" class="error" hidden></p>
+        </form>
+      </div>
+
+      <h3>Histórico de movimentações</h3>
+      <div class="card">
+        <div class="table-wrap"><table class="table">
+          <thead><tr><th>Data</th><th>Produto</th><th>Tipo</th><th>Qtd</th><th>Estoque resultante</th><th>Motivo</th><th>Usuário</th></tr></thead>
+          <tbody id="movements-list"></tbody>
+        </table></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-relatorios">
+    <section>
+      <h2>Relatórios</h2>
+      <div class="card">
+        <div class="filters">
+          <label for="rep-from">De</label><input id="rep-from" type="date" />
+          <label for="rep-to">Até</label><input id="rep-to" type="date" />
+          <button id="rep-apply-btn">Aplicar</button>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Resumo de vendas</h3>
+          <p>Total: <strong id="rep-total">R$ 0,00</strong> (<span id="rep-count">0</span> vendas)</p>
+          <div class="table-wrap"><table class="table"><thead><tr><th>Dia</th><th>Total</th></tr></thead><tbody id="rep-by-day"></tbody></table></div>
+        </div>
+        <div class="card">
+          <h3>Mais vendidos</h3>
+          <div class="table-wrap"><table class="table"><thead><tr><th>Produto</th><th>Qtd vendida</th><th>Receita</th></tr></thead><tbody id="rep-top-products"></tbody></table></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Produtos parados (capital parado em estoque)</h3>
+        <div class="table-wrap"><table class="table"><thead><tr><th>Produto</th><th>Estoque</th><th>Capital parado</th></tr></thead><tbody id="rep-slow-moving"></tbody></table></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-usuarios">
+    <section>
+      <div class="section-head">
+        <h2>Usuários</h2>
+        <button id="new-user-btn">+ Novo usuário</button>
+      </div>
+      <div class="card">
+        <div class="table-wrap"><table class="table">
+          <thead><tr><th>Nome</th><th>E-mail</th><th>Perfil</th><th>Ativo</th><th></th></tr></thead>
+          <tbody id="users-list"></tbody>
+        </table></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-user-form">
+    <form id="user-form" class="card">
+      <h3 id="user-form-title">Novo usuário</h3>
+      <input type="hidden" id="u-id" />
+      <label for="u-name">Nome</label><input id="u-name" required maxlength="120" />
+      <label id="u-email-label" for="u-email">E-mail</label><input id="u-email" type="email" required maxlength="255" />
+      <label for="u-role">Perfil</label>
+      <select id="u-role"><option value="CASHIER">Funcionário (caixa)</option><option value="ADMIN">Administrador</option></select>
+      <label id="u-active-label" for="u-active">Ativo</label><input id="u-active" type="checkbox" checked />
+      <label id="u-password-label" for="u-password">Senha</label><input id="u-password" type="password" minlength="8" maxlength="200" />
+      <div class="form-actions">
+        <button type="submit">Salvar</button>
+        <button type="button" id="user-cancel-btn" class="secondary">Cancelar</button>
+      </div>
+      <p id="user-form-msg" class="error" hidden></p>
+    </form>
+  </template>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
+
+```
