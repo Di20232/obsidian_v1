@@ -69,6 +69,8 @@ Conferência: 10,99% de R$ 113,03 ≈ R$ 12,42; R$ 113,03 − 78 − 12,42 = R$ 
 - **Markup** multiplica o custo: custo R$ 40 × 2,5 = R$ 100.
 - **Margem** é o que sobra em relação ao preço.
 
+Markup divisor, rateio do custo fixo e ponto de equilíbrio estão em [[Financas/06-Formacao-de-Preco|formação de preço]] e [[Financas/05-Custos-Margem-e-Ponto-de-Equilibrio|ponto de equilíbrio]], na trilha de finanças.
+
 "Markup 2,5" soa como lucro alto, mas não diz nada sobre taxas, frete e anúncio. Use a conta completa.
 
 ## Frete grátis, desconto e parcelamento

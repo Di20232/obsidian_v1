@@ -62,6 +62,9 @@
 .theme-light { --cerebro-ecommerce: #db2777; }
 .theme-dark { --cerebro-ecommerce: #f472b6; }
 .cerebro-ecommerce { --cerebro-cor: var(--cerebro-ecommerce); }
+.theme-light { --cerebro-financas: #b45309; }
+.theme-dark { --cerebro-financas: #fbbf24; }
+.cerebro-financas { --cerebro-cor: var(--cerebro-financas); }
 
 .cerebro-nota {
   --h1-color: var(--cerebro-cor);
@@ -92,6 +95,7 @@
 .nav-folder-title[data-path="MySQL"], .nav-file-title[data-path^="MySQL/"], .nav-folder-title[data-path^="MySQL/"] { color: var(--cerebro-mysql); }
 .nav-folder-title[data-path="SQLite"], .nav-file-title[data-path^="SQLite/"], .nav-folder-title[data-path^="SQLite/"] { color: var(--cerebro-sqlite); }
 .nav-folder-title[data-path="IA-Aplicada"], .nav-file-title[data-path^="IA-Aplicada/"], .nav-folder-title[data-path^="IA-Aplicada/"] { color: var(--cerebro-ia); }
+.nav-folder-title[data-path="Financas"], .nav-file-title[data-path^="Financas/"], .nav-folder-title[data-path^="Financas/"] { color: var(--cerebro-financas); }
 .nav-folder-title[data-path="Ecommerce"], .nav-file-title[data-path^="Ecommerce/"], .nav-folder-title[data-path^="Ecommerce/"] { color: var(--cerebro-ecommerce); }
 .nav-folder-title[data-path="Programacao-Geral"],.nav-file-title[data-path^="Programacao-Geral/"], .nav-folder-title[data-path^="Programacao-Geral/"] { color: var(--cerebro-programacao); }
 .nav-folder-title[data-path="Cerebro"], .nav-file-title[data-path^="Cerebro/"], .nav-folder-title[data-path^="Cerebro/"] { color: var(--cerebro-geral); }

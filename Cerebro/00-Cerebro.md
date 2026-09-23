@@ -62,6 +62,7 @@ Quatro práticas de base e cinco extraídas dos projetos, incluindo [[Praticas/0
 | [[../CSS/00-Indice\|CSS]] · [[../TailwindCSS/00-Indice\|Tailwind]] · [[../Bootstrap/00-Indice\|Bootstrap]] | interfaces dos três sistemas |
 | [[../PHP/00-Indice\|PHP]] | — |
 | [[../IA-Aplicada/00-Indice\|IA Aplicada]] — prompts, RAG, fine-tuning, avaliação, riscos | [[Tecnologias/08-Claude-Code\|Claude Code]], [[Guias/08-Cofre-para-IA-e-Lembretes\|este cofre como dado de treino]] |
+| [[../Financas/00-Indice\|Finanças do pequeno negócio]] — caixa, DRE, preço, impostos, crédito | [[Projetos/02-Sistema-de-Vendas-e-Estoque\|Sistema de vendas e estoque]], [[Projetos/06-Mercadinho-Seu-Joao\|Mercadinho Seu João]] |
 | [[../Ecommerce/00-Indice\|E-commerce]] — Shopify, operação e divulgação | [[Projetos/04-Planejamento-de-E-commerce\|Planejamento de E-commerce]], [[Projetos/03-Loja-de-Infoprodutos-sobre-IA\|Loja de infoprodutos]], [[GitHub/byteShop/01-Arquitetura-e-Aprendizados\|byteShop]] |
 
 ## Os cinco aprendizados que mais custaram caro
