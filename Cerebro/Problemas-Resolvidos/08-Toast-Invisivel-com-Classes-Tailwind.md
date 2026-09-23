@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, reflex, css, interface]
+tags: [problema-resolvido, reflex, css, interface, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -45,3 +45,11 @@ Sinal de alerta para reconhecer isso rápido: **o elemento existe no DOM mas nã
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Tecnologia: [[../Tecnologias/01-Reflex|Reflex]] · [[../../TailwindCSS/00-Indice|Trilha Tailwind CSS]]
 - Relacionado: [[05-Exclusao-Nao-Funciona-em-Cadastros|Exclusão que não funciona]]
+
+## Perguntas de revisão
+
+Por que background="bg-red-50" deixa o elemento invisível? :: Porque bg-red-50 é nome de classe do Tailwind, não valor de cor CSS; o navegador descarta a declaração em silêncio.
+
+Qual a regra entre classe do Tailwind e valor CSS? :: Classe do Tailwind vai em class; valor de cor, como #fef2f2, vai na propriedade CSS.
+
+Qual o sinal de alerta de um valor CSS inválido? :: O elemento existe no DOM mas não aparece, e a propriedade surge riscada nas ferramentas do navegador.

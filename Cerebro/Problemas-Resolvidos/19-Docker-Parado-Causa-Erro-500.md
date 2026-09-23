@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, docker, banco-de-dados, ambiente]
+tags: [problema-resolvido, docker, banco-de-dados, ambiente, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -51,3 +51,11 @@ Vale também confirmar que o volume é **nomeado** e não anônimo — é isso q
 - Projeto: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]]
 - Tecnologia: [[../Tecnologias/04-Docker|Docker]]
 - Relacionado: [[12-Conexao-Recusada-no-Localhost|Conexão recusada: o outro erro]]
+
+## Perguntas de revisão
+
+Por que a tela carrega mas o login dá erro 500? :: O app está no ar, mas uma dependência por trás, geralmente o banco, está fora.
+
+O que fazer depois de reiniciar a máquina ou fechar o Docker Desktop? :: Rodar docker compose up -d.
+
+Por que os dados sobreviveram ao container parado? :: Porque estavam num volume nomeado do Docker, que persiste mesmo sem o container.

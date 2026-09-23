@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, seguranca, sql, python, sqlite]
+tags: [problema-resolvido, seguranca, sql, python, sqlite, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -60,3 +60,13 @@ O mesmo padrão apareceu no [[21-SQL-Injection-por-Token-de-URL|Projeto W]], por
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Prática: [[../Praticas/07-Seguranca-em-Apps-Locais|Segurança em apps locais]]
 - Relacionado: [[21-SQL-Injection-por-Token-de-URL|O mesmo erro no Projeto W]]
+
+## Perguntas de revisão
+
+O parâmetro ? protege nomes de tabela? :: Não; protege só valores. Identificadores como tabela ou coluna não podem ser parâmetros.
+
+Como usar com segurança um nome de tabela variável? :: Validando contra uma lista de permissão fechada definida no código.
+
+Qual a regra dos dois mundos no SQL? :: Valor sempre como parâmetro ?; identificador nunca cru de fora, sempre validado por lista de permissão.
+
+O que procurar num projeto para achar esse tipo de falha? :: Trechos com f"SELECT e f"DROP.

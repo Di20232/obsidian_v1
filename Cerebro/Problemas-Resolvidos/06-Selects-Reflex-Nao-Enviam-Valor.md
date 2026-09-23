@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, reflex, python, interface]
+tags: [problema-resolvido, reflex, python, interface, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -55,3 +55,11 @@ Ver a família completa dessa armadilha em [[07-Operadores-Python-em-Var-do-Refl
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Tecnologia: [[../Tecnologias/01-Reflex|Reflex]]
 - Relacionado: [[10-Selects-Cinza-com-Texto-Invisivel|O outro problema dos mesmos selects]]
+
+## Perguntas de revisão
+
+Por que chamar str() num Var do Reflex quebra o valor? :: Porque converte a referência em texto, e não o dado, que só existe no navegador.
+
+Qual a correção para selects do Reflex que não enviam o valor? :: Passar o Var direto no value, sem str().
+
+Qual a regra geral para Vars do Reflex? :: Nunca usar str(), int() ou f-string num Var; entregá-lo direto ao componente.

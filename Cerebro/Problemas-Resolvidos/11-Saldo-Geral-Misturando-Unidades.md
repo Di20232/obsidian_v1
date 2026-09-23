@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, dados, regra-de-negocio, interface]
+tags: [problema-resolvido, dados, regra-de-negocio, interface, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -44,3 +44,11 @@ Separar por unidade em toda apresentação agregada:
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Prática: [[../Praticas/08-Unidades-de-Medida|Unidades de medida como regra de negócio]]
 - Mapa: [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
+
+## Perguntas de revisão
+
+Por que um saldo geral somando litros e unidades não faz sentido? :: Porque quantidade sem unidade não é grandeza; somar 2,5 litros com 5 toners não significa nada.
+
+Qual a regra de modelagem sobre unidades? :: Com mais de uma unidade no mesmo campo, toda soma ou média precisa agrupar por unidade, ou não existir.
+
+O erro de somar unidades diferentes é de código ou de modelagem? :: De modelagem: o dado foi guardado sem a unidade junto.

@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, interface, css, usabilidade]
+tags: [problema-resolvido, interface, css, usabilidade, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -40,3 +40,9 @@ Vale checar isso na revisão de qualquer formulário — foi o tipo de defeito q
 
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Relacionados: [[06-Selects-Reflex-Nao-Enviam-Valor|O outro problema dos mesmos selects]] · [[08-Toast-Invisivel-com-Classes-Tailwind|Toast invisível]]
+
+## Perguntas de revisão
+
+Por que o texto de um select pode ficar invisível depois de escolher? :: Porque herda o estilo do tema sem cor de texto definida, e o texto fica sem contraste com o fundo.
+
+Qual a regra de contraste para campos de formulário? :: Definir fundo e cor de texto explicitamente, e testar se dá para ler o valor escolhido.

@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, docker, postgresql, ambiente, windows]
+tags: [problema-resolvido, docker, postgresql, ambiente, windows, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -62,3 +62,13 @@ O container continua usando 5432 internamente; só a porta exposta ao Windows mu
 - Projeto: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]]
 - Ambiente: [[../Ambiente/02-Portas-e-Conflitos|Portas e conflitos]]
 - Tecnologia: [[../Tecnologias/04-Docker|Docker]] · [[../Tecnologias/05-Prisma-e-PostgreSQL|Prisma e PostgreSQL]]
+
+## Perguntas de revisão
+
+Por que o conflito de porta de banco é o mais perigoso? :: Porque a conexão funciona, só que no banco errado, sem nenhum erro.
+
+Como descobrir quem ocupa a porta 5432 no Windows? :: Com Get-NetTCPConnection -LocalPort 5432 -State Listen.
+
+Como resolver o conflito entre Postgres nativo e container? :: Mapeando o container para outra porta, como 5433:5432, e ajustando a DATABASE_URL.
+
+Que portas usar nos containers numa máquina de desenvolvimento? :: Portas deslocadas por padrão, como 5433, 3307 e 6380.

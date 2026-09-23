@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, rede, ambiente, conceito]
+tags: [problema-resolvido, rede, ambiente, conceito, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -48,3 +48,13 @@ Para outra pessoa acessar, três coisas precisam ser verdade:
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Ambiente: [[../Ambiente/02-Portas-e-Conflitos|Portas e conflitos]]
 - Prática: [[../Praticas/07-Seguranca-em-Apps-Locais|Segurança em apps locais]]
+
+## Perguntas de revisão
+
+Por que um link localhost não funciona para outra pessoa? :: Porque localhost significa a própria máquina; no computador dela, aponta para ela mesma.
+
+O que é preciso para alguém na mesma rede acessar o sistema local? :: Usar o IP da máquina, o servidor escutar em 0.0.0.0 e o firewall liberar a porta.
+
+Como mostrar um sistema local para alguém fora da rede? :: Com um túnel temporário, como Cloudflare Tunnel ou ngrok, sabendo que isso expõe o sistema à internet.
+
+O que falta a um app local para várias pessoas usarem ao mesmo tempo? :: Autenticação, acesso simultâneo seguro ao banco, backup e HTTPS, ou seja, hospedagem de verdade.

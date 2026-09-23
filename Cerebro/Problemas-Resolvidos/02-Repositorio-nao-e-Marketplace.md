@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, git, plugins, configuracao]
+tags: [problema-resolvido, git, plugins, configuracao, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -28,3 +28,11 @@ Antes de cadastrar qualquer repositório, valide a estrutura e leia o README do 
 
 - [[../../Programacao-Geral/03-Git-e-Controle-de-Versao|Git e Controle de Versão]]
 - [[../Tecnologias/00-Indice|Tecnologias]]
+
+## Perguntas de revisão
+
+Por que uma ferramenta diz que o repositório não é marketplace de plugins? :: Porque não encontra o manifesto esperado: foi escolhida uma pasta vazia, um plugin individual ou outro repositório.
+
+Qual a diferença entre repositório de plugin e de marketplace? :: São papéis diferentes: o de marketplace agrega plugins e tem o manifesto próprio; o de plugin contém um plugin só.
+
+O que fazer antes de cadastrar um repositório numa ferramenta? :: Validar a estrutura e ler o README do projeto.

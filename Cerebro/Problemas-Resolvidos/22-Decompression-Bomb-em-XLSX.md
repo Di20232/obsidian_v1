@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, seguranca, python, dados, upload]
+tags: [problema-resolvido, seguranca, python, dados, upload, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -39,3 +39,11 @@ Severidade: **baixa/média**, por ser negação de serviço em uma aplicação l
 
 - Projeto: [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Prática: [[../Praticas/07-Seguranca-em-Apps-Locais|Segurança em apps locais]] · [[../Praticas/05-Importacao-de-Planilhas|Importação de planilhas]]
+
+## Perguntas de revisão
+
+O que é uma decompression bomb? :: Um arquivo pequeno comprimido que se expande para gigabytes ao ser lido, derrubando o processo por falta de memória.
+
+Por que um .xlsx pode ser uma decompression bomb? :: Porque é um ZIP de XML, e XML repetitivo comprime extremamente bem.
+
+O que validar num upload de arquivo comprimido? :: O tamanho depois de descomprimir, como linhas, colunas e bytes, e não só o tamanho do arquivo.

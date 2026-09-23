@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, nodejs, docker, ambiente]
+tags: [problema-resolvido, nodejs, docker, ambiente, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -61,3 +61,11 @@ Depois de resolvido, o projeto ficou com os dois caminhos funcionando **contra o
 - Projeto: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]]
 - Tecnologia: [[../Tecnologias/04-Docker|Docker]]
 - Relacionado: [[16-PostgreSQL-Nativo-Ocupa-a-Porta-5432|Porta 5432 ocupada]]
+
+## Perguntas de revisão
+
+Por que aparece Cannot find module express fora do Docker? :: Porque as dependências foram instaladas só dentro da imagem, e a pasta do host não tem node_modules.
+
+Como corrigir módulo não encontrado num projeto Node? :: Rodando npm install na pasta do projeto.
+
+Qual a lição sobre rodar em Docker e no host? :: São dois setups diferentes; os dois precisam ser preparados e documentados.

@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, docker, windows, ferramentas]
+tags: [problema-resolvido, docker, windows, ferramentas, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -52,3 +52,11 @@ docker cp arquivo.py nome-do-container:/tmp/arquivo.py
 - Projeto: [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Tecnologia: [[../Tecnologias/04-Docker|Docker]]
 - Ambiente: [[../Ambiente/01-Maquina-Windows|Máquina Windows]]
+
+## Perguntas de revisão
+
+Por que docker exec com /tmp falha no Git Bash do Windows? :: Porque o Git Bash converte caminhos Unix em caminhos do Windows antes de passá-los ao Docker.
+
+Como desativar a conversão de caminhos do Git Bash num comando? :: Colocando MSYS_NO_PATHCONV=1 antes do comando.
+
+Qual o sinal de que o problema é a conversão de caminho do MSYS? :: Um caminho escrito como /algo aparece no erro como C:/Program Files/Git/algo.

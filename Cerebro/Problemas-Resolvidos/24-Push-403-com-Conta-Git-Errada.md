@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, git, github, ambiente, windows]
+tags: [problema-resolvido, git, github, ambiente, windows, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -65,3 +65,13 @@ Adicionar `Di20232` como colaborador em `diego2600612/AP1-python`, pelas configu
 - Projeto: [[../Projetos/08-Exercicios-IMP|Exercícios IMP]]
 - Ambiente: [[../Ambiente/03-Contas-Git|Contas Git nesta máquina]]
 - Tecnologia: [[../Tecnologias/06-Git-e-GitHub|Git e GitHub]]
+
+## Perguntas de revisão
+
+Qual a diferença entre erro 401 e 403 num push? :: 401 é credencial não reconhecida; 403 é credencial válida de uma conta sem permissão no repositório.
+
+Por que tentar o push de novo não pede outro login? :: Porque o Git Credential Manager guarda a credencial em cache e reusa a conta antiga.
+
+Como trocar a conta usada no push no Windows? :: Removendo as entradas git:https://github.com no Gerenciador de Credenciais do Windows e tentando de novo.
+
+Qual a diferença entre user.name e a conta do Credential Manager? :: user.name e user.email assinam o commit; o Credential Manager define quem faz o push.

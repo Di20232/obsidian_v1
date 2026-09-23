@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, reflex, python, interface]
+tags: [problema-resolvido, reflex, python, interface, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -64,3 +64,13 @@ A opção B venceu porque mantinha `db.py` intocado e deixou o template só apre
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Tecnologia: [[../Tecnologias/01-Reflex|Reflex]]
 - Relacionado: [[06-Selects-Reflex-Nao-Enviam-Valor|str() em Var]]
+
+## Perguntas de revisão
+
+Por que and, or e not não funcionam em Vars do Reflex? :: Porque são palavras-chave do Python e não podem ser sobrecarregadas para virar JavaScript.
+
+Quais operadores funcionam em Vars do Reflex? :: Comparações como > e <=, e os operadores & e | no lugar de and e or.
+
+Como fazer uma condicional reativa no Reflex? :: Com rx.cond, não com if/else comum.
+
+Qual a regra que resolve a família de problemas com Vars? :: Calcular no estado (event handler) e só apresentar no template.

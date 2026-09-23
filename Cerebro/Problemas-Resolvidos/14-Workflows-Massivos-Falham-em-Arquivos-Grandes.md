@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, processo, automacao, ferramentas]
+tags: [problema-resolvido, processo, automacao, ferramentas, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -50,3 +50,11 @@ Ver o método que funcionou em [[../Praticas/06-Caca-de-Bugs|Caça de bugs]].
 
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Prática: [[../Praticas/06-Caca-de-Bugs|Caça de bugs]] · [[../Praticas/04-Auditoria-de-Projetos|Auditoria de projetos]]
+
+## Perguntas de revisão
+
+Onde a refatoração automática em lote costuma falhar? :: Nos arquivos grandes, com lógica entrelaçada e padrões irregulares.
+
+Onde a automação em lote funciona bem? :: Em muitos arquivos pequenos e parecidos.
+
+Como dividir o trabalho entre automação e revisão manual? :: Deixar o lote cuidar da massa e tratar os poucos arquivos grandes individualmente, com revisão a cada passo.

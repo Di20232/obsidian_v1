@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, rede, windows, smb]
+tags: [problema-resolvido, rede, windows, smb, flashcards]
 status: roteiro-validado
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -40,3 +40,15 @@ O erro indica que a máquina não alcança o compartilhamento SMB ou que o camin
 
 - [[../Ambiente/00-Indice|Ambiente]]
 - [[../Guias/02-Resolver-Problemas|Resolver Problemas]]
+
+## Perguntas de revisão
+
+O que indica o erro 0x80070035 no Windows? :: Que a máquina não alcança o compartilhamento SMB ou que o caminho está incompleto ou errado.
+
+Qual o formato correto de um caminho de compartilhamento? :: \\servidor\nome-do-compartilhamento; o nome da pasta compartilhada é obrigatório.
+
+Qual porta o SMB usa? :: A 445.
+
+Se o servidor responde mas a porta 445 está bloqueada, qual a hipótese? :: Firewall, segmentação de rede ou política de VPN.
+
+Por que não habilitar SMBv1 como tentativa genérica? :: Porque é um protocolo antigo e inseguro; o certo é usar SMB moderno.

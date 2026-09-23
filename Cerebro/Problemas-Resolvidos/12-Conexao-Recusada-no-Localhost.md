@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, ambiente, servidor, reflex]
+tags: [problema-resolvido, ambiente, servidor, reflex, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -56,3 +56,13 @@ Ou duplo clique em `iniciar.bat`. Aguardar a mensagem indicando que o app está 
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Ambiente: [[../Ambiente/02-Portas-e-Conflitos|Portas e conflitos]]
 - Relacionados: [[18-Porta-3000-Presa-por-Processo-Orfao|Porta presa por processo órfão]] · [[19-Docker-Parado-Causa-Erro-500|Erro 500 por banco fora do ar]]
+
+## Perguntas de revisão
+
+O que significa ERR_CONNECTION_REFUSED? :: Que nada está escutando naquela porta: o servidor não está no ar.
+
+Qual a diferença entre conexão recusada, 404 e 500? :: Recusada: servidor fora; 404: servidor no ar e rota inexistente; 500: servidor no ar com erro na aplicação.
+
+Como verificar se algo escuta na porta 3000 no Windows? :: Com Get-NetTCPConnection -LocalPort 3000 -State Listen.
+
+Qual armadilha extra do Reflex quando uma alteração não aparece? :: Editar o arquivo não basta; é preciso recompilar.

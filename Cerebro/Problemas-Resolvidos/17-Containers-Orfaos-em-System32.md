@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, docker, ambiente, windows]
+tags: [problema-resolvido, docker, ambiente, windows, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -58,3 +58,13 @@ docker compose down -v
 - Projeto: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]]
 - Tecnologia: [[../Tecnologias/04-Docker|Docker]]
 - Ambiente: [[../Ambiente/01-Maquina-Windows|Máquina Windows]]
+
+## Perguntas de revisão
+
+Como o Docker Compose nomeia o projeto? :: Pelo nome da pasta onde está o docker-compose.yml.
+
+Por que containers podem aparecer a partir de C:\Windows\System32? :: Porque alguns terminais abrem nessa pasta, e um docker compose up rodado ali cria o projeto nela.
+
+O que fazer antes de rodar docker compose up? :: Conferir a pasta atual com pwd.
+
+Como investigar de onde veio um container desconhecido? :: Com docker inspect NOME --format "{{.Config.Labels}}".

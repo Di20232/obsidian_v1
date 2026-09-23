@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, seguranca, sql, python, streamlit]
+tags: [problema-resolvido, seguranca, sql, python, streamlit, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -62,3 +62,11 @@ O mesmo padrão de identificador interpolado apareceu no [[09-Nome-de-Tabela-em-
 - Projeto: [[../Projetos/07-Projeto-W-Analise-de-Vendas|Projeto W]]
 - Prática: [[../Praticas/07-Seguranca-em-Apps-Locais|Segurança em apps locais]] · [[../Praticas/06-Caca-de-Bugs|Caça de bugs]]
 - Relacionado: [[09-Nome-de-Tabela-em-F-String-no-SQL|O mesmo erro no CTL-TINTA-FL]]
+
+## Perguntas de revisão
+
+O que é uma falha latente? :: Uma vulnerabilidade já escrita no código que só fica explorável quando alguém ativa o caminho até ela.
+
+Dados vindos da URL são confiáveis? :: Não; a query string é entrada tão externa e hostil quanto um formulário.
+
+Por que código documentado para ser ativado não é código morto? :: Porque basta seguir o comentário para ativá-lo; deve ser tratado como se estivesse em produção.

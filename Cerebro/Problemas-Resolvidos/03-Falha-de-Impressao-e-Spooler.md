@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, impressao, windows, suporte]
+tags: [problema-resolvido, impressao, windows, suporte, flashcards]
 status: roteiro-validado
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -34,3 +34,13 @@ Se a página de teste também falha, o problema não é específico do Word. Ele
 
 - [[../Ambiente/00-Indice|Ambiente]]
 - [[../Guias/02-Resolver-Problemas|Resolver Problemas]]
+
+## Perguntas de revisão
+
+Se a página de teste da impressora também falha, onde está o problema? :: Não é do Word: está na conexão, fila, serviço Spooler, driver ou configuração da impressora.
+
+Qual o primeiro passo diante de uma falha de impressão? :: Isolar o escopo, tentando imprimir um PDF ou texto simples e a página de teste.
+
+Qual o cuidado antes de limpar a fila de impressão? :: Avisar quem enviou documentos, porque limpar a fila cancela as impressões pendentes.
+
+Quando investigar o Office numa falha de impressão? :: Só depois de confirmar que o resto (conexão, fila, Spooler e driver) funciona.

@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, ambiente, windows, servidor]
+tags: [problema-resolvido, ambiente, windows, servidor, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -54,3 +54,11 @@ E, para o problema não voltar, `autoPort: true` no `.claude/launch.json` — as
 - Projeto: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]]
 - Ambiente: [[../Ambiente/02-Portas-e-Conflitos|Portas e conflitos]]
 - Relacionado: [[12-Conexao-Recusada-no-Localhost|Conexão recusada]]
+
+## Perguntas de revisão
+
+O que é um processo órfão segurando uma porta? :: Um servidor de sessão anterior que sobreviveu à parada e continua com a porta reservada, sem terminal.
+
+O que fazer antes de matar um processo que ocupa uma porta? :: Ver a linha de comando dele com Get-CimInstance Win32_Process, para confirmar de quem é.
+
+Como evitar que o servidor falhe por porta ocupada? :: Configurando escolha automática de porta, como autoPort, com o app lendo a porta da variável PORT.

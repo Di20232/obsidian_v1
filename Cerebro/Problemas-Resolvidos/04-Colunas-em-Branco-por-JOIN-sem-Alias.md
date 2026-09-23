@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, sqlite, python, banco-de-dados]
+tags: [problema-resolvido, sqlite, python, banco-de-dados, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -74,3 +74,13 @@ Um teste que apenas imprime `list(row.keys())` de cada consulta com JOIN pega es
 - Projeto: [[../Projetos/05-CTL-TINTA-FL|CTL-TINTA-FL]]
 - Tecnologia: [[../Tecnologias/03-SQLite-na-Pratica|SQLite na prática]] · [[../../SQLite/00-Indice|Trilha SQLite]]
 - Relacionado: [[05-Exclusao-Nao-Funciona-em-Cadastros|O bug que também parecia de interface]]
+
+## Perguntas de revisão
+
+Por que colunas de um JOIN aparecem em branco com sqlite3.Row? :: Porque colunas de tabelas diferentes com o mesmo nome, como nome, viram chaves duplicadas no resultado.
+
+Como corrigir colunas duplicadas num JOIN? :: Dando alias explícito a toda coluna, como f.nome AS filial.
+
+Qual a regra para levar adiante sobre JOINs? :: Toda coluna de um JOIN recebe alias; com drivers que acessam linhas por nome, isso é correção, não estilo.
+
+Como detectar esse tipo de bug rapidamente? :: Imprimindo list(row.keys()) de cada consulta com JOIN.

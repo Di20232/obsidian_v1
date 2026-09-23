@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, dados, regra-de-negocio, importacao]
+tags: [problema-resolvido, dados, regra-de-negocio, importacao, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -48,3 +48,11 @@ Junto disso, outras proteções da importação:
 - Projeto: [[../Projetos/06-Mercadinho-Seu-Joao|Mercadinho Seu João]]
 - Prática: [[../Praticas/05-Importacao-de-Planilhas|Importação de planilhas]]
 - Mapa: [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
+
+## Perguntas de revisão
+
+Por que um fallback na importação é perigoso? :: Porque ao não achar pelo critério escolhido tenta outro e pode sobrescrever o produto errado sem aviso.
+
+Qual a regra para qualquer importação de dados? :: Na dúvida, recusar a linha, nunca adivinhar.
+
+Quais proteções uma importação em massa precisa? :: Pré-visualização antes de confirmar, transação por linha, recusa de códigos de outro produto e registro de auditoria.

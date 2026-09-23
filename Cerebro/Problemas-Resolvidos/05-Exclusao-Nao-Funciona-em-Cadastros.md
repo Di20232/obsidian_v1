@@ -1,5 +1,5 @@
 ---
-tags: [problema-resolvido, reflex, python, interface, banco-de-dados]
+tags: [problema-resolvido, reflex, python, interface, banco-de-dados, flashcards]
 status: resolvido
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
@@ -71,3 +71,17 @@ Resultado combinado: **clica, nada some, e nem percebe o aviso.**
 - Tecnologia: [[../Tecnologias/01-Reflex|Reflex]]
 - Relacionados: [[08-Toast-Invisivel-com-Classes-Tailwind|Toast invisível]] · [[04-Colunas-em-Branco-por-JOIN-sem-Alias|Colunas em branco]]
 - Prática: [[../Praticas/06-Caca-de-Bugs|Caça de bugs]]
+
+## Perguntas de revisão
+
+Por que um link com on_click pode não executar a ação? :: Porque a navegação do link acontece junto e interrompe o evento antes de ele chegar ao servidor.
+
+Qual a lição sobre controles que agem? :: Controle que age é botão, não link: link navega, botão age.
+
+Por que nenhum cadastro podia ser excluído no CTL-TINTA-FL? :: Porque o seed de exemplo vinculou lançamentos a 100% dos registros, e a chave estrangeira recusava toda exclusão.
+
+Qual a lição sobre falhas silenciosas? :: Falha silenciosa é pior que erro visível; se o banco pode recusar a operação, a recusa precisa chegar ao usuário.
+
+Como dados de exemplo podem atrapalhar os testes? :: Um seed que vincula tudo esconde o caminho feliz, como uma exclusão bem-sucedida.
+
+Por que o mesmo sintoma pode ter várias causas? :: Porque cada correção resolve uma camada; o sintoma de excluir e nada acontecer teve três causas diferentes.
