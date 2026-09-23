@@ -1,5 +1,5 @@
 ---
-tags: [css, boas-praticas]
+tags: [css, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -78,6 +78,18 @@ Já mencionado em [[01-Seletores-e-Especificidade]] — `!important` ignora a es
 - **Pratique reconstruindo uma página que você usa no dia a dia**, só com HTML/CSS puro — força você a resolver problemas reais de layout.
 - **Explore um framework CSS**: [[../Bootstrap/00-Indice]] (componentes prontos, curva de entrada mais suave) ou [[../TailwindCSS/00-Indice]] (classes utilitárias, mais controle granular) — os dois fazem muito mais sentido depois de entender o CSS por trás deles.
 - **Pré-processadores** como Sass adicionam variáveis mais poderosas, aninhamento de seletores e funções ao CSS — vale conhecer depois de dominar o CSS puro desta trilha.
+
+## Perguntas de revisão
+
+O que são variáveis CSS e como usar? :: Valores definidos em :root como --cor-primaria e usados com var(--cor-primaria), para mudar em um só lugar.
+
+O que significa BEM? :: Block, Element, Modifier: .card, .card__titulo e .card--destaque.
+
+O que faz um reset CSS? :: Zera margens, paddings e diferenças padrão entre navegadores, como ponto de partida.
+
+Como descobrir por que um estilo não está funcionando? :: Inspecionando o elemento nas ferramentas do navegador, que mostram as regras aplicadas e as sobrescritas.
+
+O que o Sass adiciona ao CSS? :: Variáveis mais poderosas, aninhamento de seletores e funções.
 
 ---
 Fim da trilha de CSS avançado. Volte ao [[00-Indice|índice deste curso]] ou ao [[../Programacao-Geral/07-HTML-e-CSS|resumo introdutório]] a qualquer momento.

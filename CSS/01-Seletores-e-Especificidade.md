@@ -1,5 +1,5 @@
 ---
-tags: [css, seletores]
+tags: [css, seletores, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -92,6 +92,20 @@ Com especificidade igual, o CSS usa a **ordem no arquivo** como critério de des
 ## Exercício
 
 Abra `CSS/exemplos/01_seletores.html` no navegador. Altere as regras para fazer o segundo item de uma lista ficar com fundo amarelo usando `:nth-child`, e faça todo link dentro de um `<nav>` (mas não fora dele) ficar sublinhado só ao passar o mouse, usando um combinador descendente com `:hover`.
+
+## Perguntas de revisão
+
+Qual a diferença entre .card p e .card > p? :: .card p seleciona qualquer p dentro de .card; .card > p só os filhos diretos.
+
+O que selecionam h2 + p e h2 ~ p? :: h2 + p seleciona o p logo depois do h2; h2 ~ p seleciona todos os p irmãos depois do h2.
+
+Qual a diferença entre pseudo-classe e pseudo-elemento? :: Pseudo-classe (:hover) seleciona por estado ou posição; pseudo-elemento (::before) estiliza uma parte do elemento.
+
+Qual a ordem de especificidade no CSS, do menor para o maior? :: Tag, depois classe/pseudo-classe/atributo, depois id, depois style inline; !important força acima de tudo.
+
+Quem vence quando duas regras têm a mesma especificidade? :: A que aparece por último no código.
+
+Por que evitar !important? :: Porque quebra a cascata e vira um problema crescente; é último recurso, não ferramenta do dia a dia.
 
 ---
 Veja o exemplo em `CSS/exemplos/01_seletores.html`. Próxima nota: [[02-Box-Model]]

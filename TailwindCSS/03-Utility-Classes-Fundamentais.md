@@ -1,5 +1,5 @@
 ---
-tags: [tailwindcss, basico]
+tags: [tailwindcss, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-tailwind]
 ---
 
@@ -86,6 +86,18 @@ Repare: **nenhuma linha de CSS separada foi escrita** — o card inteiro, inclui
 ## Exercício
 
 Abra `TailwindCSS/exemplos/03_utilitarios.html`. Construa o card do exemplo acima do zero, e depois modifique as cores, o arredondamento e o espaçamento até chegar em um visual próprio.
+
+## Perguntas de revisão
+
+Qual a escala de espaçamento do Tailwind? :: Incrementos de 0.25rem: p-1 é 0.25rem, p-4 é 1rem e p-8 é 2rem.
+
+Como funcionam as cores do Tailwind? :: Nome da cor com intensidade de 50 a 900, como bg-red-100 (clara) ou bg-red-900 (escura).
+
+Como centralizar um bloco com largura definida no Tailwind? :: Com mx-auto.
+
+O que fazem w-full e h-screen? :: w-full dá 100% da largura do pai; h-screen dá a altura da janela (100vh).
+
+O que faz rounded-full? :: Arredonda por completo, formando círculo ou pílula.
 
 ---
 Veja o exemplo em `TailwindCSS/exemplos/03_utilitarios.html`. Próxima nota: [[04-Layout-Flexbox-Grid-Responsividade]]

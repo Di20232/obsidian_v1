@@ -1,5 +1,5 @@
 ---
-tags: [bootstrap, setup]
+tags: [bootstrap, setup, flashcards]
 cssclasses: [cerebro-nota, cerebro-bootstrap]
 ---
 
@@ -65,6 +65,16 @@ Mesmo conceito de `npm install` já visto em [[../JavaScript/12-Modulos-e-NPM]] 
 ## Exercício
 
 Crie um arquivo `teste.html` com a estrutura básica acima (CDN de CSS e JS, `container`, um `<h1>` e um `btn btn-primary`), e abra no navegador para confirmar que o botão já vem estilizado, sem você ter escrito nenhum CSS.
+
+## Perguntas de revisão
+
+Como usar o Bootstrap sem instalar nada? :: Pelo CDN: um link do CSS no head e o script do JavaScript no fim do body.
+
+Quando o script JavaScript do Bootstrap é necessário? :: Só para componentes interativos, como modais, dropdowns e carrosséis.
+
+Quando instalar o Bootstrap pelo npm em vez do CDN? :: Em projetos com processo de build, especialmente para customizar via Sass.
+
+Qual a diferença entre container e container-fluid? :: container tem largura máxima responsiva; container-fluid ocupa 100% da largura.
 
 ---
 Veja o exemplo em `Bootstrap/exemplos/02_setup.html`. Próxima nota: [[03-Grid-System]]

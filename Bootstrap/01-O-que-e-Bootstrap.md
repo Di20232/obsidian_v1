@@ -1,5 +1,5 @@
 ---
-tags: [bootstrap, css, conceitos]
+tags: [bootstrap, css, conceitos, flashcards]
 cssclasses: [cerebro-nota, cerebro-bootstrap]
 ---
 
@@ -45,6 +45,18 @@ Esta trilha usa **Bootstrap 5**, a versão mais recente estável — diferente d
 ## Exercício
 
 Sem escrever código ainda: visite (mentalmente, ou de fato) 2-3 painéis administrativos ou sites institucionais que você conhece, e tente identificar se "têm cara de Bootstrap" — botões arredondados padrão, grid de 12 colunas, cards espaçados de forma parecida. Isso ajuda a reconhecer o framework "em estado selvagem" antes mesmo de aprender a usá-lo.
+
+## Perguntas de revisão
+
+O que é o Bootstrap? :: Uma biblioteca pronta de CSS e JavaScript que resolve layout responsivo e componentes comuns por meio de classes no HTML.
+
+Quais as vantagens do Bootstrap? :: Velocidade, consistência visual, componentes interativos prontos e compatibilidade testada em milhões de sites.
+
+Quais as desvantagens do Bootstrap? :: Sites com a mesma cara, HTML cheio de classes, peso extra e menos controle fino do design.
+
+O Bootstrap 5 depende de jQuery? :: Não; usa JavaScript puro nos componentes interativos.
+
+Quando o Bootstrap faz sentido? :: Em protótipos, painéis administrativos internos e equipes que já o conhecem.
 
 ---
 Próxima nota: [[02-Instalando-e-Configurando]]

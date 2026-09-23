@@ -1,5 +1,5 @@
 ---
-tags: [css, responsividade]
+tags: [css, responsividade, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -96,6 +96,18 @@ No navegador, `F12` → ícone de celular/tablet (DevTools em modo responsivo) s
 ## Exercício
 
 Abra `CSS/exemplos/07_responsividade.html`, redimensione a janela do navegador (ou use o modo responsivo do DevTools) e observe o layout mudando de uma coluna (mobile) para uma grade de 3 colunas (desktop) ao cruzar o breakpoint de 768px.
+
+## Perguntas de revisão
+
+Qual meta tag é obrigatória para responsividade? :: <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+
+O que é mobile-first? :: Escrever o CSS base para telas pequenas e adicionar complexidade com @media (min-width: ...) conforme a tela cresce.
+
+Quais são os breakpoints comuns de referência? :: sm 576px, md 768px, lg 992px e xl 1200px, os mesmos do Bootstrap.
+
+Como impedir que imagens estourem o layout em telas pequenas? :: Com img { max-width: 100%; height: auto; }.
+
+Como testar responsividade sem um celular? :: Pelo modo responsivo das ferramentas de desenvolvedor do navegador (F12).
 
 ---
 Veja o exemplo em `CSS/exemplos/07_responsividade.html`. Próxima nota: [[08-Transicoes-e-Animacoes]]

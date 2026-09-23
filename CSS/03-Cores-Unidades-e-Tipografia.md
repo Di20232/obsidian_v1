@@ -1,5 +1,5 @@
 ---
-tags: [css, tipografia]
+tags: [css, tipografia, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -76,6 +76,20 @@ Um `line-height` sem unidade é um **multiplicador** do `font-size` daquele elem
 ## Exercício
 
 Abra `CSS/exemplos/03_cores_tipografia.html`. Crie três parágrafos com a mesma cor de fundo, mas escritos em `hex`, `rgb` e `hsl` respectivamente (a mesma cor, três formas diferentes), e confirme visualmente que são idênticos. Depois, experimente aumentar o `font-size` do `<html>` e observe como elementos em `rem` escalam, enquanto os em `px` não mudam.
+
+## Perguntas de revisão
+
+Qual a diferença entre em e rem? :: em é relativo à fonte do elemento pai e se multiplica quando aninhado; rem é relativo à raiz html, sempre previsível.
+
+Por que preferir rem a px em fontes? :: Porque rem acompanha o tamanho de fonte que o usuário configurou no navegador, o que é importante para acessibilidade.
+
+O que representa o quarto valor de rgba? :: A transparência (alpha), de 0 invisível a 1 opaco.
+
+Por que terminar font-family com uma família genérica? :: Para o navegador ter uma alternativa, como sans-serif, se nenhuma fonte da lista estiver instalada.
+
+Por que usar line-height sem unidade? :: Porque vira um multiplicador do tamanho da fonte e se ajusta se a fonte mudar.
+
+O que medem vw e vh? :: Porcentagens da largura e da altura da janela do navegador.
 
 ---
 Veja o exemplo em `CSS/exemplos/03_cores_tipografia.html`. Próxima nota: [[04-Flexbox]]

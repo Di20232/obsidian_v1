@@ -1,5 +1,5 @@
 ---
-tags: [bootstrap, utilitarios]
+tags: [bootstrap, utilitarios, flashcards]
 cssclasses: [cerebro-nota, cerebro-bootstrap]
 ---
 
@@ -92,6 +92,18 @@ Cada uma delas mapeia **diretamente** para uma propriedade CSS que você já ent
 ## Exercício
 
 Abra `Bootstrap/exemplos/05_utilitarios.html`. Construa um cabeçalho usando `d-flex justify-content-between align-items-center`, com um logo à esquerda e um botão à direita, ambos com espaçamento (`p-3`) e uma sombra sutil (`shadow-sm`).
+
+## Perguntas de revisão
+
+O que são classes utilitárias no Bootstrap? :: Classes que aplicam uma única propriedade CSS cada, como mt-3 ou text-center.
+
+O que significam m, p, t, b, s, e, x e y nas classes de espaçamento? :: margin, padding, top, bottom, start, end, horizontal e vertical; a escala vai de 0 a 5.
+
+Como mostrar um elemento só a partir de tablets? :: Com d-none d-md-block.
+
+O que faz d-flex justify-content-between? :: Aplica display flex e distribui os itens com espaço entre eles.
+
+O que faz m-auto? :: Centraliza horizontalmente um elemento com largura definida.
 
 ---
 Veja o exemplo em `Bootstrap/exemplos/05_utilitarios.html`. Próxima nota: [[06-Boas-Praticas-e-Proximos-Passos]]

@@ -1,5 +1,5 @@
 ---
-tags: [tailwindcss, estados, dark-mode]
+tags: [tailwindcss, estados, dark-mode, flashcards]
 cssclasses: [cerebro-nota, cerebro-tailwind]
 ---
 
@@ -78,6 +78,18 @@ Prefixos podem ser **empilhados** — isso é útil porque hover não faz muito 
 ## Exercício
 
 Abra `TailwindCSS/exemplos/05_estados.html`. Construa um card com `group`/`group-hover` onde o título muda de cor ao passar o mouse sobre o card inteiro. Depois, adicione classes `dark:` a um dos elementos e alterne o modo escuro do seu sistema operacional (ou do navegador) para ver o efeito.
+
+## Perguntas de revisão
+
+Como aplicar estilo no hover com Tailwind? :: Com o prefixo hover:, como hover:bg-blue-700.
+
+Para que servem group e group-hover? :: Para mudar o estilo de um filho quando o mouse passa sobre o pai marcado com group.
+
+Como o Tailwind aplica o modo escuro? :: Com o prefixo dark:, que por padrão segue a preferência do sistema, ou controlado por uma classe dark no html.
+
+Por que restringir hover a telas maiores, como md:hover:? :: Porque hover não faz sentido em telas de toque.
+
+Como criar transição de cor no Tailwind? :: Com transition-colors e uma duração, como duration-300.
 
 ---
 Veja o exemplo em `TailwindCSS/exemplos/05_estados.html`. Próxima nota: [[06-Customizando-e-Proximos-Passos]]

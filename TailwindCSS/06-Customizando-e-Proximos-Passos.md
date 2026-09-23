@@ -1,9 +1,12 @@
 ---
-tags: [tailwindcss, boas-praticas]
+tags: [tailwindcss, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-tailwind]
 ---
 
 # Customizando e Próximos Passos
+
+> [!warning] Personalização no Tailwind 4
+> Os exemplos com `tailwind.config.js` abaixo são do **Tailwind 3**. No Tailwind 4, cores, fontes e espaçamentos novos são declarados no próprio CSS, dentro de `@theme` (por exemplo, `--color-marca: #ff6600;` gera `bg-marca`). Veja o aviso em [[02-Instalando-e-Configurando|Instalando e configurando]].
 
 ## Você terminou o essencial de TailwindCSS
 
@@ -88,6 +91,18 @@ Depois de terminar as duas trilhas ([[../Bootstrap/00-Indice]] e esta), a escolh
 - **Pratique reconstruindo uma interface real** só com Tailwind, sem nenhum CSS customizado — força a fluência com as classes.
 - **Configure um projeto real com build** (npm + `tailwind.config.js`), saindo do Play CDN usado nesta trilha.
 - Volte para [[../CSS/00-Indice]] sempre que uma classe utilitária não bastar — saber CSS puro é o que torna qualquer framework CSS mais fácil de dominar de verdade, não o contrário.
+
+## Perguntas de revisão
+
+Qual a diferença entre theme e theme.extend no tailwind.config.js (Tailwind 3)? :: extend adiciona valores aos padrões; theme sem extend substitui os padrões inteiros.
+
+Como evitar repetir o mesmo conjunto de classes do Tailwind? :: Extraindo um componente no código (React, função PHP) ou, com moderação, agrupando com @apply.
+
+Por que usar @apply com moderação? :: Porque abusar dele recria o CSS tradicional que a filosofia utility-first quer evitar.
+
+Para que serve o plugin @tailwindcss/typography? :: Fornece a classe prose, que estiliza blocos longos de texto como conteúdo de Markdown.
+
+Quando escolher Tailwind em vez de Bootstrap? :: Quando se quer controle total do design e há disposição para compor manualmente.
 
 ---
 Fim da trilha de TailwindCSS. Volte ao [[00-Indice|índice deste curso]], ao [[../Bootstrap/00-Indice|curso de Bootstrap]] ou ao [[../CSS/00-Indice|curso de CSS avançado]] a qualquer momento.

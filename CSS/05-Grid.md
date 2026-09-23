@@ -1,5 +1,5 @@
 ---
-tags: [css, layout, grid]
+tags: [css, layout, grid, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -99,6 +99,20 @@ Essa é, possivelmente, a forma **mais legível** de descrever um layout de pág
 ## Exercício
 
 Abra `CSS/exemplos/05_grid.html`. Construa o layout clássico de página (cabeçalho, menu lateral, conteúdo, rodapé) usando `grid-template-areas`. Depois, crie uma galeria de 6 cards usando `repeat(auto-fit, minmax(150px, 1fr))` e redimensione a janela do navegador para ver as colunas se reorganizarem sozinhas.
+
+## Perguntas de revisão
+
+Qual a diferença entre Flexbox e Grid? :: Flexbox é unidimensional (linha ou coluna); Grid é bidimensional, controlando linhas e colunas ao mesmo tempo.
+
+O que significa a unidade fr? :: Uma fração do espaço disponível, existente só no Grid.
+
+Como criar colunas responsivas sem media query? :: Com grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)).
+
+O que faz grid-column: span 2? :: Faz o item ocupar duas colunas a partir da posição dele.
+
+Para que serve grid-template-areas? :: Para desenhar o layout com nomes de áreas em texto e encaixar cada elemento com grid-area.
+
+Quando usar Grid e quando usar Flexbox? :: Grid para o esqueleto da página; Flexbox para alinhar itens dentro de componentes.
 
 ---
 Veja o exemplo em `CSS/exemplos/05_grid.html`. Próxima nota: [[06-Posicionamento]]

@@ -1,5 +1,5 @@
 ---
-tags: [bootstrap, boas-praticas]
+tags: [bootstrap, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-bootstrap]
 ---
 
@@ -54,6 +54,18 @@ Sinais de que vale reconsiderar Bootstrap em um projeto:
 - **Pratique reconstruindo uma interface real** só com Bootstrap — um painel administrativo simples, uma landing page.
 - **Explore o Bootstrap Icons** (`icons.getbootstrap.com`), um pacote de ícones gratuito que combina bem com o framework.
 - **Compare com TailwindCSS**: [[../TailwindCSS/00-Indice]] resolve os mesmos problemas com uma filosofia oposta — vale entender as duas para escolher com critério em projetos futuros.
+
+## Perguntas de revisão
+
+Como mudar a cor primary do Bootstrap em todos os componentes? :: Sobrescrevendo a variável Sass $primary antes de importar o Bootstrap, o que exige um processo de build.
+
+Como customizar o Bootstrap sem Sass? :: Com um CSS próprio carregado depois do link do Bootstrap.
+
+Por que o CSS próprio precisa vir depois do Bootstrap? :: Porque, com a mesma especificidade, a regra carregada por último vence.
+
+O Bootstrap garante acessibilidade sozinho? :: Não; ainda é preciso HTML semântico, texto alternativo em imagens e testes com teclado e leitor de tela.
+
+Quando reconsiderar o uso do Bootstrap? :: Quando o design é muito específico, a performance é crítica ou se quer controle granular.
 
 ---
 Fim da trilha de Bootstrap. Volte ao [[00-Indice|índice deste curso]] ou ao [[../CSS/00-Indice|curso de CSS avançado]] a qualquer momento.

@@ -1,5 +1,5 @@
 ---
-tags: [bootstrap, layout]
+tags: [bootstrap, layout, flashcards]
 cssclasses: [cerebro-nota, cerebro-bootstrap]
 ---
 
@@ -80,6 +80,20 @@ Essa é a característica mais poderosa do grid do Bootstrap: cada breakpoint (`
 ## Exercício
 
 Abra `Bootstrap/exemplos/03_grid.html`. Crie um layout de 3 cards que ocupam a linha inteira no celular (`col-12`), metade da linha em tablets (`col-md-6`) e um terço em desktops (`col-lg-4`), e redimensione a janela para ver o comportamento.
+
+## Perguntas de revisão
+
+Em quantas colunas o grid do Bootstrap divide a largura? :: Em 12 colunas.
+
+Quais as três camadas do grid do Bootstrap? :: container, row e col.
+
+O que faz col sem número? :: Divide o espaço igualmente entre as colunas da mesma row.
+
+O que significa col-12 col-md-6 col-lg-4? :: Linha inteira no celular, metade a partir de 768px e um terço a partir de 992px.
+
+O que acontece se as colunas de uma row somarem mais de 12? :: O excedente quebra para a linha seguinte.
+
+O que faz a classe g-3 numa row? :: Adiciona espaçamento (gutter) entre colunas e linhas.
 
 ---
 Veja o exemplo em `Bootstrap/exemplos/03_grid.html`. Próxima nota: [[04-Componentes]]

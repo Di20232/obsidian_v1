@@ -1,9 +1,18 @@
 ---
-tags: [tailwindcss, setup]
+tags: [tailwindcss, setup, flashcards]
 cssclasses: [cerebro-nota, cerebro-tailwind]
 ---
 
 # Instalando e Configurando
+
+> [!warning] Esta nota descreve o Tailwind 3
+> O **Tailwind 4** (lançado em janeiro de 2025) mudou a instalação:
+> - o CSS de entrada passa a ter só `@import "tailwindcss";`, no lugar das três diretivas `@tailwind`;
+> - a personalização vai para o próprio CSS, com `@theme`, em vez do `tailwind.config.js`;
+> - os arquivos com classes são detectados automaticamente, sem a lista `content`;
+> - o CDN de testes passou a ser o pacote `@tailwindcss/browser`.
+>
+> Os conceitos (classes utilitárias, breakpoints, estados) continuam iguais. Antes de começar um projeto novo, siga a documentação oficial da versão atual em tailwindcss.com.
 
 ## Play CDN: a forma mais rápida de experimentar
 
@@ -71,6 +80,16 @@ No VS Code (já configurado em [[../Python/02-Instalando-Python]]), instale a ex
 ## Exercício
 
 Crie um arquivo `teste.html` usando o Play CDN, com um `<h1>` estilizado com `text-3xl font-bold text-blue-600` e um `<p>` com `text-gray-600 mt-2`. Abra no navegador e confirme que os estilos são aplicados instantaneamente, sem nenhum arquivo `.css` separado.
+
+## Perguntas de revisão
+
+Por que o Play CDN do Tailwind não serve para produção? :: Porque processa o CSS no navegador a cada carregamento, é mais lento e maior que o necessário.
+
+Para que serve content no tailwind.config.js (Tailwind 3)? :: Diz quais arquivos o Tailwind escaneia para gerar só o CSS das classes usadas.
+
+O que mudou na configuração do Tailwind 4? :: A configuração passou para o próprio CSS, com @import "tailwindcss" e @theme, e os arquivos são detectados automaticamente.
+
+Que extensão do VS Code ajuda com Tailwind? :: Tailwind CSS IntelliSense, com autocompletar e prévia do CSS de cada classe.
 
 ---
 Veja o exemplo em `TailwindCSS/exemplos/02_setup.html`. Próxima nota: [[03-Utility-Classes-Fundamentais]]

@@ -1,5 +1,5 @@
 ---
-tags: [css, layout]
+tags: [css, layout, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -107,6 +107,20 @@ Elementos `block` (como `<div>`) e `inline` (como `<span>`) têm essa diferença
 ## Exercício
 
 Abra `CSS/exemplos/02_box_model.html`. Compare visualmente duas caixas com o mesmo `width: 200px`, uma com `box-sizing: content-box` e outra com `border-box`, ambas com `padding: 20px` e `border: 2px solid` — meça a diferença de tamanho final.
+
+## Perguntas de revisão
+
+Quais as camadas do box model, de dentro para fora? :: Conteúdo, padding, border e margin.
+
+Qual a diferença entre content-box e border-box? :: Em content-box, padding e borda somam à largura; em border-box, a largura já inclui padding e borda.
+
+Qual regra aplicar no início de todo projeto CSS? :: * { box-sizing: border-box; }
+
+O que é margin collapse? :: Margens verticais de elementos vizinhos se fundem, e o espaço fica igual à maior delas, não à soma.
+
+Qual a diferença entre padding e margin? :: Padding é espaço interno, dentro da borda; margin é espaço externo, entre caixas.
+
+Qual a diferença entre display block, inline e inline-block? :: block ocupa a largura toda e quebra linha; inline ocupa só o conteúdo; inline-block não quebra linha mas aceita largura e altura.
 
 ---
 Veja o exemplo em `CSS/exemplos/02_box_model.html`. Próxima nota: [[03-Cores-Unidades-e-Tipografia]]

@@ -1,5 +1,5 @@
 ---
-tags: [css, layout, flexbox]
+tags: [css, layout, flexbox, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -110,6 +110,20 @@ Todas as propriedades de alinhamento abaixo se referem a um desses dois eixos �
 ## Exercício
 
 Abra `CSS/exemplos/04_flexbox.html`. Construa uma barra de navegação com um logo à esquerda e 3 links à direita, usando `justify-content: space-between`. Depois, centralize um card (com largura e altura fixas) no meio da tela inteira, combinando `justify-content: center`, `align-items: center` e `height: 100vh`.
+
+## Perguntas de revisão
+
+Para que serve o Flexbox? :: Para organizar itens em uma linha ou uma coluna, controlando alinhamento e distribuição de espaço.
+
+O que alinha justify-content e o que alinha align-items? :: justify-content alinha no eixo principal; align-items alinha no eixo cruzado.
+
+Como centralizar um elemento horizontal e verticalmente? :: No pai: display flex, justify-content center, align-items center, com altura definida.
+
+O que faz flex: 1 nos itens? :: Faz os itens dividirem o espaço disponível igualmente.
+
+Para que serve gap no Flexbox? :: Espaçar os itens sem precisar de margin em cada um.
+
+O que muda flex-direction: column? :: O eixo principal passa a ser vertical e os itens ficam em coluna.
 
 ---
 Veja o exemplo em `CSS/exemplos/04_flexbox.html`. Próxima nota: [[05-Grid]]

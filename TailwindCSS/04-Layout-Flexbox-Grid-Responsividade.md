@@ -1,5 +1,5 @@
 ---
-tags: [tailwindcss, layout, responsividade]
+tags: [tailwindcss, layout, responsividade, flashcards]
 cssclasses: [cerebro-nota, cerebro-tailwind]
 ---
 
@@ -89,6 +89,18 @@ Mesmas classes diretas para os conceitos de [[../CSS/06-Posicionamento]]: `relat
 ## Exercício
 
 Abra `TailwindCSS/exemplos/04_layout.html`. Construa uma navbar com `flex justify-between items-center`, e uma galeria de cards com `grid grid-cols-1 md:grid-cols-3 gap-4`, redimensionando a janela para confirmar a mudança de colunas.
+
+## Perguntas de revisão
+
+O que significam flex, flex-col, justify-between e items-center? :: display flex, flex-direction column, justify-content space-between e align-items center.
+
+O que faz grid-cols-1 md:grid-cols-3? :: Uma coluna no celular e três a partir do breakpoint md.
+
+Quais os breakpoints padrão do Tailwind? :: sm 640px, md 768px, lg 1024px e xl 1280px.
+
+Como funciona o prefixo de breakpoint no Tailwind? :: É mobile-first: a classe sem prefixo vale sempre, e md:, lg: acrescentam ou sobrescrevem a partir daquele tamanho.
+
+Quando usar space-x em vez de gap? :: Quando o pai não é flex nem grid; space-x põe espaço só entre os filhos.
 
 ---
 Veja o exemplo em `TailwindCSS/exemplos/04_layout.html`. Próxima nota: [[05-Estados-e-Dark-Mode]]

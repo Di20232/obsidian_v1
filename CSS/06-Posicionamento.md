@@ -1,5 +1,5 @@
 ---
-tags: [css, layout, posicionamento]
+tags: [css, layout, posicionamento, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -93,6 +93,18 @@ Quando elementos posicionados (`relative`, `absolute`, `fixed`, `sticky`) se sob
 ## Exercício
 
 Abra `CSS/exemplos/06_posicionamento.html`. Crie um card com um selo "Novo" posicionado no canto superior direito usando `position: relative` no card e `position: absolute` no selo. Depois, crie uma barra de navegação com `position: sticky; top: 0;` no topo de uma página com bastante conteúdo, e role a página para ver o comportamento.
+
+## Perguntas de revisão
+
+O que faz position: relative? :: Desloca o elemento mantendo o espaço original, e serve de referência para filhos absolute.
+
+Em relação a quê um elemento absolute se posiciona? :: Ao ancestral mais próximo com position diferente de static; sem nenhum, à página.
+
+Qual a diferença entre fixed e sticky? :: fixed fica sempre na mesma posição da janela; sticky segue o fluxo até atingir o limite de top e então gruda dentro do container pai.
+
+O que decide o z-index? :: Qual elemento posicionado fica por cima; números maiores ficam na frente.
+
+O z-index funciona em elementos static? :: Não; só em elementos com position relative, absolute, fixed ou sticky.
 
 ---
 Veja o exemplo em `CSS/exemplos/06_posicionamento.html`. Próxima nota: [[07-Responsividade]]

@@ -1,5 +1,5 @@
 ---
-tags: [css, animacoes]
+tags: [css, animacoes, flashcards]
 cssclasses: [cerebro-nota, cerebro-css]
 ---
 
@@ -108,6 +108,18 @@ Alguns usuários configuram o sistema operacional para reduzir animações (por 
 ## Exercício
 
 Abra `CSS/exemplos/08_transicoes_animacoes.html`. Crie um botão que muda de cor suavemente e "levanta" levemente ao passar o mouse (`transition` + `transform`). Depois, crie um elemento com uma animação de `@keyframes` que gira infinitamente (`transform: rotate(360deg)` ao longo do tempo).
+
+## Perguntas de revisão
+
+Qual a diferença entre transition e animation com @keyframes? :: transition anima a mudança entre dois estados; @keyframes cria animações com vários estágios que podem rodar sozinhas.
+
+Quais as partes de uma transition? :: Propriedade, duração, função de tempo e atraso, como transition: background 0.3s ease.
+
+Por que animar com transform e opacity? :: Porque são processados pela GPU e não recalculam o layout da página, ao contrário de width ou margin.
+
+O que faz animation-iteration-count: infinite? :: Repete a animação para sempre.
+
+Para que serve prefers-reduced-motion? :: Para desligar animações de quem configurou o sistema para reduzir movimento.
 
 ---
 Veja o exemplo em `CSS/exemplos/08_transicoes_animacoes.html`. Próxima nota: [[09-Boas-Praticas-e-Proximos-Passos]]

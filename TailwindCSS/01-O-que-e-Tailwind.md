@@ -1,5 +1,5 @@
 ---
-tags: [tailwindcss, css, conceitos]
+tags: [tailwindcss, css, conceitos, flashcards]
 cssclasses: [cerebro-nota, cerebro-tailwind]
 ---
 
@@ -48,6 +48,16 @@ Uma linha de HTML pode acumular dezenas de classes — isso é visualmente "polu
 ## Exercício
 
 Sem escrever código ainda: olhe de novo o exemplo de botão Bootstrap (`btn btn-primary`) e o de Tailwind (`bg-blue-600 text-white...`) acima, e liste, propriedade por propriedade, o que cada classe do Tailwind está fazendo — isso já é o essencial da mentalidade "utility-first".
+
+## Perguntas de revisão
+
+O que significa utility-first? :: Compor a aparência com classes que aplicam uma propriedade CSS cada, em vez de usar componentes prontos.
+
+Qual a principal diferença entre Bootstrap e Tailwind? :: Bootstrap entrega componentes prontos; Tailwind entrega classes utilitárias para compor tudo do zero.
+
+Qual a crítica mais comum ao Tailwind? :: O HTML fica carregado de muitas classes.
+
+Por que o Tailwind não deixa CSS sobrando em produção? :: Porque o build gera só o CSS das classes realmente usadas.
 
 ---
 Próxima nota: [[02-Instalando-e-Configurando]]

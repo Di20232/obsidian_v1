@@ -1,5 +1,5 @@
 ---
-tags: [bootstrap, componentes]
+tags: [bootstrap, componentes, flashcards]
 cssclasses: [cerebro-nota, cerebro-bootstrap]
 ---
 
@@ -106,6 +106,18 @@ Um modal (janela sobreposta) exigiria, em JavaScript puro, controlar visibilidad
 ## Exercício
 
 Abra `Bootstrap/exemplos/04_componentes.html`. Monte uma página com uma navbar, 3 cards em um grid responsivo (combinando com [[03-Grid-System]]), e um botão que abre um modal.
+
+## Perguntas de revisão
+
+Qual o padrão de classes dos botões do Bootstrap? :: btn junto de btn-<variante>, como btn btn-primary ou btn-outline-primary.
+
+Quais as cores semânticas do Bootstrap? :: primary, secondary, success, danger, warning, info, light e dark.
+
+O que faz navbar-expand-lg? :: Mostra os links completos a partir do breakpoint lg e vira menu hambúrguer abaixo dele.
+
+Como abrir um modal do Bootstrap sem escrever JavaScript? :: Com data-bs-toggle="modal" e data-bs-target="#id" no botão, com o script do Bootstrap carregado.
+
+Para que serve a classe form-control? :: Estilizar campos de entrada de formulário de forma consistente.
 
 ---
 Veja o exemplo em `Bootstrap/exemplos/04_componentes.html`. Próxima nota: [[05-Utilitarios-e-Responsividade]]
