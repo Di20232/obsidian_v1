@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, estrategia, precificacao]
+tags: [ecommerce, marketplace, estrategia, precificacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 ---
@@ -65,6 +65,16 @@ Uma mudança de regra, um aumento de comissão ou uma suspensão de conta pode z
 - [[24-Anuncios-em-Marketplace|Anúncios que vendem em marketplace]]
 - [[25-Reputacao-e-Operacao-em-Marketplace|Reputação e operação]]
 - [[26-Integracao-Multicanal|Integração multicanal]]
+
+## Perguntas de revisão
+
+O que o marketplace oferece e o que ele cobra? :: Oferece tráfego, confiança e pagamento resolvidos; cobra comissão alta por venda, concorrência lado a lado e regras que mudam sem negociação.
+
+O que é um degrau de preço em marketplace? :: Uma mudança de faixa de tarifa em que um centavo a mais faz o vendedor receber menos, porque a taxa fixa sobe.
+
+Por que é proibido colocar telefone ou site no anúncio do marketplace? :: Porque desviar o cliente para fora da plataforma gera punição.
+
+Como se proteger da dependência de um só marketplace? :: Diversificar em dois marketplaces e manter loja própria com base de clientes e e-mails.
 
 ---
 Anterior: [[19-Rotina-de-Gestao-da-Loja|Rotina de gestão]] · Próxima: [[21-Mercado-Livre|Mercado Livre]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, anuncios, seo]
+tags: [ecommerce, marketplace, anuncios, seo, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -71,6 +71,18 @@ Tamanhos e cores num **único anúncio** com variações. Isso concentra vendas 
 2. Preço competitivo nas primeiras semanas para gerar as primeiras vendas e avaliações.
 3. Um pouco de **anúncio patrocinado** para ganhar visitas, acompanhando o custo por venda.
 4. Despacho rápido, para as primeiras avaliações serem boas.
+
+## Perguntas de revisão
+
+Qual a fórmula de título para anúncio de marketplace? :: Produto + marca + modelo + atributo principal + variação ou tamanho.
+
+Como deve ser a primeira foto do anúncio? :: O produto sozinho, com fundo branco, ocupando a maior parte da imagem.
+
+Por que preencher toda a ficha técnica? :: Porque os filtros da busca usam esses campos; sem eles, o anúncio não aparece para quem filtrou.
+
+Por que usar variações num único anúncio? :: Concentra vendas e avaliações num anúncio só, o que melhora a posição na busca.
+
+Como destravar um anúncio novo? :: Anúncio completo, preço competitivo nas primeiras semanas, um pouco de anúncio patrocinado e despacho rápido.
 
 ---
 Anterior: [[23-Outros-Marketplaces|Outros marketplaces]] · Próxima: [[25-Reputacao-e-Operacao-em-Marketplace|Reputação e operação]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

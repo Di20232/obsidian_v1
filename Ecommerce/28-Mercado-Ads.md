@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, mercado-livre, trafego-pago, anuncios]
+tags: [ecommerce, marketplace, mercado-livre, trafego-pago, anuncios, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://www.mercadolivre.com.br/ajuda/20643
@@ -68,6 +68,20 @@ O valor estimado que o Mercado Livre mostra por venda **não inclui a publicidad
 - **Catálogo:** se o anúncio compete num produto de catálogo, a chance de aparecer depende também de ganhar a disputa de preço e condições.
 - Em **datas de pico**, o clique fica mais caro. Revise o orçamento antes, não no dia.
 - Anúncio sem estoque não aparece: estoque zerado desperdiça o aprendizado da campanha.
+
+## Perguntas de revisão
+
+Quais são os três produtos do Mercado Ads? :: Product Ads, Brand Ads e Display Ads.
+
+Como o Product Ads cobra? :: Por clique, descontado do orçamento diário.
+
+O que significa quando a campanha do Mercado Ads não gasta todo o orçamento? :: O ROAS Objetivo pode estar alto demais, fazendo o anúncio aparecer pouco.
+
+O que fazer quando o orçamento acaba todo dia e o ROAS está bom? :: Aumentar o orçamento.
+
+Por que agrupar produtos por margem em campanhas separadas? :: Porque o ROAS Objetivo vale para a campanha inteira; misturar margens erra para um dos lados.
+
+O valor 'quanto você recebe' do Mercado Livre inclui o custo de publicidade? :: Não; o custo do Product Ads aparece no faturamento do mês.
 
 ---
 Anterior: [[27-Trafego-Pago-em-Marketplace|Tráfego pago em marketplace]] · Próxima: [[29-Shopee-Ads|Shopee Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

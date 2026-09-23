@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, shopee, precificacao]
+tags: [ecommerce, marketplace, shopee, precificacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://seller.shopee.com.br/edu/article/26839
@@ -96,6 +96,20 @@ Existem também cupons de 50% no frete em compras acima de R$ 10. Vendedores com
 - produtos entre R$ 30 e R$ 150, de compra por impulso ou reposição;
 - quem consegue **postar no mesmo dia ou no dia seguinte**;
 - produtos que funcionam bem em vídeo curto.
+
+## Perguntas de revisão
+
+Qual a comissão da Shopee para CNPJ em item de até R$ 79,99 a partir de 01/10/2026? :: 20% + R$ 4,50 por item.
+
+Qual a comissão da Shopee para item de R$ 100 a R$ 199,99? :: 14% + R$ 20.
+
+Por que vender a R$ 80,00 na Shopee pode render menos que a R$ 79,99? :: Porque muda de faixa: a R$ 79,99 o vendedor recebe R$ 59,49 e a R$ 80,00 recebe R$ 52,80, por causa da taxa fixa de R$ 16.
+
+A partir de quantos pedidos o vendedor CPF paga R$ 3 extras por item na Shopee? :: Acima de 450 pedidos em 90 dias.
+
+Como produtos muito baratos podem funcionar na Shopee? :: Vendidos em kit ou combo, que diluem a taxa fixa por item.
+
+O que acontece com vendedores com pontos de penalidade na Shopee? :: Podem perder benefícios como cupons de frete grátis, ter exposição reduzida ou ser suspensos.
 
 ---
 Anterior: [[21-Mercado-Livre|Mercado Livre]] · Próxima: [[23-Outros-Marketplaces|Outros marketplaces]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

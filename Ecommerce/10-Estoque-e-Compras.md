@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, estoque, compras, dados]
+tags: [ecommerce, estoque, compras, dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -57,6 +57,18 @@ Faça contagem física periódica, pelo menos da classe A, e ajuste o sistema. D
 ## Vários canais, um estoque
 
 Quem vende na loja e em marketplace precisa de **estoque sincronizado** (integração pela Shopify ou por um ERP). Sem isso, o mesmo item é vendido duas vezes, e o cancelamento no marketplace prejudica a reputação da conta.
+
+## Perguntas de revisão
+
+Qual a fórmula do ponto de pedido? :: Ponto de pedido = média diária de vendas × (prazo do fornecedor + margem de segurança em dias).
+
+Vendo 2 unidades por dia, o fornecedor leva 10 dias e quero 5 de segurança. Qual o ponto de pedido? :: 30 unidades (2 × 15).
+
+O que é a curva ABC de estoque? :: A classificação dos produtos pelo faturamento: A são os ~20% de itens que somam ~80% da receita e nunca podem faltar.
+
+Média de vendas zero significa estoque infinito? :: Não; pode ser produto parado ou ruptura, quando não vendeu justamente porque faltou.
+
+Por que sincronizar o estoque entre canais? :: Para não vender o mesmo item duas vezes; o cancelamento em marketplace prejudica a reputação.
 
 ---
 Anterior: [[09-Gestao-de-Pedidos|Gestão de pedidos]] · Próxima: [[11-Fiscal-e-Legal|Fiscal e legal]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

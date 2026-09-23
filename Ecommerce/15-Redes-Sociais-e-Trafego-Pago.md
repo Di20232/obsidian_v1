@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketing, redes-sociais, trafego-pago, anuncios]
+tags: [ecommerce, marketing, redes-sociais, trafego-pago, anuncios, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -66,6 +66,18 @@ No exemplo da [[02-Planejamento-e-Precificacao|precificação]], sobram 31% ante
 
 > [!warning] Métricas de vaidade
 > Alcance, curtidas e cliques baratos não pagam boletos. Uma campanha com clique a R$ 0,20 que não vende é pior que uma com clique a R$ 2 que vende com lucro.
+
+## Perguntas de revisão
+
+Qual a diferença entre Meta Ads e Google Ads na intenção do público? :: A Meta interrompe quem não procurava e gera demanda; o Google responde a quem já está buscando e captura demanda.
+
+Qual a fórmula do ROAS de equilíbrio? :: ROAS de equilíbrio = 1 / margem de contribuição antes do anúncio.
+
+Com 31% de margem antes do anúncio, qual o ROAS mínimo? :: Cerca de 3,2.
+
+Por que microinfluenciadores costumam valer a pena? :: Têm mais engajamento de nicho e custo menor que perfis grandes.
+
+O que são métricas de vaidade? :: Alcance, curtidas e cliques baratos que não indicam venda; a decisão deve vir do custo por compra comparado com a margem.
 
 ---
 Anterior: [[14-SEO-e-Conteudo|SEO e conteúdo]] · Próxima: [[16-Email-e-Retencao|E-mail e retenção]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

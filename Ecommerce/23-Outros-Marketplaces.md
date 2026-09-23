@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, amazon, magalu, tiktok-shop]
+tags: [ecommerce, marketplace, amazon, magalu, tiktok-shop, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -47,6 +47,16 @@ O público é menor, mas mais qualificado. A concorrência de preço também cos
 2. **O preço fecha a conta?** Simule a comissão da categoria + frete + imposto ([[20-Marketplaces-Visao-Geral|conta por canal]]).
 3. **A operação aguenta?** Cada canal tem prazo, painel, perguntas e regras próprias. Sem [[26-Integracao-Multicanal|integração]], dois canais já são muito trabalho manual.
 4. **Comece por um e faça funcionar bem** antes de abrir o próximo. Reputação ruim num canal não se resolve abrindo outro.
+
+## Perguntas de revisão
+
+O que é a Buy Box da Amazon? :: O botão principal de compra de uma página de produto, disputado por vários vendedores e ganho por quem combina preço, prazo e desempenho.
+
+O que é FBA? :: Fulfillment by Amazon: a Amazon armazena e entrega, e o produto pode ter entrega Prime.
+
+Para que tipo de produto a TikTok Shop funciona melhor? :: Produtos que funcionam em vídeo: beleza, gadgets, cozinha e moda com demonstração visual.
+
+Como escolher o próximo marketplace? :: Ver onde o comprador já procura, simular a conta com a comissão, checar se a operação aguenta e fazer um canal funcionar bem antes de abrir outro.
 
 ---
 Anterior: [[22-Shopee|Shopee]] · Próxima: [[24-Anuncios-em-Marketplace|Anúncios que vendem]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

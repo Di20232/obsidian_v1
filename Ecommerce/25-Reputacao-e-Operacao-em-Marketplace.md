@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, reputacao, operacao]
+tags: [ecommerce, marketplace, reputacao, operacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -59,6 +59,16 @@ Comece o Full com os **produtos campeões** (curva A), de giro rápido. Produto 
 - **tempo de resposta** no chat e nas perguntas;
 - **margem por canal**, depois de comissão, frete, anúncio e imposto ([[20-Marketplaces-Visao-Geral|conta por canal]]);
 - **ROAS** do anúncio patrocinado, comparado com a margem depois da tarifa ([[17-Metricas-do-Ecommerce|métricas]]).
+
+## Perguntas de revisão
+
+Qual é quase sempre a causa de cancelamento pelo vendedor? :: Falta de estoque.
+
+Como se proteger de disputas de pacote que 'chegou vazio'? :: Fotografar ou filmar a conferência e o fechamento dos pedidos de valor mais alto.
+
+Que produtos colocar primeiro no Full? :: Os campeões de giro rápido (curva A); produto parado no Full vira custo de armazenagem.
+
+O que acontece se o vendedor não responde uma mediação no prazo? :: Costuma ser decidida a favor do comprador.
 
 ---
 Anterior: [[24-Anuncios-em-Marketplace|Anúncios que vendem]] · Próxima: [[26-Integracao-Multicanal|Integração multicanal]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

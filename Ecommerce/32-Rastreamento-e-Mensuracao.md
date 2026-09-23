@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, trafego-pago, metricas, rastreamento, lgpd]
+tags: [ecommerce, trafego-pago, metricas, rastreamento, lgpd, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -81,6 +81,20 @@ Para saber se um canal ou o remarketing traz venda **nova**:
 - A política de privacidade precisa citar o uso de pixels e ferramentas de anúncio ([[11-Fiscal-e-Legal|fiscal e legal]]).
 - Use um **banner de cookies** com opção real de recusar os não essenciais. A Shopify tem configurações de privacidade e consentimento do cliente.
 - Listas de clientes enviadas às plataformas (para públicos personalizados) exigem base legal. A Meta e o Google fazem hash dos dados, mas a responsabilidade pelo envio continua sendo da loja.
+
+## Perguntas de revisão
+
+Para que serve a API de Conversões? :: Enviar eventos pelo servidor, recuperando conversões que bloqueadores e restrições de privacidade escondem do navegador.
+
+Quais os três parâmetros UTM principais? :: utm_source (de onde), utm_medium (que tipo) e utm_campaign (qual ação).
+
+O que é MER? :: Receita total da loja dividida pelo gasto total em anúncios de todas as plataformas.
+
+Por que a soma das vendas atribuídas pelas plataformas passa das vendas reais? :: Porque cada plataforma usa sua janela e todas reclamam a mesma venda quando a pessoa clicou em anúncios diferentes.
+
+Qual é a fonte da verdade das vendas? :: Os pedidos da loja.
+
+Como fazer um teste simples de incrementalidade? :: Pausar ou reduzir o canal por 1 a 2 semanas sem datas especiais e comparar a receita total com o período equivalente.
 
 ---
 Anterior: [[31-Meta-Ads|Meta Ads]] · Próxima: [[33-TikTok-Ads|TikTok Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, integracao, estoque, shopify]
+tags: [ecommerce, marketplace, integracao, estoque, shopify, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 ---
@@ -52,6 +52,18 @@ preço no canal = custos fixos por venda / (1 − comissão do canal − outros 
 ## Com ajuda do Claude
 
 Com o conector da Shopify, o Claude consegue listar pedidos de todos os canais sincronizados, conferir estoque por SKU e apontar divergências, como "quais SKUs estão com estoque zerado mas anúncio ativo?". Mudanças em estoque e preço sempre pedem confirmação.
+
+## Perguntas de revisão
+
+O que precisa ficar centralizado ao vender em vários canais? :: Estoque, catálogo, pedidos, nota fiscal e preço por canal.
+
+Qual o papel de um ERP ou hub na venda multicanal? :: Ser a fonte do estoque real e alimentar loja, marketplaces, nota fiscal e frete.
+
+Por que o SKU precisa ser igual em todos os canais? :: Porque a integração liga os anúncios pelo SKU; SKU diferente ou repetido gera estoque errado.
+
+O que é estoque de segurança por canal? :: Anunciar uma ou duas unidades a menos do que existe, para não vender o que acabou de sair em outro canal antes da sincronização.
+
+É errado o mesmo produto ter preços diferentes por canal? :: Não; as comissões são diferentes, então o preço de cada canal deve refletir os custos dele.
 
 ---
 Anterior: [[25-Reputacao-e-Operacao-em-Marketplace|Reputação e operação]] · Próxima: [[27-Trafego-Pago-em-Marketplace|Tráfego pago em marketplace]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

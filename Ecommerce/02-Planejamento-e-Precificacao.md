@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, negocio, precificacao, financas]
+tags: [ecommerce, negocio, precificacao, financas, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -78,6 +78,20 @@ Todos saem da margem:
 - **Frete grátis** a partir de um valor mínimo (ex.: acima de R$ 199) aumenta o ticket médio sem dar frete em pedido pequeno.
 - **Cupom de 10%** num produto com 11% de margem zera o lucro. Calcule antes de anunciar.
 - **Parcelamento sem juros** é pago pela loja: o provedor cobra taxa maior por parcela, ou antecipa o recebível com desconto. Veja [[07-Pagamentos-no-Brasil|pagamentos]].
+
+## Perguntas de revisão
+
+Qual a diferença entre custo fixo e custo variável numa loja virtual? :: Custo fixo existe mesmo sem vender, como plano da plataforma e contador; custo variável acontece a cada venda, como produto, taxas, imposto, frete e anúncio.
+
+O que é margem de contribuição? :: É o que sobra de cada venda depois de pagar todos os custos variáveis; é dela que saem os custos fixos e o lucro.
+
+Qual a fórmula para formar o preço a partir da margem desejada? :: Preço = custos fixos por venda / (1 − soma dos percentuais sobre o preço − margem desejada).
+
+Qual a diferença entre markup e margem? :: Markup multiplica o custo para chegar ao preço; margem é o que sobra em relação ao preço depois dos custos. Markup alto não garante margem boa.
+
+Por que um cupom de 10% pode zerar o lucro? :: Porque o desconto sai inteiro da margem; se a margem de contribuição é 11%, um cupom de 10% deixa quase nada.
+
+Quem paga o parcelamento sem juros? :: A loja, por meio de taxa maior do provedor ou do custo de antecipar os recebíveis.
 
 ---
 Anterior: [[01-Modelos-de-Negocio|Modelos de negócio]] · Próxima: [[03-Plataformas-Comparadas|Plataformas comparadas]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

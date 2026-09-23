@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, gestao, rotina, operacao]
+tags: [ecommerce, gestao, rotina, operacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -55,6 +55,16 @@ Alterações na loja (criar produto, cupom, mudar estoque) sempre pedem confirma
 ## Ligando com o cofre
 
 Os problemas da loja seguem o mesmo ciclo do resto do cérebro: sintoma → causa-raiz → correção → registro. Um mês de notas diárias ([[Cerebro/Diario/00-Diario|Diário]]) sobre a operação mostra padrões que nenhum painel mostra. Veja a [[Cerebro/Guias/07-Rotina-do-Cofre|rotina do cofre]].
+
+## Perguntas de revisão
+
+Quais tarefas diárias de uma loja virtual? :: Expedir pagos não processados, checar fraude, cancelar pendentes vencidos, responder mensagens e conferir o gasto dos anúncios.
+
+O que revisar toda semana? :: Números da semana, estoque abaixo do ponto de pedido, rastreios parados, trocas em aberto, anúncios, planejamento de conteúdo e avaliações.
+
+O que é o fechamento mensal? :: Somar receita, custos variáveis e fixos para achar o lucro real, conciliar recebimentos e taxas e preparar documentos para o contador.
+
+Com que frequência revisar preços? :: A cada trimestre, ou quando custos de fornecedor, frete ou taxas mudarem.
 
 ---
 Anterior: [[18-Checklist-de-Lancamento|Checklist de lançamento]] · Próxima: [[20-Marketplaces-Visao-Geral|Marketplaces]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, metricas, dados, gestao]
+tags: [ecommerce, metricas, dados, gestao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -69,6 +69,20 @@ Uma referência muito usada é LTV/CAC de pelo menos 3. Com 1,7, a loja conquist
 | CAC alto | criativo, público, oferta; dependência só de anúncio |
 | Recompra baixa | experiência de entrega, pós-venda, e-mails de recompra |
 | Ticket baixo | kits, produto complementar no carrinho, frete grátis acima de um valor |
+
+## Perguntas de revisão
+
+Como se calcula a taxa de conversão? :: Pedidos divididos por sessões.
+
+Como se calcula o CAC? :: Gasto em marketing dividido pelo número de clientes novos.
+
+Como se calcula o LTV? :: Ticket médio × pedidos por cliente no período × margem.
+
+Qual referência de LTV/CAC é considerada saudável? :: Pelo menos 3.
+
+Com 5.000 sessões e 60 pedidos, qual a conversão? :: 1,2%.
+
+Se o abandono de checkout está alto, o que olhar primeiro? :: Frete caro ou surpresa, poucas formas de pagamento e cadastro obrigatório.
 
 ---
 Anterior: [[16-Email-e-Retencao|E-mail e retenção]] · Próxima: [[18-Checklist-de-Lancamento|Checklist de lançamento]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, trafego-pago, google-ads, anuncios]
+tags: [ecommerce, trafego-pago, google-ads, anuncios, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://support.google.com/google-ads/answer/2567043?hl=pt-BR
@@ -78,6 +78,20 @@ Não mexa muito nas duas primeiras semanas: as estratégias automáticas aprende
 - [ ] **Semanal:** termos de pesquisa e negativas; ROAS por campanha comparado com o mínimo; produtos reprovados no Merchant Center
 - [ ] **Quinzenal:** ajustar o ROAS desejado aos poucos (10% a 20% por vez)
 - [ ] **Mensal:** receita total da loja contra o gasto total em anúncios ([[32-Rastreamento-e-Mensuracao|MER]]); a campanha de marca continua separada?
+
+## Perguntas de revisão
+
+Qual o tipo de campanha padrão do Google Ads para vendas? :: Performance Max, que usa todo o inventário do Google numa campanha só.
+
+Como o Google Ads mostra o ROAS desejado? :: Em porcentagem: 400% equivale a ROAS 4.
+
+O que são palavras-chave negativas? :: Termos que impedem o anúncio de aparecer em buscas que não vendem, como 'grátis' ou 'usada'.
+
+Por que separar a campanha da própria marca? :: Porque tem ROAS altíssimo de quem já ia comprar e, misturada, mascara o resultado real das outras.
+
+O que é preciso antes de usar lances inteligentes? :: Conversões medidas com o valor do pedido, chegando ao Google Ads.
+
+Quais os três tipos de correspondência de palavra-chave na Pesquisa? :: Ampla, de frase e exata.
 
 ---
 Anterior: [[29-Shopee-Ads|Shopee Ads]] · Próxima: [[31-Meta-Ads|Meta Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

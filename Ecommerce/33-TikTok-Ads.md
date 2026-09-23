@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, trafego-pago, tiktok-ads, anuncios, redes-sociais]
+tags: [ecommerce, trafego-pago, tiktok-ads, anuncios, redes-sociais, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://ads.tiktok.com/resources/help
@@ -103,6 +103,20 @@ Fluxo que funciona: publique no orgânico → veja qual vídeo prende a atençã
 - [ ] **A cada 2 ou 3 dias** (nunca antes de 2 dias): ajustes pequenos de lance e orçamento, dentro dos limites acima
 - [ ] **Semanal:** custo por compra e ROAS comparados com o mínimo; 1 ou 2 criativos novos; quais vídeos orgânicos viram Spark Ads
 - [ ] **Mensal:** receita total contra gasto total ([[32-Rastreamento-e-Mensuracao|MER]])
+
+## Perguntas de revisão
+
+Qual o orçamento diário recomendado pelo TikTok para otimizar por compra? :: 10 vezes o CPA atual, ou US$ 200 se ainda não houver histórico.
+
+Quando a fase de aprendizado do TikTok costuma estabilizar? :: Depois de cerca de 25 resultados ou 7 dias.
+
+Quanto tempo esperar entre mudanças numa campanha do TikTok? :: Pelo menos 2 dias, mudando o orçamento em no máximo 50%.
+
+O que são Spark Ads? :: Anúncios feitos a partir de postagens orgânicas, da sua conta ou de criadores com autorização, cujo engajamento fica na postagem original.
+
+Quantos criativos o Smart+ recomenda na criação? :: Pelo menos seis.
+
+Em quanto ajustar o lance do Smart+ depois dos primeiros 7 dias? :: Até 15% a cada 2 dias.
 
 ---
 Anterior: [[32-Rastreamento-e-Mensuracao|Rastreamento e mensuração]] · Próxima: [[34-TikTok-Shop-Ads-e-GMV-Max|TikTok Shop Ads e GMV Max]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -3,6 +3,9 @@
 .obsidian/workspace-mobile.json
 .obsidian/cache
 
+# Exportação para IA: gerada a partir das notas, recriável a qualquer momento
+exportacao/
+
 # Lixeira interna do Obsidian
 .trash/
 

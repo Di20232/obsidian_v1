@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, shopify, plataformas]
+tags: [ecommerce, shopify, plataformas, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://www.shopify.com/br/precos
@@ -23,7 +23,7 @@ Conferido na página de preços em **23/09/2026**. Os valores são cobrados em *
 Na época da consulta havia teste de 3 dias grátis, seguido de US$ 1 por mês durante 3 meses. Promoções mudam.
 
 > [!warning] O custo que não aparece no plano
-> O **Shopify Payments não está disponível no Brasil** (o país não consta na lista oficial de países compatíveis). A loja brasileira usa um provedor de pagamento de terceiros, e a Shopify cobra a **taxa adicional da tabela acima sobre cada venda**, além da taxa do próprio provedor. No Basic, isso é 2% de todo o faturamento. Com R$ 30 mil por mês, são R$ 600 só dessa taxa — a partir desse ponto, o plano Grow (1%) passa a compensar. Veja [[07-Pagamentos-no-Brasil|pagamentos no Brasil]].
+> O **Shopify Payments não está disponível no Brasil** (o país não consta na lista oficial de países compatíveis). A loja brasileira usa um provedor de pagamento de terceiros, e a Shopify cobra a **taxa adicional da tabela acima sobre cada venda**, além da taxa do próprio provedor. No Basic, isso é 2% de todo o faturamento: com R$ 30 mil por mês, são R$ 600 só dessa taxa. O Grow cobra 1% e custa US$ 25 a US$ 33 a mais por mês. Ele compensa quando 1% do faturamento passa essa diferença convertida em reais, o que acontece por volta de **R$ 15 a 20 mil por mês**, conforme o câmbio. Refaça a conta com o câmbio do dia: `faturamento de equilíbrio = diferença de mensalidade em R$ / 0,01`. Veja [[07-Pagamentos-no-Brasil|pagamentos no Brasil]].
 
 Cobrança em dólar no cartão brasileiro também tem **IOF** e variação cambial.
 
@@ -63,6 +63,18 @@ Cobrança em dólar no cartão brasileiro também tem **IOF** e variação cambi
 ## Conexão com o Claude
 
 Com o conector da Shopify ligado, o Claude consegue consultar pedidos, clientes, estoque e relatórios da loja, além de criar produtos, coleções e descontos, sempre pedindo confirmação antes de alterar. É útil para a [[19-Rotina-de-Gestao-da-Loja|rotina de gestão]]: "quais pedidos pagos ainda não foram enviados?" ou "quais produtos estão com estoque abaixo de 5?".
+
+## Perguntas de revisão
+
+Quais são os planos da Shopify e a taxa por venda com provedor de terceiros em cada um? :: Basic 2%, Grow 1%, Advanced 0,6% e Plus 0,2% (conferido em 23/09/2026).
+
+O Shopify Payments funciona no Brasil? :: Não; o Brasil não está na lista oficial de países compatíveis, então a loja usa um provedor de pagamento de terceiros.
+
+A partir de que faturamento mensal o plano Grow passa a compensar em relação ao Basic? :: Quando 1% do faturamento passa a diferença de mensalidade (US$ 25 a 33) convertida em reais: por volta de R$ 15 a 20 mil por mês, conforme o câmbio.
+
+Quantos pedidos de marketplace por mês a Shopify sincroniza sem custo? :: Até 50; acima disso cobra 1%, limitado a US$ 99 por mês (conferido em 23/09/2026).
+
+Qual a regra para instalar apps na Shopify? :: Um app por problema real, removendo o que não usa, porque cada app tem mensalidade e pode deixar a loja mais lenta.
 
 ---
 Anterior: [[03-Plataformas-Comparadas|Plataformas comparadas]] · Próxima: [[05-Shopify-Configurando-a-Loja|Configurando a loja]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

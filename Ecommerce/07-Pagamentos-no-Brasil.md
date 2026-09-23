@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, pagamentos, pix, seguranca]
+tags: [ecommerce, pagamentos, pix, seguranca, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 ---
@@ -56,6 +56,20 @@ Na Shopify, a **análise de fraude** aparece em cada pedido. Em pedido suspeito:
 ## Reembolso
 
 Reembolse pelo **próprio pedido** na Shopify (**Pedidos → pedido → Reembolsar**): o valor volta pelo mesmo meio de pagamento e fica registrado. Pix pode exigir devolução pelo provedor. A taxa do provedor normalmente **não** é devolvida à loja.
+
+## Perguntas de revisão
+
+Por que dar desconto no Pix costuma compensar? :: Porque a taxa é menor, o dinheiro entra na hora e não existe chargeback.
+
+O que é chargeback? :: É a contestação da compra pelo titular do cartão junto ao banco; o valor volta para ele e a loja costuma perder o dinheiro e o produto.
+
+Cite três sinais de pedido suspeito de fraude. :: Endereço de entrega diferente do de cobrança em outra região, vários cartões tentados em sequência e pedido alto de cliente novo com produtos fáceis de revender.
+
+O que fazer com um pedido suspeito? :: Segurar o envio, confirmar por telefone e, sem resposta, cancelar e reembolsar antes de enviar.
+
+Qual a diferença entre pagamento autorizado e pago? :: Autorizado reserva o valor no cartão; pago significa que o valor foi capturado. Autorização não capturada expira e a venda some.
+
+Por que nunca anotar número de cartão por WhatsApp ou e-mail? :: Porque viola as regras das bandeiras (PCI) e deixa a loja responsável por qualquer vazamento.
 
 ---
 Anterior: [[06-Shopify-Produtos-e-Colecoes|Produtos e coleções]] · Próxima: [[08-Frete-e-Logistica|Frete e logística]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

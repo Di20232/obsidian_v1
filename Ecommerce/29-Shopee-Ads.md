@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, shopee, trafego-pago, anuncios]
+tags: [ecommerce, marketplace, shopee, trafego-pago, anuncios, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://seller.shopee.com.br/edu/article/8288
@@ -88,6 +88,18 @@ O painel sugere ajustes ("Tipos de Recomendações"): criar anúncios para produ
 - [ ] **Semanal:** ROAS direto por anúncio comparado com o ROAS mínimo; pausar quem está abaixo há 2 semanas; mover palavras-chave boas da ampla para a exata
 - [ ] **Antes de campanhas (9.9, 10.10, 11.11, 12.12):** recarga antecipada; o clique encarece nesses dias
 - [ ] **Mensal:** faturamento total do produto com e sem anúncio (canibalização)
+
+## Perguntas de revisão
+
+Quais os tipos de anúncio do Shopee Ads? :: Anúncios de Produtos (busca e descoberta), Anúncios de Busca da Loja e Video Ads.
+
+Qual a diferença entre correspondência exata e ampla no Shopee Ads? :: Exata mostra só para a palavra-chave e variações mínimas; ampla inclui variações próximas e termos relacionados.
+
+Qual a diferença entre ROAS e ROAS direto na Shopee? :: O ROAS conta vendas de qualquer produto da loja em até 7 dias após o clique; o ROAS direto conta só o produto anunciado.
+
+Que CTR a Shopee considera bom sinal? :: Acima de 1,5%.
+
+Como a Shopee cobra os anúncios? :: Por clique, a partir de créditos comprados por recarga; cliques inválidos não são cobrados.
 
 ---
 Anterior: [[28-Mercado-Ads|Mercado Ads]] · Próxima: [[30-Google-Ads|Google Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

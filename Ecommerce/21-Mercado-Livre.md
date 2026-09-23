@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, mercado-livre]
+tags: [ecommerce, marketplace, mercado-livre, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://www.mercadolivre.com.br/ajuda/quanto-custa-vender-um-produto_1338
@@ -85,6 +85,20 @@ Detalhes de operação em [[25-Reputacao-e-Operacao-em-Marketplace|reputação e
 - Preço próximo de R$ 79 sem considerar o custo do frete grátis, que só entra acima desse valor.
 - Anunciar sem estoque real e ter de cancelar: isso destrói a reputação rápido.
 - Colocar telefone ou link externo no anúncio ou na embalagem: é proibido.
+
+## Perguntas de revisão
+
+Qual a tarifa do anúncio Clássico e do Premium no Mercado Livre? :: Clássico de 10% a 14% e Premium de 15% a 19%, conforme a categoria (conferido em 23/09/2026).
+
+O que o anúncio Premium oferece a mais? :: Parcelamento em até 12x sem juros para o comprador e mais exposição.
+
+A partir de que valor o frete grátis é obrigatório no Mercado Livre? :: R$ 79 em produto novo, com parte do custo paga pelo vendedor conforme a reputação.
+
+O que é o Full do Mercado Livre? :: Fulfillment: o Mercado Livre armazena, embala e entrega; o anúncio ganha selo e entrega rápida, com custo de armazenagem.
+
+O que mais pesa na reputação (termômetro) do Mercado Livre? :: Reclamações, cancelamentos feitos pelo vendedor e atrasos no despacho.
+
+O Mercado Livre retém impostos das vendas? :: Não; o recolhimento é responsabilidade do vendedor.
 
 ---
 Anterior: [[20-Marketplaces-Visao-Geral|Marketplaces: visão geral]] · Próxima: [[22-Shopee|Shopee]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

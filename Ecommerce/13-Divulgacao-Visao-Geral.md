@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketing, divulgacao, estrategia]
+tags: [ecommerce, marketing, divulgacao, estrategia, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -60,6 +60,18 @@ Planeje com 30 a 60 dias de antecedência: **Dia do Consumidor (15/3)**, **Dia d
 
 > [!warning] Desconto de data comemorativa
 > Antes de anunciar 20% na Black Friday, refaça a [[02-Planejamento-e-Precificacao|conta de margem]]. Aumentar preço antes para "dar desconto" depois é propaganda enganosa, e os consumidores comparam históricos de preço.
+
+## Perguntas de revisão
+
+Quais são as etapas do funil de vendas? :: Descoberta, consideração, compra e retenção.
+
+Por que divulgar mais nem sempre resolve? :: Porque, se as etapas de baixo do funil vazam, dobrar o tráfego só dobra o gasto.
+
+Qual o foco dos primeiros 30 dias de divulgação de uma loja nova? :: Base: loja revisada, pixels instalados, redes com publicações iniciais, captura de e-mail e fluxos de boas-vindas e carrinho abandonado.
+
+Com quanta antecedência planejar uma data comemorativa? :: De 30 a 60 dias.
+
+Por que aumentar o preço antes da Black Friday é um erro? :: É propaganda enganosa e os consumidores comparam históricos de preço.
 
 ---
 Anterior: [[12-Atendimento-e-Pos-Venda|Atendimento]] · Próxima: [[14-SEO-e-Conteudo|SEO e conteúdo]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, trafego-pago, tiktok-ads, tiktok-shop, marketplace]
+tags: [ecommerce, trafego-pago, tiktok-ads, tiktok-shop, marketplace, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://ads.tiktok.com/resources/help/article/about-product-gmv-max?lang=pt
@@ -67,6 +67,18 @@ Use a mesma lógica do [[20-Marketplaces-Visao-Geral|preço por canal]]: calcule
 - [ ] **Diária:** pedidos e expedição; ruptura de estoque dos produtos promovidos
 - [ ] **Semanal:** GMV total por produto; margem depois de comissões e anúncio; novos vídeos seus e de afiliados
 - [ ] **Mensal:** teste de incrementalidade (GMV com e sem campanha)
+
+## Perguntas de revisão
+
+O que é GMV? :: Gross merchandise value: o valor bruto das vendas.
+
+O que o GMV Max do produto faz? :: Automatiza os anúncios da TikTok Shop usando todos os criativos, inclusive de afiliados, e otimiza tráfego pago e orgânico juntos.
+
+Por que o ROI do painel do GMV Max pode enganar? :: Porque atribui ao GMV Max todos os pedidos dos produtos anunciados, inclusive os vindos de orgânico e afiliados.
+
+Em quais posicionamentos aparecem os anúncios da TikTok Shop? :: Feed, pesquisa e aba Shop, e no GMV Max também na TikTok Ad Network.
+
+Quais custos entram na margem de uma venda na TikTok Shop? :: Comissão da TikTok Shop, comissão do afiliado e o anúncio.
 
 ---
 Anterior: [[33-TikTok-Ads|TikTok Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

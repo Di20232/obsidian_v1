@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, negocio, fundamentos]
+tags: [ecommerce, negocio, fundamentos, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -61,6 +61,18 @@ Responda por escrito, antes de gastar:
 4. Depois de pagar todas as taxas, sobra dinheiro em cada venda? → [[02-Planejamento-e-Precificacao|faça a conta]]
 
 Se a resposta 3 estiver vazia, o problema não é plataforma nem anúncio: é proposta de valor.
+
+## Perguntas de revisão
+
+Qual a principal vantagem e o principal custo escondido de uma loja própria? :: A vantagem é margem maior e o cliente ser seu; o custo escondido é que todo visitante precisa ser atraído, porque ninguém entra sozinho.
+
+Por que muitas lojas começam em marketplace antes da loja própria? :: Porque o marketplace já tem compradores e permite validar o que vende e para quem, antes de investir em loja e anúncios.
+
+No dropshipping, quem responde ao consumidor por atraso ou defeito? :: A loja que vendeu; o Código de Defesa do Consumidor não aceita transferir a culpa para o fornecedor.
+
+Qual o maior risco de trabalhar com produção própria ou marca própria? :: O estoque mínimo de produção prende dinheiro, e um erro de lote custa caro.
+
+Se você não consegue dizer por que alguém compraria de você e não do concorrente, qual é o problema real? :: Proposta de valor; nem plataforma nem anúncio resolvem a falta de um motivo para escolher a sua loja.
 
 ---
 Próxima: [[02-Planejamento-e-Precificacao|Planejamento e precificação]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

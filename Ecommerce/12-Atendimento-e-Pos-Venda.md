@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, atendimento, pos-venda, operacao]
+tags: [ecommerce, atendimento, pos-venda, operacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -53,6 +53,18 @@ Automatize essas mensagens com os [[16-Email-e-Retencao|fluxos de e-mail]].
 - Produto com avaliações vende mais: é prova social na página.
 - Use um app de avaliações que peça a opinião por e-mail depois da entrega.
 - **Nunca** invente avaliação nem apague as negativas legítimas: responda com educação e solução. Avaliação falsa é propaganda enganosa e destrói a confiança quando é descoberta.
+
+## Perguntas de revisão
+
+Qual o roteiro para atender quando algo dá errado? :: Reconhecer sem discutir culpa, dizer o que vai fazer e quando, resolver, confirmar o fim e registrar a causa.
+
+O que fazer com perguntas que se repetem no atendimento? :: Transformá-las em resposta pronta e em item da página de perguntas frequentes, e corrigir a página de produto que não explicava.
+
+Quando pedir avaliação ao cliente? :: De 7 a 10 dias depois da entrega, de preferência pedindo foto.
+
+Por que nunca inventar avaliações? :: Porque é propaganda enganosa e destrói a confiança quando descoberta.
+
+Qual o canal de atendimento preferido do brasileiro? :: O WhatsApp.
 
 ---
 Anterior: [[11-Fiscal-e-Legal|Fiscal e legal]] · Próxima: [[13-Divulgacao-Visao-Geral|Divulgação: visão geral]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

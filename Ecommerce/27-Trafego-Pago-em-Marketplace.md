@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketplace, trafego-pago, anuncios, metricas]
+tags: [ecommerce, marketplace, trafego-pago, anuncios, metricas, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 ---
@@ -99,6 +99,20 @@ impressões → cliques (CTR) → vendas (taxa de conversão) → receita (ROAS/
 | CTR baixo | primeira foto, título, preço ou frete piores que os vizinhos |
 | conversão baixa | página do produto: descrição, avaliações, variações, prazo |
 | ACOS alto com boa conversão | CPC caro na categoria: teste palavras mais específicas |
+
+## Perguntas de revisão
+
+Qual a relação entre ROAS e ACOS? :: ACOS = 1 / ROAS, em porcentagem; ROAS 4 equivale a ACOS de 25%.
+
+Qual o ACOS máximo aceitável? :: A margem antes do anúncio; acima disso, cada venda anunciada dá prejuízo.
+
+Por que o ROAS mínimo é maior no marketplace do que na loja própria? :: Porque a comissão já consumiu parte da margem antes do anúncio.
+
+Um produto de R$ 150 na Shopee com R$ 40 de sobra antes do anúncio precisa de que ROAS mínimo? :: Cerca de 3,75 (margem de 26,7%).
+
+O que é canibalização em anúncios? :: Quando o anúncio recebe crédito por vendas que aconteceriam de qualquer jeito pelo orgânico.
+
+Como testar se o anúncio traz venda nova? :: Comparar o faturamento total do produto com e sem a campanha.
 
 ---
 Anterior: [[26-Integracao-Multicanal|Integração multicanal]] · Próxima: [[28-Mercado-Ads|Mercado Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

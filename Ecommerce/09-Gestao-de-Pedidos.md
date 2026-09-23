@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, operacao, pedidos, shopify]
+tags: [ecommerce, operacao, pedidos, shopify, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -72,6 +72,18 @@ Venda feita pelo WhatsApp ou no balcão? Crie um **pedido preliminar** (rascunho
 - motivos de devolução, que apontam problemas de descrição, foto ou tabela de medidas.
 
 Mais em [[17-Metricas-do-Ecommerce|métricas]] e na [[19-Rotina-de-Gestao-da-Loja|rotina de gestão]].
+
+## Perguntas de revisão
+
+Quais são os dois eixos de status de um pedido na Shopify? :: Pagamento (pendente, pago, reembolsado etc.) e processamento (não processado, processado).
+
+Qual é a fila de trabalho diária de expedição? :: Pedidos pagos e ainda não processados, do mais antigo para o mais novo.
+
+Por que separar pedidos pelo SKU e não pela descrição? :: Para evitar trocar tamanho ou cor na hora de embalar.
+
+Quais os prazos legais para reclamar de defeito? :: 30 dias para produto não durável e 90 dias para produto durável.
+
+Como registrar uma venda feita pelo WhatsApp na Shopify? :: Criando um pedido preliminar e enviando o link de pagamento, para manter estoque e relatórios corretos.
 
 ---
 Anterior: [[08-Frete-e-Logistica|Frete e logística]] · Próxima: [[10-Estoque-e-Compras|Estoque e compras]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

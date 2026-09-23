@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, checklist, shopify, lancamento]
+tags: [ecommerce, checklist, shopify, lancamento, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -57,6 +57,18 @@ Use antes de tirar a senha da loja. Cada item tem um motivo: foi o que costuma d
 - [ ] Avisar a base de contatos e as redes
 - [ ] Na primeira semana, revisar **todo** pedido manualmente antes de enviar
 - [ ] Anotar cada problema encontrado; o que se repetir vira nota em [[Cerebro/Problemas-Resolvidos/00-Indice|Problemas Resolvidos]]
+
+## Perguntas de revisão
+
+Qual o teste de pagamento indispensável antes de lançar? :: Um pedido pago de verdade, de valor baixo, depois reembolsado, conferindo se o dinheiro entrou e o reembolso funcionou.
+
+Por que testar o frete com CEPs de várias regiões? :: Porque cálculo e prazo mudam por região, e erros aparecem no Norte ou no interior.
+
+Quais fluxos de e-mail precisam estar ativos no lançamento? :: Carrinho abandonado e boas-vindas.
+
+O que fazer com os pedidos na primeira semana? :: Revisar todos manualmente antes de enviar e anotar cada problema.
+
+Que proteção ativar na conta do dono da loja? :: Verificação em duas etapas.
 
 ---
 Anterior: [[17-Metricas-do-Ecommerce|Métricas]] · Próxima: [[19-Rotina-de-Gestao-da-Loja|Rotina de gestão]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

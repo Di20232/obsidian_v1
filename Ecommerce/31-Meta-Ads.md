@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, trafego-pago, meta-ads, anuncios, redes-sociais]
+tags: [ecommerce, trafego-pago, meta-ads, anuncios, redes-sociais, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 fonte: https://www.facebook.com/business/help/1438417719786914
@@ -96,6 +96,20 @@ O que a Meta recomenda: não editar durante o aprendizado, evitar anúncios e co
 - [ ] **Semanal:** custo por compra e ROAS por conjunto; frequência e fadiga de criativo; subir **um** criativo novo
 - [ ] **A cada 2 ou 3 semanas:** escalar o que está acima do ROAS mínimo aos poucos (20% por vez, para não reiniciar o aprendizado)
 - [ ] **Mensal:** receita total contra gasto total ([[32-Rastreamento-e-Mensuracao|MER]]); o remarketing está só "pegando" quem já ia comprar?
+
+## Perguntas de revisão
+
+Quais são os seis objetivos de campanha da Meta? :: Reconhecimento, Tráfego, Engajamento, Leads, Promoção do app e Vendas.
+
+Qual objetivo da Meta usar para vender numa loja virtual? :: Vendas.
+
+Quando um conjunto de anúncios sai da fase de aprendizado na Meta? :: Com cerca de 50 resultados na semana após a última edição significativa.
+
+Com custo por compra de R$ 30, quanto orçamento a Meta precisa para sair do aprendizado otimizando para compra? :: Cerca de R$ 1.500 por semana, ou R$ 214 por dia.
+
+O que é fadiga de criativo? :: Quando o mesmo criativo é visto demais, a frequência sobe e o custo por compra piora; é hora de trocar.
+
+Por que excluir compradores da prospecção? :: Para não pagar para alcançar quem já é cliente com o objetivo de conquistar novos.
 
 ---
 Anterior: [[30-Google-Ads|Google Ads]] · Próxima: [[32-Rastreamento-e-Mensuracao|Rastreamento e mensuração]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

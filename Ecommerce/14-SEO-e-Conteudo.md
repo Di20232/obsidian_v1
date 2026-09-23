@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketing, seo, conteudo, web]
+tags: [ecommerce, marketing, seo, conteudo, web, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -53,6 +53,18 @@ Loja lenta perde posição e cliente. Os maiores culpados costumam ser **imagens
 ## Como acompanhar
 
 **Google Search Console** (grátis): mostra por quais pesquisas a loja aparece, em que posição e quantos cliques recebe. Verifique a loja e envie o mapa do site no primeiro dia. Veja a evolução por mês, não por dia.
+
+## Perguntas de revisão
+
+O que é SEO para uma loja virtual? :: Fazer a loja aparecer nas buscas do Google por termos que o cliente digita, sem pagar por clique.
+
+Por que não usar a descrição copiada do fornecedor? :: Porque conteúdo duplicado não ranqueia; o texto próprio diferencia a página.
+
+Quais os limites aproximados de título e descrição para buscadores? :: Cerca de 60 caracteres no título e 155 na descrição.
+
+Para que serve o Google Merchant Center? :: Para colocar o catálogo nas listagens de compras do Google e nos anúncios de Shopping.
+
+Que ferramenta gratuita mostra por quais pesquisas a loja aparece? :: O Google Search Console.
 
 ---
 Anterior: [[13-Divulgacao-Visao-Geral|Divulgação: visão geral]] · Próxima: [[15-Redes-Sociais-e-Trafego-Pago|Redes sociais e tráfego pago]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

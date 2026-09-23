@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, marketing, email, retencao, automacao]
+tags: [ecommerce, marketing, email, retencao, automacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -53,6 +53,18 @@ Canais de atenção imediata, mas invasivos: use com **consentimento**, pouca fr
 - receita atribuída a e-mail (relatórios de marketing da Shopify);
 - taxa de abertura e de clique por campanha; descadastros (se sobem, a frequência ou a relevância estão erradas);
 - **LTV** — ver [[17-Metricas-do-Ecommerce|métricas]].
+
+## Perguntas de revisão
+
+Quais os dois fluxos de e-mail automáticos para começar? :: Carrinho ou checkout abandonado e boas-vindas.
+
+Qual a sequência típica do e-mail de carrinho abandonado? :: Lembrete em 1 hora, tirar dúvidas em 24 horas e incentivo opcional entre 48 e 72 horas.
+
+Por que a lista de e-mails é um ativo da loja? :: Porque pertence à loja e não depende do algoritmo de nenhuma rede social.
+
+Pode comprar lista de e-mails? :: Não; é ilegal sem consentimento e derruba a entrega dos seus e-mails.
+
+O que é taxa de recompra? :: Clientes com 2 ou mais pedidos divididos pelo total de clientes.
 
 ---
 Anterior: [[15-Redes-Sociais-e-Trafego-Pago|Redes sociais e tráfego pago]] · Próxima: [[17-Metricas-do-Ecommerce|Métricas]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

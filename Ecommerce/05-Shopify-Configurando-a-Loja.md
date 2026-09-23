@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, shopify, configuracao, passo-a-passo]
+tags: [ecommerce, shopify, configuracao, passo-a-passo, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -99,6 +99,18 @@ Cadastre produtos e coleções: [[06-Shopify-Produtos-e-Colecoes|produtos e cole
 ## Etapa 13 — Antes de abrir
 
 Siga o [[18-Checklist-de-Lancamento|checklist de lançamento]] e remova a senha da loja (**Loja virtual → Preferências → Acesso restrito**).
+
+## Perguntas de revisão
+
+Em que ordem configurar uma loja Shopify? :: Primeiro as regras da loja em Configurações, depois o catálogo, e por último a aparência do tema.
+
+Por que definir a moeda antes de cadastrar produtos? :: Porque trocar a moeda depois é trabalhoso e pode ficar bloqueado quando já existem transações.
+
+Quais políticas uma loja brasileira precisa publicar? :: Troca e devolução com o direito de arrependimento de 7 dias, privacidade (LGPD), termos de serviço, frete e prazos, e informações de contato.
+
+Por que o checkout deve pedir CPF ou CNPJ? :: Porque o provedor de pagamento normalmente exige e a nota fiscal precisa do documento do comprador.
+
+Qual teste é obrigatório antes de abrir a loja? :: Um pedido de teste completo, pago e reembolsado, feito pelo celular.
 
 ---
 Anterior: [[04-Shopify-Visao-Geral|Visão geral]] · Próxima: [[06-Shopify-Produtos-e-Colecoes|Produtos e coleções]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, plataformas, shopify, decisao]
+tags: [ecommerce, plataformas, shopify, decisao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -42,6 +42,18 @@ Os detalhes da Shopify estão em [[04-Shopify-Visao-Geral|Shopify: visão geral]
 ## Quando código próprio faz sentido
 
 Quase nunca para **vender** no começo: pagamento, antifraude, frete, nota fiscal e segurança já vêm prontos numa plataforma. Faz sentido para aprender (como no byteShop) ou quando o modelo de negócio não cabe em nenhuma plataforma. O [[Cerebro/Projetos/04-Planejamento-de-E-commerce|planejamento técnico]] registra a ordem segura para construir.
+
+## Perguntas de revisão
+
+Quais são os três caminhos para montar uma loja virtual? :: Plataforma pronta por assinatura (SaaS), código aberto hospedado por você, ou código próprio.
+
+Onde costuma aparecer a maior diferença de custo entre plataformas? :: Nas taxas cobradas sobre cada venda, não no preço do plano.
+
+Por que a Shopify custa mais para uma loja brasileira do que o plano sugere? :: Porque o plano é cobrado em dólar, com IOF e câmbio, e sem Shopify Payments no Brasil há uma taxa adicional sobre cada venda.
+
+Quando faz sentido construir a loja com código próprio? :: Para aprender ou quando o modelo de negócio não cabe em nenhuma plataforma; para começar a vender, quase nunca.
+
+Que critério costuma ser esquecido ao escolher uma plataforma? :: A saída: conseguir exportar produtos, clientes e pedidos caso seja preciso mudar.
 
 ---
 Anterior: [[02-Planejamento-e-Precificacao|Planejamento e precificação]] · Próxima: [[04-Shopify-Visao-Geral|Shopify: visão geral]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, shopify, catalogo, produtos]
+tags: [ecommerce, shopify, catalogo, produtos, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -57,6 +57,20 @@ Coleções automáticas se mantêm sozinhas: cadastrou um produto com o tipo cer
 - Imagens com a mesma proporção em todo o catálogo, para a grade não ficar desalinhada.
 - Produto esgotado: esconder, ou manter visível com "avise-me quando chegar" (bom para produto que volta).
 - Revise o catálogo inteiro no celular.
+
+## Perguntas de revisão
+
+O que é uma variante na Shopify? :: Uma opção do mesmo produto, como tamanho ou cor, com preço, SKU, estoque, peso e foto próprios.
+
+Por que cada variante precisa de um SKU único? :: Porque estoque, nota fiscal e separação de pedidos dependem de um identificador sem ambiguidade.
+
+Qual a diferença entre coleção manual e automatizada? :: A manual tem produtos escolhidos um a um; a automatizada inclui sozinha os produtos que obedecem a condições, como tipo ou tag.
+
+Por que o peso do produto deve ser cadastrado com a embalagem? :: Porque o frete é calculado com esse peso e as dimensões do pacote enviado.
+
+Quando é permitido usar preço comparativo (de/por)? :: Só quando o preço anterior foi real; inventar o preço 'de' é propaganda enganosa.
+
+Qual o cuidado antes de importar produtos por planilha CSV? :: Testar com poucas linhas e conferir como a importação trata produtos já existentes, para não sobrescrever o item errado.
 
 ---
 Anterior: [[05-Shopify-Configurando-a-Loja|Configurando a loja]] · Próxima: [[07-Pagamentos-no-Brasil|Pagamentos no Brasil]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

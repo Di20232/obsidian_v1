@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, legal, fiscal, lgpd, seguranca]
+tags: [ecommerce, legal, fiscal, lgpd, seguranca, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 verificado_em: 2026-09-23
 ---
@@ -63,6 +63,20 @@ Na Shopify: rodapé com dados da empresa, [[05-Shopify-Configurando-a-Loja|polí
 - **Produtos regulados** (alimentos, cosméticos, suplementos, eletrônicos, produtos infantis) podem exigir registro na Anvisa, certificação do Inmetro ou rotulagem específica.
 - **Marca:** antes de investir num nome, pesquise no INPI se já existe registro.
 - **Imagens:** use fotos próprias ou autorizadas pelo fornecedor. Copiar foto de concorrente é violação de direito autoral.
+
+## Perguntas de revisão
+
+O que é o direito de arrependimento? :: O direito de desistir em 7 dias do recebimento de compra feita fora do estabelecimento, com devolução integral inclusive do frete (CDC, art. 49).
+
+Quais os prazos de garantia legal do CDC? :: 30 dias para produto não durável e 90 dias para produto durável (art. 26).
+
+O que o Decreto 7.962/2013 exige que a loja mostre? :: Razão social, CNPJ, endereço, características do produto, preço total com despesas, condições da oferta, atendimento eletrônico e forma de exercer o arrependimento.
+
+Em quanto tempo a loja precisa responder o atendimento eletrônico pelo decreto do e-commerce? :: Em até 5 dias.
+
+Como deve vir a caixa de consentimento para marketing no checkout segundo a LGPD? :: Desmarcada por padrão.
+
+Onde confirmar enquadramento tributário e alíquotas? :: Com um contador; a reforma tributária está em transição a partir de 2026.
 
 ---
 Anterior: [[10-Estoque-e-Compras|Estoque e compras]] · Próxima: [[12-Atendimento-e-Pos-Venda|Atendimento e pós-venda]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

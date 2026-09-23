@@ -1,5 +1,5 @@
 ---
-tags: [ecommerce, frete, logistica, operacao]
+tags: [ecommerce, frete, logistica, operacao, flashcards]
 cssclasses: [cerebro-nota, cerebro-ecommerce]
 ---
 
@@ -58,6 +58,18 @@ Se você posta em até 2 dias úteis e o PAC leva 7, o prazo exibido é 9 dias �
 ## Logística reversa
 
 Devoluções (arrependimento, defeito, troca de tamanho) precisam de um caminho simples: código de postagem reversa dos Correios ou de uma plataforma de frete. No arrependimento dentro de 7 dias, o custo do retorno é da loja (ver [[11-Fiscal-e-Legal|fiscal e legal]]).
+
+## Perguntas de revisão
+
+Como calcular o prazo de entrega exibido ao cliente? :: Dias para separar e postar mais o prazo da transportadora.
+
+O que é peso cúbico? :: É o peso calculado a partir das dimensões da caixa; a transportadora cobra pelo maior entre ele e o peso real.
+
+Como usar o frete grátis sem perder margem? :: Oferecer frete grátis acima de um valor mínimo de pedido, maior que o ticket médio atual.
+
+Quem paga a devolução no direito de arrependimento? :: A loja, que deve devolver tudo, inclusive o frete pago pelo cliente.
+
+Em caso de extravio, o que resolver primeiro? :: Resolver com o cliente, com reenvio ou reembolso, e depois reclamar com a transportadora.
 
 ---
 Anterior: [[07-Pagamentos-no-Brasil|Pagamentos]] · Próxima: [[09-Gestao-de-Pedidos|Gestão de pedidos]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]
