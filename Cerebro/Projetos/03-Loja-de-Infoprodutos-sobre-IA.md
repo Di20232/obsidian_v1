@@ -43,6 +43,7 @@ Material gratuito → kit de prompts → mini curso prático → curso completo
 
 ## Links relacionados
 
+- [[../../Ecommerce/01-Modelos-de-Negocio|Modelos de negócio]] — produto digital comparado aos outros modelos · [[../../Ecommerce/16-Email-e-Retencao|E-mail e retenção]] — a esteira de produtos depende da lista de e-mails
 - [[../Mapas/05-Mapa-IA|IA e Automação]]
 - [[../Mapas/01-Mapa-Web|Mapa Web]]
 - [[../Mapas/04-Mapa-Seguranca|Segurança]]

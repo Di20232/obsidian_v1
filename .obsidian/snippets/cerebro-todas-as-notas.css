@@ -59,6 +59,9 @@
 .theme-light { --cerebro-github: #6d28d9; }
 .theme-dark { --cerebro-github: #c4b5fd; }
 .cerebro-github { --cerebro-cor: var(--cerebro-github); }
+.theme-light { --cerebro-ecommerce: #db2777; }
+.theme-dark { --cerebro-ecommerce: #f472b6; }
+.cerebro-ecommerce { --cerebro-cor: var(--cerebro-ecommerce); }
 
 .cerebro-nota {
   --h1-color: var(--cerebro-cor);
@@ -88,7 +91,8 @@
 .nav-folder-title[data-path="TailwindCSS"], .nav-file-title[data-path^="TailwindCSS/"], .nav-folder-title[data-path^="TailwindCSS/"] { color: var(--cerebro-tailwind); }
 .nav-folder-title[data-path="MySQL"], .nav-file-title[data-path^="MySQL/"], .nav-folder-title[data-path^="MySQL/"] { color: var(--cerebro-mysql); }
 .nav-folder-title[data-path="SQLite"], .nav-file-title[data-path^="SQLite/"], .nav-folder-title[data-path^="SQLite/"] { color: var(--cerebro-sqlite); }
-.nav-folder-title[data-path="Programacao-Geral"], .nav-file-title[data-path^="Programacao-Geral/"], .nav-folder-title[data-path^="Programacao-Geral/"] { color: var(--cerebro-programacao); }
+.nav-folder-title[data-path="Ecommerce"], .nav-file-title[data-path^="Ecommerce/"], .nav-folder-title[data-path^="Ecommerce/"] { color: var(--cerebro-ecommerce); }
+.nav-folder-title[data-path="Programacao-Geral"],.nav-file-title[data-path^="Programacao-Geral/"], .nav-folder-title[data-path^="Programacao-Geral/"] { color: var(--cerebro-programacao); }
 .nav-folder-title[data-path="Cerebro"], .nav-file-title[data-path^="Cerebro/"], .nav-folder-title[data-path^="Cerebro/"] { color: var(--cerebro-geral); }
 .nav-folder-title[data-path="Cerebro/Projetos"], .nav-file-title[data-path^="Cerebro/Projetos/"], .nav-folder-title[data-path^="Cerebro/Projetos/"] { color: var(--cerebro-projetos); }
 .nav-folder-title[data-path="Cerebro/Problemas-Resolvidos"], .nav-file-title[data-path^="Cerebro/Problemas-Resolvidos/"], .nav-folder-title[data-path^="Cerebro/Problemas-Resolvidos/"] { color: var(--cerebro-problemas); }
@@ -107,3 +111,4 @@ a.tag[href="#sql"] { color: var(--cerebro-dados); }
 a.tag[href="#seguranca"] { color: var(--cerebro-seguranca); }
 a.tag[href="#ia"] { color: var(--cerebro-ia); }
 a.tag[href="#github"] { color: var(--cerebro-github); }
+a.tag[href="#ecommerce"], a.tag[href="#shopify"] { color: var(--cerebro-ecommerce); }

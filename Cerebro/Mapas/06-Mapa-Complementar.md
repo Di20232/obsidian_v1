@@ -13,6 +13,7 @@ Programação melhora quando conversa com outras áreas. Estas frentes ajudam a 
 | Matemática e lógica | precisão, modelagem e raciocínio | que relações ou restrições descrevem o problema? |
 | Design e UX | clareza, acessibilidade e uso real | a pessoa entende o próximo passo sem explicação? |
 | Produto e negócio | prioridade e valor | qual dor vale resolver primeiro? |
+| [[../../Ecommerce/00-Indice\|E-commerce]] | vender online: Shopify, pagamentos, frete, gestão e divulgação | sobra dinheiro em cada venda depois de todas as taxas? |
 | Comunicação | alinhamento, documentação e colaboração | outra pessoa consegue tomar uma decisão com esta nota? |
 | Gestão de projetos | foco, sequência e risco | qual é o menor resultado útil e como saberemos que deu certo? |
 | Inglês técnico | acesso a documentação e comunidades | consigo localizar os termos e fontes primárias? |

@@ -25,6 +25,7 @@ As cores tornam o cofre mais rápido de ler. Elas indicam o **assunto**, não a 
 | Magenta | IA e automação |
 | Verde-limão | práticas de trabalho |
 | Cinza | ambiente e infraestrutura |
+| Rosa-choque | e-commerce, Shopify e divulgação |
 
 ## Como funciona
 
@@ -36,6 +37,6 @@ Todas as notas existentes e importadas recebem uma classe base e uma classe de a
 cssclasses: [cerebro-nota, cerebro-projetos]
 ```
 
-Classes de assunto: `cerebro-geral`, `cerebro-programacao`, `cerebro-python`, `cerebro-javascript`, `cerebro-php`, `cerebro-css`, `cerebro-bootstrap`, `cerebro-tailwind`, `cerebro-mysql`, `cerebro-sqlite`, `cerebro-web`, `cerebro-dados`, `cerebro-engenharia`, `cerebro-seguranca`, `cerebro-ia`, `cerebro-projetos`, `cerebro-problemas`, `cerebro-praticas`, `cerebro-ambiente` e `cerebro-github`.
+Classes de assunto: `cerebro-geral`, `cerebro-programacao`, `cerebro-python`, `cerebro-javascript`, `cerebro-php`, `cerebro-css`, `cerebro-bootstrap`, `cerebro-tailwind`, `cerebro-mysql`, `cerebro-sqlite`, `cerebro-web`, `cerebro-dados`, `cerebro-engenharia`, `cerebro-seguranca`, `cerebro-ia`, `cerebro-projetos`, `cerebro-problemas`, `cerebro-praticas`, `cerebro-ambiente`, `cerebro-github` e `cerebro-ecommerce`.
 
 As cores foram configuradas usando [CSS snippets](https://help.obsidian.md/Extending+Obsidian/CSS+snippets) e [cssclasses](https://help.obsidian.md/Editing+and+formatting/Properties), recursos documentados do Obsidian. A verificação foi feita nos arquivos; a aparência não foi inspecionada na janela do aplicativo nesta etapa.
