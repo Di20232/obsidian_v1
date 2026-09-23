@@ -82,7 +82,7 @@ Existem também cupons de 50% no frete em compras acima de R$ 10. Vendedores com
 
 | Ferramenta | Para quê |
 |---|---|
-| **Shopee Ads** | anúncios patrocinados na busca e em recomendações |
+| **Shopee Ads** | anúncios patrocinados na busca e em recomendações — ver [[29-Shopee-Ads\|Shopee Ads]] |
 | **Cupons da loja** e **Moedas do vendedor** | desconto próprio, bancado por você |
 | **Oferta Relâmpago da loja** | promoção curta, com contagem regressiva |
 | **Combo** / **Leve Mais por Menos** | aumentar o ticket e diluir a taxa fixa |

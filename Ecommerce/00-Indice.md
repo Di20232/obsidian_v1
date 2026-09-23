@@ -52,6 +52,11 @@ Esta trilha cobre o que acontece **fora do código** de uma loja virtual: escolh
 25. [[25-Reputacao-e-Operacao-em-Marketplace|Reputação e operação]] — o que derruba a conta, mediação, Full
 26. [[26-Integracao-Multicanal|Integração multicanal]] — um estoque para vários canais, ERP, preço por canal
 
+### Tráfego pago em marketplace
+27. [[27-Trafego-Pago-em-Marketplace|Tráfego pago em marketplace]] — leilão, ROAS e ACOS, o equilíbrio depois da comissão, canibalização
+28. [[28-Mercado-Ads|Mercado Ads]] — Product Ads, Brand Ads, Display Ads; ROAS Objetivo e orçamento
+29. [[29-Shopee-Ads|Shopee Ads]] — anúncios de produto e da loja, palavras-chave, ROAS total contra direto
+
 ## As três ideias que atravessam a trilha
 
 1. **Faturamento não é lucro.** Taxa de pagamento, taxa da plataforma, imposto, frete e anúncio saem de cada venda. Uma loja pode crescer em pedidos e perder dinheiro em cada um. → [[02-Planejamento-e-Precificacao|a conta completa]]

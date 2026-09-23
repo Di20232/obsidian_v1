@@ -14,7 +14,7 @@ Os algoritmos não são públicos, mas na prática pesam:
 - **desempenho:** vendas, conversão (visitas que viram compra) e avaliações;
 - **condições:** preço competitivo, frete grátis ou rápido, parcelamento;
 - **reputação do vendedor:** prazos cumpridos, poucos cancelamentos e reclamações;
-- **anúncio patrocinado** (Mercado Ads, Shopee Ads), que compra posição.
+- **anúncio patrocinado** ([[28-Mercado-Ads|Mercado Ads]], [[29-Shopee-Ads|Shopee Ads]]), que compra posição.
 
 É um ciclo: anúncio bom vende, vender melhora a posição, a posição traz mais venda. Por isso o começo de um anúncio novo é o mais difícil.
 

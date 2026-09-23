@@ -44,6 +44,9 @@ Anúncio que **responde a uma busca**: bom para **capturar demanda** de quem já
 ### TikTok Ads
 Descoberta com vídeo nativo. O criativo precisa parecer conteúdo, não comercial.
 
+### Anúncios dentro dos marketplaces
+Quem vende no Mercado Livre ou na Shopee anuncia **dentro** deles, para quem já está buscando o produto. A margem para o anúncio é menor, porque a comissão já saiu. Veja [[27-Trafego-Pago-em-Marketplace|tráfego pago em marketplace]], [[28-Mercado-Ads|Mercado Ads]] e [[29-Shopee-Ads|Shopee Ads]].
+
 ## Como testar sem queimar dinheiro
 
 1. **Antes:** pixel instalado e compra de teste registrada como conversão.

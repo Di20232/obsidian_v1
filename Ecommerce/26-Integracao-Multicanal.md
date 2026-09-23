@@ -54,4 +54,4 @@ preço no canal = custos fixos por venda / (1 − comissão do canal − outros 
 Com o conector da Shopify, o Claude consegue listar pedidos de todos os canais sincronizados, conferir estoque por SKU e apontar divergências, como "quais SKUs estão com estoque zerado mas anúncio ativo?". Mudanças em estoque e preço sempre pedem confirmação.
 
 ---
-Anterior: [[25-Reputacao-e-Operacao-em-Marketplace|Reputação e operação]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]
+Anterior: [[25-Reputacao-e-Operacao-em-Marketplace|Reputação e operação]] · Próxima: [[27-Trafego-Pago-em-Marketplace|Tráfego pago em marketplace]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]

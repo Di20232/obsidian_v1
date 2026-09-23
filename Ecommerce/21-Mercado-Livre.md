@@ -74,7 +74,7 @@ Detalhes de operação em [[25-Reputacao-e-Operacao-em-Marketplace|reputação e
 
 ## Ferramentas úteis
 
-- **Mercado Ads** (Product Ads): anúncios patrocinados dentro da busca. Meça pelo ROAS comparado com a margem depois da tarifa ([[17-Metricas-do-Ecommerce|métricas]]).
+- **Mercado Ads** (Product Ads): anúncios patrocinados dentro da busca. Meça pelo ROAS comparado com a margem depois da tarifa. Guia completo em [[28-Mercado-Ads|Mercado Ads]].
 - **Promoções e cupons** da central de vendedores, e campanhas nacionais.
 - **Emissor de NF-e grátis** do próprio Mercado Livre.
 - **Mercado Pago:** o dinheiro das vendas cai lá. Existe prazo de liberação e opção de antecipar, com custo.
