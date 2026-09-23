@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -86,6 +86,18 @@ if ($nome) {
 ## Exercício
 
 Escreva um script que peça um número (pode fixar em uma variável por enquanto, já que entrada interativa via terminal só é vista em profundidade em [[11-Formularios-e-Superglobais]]) e diga se ele é positivo, negativo ou zero, e se é par ou ímpar. Depois, reescreva a lógica do dia da semana usando `match` em vez de `if`/`elseif`.
+
+## Perguntas de revisão
+
+Como se escreve else if em PHP? :: elseif, numa palavra só, é a convenção.
+
+O que faz o operador ?: em PHP? :: Usa o próprio valor se for verdadeiro, senão o padrão: $nome ?: "visitante".
+
+Por que preferir match a switch em PHP? :: match não precisa de break, não tem fall-through e retorna um valor diretamente.
+
+"0" é verdadeiro ou falso em PHP? :: Falso; em JavaScript, "0" seria verdadeiro.
+
+Quais valores são falsy em PHP? :: false, 0, 0.0, string vazia, "0", null e array vazio.
 
 ---
 Veja o exemplo em `PHP/exemplos/06_condicionais.php`. Próxima nota: [[07-Lacos-de-Repeticao]]

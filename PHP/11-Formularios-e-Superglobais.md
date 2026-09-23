@@ -1,5 +1,5 @@
 ---
-tags: [php, web]
+tags: [php, web, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -93,6 +93,20 @@ Isso é a base de como um site "lembra" que você está logado entre uma página
 ## Exercício
 
 Crie `formulario.html` com campos de nome e idade, e `processar.php` que recebe e exibe os dois, validando que a idade é um número entre 0 e 120. Rode `php -S localhost:8000` na pasta e teste pelo navegador.
+
+## Perguntas de revisão
+
+Qual a diferença entre $_GET e $_POST? :: $_GET traz dados da URL; $_POST traz dados do corpo da requisição, típico de formulários que criam ou alteram algo.
+
+O que o atributo name de um campo de formulário vira no PHP? :: A chave em $_POST ou $_GET no arquivo de destino.
+
+Por que usar ?? ao ler $_POST? :: Para não quebrar quando o campo não existe na requisição.
+
+Qual a regra de segurança para dados de $_GET e $_POST? :: Nunca confiar: validar e converter, e nunca colocar direto numa consulta SQL.
+
+Para que serve $_SESSION? :: Guardar dados do visitante entre requisições, como o login, já que o HTTP não tem estado.
+
+O que é preciso chamar antes de usar $_SESSION? :: session_start(), antes de qualquer saída.
 
 ---
 Veja o exemplo em `PHP/exemplos/11_formulario.html` + `PHP/exemplos/11_processar.php`. Próxima nota: [[12-Tratamento-de-Erros]]

@@ -1,5 +1,5 @@
 ---
-tags: [php, setup]
+tags: [php, setup, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -61,6 +61,18 @@ php -S localhost:8000
 ## Exercício
 
 Instale o PHP, rode `php --version` para confirmar, crie uma pasta com um arquivo `teste.php` contendo `<?php echo "Funcionou!"; ?>`, rode `php -S localhost:8000` dentro dela, e abra `http://localhost:8000/teste.php` no navegador.
+
+## Perguntas de revisão
+
+Como iniciar o servidor embutido do PHP? :: Com php -S localhost:8000 dentro da pasta do projeto, e abrir http://localhost:8000 no navegador.
+
+Por que PHP precisa de um servidor para ver o resultado? :: Porque foi desenhado para ser servido por um servidor web e visto no navegador.
+
+Qual a alternativa tudo-em-um para instalar PHP no Windows? :: Pacotes como XAMPP ou Laragon, que trazem PHP, MySQL e Apache configurados.
+
+Como rodar um arquivo PHP sem servidor? :: Pelo terminal, com php arquivo.php, útil para scripts sem HTML.
+
+Que extensão do VS Code ajuda com PHP? :: PHP Intelephense, para autocompletar e checar sintaxe.
 
 ---
 Próxima nota: [[03-Primeiro-Programa]]

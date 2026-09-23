@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -91,6 +91,18 @@ Mesma regra geral: parênteses primeiro, depois potência, depois multiplicaçã
 ## Exercício
 
 Calcule quantas semanas completas e quantos dias sobram em 100 dias, usando `intdiv()` e `%`. Depois, teste `var_dump(0 == "abc")` — em versões antigas de PHP (antes da 8) isso retornava `true`, uma das pegadinhas históricas mais famosas da linguagem; em PHP 8+ retorna `false`. Pesquise brevemente por que essa mudança foi feita, é um bom exemplo de como uma linguagem evolui para evitar armadilhas.
+
+## Perguntas de revisão
+
+Como fazer divisão inteira em PHP? :: Com intdiv(a, b).
+
+Qual comparação preferir em PHP? :: === e !==, que comparam valor e tipo sem converter.
+
+O que echo imprime para true e para false? :: 1 para true e nada para false; por isso var_dump é melhor para depurar booleanos.
+
+O que faz o operador ?? em PHP? :: Devolve o valor da esquerda se existir e não for null; senão, o da direita.
+
+O que faz .= em PHP? :: Concatena texto e reatribui à variável.
 
 ---
 Veja o exemplo em `PHP/exemplos/05_operadores.php`. Próxima nota: [[06-Condicionais]]

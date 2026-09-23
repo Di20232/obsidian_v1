@@ -1,5 +1,5 @@
 ---
-tags: [php, boas-praticas]
+tags: [php, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -88,6 +88,20 @@ Mesmo `assert` simples visto em [[../Python/16-Boas-Praticas-e-Proximos-Passos]]
 - **Aprofunde o banco de dados**: [[../MySQL/00-Indice]] para o banco mais usado junto com PHP em produção, ou [[../SQLite/00-Indice]] para continuar sem precisar de servidor.
 - **Explore um framework** (Laravel é o ponto de partida mais comum) depois de estar confortável com PHP puro.
 - Volte para [[../Programacao-Geral/00-Indice]] para reforçar Git, testes e boas práticas gerais, aplicando-as a projetos PHP.
+
+## Perguntas de revisão
+
+O que são os PSRs? :: As recomendações de padrão da comunidade PHP, como PSR-12 para estilo e PSR-4 para autoload.
+
+Qual o gerenciador de pacotes do PHP? :: O Composer, que instala dependências na pasta vendor/.
+
+Como proteger contra XSS em PHP? :: Usando htmlspecialchars ao exibir dados do usuário ou do banco dentro de HTML.
+
+Como guardar senhas em PHP? :: Com password_hash ao salvar e password_verify ao checar o login, nunca em texto puro.
+
+Quais são os frameworks PHP mais usados? :: Laravel e Symfony.
+
+Qual a ferramenta padrão de testes em PHP? :: O PHPUnit.
 
 ---
 Fim da trilha de PHP. Volte ao [[00-Indice|índice deste curso]], ao [[../Python/00-Indice|curso de Python]], ao [[../JavaScript/00-Indice|curso de JavaScript]] ou ao [[../Programacao-Geral/00-Indice|conhecimento geral de programação]] a qualquer momento.

@@ -1,5 +1,5 @@
 ---
-tags: [php, conceitos]
+tags: [php, conceitos, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -63,6 +63,18 @@ Mesmo conceito de [[../Python/01-O-que-e-Programacao]]: não existe uma etapa de
 ## Exercício
 
 Sem escrever código ainda: pense em uma página que você usa e que claramente busca dados diferentes a cada visita (um feed de notícias, um painel de pedidos, o preço atualizado de um produto). Essa é exatamente a categoria de problema que PHP (ou qualquer linguagem de back-end equivalente) resolve — gerar HTML diferente, sob demanda, com base em dados que mudam.
+
+## Perguntas de revisão
+
+Onde o código PHP é executado? :: No servidor, antes de a página ser enviada; o navegador recebe só o HTML pronto e nunca vê o código PHP.
+
+Qual a característica mais marcante do PHP? :: Poder ser embutido diretamente dentro do HTML, entre <?php e ?>.
+
+Como toda variável começa em PHP? :: Com o sinal $, como $nome.
+
+O que são superglobais em PHP? :: Variáveis sempre disponíveis que carregam dados da requisição, como $_GET, $_POST e $_SESSION.
+
+Por que PHP continua relevante? :: Alimenta uma fatia enorme da web, como o WordPress, e é simples de colocar no ar em hospedagens baratas.
 
 ---
 Próxima nota: [[02-Preparando-o-Ambiente]]

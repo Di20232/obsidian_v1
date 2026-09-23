@@ -1,5 +1,5 @@
 ---
-tags: [php, banco-de-dados]
+tags: [php, banco-de-dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -98,6 +98,18 @@ Este é o ciclo completo de uma aplicação web tradicional: **formulário** ([[
 ## Exercício
 
 Crie uma tabela `tarefas` (id, descricao, concluida) em um banco SQLite via PDO. Escreva um script que insira 3 tarefas e depois consulte e exiba só as não concluídas.
+
+## Perguntas de revisão
+
+O que é PDO? :: A interface recomendada do PHP para bancos de dados, que funciona com MySQL, SQLite, PostgreSQL e outros.
+
+O que é prepared statement? :: Uma consulta com marcadores (? ou :nome) em que os valores são passados separados do SQL, com prepare e execute.
+
+Qual a defesa padrão contra SQL injection em PHP? :: Prepared statements com PDO, nunca concatenar dados do usuário na consulta.
+
+Para que serve PDO::ERRMODE_EXCEPTION? :: Faz erros de SQL virarem exceções que podem ser capturadas.
+
+O que faz fetchAll(PDO::FETCH_ASSOC)? :: Devolve o resultado como um array de arrays associativos, uma linha por item.
 
 ---
 Veja o exemplo em `PHP/exemplos/14_banco_dados.php`. Próxima nota: [[15-Boas-Praticas-e-Proximos-Passos]]

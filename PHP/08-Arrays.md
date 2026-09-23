@@ -1,5 +1,5 @@
 ---
-tags: [php, basico, estruturas-de-dados]
+tags: [php, basico, estruturas-de-dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -103,6 +103,22 @@ Mesma ideia de "tabela de dados" vista em [[../Python/09-Listas-Tuplas-Dicionari
 ## Exercício
 
 Crie um array de arrays associativos representando 3 produtos (`nome`, `preco`). Use `foreach` para exibir cada um, e `array_reduce` para calcular o preço total.
+
+## Perguntas de revisão
+
+Qual a particularidade dos arrays em PHP? :: Um único tipo array serve como lista (índices numéricos) e como dicionário (chaves nomeadas).
+
+Como adicionar um item no fim de um array em PHP? :: Com $array[] = valor ou array_push($array, valor).
+
+O que acontece com os índices depois de unset num array? :: Ficam buracos na sequência; array_values reconstrói os índices.
+
+Como verificar se uma chave existe num array PHP? :: Com isset($array["chave"]), que também exige que o valor não seja null.
+
+Quais os equivalentes de map, filter e reduce em PHP? :: array_map, array_filter e array_reduce.
+
+Como array_slice difere do fatiamento de Python? :: O terceiro argumento é a quantidade de itens, não o índice final.
+
+Como contar os itens de um array em PHP? :: Com count($array).
 
 ---
 Veja o exemplo em `PHP/exemplos/08_arrays.php`. Próxima nota: [[09-Strings]]

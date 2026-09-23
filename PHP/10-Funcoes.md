@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -106,6 +106,18 @@ echo $resultado . "\n";   // ERRO: Undefined variable $resultado
 ## Exercício
 
 Escreva uma função `ehPar(int $numero): bool` usando type hints, que retorna `true`/`false`. Depois, use um `for` (de [[07-Lacos-de-Repeticao]]) para testá-la com os números de 1 a 10.
+
+## Perguntas de revisão
+
+PHP tem argumentos nomeados? :: Sim, desde a versão 8, como apresentar(cidade: "São Paulo", nome: "Diego").
+
+O que são type hints em PHP? :: Declarações opcionais de tipo de parâmetros e retorno, como function somar(int $a, int $b): int.
+
+Qual a limitação da arrow function fn em PHP? :: Aceita só uma expressão, com return implícito.
+
+Como criar uma função anônima com várias linhas em PHP? :: Com function sem nome guardada numa variável, chamada closure.
+
+Por que usar type hints? :: Porque capturam erros de tipo mais cedo.
 
 ---
 Veja o exemplo em `PHP/exemplos/10_funcoes.php`. Próxima nota: [[11-Formularios-e-Superglobais]]

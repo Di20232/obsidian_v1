@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -89,6 +89,20 @@ Mesmas regras gerais de Python/JavaScript (letras, números, `_`, não pode come
 ## Exercício
 
 Crie `$nome`, `$idade` e `$cidade`, e exiba uma frase juntando os três com `.` (concatenação). Depois, teste `echo "5" + "3";` e `echo "5" . "3";` e compare os resultados, explicando a diferença para si mesmo.
+
+## Perguntas de revisão
+
+Como se declara uma variável em PHP? :: Basta atribuir um valor com $ na frente, como $idade = 25; não há let ou const.
+
+Qual o operador de concatenação de texto em PHP? :: O ponto (.); o + é sempre aritmético.
+
+Quanto dá "5" + 3 em PHP? :: 8, porque o + em PHP é sempre aritmético, ao contrário do JavaScript que concatenaria.
+
+Como ver tipo e valor de uma variável em PHP? :: Com var_dump($variavel).
+
+Como criar uma constante de verdade em PHP? :: Com define("PI", 3.14159) ou const NOME = valor; usa-se sem o $.
+
+Como converter texto em número em PHP? :: Com casting (int) $texto ou com intval($texto).
 
 ---
 Veja o exemplo em `PHP/exemplos/04_variaveis.php`. Próxima nota: [[05-Operadores]]

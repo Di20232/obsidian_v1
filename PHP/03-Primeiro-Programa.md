@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -74,6 +74,18 @@ Na prática, use `echo` — é ligeiramente mais rápido e mais flexível; `prin
 ## Exercício
 
 Altere `03_ola_mundo.php` para exibir seu nome em uma linha e uma frase sobre por que está aprendendo PHP em outra (dois `echo`, ou um `echo` com quebra de linha usando `\n` dentro de aspas duplas — veja mais sobre isso em [[09-Strings]]).
+
+## Perguntas de revisão
+
+Qual a instrução mais comum para gerar saída em PHP? :: echo, que não exige parênteses.
+
+O ponto e vírgula é obrigatório em PHP? :: Sim, no fim de toda instrução, sem exceção.
+
+Por que não fechar a tag ?> em arquivos só com PHP? :: Para evitar espaços acidentais depois dela, que causam o erro headers already sent.
+
+O que acontece se faltar a tag <?php? :: O servidor trata o arquivo como texto e exibe o código em vez de executá-lo.
+
+Quais as formas de comentário em PHP? :: // ou # para uma linha, e /* */ para várias linhas.
 
 ---
 Veja o exemplo em `PHP/exemplos/03_ola_mundo.php`. Próxima nota: [[04-Variaveis-e-Tipos]]

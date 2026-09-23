@@ -1,5 +1,5 @@
 ---
-tags: [php, poo]
+tags: [php, poo, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -158,6 +158,20 @@ echo $produto->formatar() . "\n";
 ## Exercício
 
 Crie uma classe `Produto` com `nome` e `preco` (propriedades `private`), um `getPreco()`, e um método `aplicarDesconto($percentual)` que reduz o preço proporcionalmente (mesmo exercício de [[../Python/15-Programacao-Orientada-a-Objetos]] e [[../JavaScript/15-Classes-e-POO]], agora em PHP).
+
+## Perguntas de revisão
+
+Como acessar propriedades e métodos de objeto em PHP? :: Com a seta ->, porque o ponto já é o operador de concatenação.
+
+Qual a diferença entre public, private e protected? :: public é acessível de qualquer lugar, private só dentro da classe e protected na classe e nas subclasses.
+
+O que é encapsulamento? :: Proteger o estado interno do objeto, obrigando que mudanças passem pelos métodos da própria classe.
+
+Qual o equivalente do super de JavaScript em PHP? :: parent::, como parent::__construct(...).
+
+O que é uma interface em PHP? :: Um contrato que define quais métodos uma classe deve ter, sem implementá-los.
+
+O que faz public no parâmetro do construtor em PHP 8? :: Cria e preenche a propriedade automaticamente, sem escrever $this->nome = $nome.
 
 ---
 Veja o exemplo em `PHP/exemplos/13_poo.php`. Próxima nota: [[14-PHP-com-Banco-de-Dados]]

@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -85,6 +85,16 @@ for ($i = 0; $i < 10; $i++) {
 ## Exercício
 
 Escreva um script que exiba a tabuada de um número fixo (por exemplo, `$numero = 7;`) de 1 a 10, usando `for`. Depois, use `foreach` para percorrer um array associativo (visto em [[08-Arrays]]) com 3 produtos e preços, exibindo cada um.
+
+## Perguntas de revisão
+
+Qual o laço mais usado para percorrer arrays em PHP? :: foreach, como foreach ($frutas as $fruta).
+
+Como percorrer chave e valor num foreach? :: foreach ($array as $chave => $valor).
+
+Qual a diferença entre while e do...while? :: while testa antes de rodar; do...while roda o bloco pelo menos uma vez e testa depois.
+
+O for clássico do PHP é igual ao de qual linguagem? :: Ao do JavaScript, com inicialização, condição e incremento, só que com $ nas variáveis.
 
 ---
 Veja o exemplo em `PHP/exemplos/07_lacos.php`. Próxima nota: [[08-Arrays]]

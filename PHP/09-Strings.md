@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -93,6 +93,20 @@ echo "R$ " . number_format($preco, 2, ",", ".");  // "R$ 19,90" -> casas decimai
 ## Exercício
 
 Escreva um script que valide um e-mail fixo usando `str_contains` e `str_ends_with`. Depois, use `explode` para dividir uma frase em palavras e `count` (visto em [[08-Arrays]]) para contar quantas são.
+
+## Perguntas de revisão
+
+Qual a diferença entre aspas simples e duplas em PHP? :: Aspas duplas interpolam variáveis; aspas simples imprimem o texto literalmente.
+
+Expressões como $idade + 1 interpolam dentro de aspas duplas? :: Não; só variáveis simples interpolam, expressões precisam de concatenação.
+
+Como as operações de string funcionam em PHP? :: Como funções soltas que recebem a string, como strtoupper($s), e não como métodos.
+
+Quais os equivalentes de split e join em PHP? :: explode(separador, $texto) e implode(separador, $array).
+
+Como formatar R$ 19,90 em PHP? :: Com number_format($preco, 2, ",", "."), escolhendo vírgula decimal e ponto de milhar.
+
+Como medir o tamanho de uma string em PHP? :: Com strlen($texto).
 
 ---
 Veja o exemplo em `PHP/exemplos/09_strings.php`. Próxima nota: [[10-Funcoes]]

@@ -1,5 +1,5 @@
 ---
-tags: [php, basico]
+tags: [php, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-php]
 ---
 
@@ -98,6 +98,18 @@ Na prática do dia a dia, capturar `Exception` (ou tipos mais específicos) já 
 ## Exercício
 
 Escreva uma função `dividir($a, $b)` que lança `DivisionByZeroError` (ou uma exceção sua) quando `$b` é zero. Chame-a dentro de `try`/`catch`, testando com um divisor válido e depois com zero.
+
+## Perguntas de revisão
+
+Como lançar uma exceção em PHP? :: Com throw new Exception("mensagem").
+
+Como ler a mensagem de uma exceção em PHP? :: Com $erro->getMessage().
+
+Em que ordem colocar os catch? :: Do tipo mais específico para o mais genérico.
+
+Qual a diferença entre Error e Exception em PHP? :: Error indica problema grave de programação; Exception indica problema esperado do fluxo; os dois implementam Throwable.
+
+Como criar uma exceção própria em PHP? :: Com uma classe que estende Exception, como class IdadeInvalidaException extends Exception {}.
 
 ---
 Veja o exemplo em `PHP/exemplos/12_erros.php`. Próxima nota: [[13-POO]]
