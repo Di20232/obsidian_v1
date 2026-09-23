@@ -1,5 +1,5 @@
 ---
-tags: [programacao, sql, banco-de-dados]
+tags: [programacao, sql, banco-de-dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -117,6 +117,18 @@ Nem todo dado se encaixa bem em tabelas rígidas. Bancos **NoSQL** (MongoDB, Red
 ## Exercício
 
 Usando `sqlite3` em Python, crie uma tabela `tarefas` com colunas `id`, `descricao` e `concluida`. Insira 3 tarefas, depois escreva uma consulta que retorne só as que ainda não foram concluídas.
+
+## Perguntas de revisão
+
+Como um banco relacional organiza os dados? :: Em tabelas com linhas (registros) e colunas (campos).
+
+O que significa SQL ser declarativa? :: Descreve-se o que se quer e o banco decide como buscar da forma mais eficiente.
+
+O que é normalização? :: Cada dado vive num único lugar e é referenciado por chave, em vez de copiado.
+
+Como evitar SQL injection ao consultar pelo Python? :: Passando os valores como parâmetros com ?, nunca concatenando na string.
+
+O que são bancos NoSQL? :: Bancos com formatos flexíveis, como documentos, chave-valor ou grafos, como MongoDB e Redis.
 
 ---
 Próxima nota: [[10-Como-a-Web-Funciona]]

@@ -1,5 +1,5 @@
 ---
-tags: [programacao, web, html, css]
+tags: [programacao, web, html, css, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -103,6 +103,18 @@ Mesmo trabalhando com Python no back-end (ver [[10-Como-a-Web-Funciona]]), é co
 ## Exercício
 
 Crie um arquivo `pagina.html` com um título, dois parágrafos e um link. Depois crie um arquivo `estilo.css` que deixe o título azul e centralizado, e conecte os dois arquivos. Abra o `pagina.html` no navegador para ver o resultado.
+
+## Perguntas de revisão
+
+Qual a diferença entre HTML e CSS? :: HTML descreve a estrutura e o conteúdo; CSS descreve a aparência.
+
+O que é um atributo HTML? :: Informação extra na tag de abertura, como href num link ou src e alt numa imagem.
+
+Qual a diferença entre classe e id no CSS? :: Classe (.nome) pode se repetir em vários elementos; id (#nome) deve ser único na página.
+
+O que é o DOM? :: A árvore de elementos HTML que o JavaScript manipula para tornar a página interativa.
+
+Para que serve o atributo alt de uma imagem? :: Dar um texto alternativo, importante para acessibilidade.
 
 ---
 Próxima nota: [[08-JavaScript-Basico]]

@@ -1,5 +1,5 @@
 ---
-tags: [programacao, carreira, proximos-passos]
+tags: [programacao, carreira, proximos-passos, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -58,6 +58,18 @@ Não escolha por "o que paga mais" isoladamente — escolha por **o que te dá v
 ## Uma última coisa
 
 A sensação de "não saber nada" nunca desaparece completamente — ela só muda de assunto conforme você avança. Isso não é sinal de que você está atrasado, é a natureza normal de uma área que muda e se expande constantemente. O objetivo não é saber tudo; é ter base sólida o suficiente (que você já tem, depois destas duas trilhas) para aprender o resto conforme for precisando.
+
+## Perguntas de revisão
+
+Quais os frameworks web mais usados em Python? :: Flask, mais simples e flexível, e Django, mais completo.
+
+Quais bibliotecas Python são usadas em análise de dados e machine learning? :: pandas e matplotlib na análise; scikit-learn, pytorch e tensorflow em machine learning.
+
+Como praticar de forma que o aprendizado grude? :: Construir projetos pequenos e completos, ler código de outros, explicar o que aprendeu e contribuir com algo real.
+
+Qual a referência mais confiável de HTML, CSS e JavaScript? :: O MDN, developer.mozilla.org.
+
+Como escolher uma área de especialização? :: Pelo que dá vontade de continuar praticando, experimentando projetos pequenos em duas ou três áreas antes de se aprofundar.
 
 ---
 Volte para [[00-Indice|o índice geral]] ou para o [[../Python/00-Indice|curso de Python]] a qualquer momento.

@@ -1,5 +1,5 @@
 ---
-tags: [programacao, git, fundamentos]
+tags: [programacao, git, fundamentos, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -77,6 +77,22 @@ __pycache__/
 ## Exercício
 
 Instale o Git (`git-scm.com`), configure seu nome e e-mail (`git config --global user.name "Seu Nome"` e `git config --global user.email "seu@email.com"`), crie uma pasta de teste, rode `git init`, crie um arquivo, e faça seu primeiro commit.
+
+## Perguntas de revisão
+
+O que é um commit? :: Uma fotografia do estado do código num momento, com uma mensagem explicando o que mudou e por quê.
+
+Por que o git add é separado do commit? :: Para escolher exatamente quais mudanças entram em cada commit.
+
+O que é um branch? :: Uma linha independente de desenvolvimento, para trabalhar sem afetar o código principal.
+
+O que é um Pull Request? :: Uma proposta de integrar as mudanças de um branch, que permite revisão antes de aceitar.
+
+Qual a diferença entre Git e GitHub? :: Git é a ferramenta de controle de versão; GitHub é um serviço que hospeda repositórios Git na internet.
+
+Para que serve o .gitignore? :: Listar o que o Git não deve rastrear, como ambientes virtuais, arquivos temporários e segredos.
+
+Por que nunca commitar senhas? :: Porque, uma vez no histórico, é difícil remover completamente, mesmo apagando depois.
 
 ---
 Próxima nota: [[04-Estruturas-de-Dados]]

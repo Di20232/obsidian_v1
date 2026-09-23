@@ -1,5 +1,5 @@
 ---
-tags: [programacao, c, memoria]
+tags: [programacao, c, memoria, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -68,6 +68,20 @@ O interpretador Python gerencia memória automaticamente: quando nenhuma parte d
 ## Exercício (conceitual, sem precisar instalar C)
 
 Compare mentalmente: em Python, `lista.append(1)` — você nunca precisa se preocupar se a lista "cabe" mais um item, o Python realoca memória sozinho por trás. Em C, um array de tamanho fixo simplesmente não permite isso — você precisaria criar um array maior manualmente e copiar os dados. Escreva, em português, os passos que você imagina que isso exigiria.
+
+## Perguntas de revisão
+
+O que é um ponteiro em C? :: Uma variável que guarda o endereço de memória de outra variável.
+
+O que fazem malloc e free em C? :: malloc pede memória ao sistema e free a devolve.
+
+O que é vazamento de memória? :: Memória alocada que não foi liberada com free e fica inacessível até o programa terminar.
+
+O que é o garbage collector? :: O mecanismo automático de linguagens como Python que libera a memória que nada mais referencia.
+
+Onde C ainda é insubstituível? :: Em sistemas operacionais, drivers, sistemas embarcados e partes de alta performance de outras linguagens.
+
+Em que linguagem é escrito o interpretador padrão do Python? :: Em C; por isso se chama CPython.
 
 ---
 Próxima nota: [[12-Debugging-e-Testes]]

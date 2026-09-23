@@ -1,5 +1,5 @@
 ---
-tags: [programacao, boas-praticas]
+tags: [programacao, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -82,6 +82,20 @@ Reserve comentários para explicar **decisões não óbvias** ("por que fizemos 
 ## Exercício
 
 Pegue um dos exercícios que você já resolveu no [[../Python/00-Indice|curso de Python]] (por exemplo, o de [[../Python/09-Listas-Tuplas-Dicionarios]]) e revise: os nomes de variáveis explicam bem o que representam? Existe alguma repetição que poderia virar função? Reescreva se encontrar algo para melhorar.
+
+## Perguntas de revisão
+
+O que significa KISS? :: Keep It Simple: preferir a solução mais simples que resolve o problema.
+
+O que significa YAGNI? :: You Aren't Gonna Need It: não construir funcionalidade para um futuro hipotético.
+
+O que um bom nome de função e de variável deve dizer? :: A função diz o que faz; a variável diz o que representa, não o tipo.
+
+Por que except: pass é ruim? :: Porque silencia erros em vez de resolvê-los, dificultando achar bugs depois.
+
+Para que serve o code review? :: Encontrar problemas, compartilhar conhecimento do sistema e manter um padrão de qualidade no time.
+
+Qual o mínimo de documentação de um projeto? :: Um README explicando o que faz e como rodar, e docstrings em funções não óbvias.
 
 ---
 Próxima nota: [[14-Proximos-Passos-Trilhas]]

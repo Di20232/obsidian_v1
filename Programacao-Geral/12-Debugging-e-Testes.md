@@ -1,5 +1,5 @@
 ---
-tags: [programacao, debugging, testes]
+tags: [programacao, debugging, testes, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -87,6 +87,20 @@ Escrever testes parece "trabalho extra" no começo. O retorno aparece quando o p
 ## Exercício
 
 Pegue a função `eh_par` que você escreveu no exercício de [[../Python/11-Funcoes]] e escreva 3 testes para ela usando `assert`: um número par, um número ímpar, e o caso de borda `0` (que é par).
+
+## Perguntas de revisão
+
+O que é debugging? :: O processo sistemático de descobrir por que o código não faz o que deveria.
+
+O que é um breakpoint? :: Um ponto onde o debugger pausa a execução para inspecionar as variáveis.
+
+Qual técnica ajuda a achar a causa de um bug num programa grande? :: Reduzir o problema ao menor caso que ainda reproduz o erro.
+
+O que é regressão? :: Quando uma mudança nova quebra algo que já funcionava.
+
+Quais casos um bom conjunto de testes cobre? :: O caso normal, os casos de borda (vazio, zero, negativo) e os casos que devem gerar erro.
+
+Como o pytest encontra os testes? :: Roda automaticamente as funções cujo nome começa com test_.
 
 ---
 Próxima nota: [[13-Boas-Praticas-de-Codigo]]

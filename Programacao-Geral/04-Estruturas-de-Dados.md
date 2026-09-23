@@ -1,5 +1,5 @@
 ---
-tags: [programacao, estruturas-de-dados, fundamentos]
+tags: [programacao, estruturas-de-dados, fundamentos, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -80,6 +80,20 @@ Generalização de árvore: elementos ("nós") conectados por relações ("arest
 ## Exercício
 
 Sem escrever código, pense: qual estrutura você usaria para representar o histórico de páginas visitadas em um navegador (com suporte a "voltar")? E para representar os amigos de um usuário em uma rede social? Justifique.
+
+## Perguntas de revisão
+
+Qual a vantagem e a desvantagem do array? :: Acesso por índice muito rápido, mas inserir no meio é caro porque os elementos seguintes precisam se deslocar.
+
+O que é uma pilha (LIFO)? :: Uma estrutura em que o último a entrar é o primeiro a sair, como o desfazer de um editor.
+
+O que é uma fila (FIFO)? :: Uma estrutura em que o primeiro a entrar é o primeiro a sair, como uma fila de impressão.
+
+Por que o dicionário do Python é tão rápido? :: Porque é uma tabela hash: uma função calcula direto onde guardar e buscar cada chave.
+
+Que estrutura representa bem pastas e subpastas? :: Uma árvore.
+
+Que estrutura representa conexões livres, como amigos numa rede social? :: Um grafo.
 
 ---
 Próxima nota: [[05-Algoritmos-e-Complexidade]]

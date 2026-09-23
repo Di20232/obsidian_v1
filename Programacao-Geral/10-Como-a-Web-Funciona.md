@@ -1,5 +1,5 @@
 ---
-tags: [programacao, web, fundamentos]
+tags: [programacao, web, fundamentos, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -109,6 +109,22 @@ Quando você abre uma rede social, o front-end pede dados ao back-end via API (H
 ## Exercício
 
 Use `requests` em Python para buscar dados de uma API pública gratuita (por exemplo, `https://api.github.com/users/octocat`), imprima o código de status da resposta e alguns campos do JSON retornado.
+
+## Perguntas de revisão
+
+O que é o modelo cliente-servidor? :: O cliente, como o navegador, pede informação e o servidor responde, seguindo o protocolo HTTP.
+
+Para que servem GET, POST, PUT/PATCH e DELETE? :: GET busca, POST cria, PUT e PATCH atualizam e DELETE remove dados.
+
+O que significam os códigos 200, 201, 404 e 500? :: 200 sucesso, 201 criado, 404 não encontrado e 500 erro interno do servidor.
+
+Qual a diferença entre 401 e 403? :: 401 é não autenticado; 403 é autenticado mas sem permissão.
+
+O que é uma API? :: Um servidor feito para programas conversarem, devolvendo dados estruturados, geralmente em JSON.
+
+O que é REST? :: Um estilo de organizar APIs em torno de recursos, usando os métodos HTTP de forma consistente, como GET /usuarios/5.
+
+Qual a diferença entre front-end e back-end? :: Front-end roda no navegador (HTML, CSS, JavaScript); back-end roda no servidor, com regras de negócio e banco de dados.
 
 ---
 Próxima nota: [[11-C-e-Memoria]]

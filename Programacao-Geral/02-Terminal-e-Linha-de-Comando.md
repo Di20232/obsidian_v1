@@ -1,5 +1,5 @@
 ---
-tags: [programacao, fundamentos, terminal]
+tags: [programacao, fundamentos, terminal, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -60,6 +60,18 @@ Praticamente toda ferramenta de desenvolvimento profissional (Git, visto em [[03
 ## Exercício
 
 Abra o terminal, crie uma pasta chamada `teste_terminal`, entre nela, crie um arquivo `nota.txt` dentro, liste o conteúdo da pasta para confirmar que o arquivo existe, e depois apague o arquivo e a pasta.
+
+## Perguntas de revisão
+
+Por que programadores usam o terminal? :: Porque é mais rápido e preciso, e muitas ferramentas como git e gerenciadores de pacotes só funcionam ou são documentadas por ele.
+
+O que fazem pwd, cd .. e ls? :: pwd mostra a pasta atual, cd .. sobe um nível e ls lista o conteúdo da pasta.
+
+Para que serve a tecla Tab no terminal? :: Para autocompletar nomes de arquivos e pastas.
+
+Arquivos apagados pelo terminal vão para a lixeira? :: Não; a exclusão pelo terminal é definitiva.
+
+Comandos do Bash funcionam direto no PowerShell? :: Nem sempre; comandos como rm -rf, comuns em tutoriais Linux, não funcionam direto no PowerShell.
 
 ---
 Próxima nota: [[03-Git-e-Controle-de-Versao]]

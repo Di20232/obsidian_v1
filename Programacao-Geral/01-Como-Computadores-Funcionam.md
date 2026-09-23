@@ -1,5 +1,5 @@
 ---
-tags: [programacao, fundamentos]
+tags: [programacao, fundamentos, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -36,6 +36,18 @@ No fim, tudo — números, texto, imagens, o próprio código — é armazenado 
 ## Exercício mental
 
 Pense no comando que você já rodou, `python meu_arquivo.py` (visto em [[../Python/03-Primeiro-Programa]]). Liste, em ordem, o que acontece: o sistema operacional localiza o programa `python`, carrega esse programa na RAM, a CPU começa a executar suas instruções, o interpretador lê seu arquivo `.py` do disco, traduz e executa cada linha. Visualizar essa cadeia ajuda a entender onde cada tipo de lentidão ou erro pode aparecer.
+
+## Perguntas de revisão
+
+Qual a diferença entre RAM e disco? :: A RAM é rápida e temporária, apagada ao desligar; o disco é mais lento e permanente.
+
+O que o processador (CPU) entende? :: Só um conjunto pequeno e fixo de instruções básicas, como somar, comparar e mover dados.
+
+Qual o papel do sistema operacional? :: Gerenciar os outros programas: uso da CPU, arquivos, teclado, tela e rede.
+
+Por que evitar acessar o disco dentro de um loop crítico? :: Porque ler e escrever em disco é ordens de grandeza mais lento que operar na RAM.
+
+Como o texto é guardado no computador? :: Como números, por meio de tabelas como Unicode e ASCII que mapeiam cada caractere, e no fim tudo é binário.
 
 ---
 Próxima nota: [[02-Terminal-e-Linha-de-Comando]]

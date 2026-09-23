@@ -1,5 +1,5 @@
 ---
-tags: [programacao, javascript, web]
+tags: [programacao, javascript, web, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -91,6 +91,18 @@ Originalmente, JavaScript só rodava dentro de páginas web. O **Node.js** é um
 ## Exercício
 
 Crie um arquivo `pagina.html` simples com um botão e um parágrafo vazio. Em uma tag `<script>` (ou um arquivo `.js` separado), escreva uma função que, ao clicar no botão, escreva "Você clicou!" dentro do parágrafo usando `addEventListener` e manipulação do `textContent`.
+
+## Perguntas de revisão
+
+Por que JavaScript é praticamente obrigatório na web? :: Porque é a única linguagem que todo navegador executa, dando interatividade às páginas.
+
+O que é programação orientada a eventos? :: Registrar funções que rodam quando algo acontece, como um clique, com addEventListener.
+
+Por que operações demoradas em JavaScript são assíncronas? :: Para não travar a página enquanto esperam, por exemplo, uma resposta do servidor.
+
+O que é o Node.js? :: Um ambiente que roda JavaScript fora do navegador, no servidor.
+
+O que é TypeScript? :: JavaScript com tipagem estática, que aponta erros de tipo antes de rodar.
 
 ---
 Próxima nota: [[09-SQL-e-Bancos-de-Dados]]

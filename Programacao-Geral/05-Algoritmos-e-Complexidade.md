@@ -1,5 +1,5 @@
 ---
-tags: [programacao, algoritmos, fundamentos]
+tags: [programacao, algoritmos, fundamentos, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -90,6 +90,20 @@ print(fatorial(5))   # 5 * 4 * 3 * 2 * 1 = 120
 ## Exercício
 
 Escreva uma função recursiva `soma_ate(n)` que soma todos os números de 1 até `n` (ex.: `soma_ate(5)` = 1+2+3+4+5 = 15). Depois, escreva a mesma lógica usando um `for` em vez de recursão, e compare as duas versões.
+
+## Perguntas de revisão
+
+O que é um algoritmo? :: Uma sequência finita e precisa de passos para resolver um problema.
+
+O que descreve a notação Big O? :: Como o tempo de execução cresce conforme a quantidade de dados aumenta.
+
+Qual a diferença entre O(1), O(n) e O(n²)? :: O(1) é tempo constante, O(n) cresce junto com os dados e O(n²) quadruplica quando os dados dobram.
+
+O que exige a busca binária? :: Dados já ordenados; ela descarta metade das opções a cada passo, em O(log n).
+
+Qual a complexidade de algoritmos de ordenação como merge sort e quicksort? :: O(n log n).
+
+Por que toda função recursiva precisa de caso base? :: Para parar; sem ele a função chama a si mesma até estourar a memória (RecursionError).
 
 ---
 Próxima nota: [[06-Paradigmas-e-Panorama-de-Linguagens]]

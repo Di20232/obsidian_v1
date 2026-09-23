@@ -1,5 +1,5 @@
 ---
-tags: [programacao, linguagens, fundamentos]
+tags: [programacao, linguagens, fundamentos, flashcards]
 cssclasses: [cerebro-nota, cerebro-programacao]
 ---
 
@@ -96,6 +96,20 @@ Depois de aprender bem uma primeira linguagem (como você fez com Python), apren
 ## Exercício
 
 Pegue o exercício resolvido de [[../Python/07-Condicionais]] (par/ímpar) e, sem se preocupar em rodar de verdade, escreva no papel/editor como você imagina que ficaria em pseudocódigo (uma mistura de português e lógica de programação, sem sintaxe de linguagem nenhuma). Isso é o que muitos programadores fazem para planejar antes de escrever na sintaxe real.
+
+## Perguntas de revisão
+
+Qual a diferença entre tipagem estática e dinâmica? :: Na estática o tipo é checado antes de rodar; na dinâmica é decidido durante a execução e pode mudar.
+
+O que é um paradigma de programação? :: Um estilo de organizar a lógica: procedural, orientado a objetos ou funcional.
+
+O que é uma linguagem multiparadigma? :: Uma linguagem que suporta vários estilos, como Python, que permite procedural, orientado a objetos e um pouco de funcional.
+
+Por que SQL é diferente de Python? :: Porque é declarativa e feita só para bancos de dados: descreve o que se quer e o banco decide como buscar.
+
+Para que é usada a linguagem Rust? :: Onde performance e segurança de memória são críticas, com garantias checadas na compilação.
+
+Como Java e C# são executados? :: Compilam para bytecode intermediário, executado por uma máquina virtual.
 
 ---
 Próxima nota: [[07-HTML-e-CSS]]
