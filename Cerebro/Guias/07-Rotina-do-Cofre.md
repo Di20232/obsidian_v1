@@ -60,6 +60,14 @@ node ferramentas/verificar-links.js
 
 Por padrão ignora as cópias de código em `*/Fontes/*`, onde links como `[[people/Sam Patel]]` são exemplos do repositório original, não notas. Para ver tudo, acrescente `--tudo`.
 
+## Encontrar notas soltas
+
+```bash
+node ferramentas/notas-soltas.js
+```
+
+Lista as notas **isoladas** (nenhuma ligação), **sem entrada** (ninguém aponta para elas, então só são achadas por busca) e **sem saída** (não apontam para nada). Uma vez por mês, na revisão semanal, vale rodar e ligar o que apareceu. Os modelos em `Templates/` sempre aparecem como "sem saída" e está certo: um link dentro de um modelo seria copiado para toda nota nova.
+
 ## Configuração do Obsidian que sustenta a rotina
 
 | Ajuste | Valor |

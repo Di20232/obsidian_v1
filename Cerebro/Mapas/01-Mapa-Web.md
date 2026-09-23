@@ -44,3 +44,5 @@ Veja: [[../../PHP/00-Indice|PHP]], [[../../Programacao-Geral/10-Como-a-Web-Funci
 ## Publicação
 
 Antes de publicar, confirme ambiente, variáveis secretas, migrações, backups, logs e uma forma simples de desfazer uma versão ruim. Veja [[03-Mapa-Engenharia|Engenharia de Software]].
+
+Para testar uma página localmente com `fetch` e módulos JavaScript, veja [[../Guias/06-Servidor-Local-para-HTML|Servidor local para HTML]].

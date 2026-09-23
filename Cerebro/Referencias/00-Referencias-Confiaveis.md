@@ -25,3 +25,12 @@ Use fontes primárias para decisões técnicas importantes e registre data/vers�
 ## Fontes a registrar
 
 Ao adicionar uma fonte, crie um link e uma frase explicando por que ela é útil; não acumule URLs sem contexto.
+
+## Onde o cofre já aplica isso
+
+Notas cujo conteúdo muda com o tempo trazem `verificado_em` e `fonte` no cabeçalho:
+- [[Ecommerce/04-Shopify-Visao-Geral|Shopify: visão geral]] — planos e taxas conferidos na página oficial de preços
+- [[Ecommerce/21-Mercado-Livre|Mercado Livre]] e [[Ecommerce/22-Shopee|Shopee]] — tarifas conferidas nas centrais de ajuda oficiais
+- [[GitHub/Conhecimento/04-Previsao-de-Reposicao|Previsão de reposição]] — conferida contra o código publicado
+
+Veja também: [[02-Como-Usar|Como usar este cérebro]]

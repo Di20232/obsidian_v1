@@ -48,7 +48,7 @@ Quatro práticas de base e cinco extraídas dos projetos, incluindo [[Praticas/0
 [[Mapas/01-Mapa-Web|Web]] · [[Mapas/02-Mapa-Dados|Dados]] · [[Mapas/03-Mapa-Engenharia|Engenharia]] · [[Mapas/04-Mapa-Seguranca|Segurança]] · [[Mapas/05-Mapa-IA|IA]] · [[Mapas/06-Mapa-Complementar|Complementar]]
 
 ### 📖 Apoio
-[[Guias/01-Aprender-um-Assunto|Guias]] · [[Templates/00-Modelos|Modelos de nota]] · [[03-Glossario|Glossário]] · [[Referencias/00-Referencias-Confiaveis|Referências]] · [[Linha-do-Tempo|Linha do tempo]]
+[[Guias/00-Indice|Guias]] · [[Templates/00-Modelos|Modelos de nota]] · [[03-Glossario|Glossário]] · [[Referencias/00-Referencias-Confiaveis|Referências]] · [[Linha-do-Tempo|Linha do tempo]]
 
 ## Trilhas de estudo
 

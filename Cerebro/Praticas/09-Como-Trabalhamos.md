@@ -48,7 +48,7 @@ O primeiro passo é o mais subestimado. **Quase todos os bugs deste cofre foram 
 
 Uma investigação bem-feita que não vira nota precisa ser refeita inteira da próxima vez. O registro custa cinco minutos e é o que separa este cofre de uma pasta de código.
 
-Use [[../Templates/Template-Problema|Template de Problema]] logo após confirmar a correção — não semanas depois, quando o detalhe já se perdeu.
+Use [[../Templates/Template-Problema|Template de Problema]] logo após confirmar a correção — não semanas depois, quando o detalhe já se perdeu. O roteiro para decidir onde cada descoberta vai está em [[../Guias/04-Transformar-Experiencia-em-Conhecimento|Transformar experiência em conhecimento]].
 
 ## Links relacionados
 
