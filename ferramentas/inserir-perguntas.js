@@ -20,8 +20,11 @@ for (const [nome, pares] of Object.entries(dados)) {
   if (/^##\s+Perguntas de revisão/m.test(texto)) { console.log(`  já tem perguntas: ${nome}`); puladas++; continue; }
 
   const bloco = '## Perguntas de revisão\n\n' + pares.map(([p, r]) => `${p} :: ${r}`).join('\n\n') + '\n\n';
-  // Antes do rodapé de navegação ("---" seguido de Anterior/Próxima/Trilha); senão, no fim.
-  const rodape = texto.search(/\n---\n(?:Anterior|Próxima|Trilha)/);
+  // Antes do rodapé de navegação: o último "---" nas 700 últimas letras, fora do frontmatter;
+  // sem rodapé, no fim da nota.
+  const fimFrontmatter = texto.startsWith('---\n') ? texto.indexOf('\n---', 4) + 4 : 0;
+  const ultimo = texto.replace(/\s+$/, '').lastIndexOf('\n---\n');
+  const rodape = ultimo > fimFrontmatter && texto.length - ultimo < 700 ? ultimo : -1;
   texto = rodape >= 0
     ? texto.slice(0, rodape).replace(/\s*$/, '\n\n') + bloco + texto.slice(rodape + 1)
     : texto.replace(/\s*$/, '\n\n') + bloco.trimEnd() + '\n';

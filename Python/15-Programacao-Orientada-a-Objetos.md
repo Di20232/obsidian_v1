@@ -1,5 +1,5 @@
 ---
-tags: [python, poo]
+tags: [python, poo, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -100,6 +100,18 @@ Para scripts pequenos e diretos (como os exercícios anteriores deste curso), fu
 ## Exercício
 
 Crie uma classe `Produto` com atributos `nome` e `preco`, e um método `aplicar_desconto(percentual)` que reduz `self.preco` proporcionalmente. Crie 3 produtos, aplique descontos diferentes em cada um, e imprima o preço final de cada um usando um `for`.
+
+## Perguntas de revisão
+
+Qual a diferença entre classe e objeto? :: Classe é o molde que descreve dados e comportamento; objeto é uma instância criada a partir desse molde.
+
+O que faz o método __init__? :: É o construtor: roda ao criar o objeto e configura seus atributos iniciais.
+
+O que representa self num método? :: A instância específica do objeto; é o primeiro parâmetro dos métodos e o Python o passa automaticamente.
+
+Para que serve a herança? :: Para reaproveitar o que é comum entre tipos parecidos, permitindo que cada subclasse mude só o comportamento que precisa.
+
+Quando vale a pena usar orientação a objetos? :: Quando o problema tem entidades com estado e comportamento próprios que se repetem, como usuários, produtos ou contas.
 
 ---
 Veja o exemplo em `Python/exemplos/15_poo.py`. Próxima nota: [[16-Boas-Praticas-e-Proximos-Passos]]

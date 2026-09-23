@@ -1,5 +1,5 @@
 ---
-tags: [python, conceitos]
+tags: [python, conceitos, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -41,6 +41,18 @@ Python é **interpretado**: existe um programa chamado **interpretador** que lê
 ## Exercício
 
 Sem escrever código ainda: pense em uma tarefa do seu dia a dia (por exemplo, "separar e-mails importantes") e escreva, em português, passo a passo, tão detalhado que uma pessoa sem contexto nenhum conseguiria seguir sem perguntar nada. Isso é pensar como um programador.
+
+## Perguntas de revisão
+
+O que é programar? :: Escrever instruções sem ambiguidade para o computador seguir exatamente como foram escritas.
+
+Por que existem linguagens de programação? :: Porque o computador só entende binário, e as linguagens são sintaxes legíveis por humanos que depois são traduzidas para o que a máquina executa.
+
+Qual a diferença entre linguagem compilada e interpretada? :: A compilada é traduzida inteira para linguagem de máquina antes de rodar; a interpretada é lida e executada linha a linha por um interpretador, como o Python.
+
+Qual a diferença entre erro de sintaxe e bug? :: Erro de sintaxe quebra as regras da linguagem e o código nem roda; bug é erro de lógica, em que o código roda mas faz a coisa errada.
+
+Por que Python é uma boa primeira linguagem? :: Porque se lê quase como inglês simples, e o esforço vai para entender lógica em vez de decorar símbolos.
 
 ---
 Próxima nota: [[02-Instalando-Python]]

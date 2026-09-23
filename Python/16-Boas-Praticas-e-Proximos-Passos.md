@@ -1,5 +1,5 @@
 ---
-tags: [python, boas-praticas]
+tags: [python, boas-praticas, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -98,6 +98,22 @@ Ler um traceback e não entender de primeira é absolutamente normal, mesmo para
 - Aprenda `git`, a ferramenta padrão da indústria para guardar o histórico do seu código — veja [[../Programacao-Geral/03-Git-e-Controle-de-Versao]].
 - Explore o que existe além de Python puro: como a web funciona, bancos de dados, outras linguagens — a trilha completa está em [[../Programacao-Geral/00-Indice]].
 - Aprenda uma segunda linguagem para comparar: o [[../JavaScript/00-Indice|curso de JavaScript do Zero]] segue exatamente o mesmo formato desta trilha, comparando a sintaxe com Python nota a nota.
+
+## Perguntas de revisão
+
+O que é a PEP 8? :: O guia oficial de estilo do Python, com convenções como 4 espaços de indentação e snake_case para variáveis e funções.
+
+Qual a convenção de nome de classes em Python? :: PascalCase, como MinhaClasse.
+
+Qual a diferença entre formatador e linter? :: O formatador (como black) reescreve o código no estilo padrão; o linter (como ruff ou flake8) aponta problemas de estilo e possíveis bugs.
+
+O que significa DRY? :: Don't Repeat Yourself: não duplicar lógica, extraindo trechos repetidos para funções.
+
+Para que serve um ambiente virtual (venv)? :: Isolar os pacotes de cada projeto, evitando conflito de versões entre projetos.
+
+O que faz assert em Python? :: Verifica uma condição e, se for falsa, interrompe com AssertionError; é a base de testes simples.
+
+O que um comentário deve explicar? :: O porquê do código; o quê já deve ficar claro pelos bons nomes.
 
 ---
 Fim da trilha de Python. Volte ao [[00-Indice|índice do curso de Python]] a qualquer momento, ou siga para o [[../Programacao-Geral/00-Indice|conhecimento geral de programação]].

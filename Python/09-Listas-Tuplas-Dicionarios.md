@@ -1,5 +1,5 @@
 ---
-tags: [python, basico, estruturas-de-dados]
+tags: [python, basico, estruturas-de-dados, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -113,6 +113,22 @@ Isso é basicamente como se representa uma "tabela" de dados em Python puro, e �
 ## Exercício
 
 Crie uma lista de dicionários representando 3 produtos, cada um com `nome` e `preco`. Use um `for` para imprimir o nome e o preço de cada um, e calcule (usando uma variável acumuladora, como no exercício de [[08-Lacos-de-Repeticao]]) o preço total de todos os produtos.
+
+## Perguntas de revisão
+
+Qual a diferença entre lista e tupla em Python? :: Lista é mutável e usa colchetes; tupla é imutável depois de criada e usa parênteses.
+
+Em que índice começa uma lista em Python? :: Em 0; índices negativos contam a partir do fim, e -1 é o último item.
+
+O que é um dicionário em Python? :: Uma coleção de pares chave e valor, acessados pelo nome da chave em vez de posição numérica.
+
+Como evitar KeyError ao acessar um dicionário? :: Conferindo antes se a chave existe com o operador in.
+
+O que retorna numeros[1:3] em [10, 20, 30, 40, 50]? :: [20, 30]: do índice 1 até o 3, exclusivo.
+
+Como percorrer uma lista com índice e valor ao mesmo tempo? :: Com enumerate: for indice, item in enumerate(lista).
+
+Como dados JSON de uma API aparecem em Python? :: Como listas e dicionários, geralmente uma lista de dicionários.
 
 ---
 Veja o exemplo em `Python/exemplos/09_estruturas.py`. Próxima nota: [[10-Strings]]

@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -100,6 +100,22 @@ Isso é apenas um sinal visual para quem lê o código — o Python não impede 
 ## Exercício
 
 Crie variáveis `nome`, `idade` e `cidade` com seus próprios dados, e depois use `print()` para exibir uma frase juntando as três, como "Diego, 25 anos, mora em São Paulo". Dica: você vai precisar converter `idade` para texto antes de juntar com `+`, ou aprender o atalho em [[06-Entrada-e-Saida]].
+
+## Perguntas de revisão
+
+O que é uma variável? :: Um nome dado a um espaço na memória onde um valor fica guardado para ser usado e trocado depois.
+
+O que significa o sinal = em Python? :: Atribuição: guarda o valor da direita na variável da esquerda; não é igualdade matemática.
+
+Quais são os quatro tipos básicos do Python? :: int (inteiro), float (decimal), str (texto) e bool (verdadeiro ou falso).
+
+Por que "25" + 5 dá erro em Python? :: Porque soma texto com número; o Python não adivinha a intenção e gera TypeError em vez de agir silenciosamente errado.
+
+O que é casting? :: Converter um valor de um tipo para outro, como int("25") ou str(10).
+
+Qual a convenção de nomes de variáveis em Python? :: snake_case: letras minúsculas com palavras separadas por underscore, como nome_completo.
+
+Como indicar uma constante em Python? :: Escrevendo o nome todo em maiúsculas, como PI = 3.14159; é só convenção, o Python não impede a alteração.
 
 ---
 Veja o exemplo em `Python/exemplos/04_variaveis.py`. Próxima nota: [[05-Operadores]]

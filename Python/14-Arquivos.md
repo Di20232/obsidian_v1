@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -91,6 +91,18 @@ O `r` antes das aspas cria uma **raw string**, que trata `\` literalmente em vez
 ## Exercício
 
 Escreva um programa que peça 3 tarefas via `input()` (um `for` de [[08-Lacos-de-Repeticao]] rodando 3 vezes) e salve cada uma em uma linha de um arquivo `tarefas.txt`. Depois, em outra parte do mesmo programa, abra esse arquivo em modo leitura e imprima todas as tarefas numeradas.
+
+## Perguntas de revisão
+
+Qual a diferença entre os modos w, a e r ao abrir arquivo? :: w escreve apagando o conteúdo anterior, a adiciona ao final e r lê, sendo o padrão.
+
+Por que abrir arquivos com with? :: Porque o arquivo é fechado automaticamente ao sair do bloco, mesmo se ocorrer erro.
+
+Que erro ocorre ao abrir para leitura um arquivo que não existe? :: FileNotFoundError.
+
+Para que serve o r antes de um caminho do Windows, como r"C:\pasta"? :: Cria uma raw string, que trata a barra invertida literalmente em vez de como caractere especial.
+
+Por que salvar dados em arquivo? :: Porque variáveis ficam na memória temporária e somem quando o programa termina; o arquivo em disco persiste.
 
 ---
 Veja o exemplo em `Python/exemplos/14_arquivos.py`. Próxima nota: [[15-Programacao-Orientada-a-Objetos]]

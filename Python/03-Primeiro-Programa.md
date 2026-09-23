@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -63,6 +63,18 @@ Quando algo dá erro, o Python mostra um **traceback**: um texto (às vezes assu
 ## Exercício
 
 Altere `03_ola_mundo.py` para imprimir seu próprio nome em uma linha e uma frase sobre por que você está aprendendo Python em outra linha (duas chamadas de `print`).
+
+## Perguntas de revisão
+
+O que faz print("Olá, mundo!")? :: Chama a função print para exibir o texto entre aspas na tela.
+
+O que é um argumento de função? :: O valor entregue entre os parênteses na chamada da função, para ela usar.
+
+Por que a indentação importa em Python? :: Porque Python usa os espaços no início da linha para marcar blocos de código; o padrão é 4 espaços por nível.
+
+Como escrever um comentário em Python? :: Com # antes do texto; tudo depois de # na linha é ignorado pelo interpretador.
+
+Como ler um traceback do Python? :: De baixo para cima: a última linha diz o tipo do erro e o essencial, e acima aparece a linha exata do problema.
 
 ---
 Próxima nota: [[04-Variaveis-e-Tipos]]

@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -67,6 +67,16 @@ Se a pessoa digitar "vinte" em vez de "20", o programa quebra com `ValueError`, 
 ## Exercício
 
 Escreva um programa que pergunte o nome e a idade da pessoa (dois `input()`), calcule em que ano ela completa 100 anos (você vai precisar saber o ano atual — pode pedir também como entrada), e mostre uma frase final usando f-string.
+
+## Perguntas de revisão
+
+Qual a forma recomendada de montar textos com variáveis em Python? :: f-string: um f antes das aspas e as variáveis entre chaves, como f"Nome: {nome}".
+
+Que tipo de dado o input() sempre devolve? :: Texto (str), mesmo que a pessoa digite números.
+
+Como ler um número digitado pelo usuário? :: Convertendo o retorno do input, como int(input("Idade: ")) ou float(...) para decimais.
+
+O que acontece com int(input()) se a pessoa digita "vinte"? :: O programa quebra com ValueError, porque o texto não pode ser convertido em número.
 
 ---
 Veja o exemplo em `Python/exemplos/06_entrada_saida.py`. Próxima nota: [[07-Condicionais]]

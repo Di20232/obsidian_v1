@@ -1,5 +1,5 @@
 ---
-tags: [python, setup]
+tags: [python, setup, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -52,6 +52,18 @@ Crie uma pasta para seus estudos, por exemplo `Python\exemplos` (ela já existe 
 ## Exercício
 
 Abra o terminal, rode `python --version` e depois digite apenas `python` (sem mais nada) e pressione Enter. Você vai entrar no **modo interativo** do Python (um `>>>` vai aparecer). Digite `2 + 2` e pressione Enter. Depois digite `exit()` para sair. Isso é o interpretador rodando código, um comando por vez, em tempo real.
+
+## Perguntas de revisão
+
+Qual opção marcar ao instalar o Python no Windows? :: Add python.exe to PATH, para o comando python funcionar no terminal em qualquer pasta.
+
+O que é o PATH? :: A lista de pastas que o sistema operacional verifica quando você digita um comando no terminal.
+
+Como conferir se o Python está instalado e qual versão? :: Rodando python --version no terminal.
+
+Como entrar e sair do modo interativo do Python? :: Digitando python no terminal para entrar (aparece >>>) e exit() para sair.
+
+Qual editor é recomendado para iniciantes em Python? :: O VS Code com a extensão oficial Python da Microsoft.
 
 ---
 Próxima nota: [[03-Primeiro-Programa]]

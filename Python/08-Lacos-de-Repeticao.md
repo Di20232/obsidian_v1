@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -105,6 +105,18 @@ for linha in range(3):
 ## Exercício
 
 Escreva um programa que use `for` para imprimir a tabuada de um número (peça o número com `input()`), de 1 a 10. Depois, escreva um programa com `while` que peça números até a pessoa digitar `0`, e ao final mostre a soma de todos os números digitados (não conte o `0`).
+
+## Perguntas de revisão
+
+Que números range(5) gera? :: 0, 1, 2, 3 e 4; o limite final é exclusivo.
+
+Quando usar for e quando usar while? :: for quando se sabe quantas vezes repetir ou há uma coleção para percorrer; while quando depende de uma condição conhecida só durante a execução.
+
+O que causa um loop infinito com while? :: Nada dentro do loop muda a variável da condição, então ela nunca fica falsa.
+
+Qual a diferença entre break e continue? :: break encerra o loop imediatamente; continue pula para a próxima repetição.
+
+O que gera range(0, 10, 2)? :: 0, 2, 4, 6 e 8: início, fim exclusivo e passo.
 
 ---
 Veja o exemplo em `Python/exemplos/08_lacos.py`. Próxima nota: [[09-Listas-Tuplas-Dicionarios]]

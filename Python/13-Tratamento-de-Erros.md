@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -101,6 +101,18 @@ Isso captura **qualquer** erro, inclusive erros de programação que você nem s
 ## Exercício
 
 Escreva um programa que peça dois números e os divida, capturando tanto `ValueError` (entrada não numérica) quanto `ZeroDivisionError` (divisor igual a zero), com uma mensagem específica para cada caso.
+
+## Perguntas de revisão
+
+Para que serve try/except? :: Para prever falhas e decidir o que fazer em vez de deixar o programa travar.
+
+Qual a diferença entre else e finally num try? :: else roda só se não houve erro; finally roda sempre, com ou sem erro.
+
+Por que evitar except Exception genérico? :: Porque esconde erros de programação inesperados, que são informação útil para corrigir o código.
+
+Qual o padrão para repetir a entrada até o usuário digitar um valor válido? :: while True com try/except, e break só no caminho de sucesso.
+
+Qual a diferença entre TypeError e ValueError? :: TypeError é operação entre tipos incompatíveis; ValueError é valor do tipo certo mas conteúdo inválido, como int("abc").
 
 ---
 Veja o exemplo em `Python/exemplos/13_erros.py`. Próxima nota: [[14-Arquivos]]

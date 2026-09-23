@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -81,6 +81,20 @@ resultado = (2 + 3) * 4    # 20 (parênteses primeiro)
 ## Exercício
 
 Calcule, usando variáveis, quantas semanas completas e quantos dias sobram em 100 dias (dica: use `//` e `%`). Depois escreva uma condição que verifique se uma pessoa pode dirigir (`idade >= 18`) **e** tem CNH (`tem_cnh == True`), guardando o resultado em uma variável `pode_dirigir` e imprimindo-a.
+
+## Perguntas de revisão
+
+Qual a diferença entre / e // em Python? :: / faz divisão e sempre retorna float; // faz divisão inteira, descartando o resto.
+
+O que faz o operador %? :: Retorna o resto da divisão, chamado de módulo; 10 % 3 é 1.
+
+Qual a diferença entre = e ==? :: = atribui um valor a uma variável; == compara se dois valores são iguais.
+
+Como funcionam and, or e not? :: and é verdadeiro só se os dois lados forem; or é verdadeiro se pelo menos um for; not inverte o valor.
+
+O que faz contador += 1? :: Soma 1 ao valor atual de contador e guarda o resultado nele mesmo.
+
+Quanto é 2 + 3 * 4 em Python? :: 14, porque a multiplicação vem antes da soma; com parênteses, (2 + 3) * 4 dá 20.
 
 ---
 Veja o exemplo em `Python/exemplos/05_operadores.py`. Próxima nota: [[06-Entrada-e-Saida]]

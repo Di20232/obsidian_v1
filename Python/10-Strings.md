@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -106,6 +106,18 @@ Três aspas (simples ou duplas) permitem texto com quebras de linha, útil para 
 ## Exercício
 
 Peça um e-mail via `input()`. Verifique se ele contém `"@"` e termina com `.com`; se sim, imprima "e-mail válido", senão "e-mail inválido". Depois, peça uma frase e conte quantas palavras ela tem usando `split()` e `len()`.
+
+## Perguntas de revisão
+
+Strings em Python são mutáveis? :: Não; para mudar uma string é preciso criar outra, por isso texto[0] = "x" dá erro.
+
+Por que texto.strip() sozinho não altera a variável? :: Porque métodos de string retornam uma nova string; é preciso reatribuir, como texto = texto.strip().
+
+Como formatar um número com duas casas decimais numa f-string? :: Com :.2f, como f"R$ {preco:.2f}".
+
+Para que servem split() e join()? :: split() divide um texto numa lista por um separador; join() junta uma lista num texto com um separador.
+
+Como verificar se um trecho existe dentro de uma string? :: Com o operador in, como "@" in email.
 
 ---
 Veja o exemplo em `Python/exemplos/10_strings.py`. Próxima nota: [[11-Funcoes]]

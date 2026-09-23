@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -86,6 +86,20 @@ Sem funções, um programa vira um único bloco enorme e repetitivo. Com funçõ
 ## Exercício
 
 Escreva uma função `eh_par(numero)` que recebe um número e **retorna** `True` se for par e `False` se for ímpar (não use `print` dentro dela). Depois, use um `for` (de [[08-Lacos-de-Repeticao]]) para testar a função com os números de 1 a 10, imprimindo o número e o resultado.
+
+## Perguntas de revisão
+
+O que é uma função? :: Um bloco de código nomeado que faz uma tarefa e pode ser chamado várias vezes sem reescrever a lógica.
+
+Qual a diferença entre parâmetro e argumento? :: Parâmetro é o nome reservado na definição da função; argumento é o valor real passado na chamada.
+
+Qual a diferença entre print e return numa função? :: print só mostra na tela; return devolve o valor para ser usado em outra parte do código e encerra a função.
+
+O que é escopo local? :: Variáveis criadas dentro de uma função existem só dentro dela, o que evita interferência entre funções.
+
+Quando transformar um trecho de código em função? :: Quando o mesmo trecho foi copiado e colado mais de uma vez.
+
+Definir uma função com def a executa? :: Não; ela só roda quando é chamada.
 
 ---
 Veja o exemplo em `Python/exemplos/11_funcoes.py`. Próxima nota: [[12-Modulos-e-Pacotes]]

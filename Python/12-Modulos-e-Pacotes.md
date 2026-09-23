@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -94,6 +94,18 @@ Você não precisa decorar módulos agora, mas precisa entender o **conceito**: 
 ## Exercício
 
 Use o módulo `random` para simular o lançamento de um dado (número aleatório entre 1 e 6), rodando isso 5 vezes dentro de um `for` (de [[08-Lacos-de-Repeticao]]).
+
+## Perguntas de revisão
+
+O que é um módulo em Python? :: Um arquivo .py com funções e variáveis que pode ser importado em outro arquivo.
+
+Qual a diferença entre import math e from math import sqrt? :: import math exige escrever math.sqrt; from math import sqrt permite usar sqrt direto.
+
+Por que evitar from modulo import *? :: Porque some a clareza de onde cada função veio.
+
+Como instalar um pacote de terceiros em Python? :: Com pip install nome_do_pacote, que baixa do repositório PyPI.
+
+O que é a biblioteca padrão do Python? :: O conjunto de módulos que já vem com o Python, como math, random, datetime e os.
 
 ---
 Veja o exemplo em `Python/exemplos/12_modulos.py`. Próxima nota: [[13-Tratamento-de-Erros]]

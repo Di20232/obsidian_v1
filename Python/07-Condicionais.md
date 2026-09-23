@@ -1,5 +1,5 @@
 ---
-tags: [python, basico]
+tags: [python, basico, flashcards]
 cssclasses: [cerebro-nota, cerebro-python]
 ---
 
@@ -100,6 +100,18 @@ else:
 ## Exercício
 
 Escreva um programa que peça um número via `input()` (convertido com `int()`) e diga se ele é positivo, negativo ou zero. Depois, expanda para também dizer se o número é par ou ímpar (dica: use `%` de [[05-Operadores]]).
+
+## Perguntas de revisão
+
+O que é obrigatório no fim da linha de um if em Python? :: Dois-pontos (:), e o bloco seguinte precisa estar indentado.
+
+Como funciona o elif? :: É um else if: só é testado se as condições anteriores foram falsas, e o Python para na primeira verdadeira, de cima para baixo.
+
+Por que a ordem das condições do elif importa? :: Porque só roda o primeiro bloco verdadeiro; uma condição ampla no topo impede as mais específicas de serem alcançadas.
+
+Quais valores o Python considera falsos num if? :: False, 0, texto vazio, None e listas ou dicionários vazios; todo o resto é verdadeiro.
+
+Que erro aparece com indentação inconsistente? :: IndentationError.
 
 ---
 Veja o exemplo em `Python/exemplos/07_condicionais.py`. Próxima nota: [[08-Lacos-de-Repeticao]]
