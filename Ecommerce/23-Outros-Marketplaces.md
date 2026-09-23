@@ -27,6 +27,7 @@ As tarifas destes canais **não foram conferidas** nesta nota. Antes de decidir,
 - **Motor de vendas:** criadores de conteúdo e **afiliados** que divulgam em troca de comissão, além de lives.
 - **Bom para:** produto que "funciona em vídeo": beleza, gadgets, cozinha, moda, com demonstração visual forte.
 - **Cuidado:** depende de conteúdo constante e de parceria com criadores; picos de venda repentinos exigem estoque e expedição prontos.
+- **Anúncios:** [[34-TikTok-Shop-Ads-e-GMV-Max|TikTok Shop Ads e GMV Max]].
 
 ## Marketplaces de nicho
 

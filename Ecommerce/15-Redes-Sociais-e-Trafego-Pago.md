@@ -45,6 +45,7 @@ Anúncio que **responde a uma busca**: bom para **capturar demanda** de quem já
 
 ### TikTok Ads
 Descoberta com vídeo nativo. O criativo precisa parecer conteúdo, não comercial.
+- Guias completos: [[33-TikTok-Ads|TikTok Ads]] (para a loja própria) e [[34-TikTok-Shop-Ads-e-GMV-Max|TikTok Shop Ads e GMV Max]] (para vender dentro do TikTok).
 
 ### Anúncios dentro dos marketplaces
 Quem vende no Mercado Livre ou na Shopee anuncia **dentro** deles, para quem já está buscando o produto. A margem para o anúncio é menor, porque a comissão já saiu. Veja [[27-Trafego-Pago-em-Marketplace|tráfego pago em marketplace]], [[28-Mercado-Ads|Mercado Ads]] e [[29-Shopee-Ads|Shopee Ads]].

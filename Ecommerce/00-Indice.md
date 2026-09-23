@@ -62,6 +62,10 @@ Esta trilha cobre o que acontece **fora do código** de uma loja virtual: escolh
 31. [[31-Meta-Ads|Meta Ads]] — objetivos, Advantage+, fase de aprendizado, criativos e públicos
 32. [[32-Rastreamento-e-Mensuracao|Rastreamento e mensuração]] — pixel, API de Conversões, UTMs, MER e por que os números não batem
 
+### TikTok
+33. [[33-TikTok-Ads|TikTok Ads]] — objetivos, orçamento recomendado, fase de aprendizado, Smart+, Spark Ads, criativo
+34. [[34-TikTok-Shop-Ads-e-GMV-Max|TikTok Shop Ads e GMV Max]] — vender dentro do TikTok, afiliados, o que o painel do GMV Max soma
+
 ## As três ideias que atravessam a trilha
 
 1. **Faturamento não é lucro.** Taxa de pagamento, taxa da plataforma, imposto, frete e anúncio saem de cada venda. Uma loja pode crescer em pedidos e perder dinheiro em cada um. → [[02-Planejamento-e-Precificacao|a conta completa]]

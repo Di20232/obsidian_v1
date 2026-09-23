@@ -17,7 +17,7 @@ Anúncio sem medição é gasto no escuro. As estratégias automáticas do [[30-
 | **UTMs** | etiquetas no link que dizem de onde veio a visita |
 | **Pedidos da loja** | a **fonte da verdade**: o que realmente foi vendido e pago |
 
-Na **Shopify**, instale pelos canais oficiais: **Facebook & Instagram** (pixel + API de Conversões) e **Google & YouTube** (tag + conversões). Evite colar código manualmente no tema: duplica eventos e quebra quando o tema muda.
+Na **Shopify**, instale pelos canais oficiais: **Facebook & Instagram** (pixel + API de Conversões), **Google & YouTube** (tag + conversões) e o app do **TikTok** (Pixel do TikTok + API de Eventos, ver [[33-TikTok-Ads|TikTok Ads]]). Evite colar código manualmente no tema: duplica eventos e quebra quando o tema muda.
 
 ## Os eventos de e-commerce
 
@@ -83,4 +83,4 @@ Para saber se um canal ou o remarketing traz venda **nova**:
 - Listas de clientes enviadas às plataformas (para públicos personalizados) exigem base legal. A Meta e o Google fazem hash dos dados, mas a responsabilidade pelo envio continua sendo da loja.
 
 ---
-Anterior: [[31-Meta-Ads|Meta Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]
+Anterior: [[31-Meta-Ads|Meta Ads]] · Próxima: [[33-TikTok-Ads|TikTok Ads]] · Trilha: [[Ecommerce/00-Indice|E-commerce]]
