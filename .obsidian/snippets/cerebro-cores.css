@@ -1,4 +1,7 @@
-/* Paleta do Cérebro de Conhecimento — ativada em Aparência > Snippets CSS. */
+/* Paleta antiga do Cérebro de Conhecimento — desligada: não está em enabledCssSnippets
+   (.obsidian/appearance.json). Foi substituída por cerebro-todas-as-notas.css, o snippet ativo,
+   que tem todas as classes de assunto. Não precisa ligar: as duas definem várias das mesmas variáveis
+   e regras, e ligadas juntas se sobrepõem. */
 :root {
   --cerebro-geral: #8b5cf6;
   --cerebro-programacao: #38bdf8;

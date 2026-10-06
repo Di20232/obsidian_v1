@@ -1,7 +1,7 @@
 ---
 tags: [template, decisao]
 status: aceita
-cssclasses: [cerebro-nota, cerebro-geral]
+cssclasses: [cerebro-nota, cerebro-projetos]
 ---
 
 # Decisão: {{Título}}

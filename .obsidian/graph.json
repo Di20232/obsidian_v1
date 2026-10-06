@@ -146,6 +146,20 @@
         "a": 1,
         "rgb": 12891645
       }
+    },
+    {
+      "query": "[cssclasses:cerebro-ecommerce]",
+      "color": {
+        "a": 1,
+        "rgb": 16020150
+      }
+    },
+    {
+      "query": "[cssclasses:cerebro-financas]",
+      "color": {
+        "a": 1,
+        "rgb": 16498468
+      }
     }
   ],
   "collapse-display": false,

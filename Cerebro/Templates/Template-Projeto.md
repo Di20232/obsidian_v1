@@ -1,7 +1,7 @@
 ---
 tags: [template, projeto]
 status: ideia
-cssclasses: [cerebro-nota, cerebro-geral]
+cssclasses: [cerebro-nota, cerebro-projetos]
 ---
 
 # {{Nome do projeto}}

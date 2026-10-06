@@ -95,6 +95,7 @@
 .nav-folder-title[data-path="MySQL"], .nav-file-title[data-path^="MySQL/"], .nav-folder-title[data-path^="MySQL/"] { color: var(--cerebro-mysql); }
 .nav-folder-title[data-path="SQLite"], .nav-file-title[data-path^="SQLite/"], .nav-folder-title[data-path^="SQLite/"] { color: var(--cerebro-sqlite); }
 .nav-folder-title[data-path="IA-Aplicada"], .nav-file-title[data-path^="IA-Aplicada/"], .nav-folder-title[data-path^="IA-Aplicada/"] { color: var(--cerebro-ia); }
+.nav-folder-title[data-path="GANs"], .nav-file-title[data-path^="GANs/"], .nav-folder-title[data-path^="GANs/"] { color: var(--cerebro-ia); }
 .nav-folder-title[data-path="Financas"], .nav-file-title[data-path^="Financas/"], .nav-folder-title[data-path^="Financas/"] { color: var(--cerebro-financas); }
 .nav-folder-title[data-path="Seguranca-Web"], .nav-file-title[data-path^="Seguranca-Web/"], .nav-folder-title[data-path^="Seguranca-Web/"] { color: var(--cerebro-seguranca); }
 .nav-folder-title[data-path="Ecommerce"], .nav-file-title[data-path^="Ecommerce/"], .nav-folder-title[data-path^="Ecommerce/"] { color: var(--cerebro-ecommerce); }
