@@ -13,6 +13,9 @@ __pycache__/
 # Lixeira interna do Obsidian
 .trash/
 
+# Script de trabalho com dados de servidor interno: fica só no computador
+ativar_9227.bat
+
 # Arquivos de sistema
 .DS_Store
 Thumbs.db
