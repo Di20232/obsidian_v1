@@ -7,7 +7,7 @@ cssclasses: [cerebro-nota, cerebro-sqlite]
 
 Mesmo formato das outras trilhas. SQLite é o terceiro banco de dados desta sequência de conhecimento — depois de entender o conceito geral em [[../Programacao-Geral/09-SQL-e-Bancos-de-Dados]] e um banco com servidor completo em [[../MySQL/00-Indice]], SQLite mostra o outro extremo: um banco relacional **sem servidor nenhum**.
 
-> **Nota sobre os exemplos**: diferente de PHP e MySQL, este ambiente **tem** um jeito de testar SQLite de verdade — através do módulo `sqlite3`, embutido no Python. Os exemplos desta trilha foram executados e confirmados.
+> **Nota sobre os exemplos**: diferente do MySQL, este ambiente **tem** um jeito de testar SQLite de verdade — através do módulo `sqlite3`, embutido no Python. Os exemplos desta trilha são scripts Python e foram executados e confirmados.
 
 ## Trilha
 

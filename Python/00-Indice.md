@@ -30,7 +30,7 @@ Siga na ordem abaixo. Não pule etapas — em programação, cada conceito novo 
 
 ## Exemplos executáveis
 
-Cada nota tem um arquivo correspondente em `Python/exemplos/`, com código pronto para rodar. Sempre que puder, **rode o exemplo você mesmo** e depois altere algo nele — é assim que o conhecimento gruda.
+As notas 03 a 15 têm um arquivo correspondente em `Python/exemplos/`, com código pronto para rodar (as notas 01, 02 e 16 não têm exemplo). Sempre que puder, **rode o exemplo você mesmo** e depois altere algo nele — é assim que o conhecimento gruda.
 
 ## Como estudar cada nota
 

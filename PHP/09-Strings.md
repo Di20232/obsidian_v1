@@ -39,19 +39,24 @@ Diferença estrutural importante: em Python (`"oi".upper()`) e JavaScript (`"oi"
 $texto = "  Olá, Mundo!  ";
 
 echo trim($texto);              // remove espaços das pontas -> equivalente a .strip()/.trim()
-echo strtolower($texto);         // minúsculas
-echo strtoupper($texto);         // maiúsculas
+echo mb_strtolower($texto);      // minúsculas
+echo mb_strtoupper($texto);      // maiúsculas: "  OLÁ, MUNDO!  "
 echo str_replace("Olá", "Oi", $texto);  // substitui
-echo strlen($texto);              // tamanho -> equivalente a len()/​.length
+echo mb_strlen($texto);           // tamanho em caracteres: 15 -> equivalente a len()/.length
 ```
+
+> [!warning] Texto com acento: use as funções `mb_`
+> `strtoupper`, `strtolower` e `strlen` trabalham com **bytes**, não com letras. Em UTF-8, o "á" ocupa 2 bytes. Por isso `strtoupper("  Olá, Mundo!  ")` devolve `"  OLá, MUNDO!  "` (o "á" continua minúsculo) e `strlen` do mesmo texto dá 16, não 15. As versões `mb_` (de *multibyte*) convertem e contam letras de verdade. O mesmo vale para `substr` e `$texto[0]`: com acento, use `mb_substr`. Saída conferida com o PHP 8.3.6 em 06/10/2026.
+>
+> Se o PHP disser que `mb_strtoupper` não existe, a extensão `mbstring` está desligada: no `php.ini`, tire o `;` do começo da linha `;extension=mbstring`.
 
 | Python | JavaScript | PHP |
 |---|---|---|
 | `.strip()` | `.trim()` | `trim($s)` |
-| `.lower()` | `.toLowerCase()` | `strtolower($s)` |
-| `.upper()` | `.toUpperCase()` | `strtoupper($s)` |
+| `.lower()` | `.toLowerCase()` | `mb_strtolower($s)` |
+| `.upper()` | `.toUpperCase()` | `mb_strtoupper($s)` |
 | `.replace(a,b)` | `.replace(a,b)` | `str_replace(a, b, $s)` |
-| `len(s)` | `s.length` | `strlen($s)` |
+| `len(s)` | `s.length` | `mb_strlen($s)` |
 | `.split(sep)` | `.split(sep)` | `explode(sep, $s)` |
 | `sep.join(lista)` | `array.join(sep)` | `implode(sep, $array)` |
 
@@ -100,13 +105,15 @@ Qual a diferença entre aspas simples e duplas em PHP? :: Aspas duplas interpola
 
 Expressões como $idade + 1 interpolam dentro de aspas duplas? :: Não; só variáveis simples interpolam, expressões precisam de concatenação.
 
-Como as operações de string funcionam em PHP? :: Como funções soltas que recebem a string, como strtoupper($s), e não como métodos.
+Como as operações de string funcionam em PHP? :: Como funções soltas que recebem a string, como mb_strtoupper($s), e não como métodos.
 
 Quais os equivalentes de split e join em PHP? :: explode(separador, $texto) e implode(separador, $array).
 
 Como formatar R$ 19,90 em PHP? :: Com number_format($preco, 2, ",", "."), escolhendo vírgula decimal e ponto de milhar.
 
-Como medir o tamanho de uma string em PHP? :: Com strlen($texto).
+Como medir o tamanho de uma string com acento em PHP? :: Com mb_strlen($texto), que conta caracteres; strlen conta bytes, e em UTF-8 o "á" ocupa 2.
+
+Por que strtoupper("Olá") não devolve "OLÁ"? :: Porque strtoupper trabalha com bytes e só converte letras sem acento; para texto em UTF-8, use mb_strtoupper.
 
 ---
 Veja o exemplo em `PHP/exemplos/09_strings.php`. Próxima nota: [[10-Funcoes]]

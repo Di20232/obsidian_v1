@@ -7,7 +7,7 @@ cssclasses: [cerebro-nota, cerebro-css]
 
 A introdução a CSS já existe em [[../Programacao-Geral/07-HTML-e-CSS]] — seletores básicos, propriedades essenciais, a ideia de separar estrutura (HTML) de aparência (CSS). Esta trilha **aprofunda** cada peça daquela introdução, no mesmo formato das outras: conceito, porquê, sintaxe correta, exercício.
 
-> **Nota sobre os exemplos**: cada nota tem um `.html` autocontido em `CSS/exemplos/` — abra direto no navegador (duplo clique, ou arraste para uma aba) para ver o resultado, sem precisar de servidor nenhum.
+> **Nota sobre os exemplos**: as notas 01 a 08 têm um `.html` autocontido em `CSS/exemplos/` (a 09 não tem exemplo) — abra direto no navegador (duplo clique, ou arraste para uma aba) para ver o resultado, sem precisar de servidor nenhum. Só o `03_cores_tipografia.html` busca algo na internet: a fonte Roboto, do Google Fonts. Sem internet, a página funciona com a fonte de reserva (`sans-serif`).
 
 ## Trilha
 

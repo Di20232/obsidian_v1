@@ -5,7 +5,7 @@ cssclasses: [cerebro-nota, cerebro-programacao]
 
 # SQL e Bancos de Dados
 
-> Esta nota é um resumo panorâmico. Para trilhas completas, do zero, com exercícios e exemplos testados — igual ao [[../Python/00-Indice|curso de Python]] — veja [[../MySQL/00-Indice|Curso de MySQL do Zero]] (banco com servidor) e [[../SQLite/00-Indice|Curso de SQLite do Zero]] (banco sem servidor).
+> Esta nota é um resumo panorâmico. Para trilhas completas, do zero, com exercícios e exemplos para rodar — igual ao [[../Python/00-Indice|curso de Python]] — veja [[../MySQL/00-Indice|Curso de MySQL do Zero]] (banco com servidor; o índice avisa que os exemplos não foram testados num MySQL) e [[../SQLite/00-Indice|Curso de SQLite do Zero]] (banco sem servidor; exemplos testados).
 
 ## O problema que isso resolve
 

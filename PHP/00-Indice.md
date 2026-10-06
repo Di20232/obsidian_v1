@@ -7,7 +7,7 @@ cssclasses: [cerebro-nota, cerebro-php]
 
 Mesmo formato do [[../Python/00-Indice|curso de Python]] e do [[../JavaScript/00-Indice|curso de JavaScript]]: cada nota explica o **porquê** do conceito e a **sintaxe correta**, com exemplos comentados. PHP é a terceira linguagem desta sequência — se você já fez as outras duas, vai reconhecer quase toda a lógica, só a sintaxe muda de novo (ver o panorama comparativo em [[../Programacao-Geral/06-Paradigmas-e-Panorama-de-Linguagens]]).
 
-> **Nota sobre os exemplos**: diferente das trilhas de Python e JavaScript, este ambiente não tem o PHP instalado para testar ao vivo — os exemplos foram escritos com cuidado extra na sintaxe, mas rode-os você mesmo depois de instalar (nota 02) para confirmar.
+> **Nota sobre os exemplos**: em 06/10/2026, os 12 arquivos `.php` de `PHP/exemplos/` rodaram sem erro pelo terminal (`php arquivo.php`, sem servidor), com o PHP 8.3.6. O formulário da nota 11 (`11_formulario.html` com `11_processar.php`) não foi testado no navegador: ele precisa do servidor embutido (`php -S localhost:8000`, nota 02). Pelo terminal, o `11_processar.php` roda sem dados de formulário e só mostra `Olá, ! Você tem 0 anos.`. O `14_banco_dados.php` cria o arquivo `banco.db` na própria pasta `exemplos/`; pode apagá-lo depois. Rode os exemplos você mesmo depois de instalar o PHP (nota 02).
 
 ## Por que aprender PHP depois de Python e JavaScript
 

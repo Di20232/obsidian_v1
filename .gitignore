@@ -10,6 +10,12 @@ exportacao/
 GANs/exemplos/saida/
 __pycache__/
 
+# Saídas dos exemplos das trilhas: recriadas ao rodar os scripts
+SQLite/exemplos/tarefas.db
+PHP/exemplos/banco.db
+/tarefas.txt
+Python/exemplos/tarefas.txt
+
 # Lixeira interna do Obsidian
 .trash/
 
