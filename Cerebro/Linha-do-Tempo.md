@@ -88,6 +88,12 @@ Volta para [[00-Cerebro|🧠 Cérebro]].
 - **Por que importa:** é a primeira vez que as notas viram dado de treino, como previsto no [[Guias/08-Cofre-para-IA-e-Lembretes|guia do cofre para IA]], e a regra de deixar Diário e Inbox de fora foi aplicada na prática. Publicar também exige revisar o que vai junto, inclusive o histórico do git.
 - **Links:** [[../GANs/08-GAN-em-PyTorch|GAN em PyTorch]] · [[../GANs/10-Experimento-GAN-com-as-Notas|Experimento com as notas]]
 
+### 2026-10-06 — O cofre ganha um README e recupera as ferramentas
+
+- **O que aconteceu:** o repositório ganhou um `README.md` na raiz, que explica o que é o cofre, como abrir, por onde começar e como rodar os exemplos. A pasta `ferramentas/`, que tinha saído do repositório em 29/09, foi restaurada a partir do histórico do git.
+- **Por que importa:** quem clona o cofre encontra uma porta de entrada sem precisar conhecer a estrutura. E os comandos de salvar, verificar links, lembretes e exportar para IA voltam a existir no repositório. A lição: antes de tirar arquivos do repositório, confira quais notas ainda os citam. A rotina, o guia do cofre para IA e o modelo de revisão semanal mandavam usar scripts que não estavam mais lá.
+- **Links:** [[../README|README]] · [[Guias/07-Rotina-do-Cofre|Rotina do cofre]] · [[Guias/08-Cofre-para-IA-e-Lembretes|Cofre para IA e lembretes]]
+
 ## Revisão
 
 Ao fim de um projeto ou trimestre, releia os marcos e transforme padrões recorrentes em notas de prática, tecnologia ou problema resolvido.

@@ -14,7 +14,7 @@ Cada nota descreve um sistema real: o que resolve, como executar, decisões toma
 |---|---|---|---|---|
 | 01 | [[01-Assistente-Jarvis-Local\|Assistente JARVIS Local]] | Assistente pessoal local em português | entregue localmente | — |
 | 02 | [[02-Sistema-de-Vendas-e-Estoque\|Sistema de Vendas e Estoque]] | Requisitos para pequeno comércio | requisitos iniciais | — |
-| 03 | [[03-Loja-de-Infoprodutos-sobre-IA\|Loja de Infoprodutos sobre IA]] | Negócio digital | planejamento | — |
+| 03 | [[03-Loja-de-Infoprodutos-sobre-IA\|Loja de Infoprodutos sobre IA]] | Negócio digital | ideia a validar | — |
 | 04 | [[04-Planejamento-de-E-commerce\|Planejamento de E-commerce]] | Negócio digital | planejamento | — |
 | 05 | [[05-CTL-TINTA-FL\|CTL-TINTA-FL]] | Controle de tinta/toner em 16 filiais | 🟢 em desenvolvimento | [[../GitHub/CTL-TINTA/00-Indice\|Di20232/CTL-TINTA]] ⚠️ vazio |
 | 06 | [[06-Mercadinho-Seu-Joao\|Mercadinho Seu João]] | Vendas e estoque de mercadinho | 🟢 em uso | [[../GitHub/contro-vend-public/00-Indice\|Di20232/contro-vend-public]] |
@@ -26,7 +26,7 @@ Cada nota descreve um sistema real: o que resolve, como executar, decisões toma
 > A importação do GitHub também encontrou [`Di20232/byteShop`](https://github.com/Di20232/byteShop) — um e-commerce completo (FastAPI + React/TypeScript, 88 arquivos) catalogado em [[../GitHub/byteShop/00-Indice|Cerebro/GitHub/byteShop]]. Nenhuma das 19 sessões lidas para este cérebro menciona esse projeto — ele não tem nota aqui porque não há histórico de trabalho para destilar, só o código publicado. Se for retomado com Claude Code, vale criar a nota 10 quando isso acontecer.
 
 > [!projeto] Duas origens, um cofre
-> As notas **01 a 04** nasceram de conversas de planejamento e requisitos. As notas **05 a 09** vêm das sessões de implementação no Claude Code, com código executado, bugs corrigidos e commits reais. Quando as duas descrevem o mesmo domínio, vale ler as duas: [[02-Sistema-de-Vendas-e-Estoque|os requisitos]] e [[06-Mercadinho-Seu-Joao|a implementação]] tratam do mesmo problema em momentos diferentes.
+> As notas **01 a 04** nasceram de conversas anteriores: uma entrega local (01), requisitos (02), uma ideia a validar (03) e um planejamento (04). As notas **05 a 09** vêm das sessões no Claude Code: os três sistemas implementados (05, 06 e 07), com código executado e bugs corrigidos; os Exercícios IMP (08), com commit local e push bloqueado; e o OmniRoute (09), cuja única sessão não produziu trabalho. Quando as duas descrevem o mesmo domínio, vale ler as duas: [[02-Sistema-de-Vendas-e-Estoque|os requisitos]] e [[06-Mercadinho-Seu-Joao|a implementação]] tratam do mesmo problema em momentos diferentes.
 
 ## O padrão comum
 

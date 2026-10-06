@@ -14,7 +14,7 @@ Programação melhora quando conversa com outras áreas. Estas frentes ajudam a 
 | Design e UX | clareza, acessibilidade e uso real | a pessoa entende o próximo passo sem explicação? |
 | Produto e negócio | prioridade e valor | qual dor vale resolver primeiro? |
 | [[../../Financas/00-Indice\|Finanças do pequeno negócio]] | caixa, margem, preço, impostos e crédito | o negócio dá lucro e tem dinheiro para pagar as contas? |
-| [[../../Ecommerce/00-Indice\|E-commerce]] | vender online: Shopify, pagamentos, frete, gestão e divulgação | sobra dinheiro em cada venda depois de todas as taxas? |
+| [[../../Ecommerce/00-Indice\|E-commerce]] | vender online: Shopify, pagamentos, frete, gestão, divulgação, marketplaces e tráfego pago | sobra dinheiro em cada venda depois de todas as taxas? |
 | Comunicação | alinhamento, documentação e colaboração | outra pessoa consegue tomar uma decisão com esta nota? |
 | Gestão de projetos | foco, sequência e risco | qual é o menor resultado útil e como saberemos que deu certo? |
 | Inglês técnico | acesso a documentação e comunidades | consigo localizar os termos e fontes primárias? |
