@@ -46,10 +46,12 @@ Esse é o mesmo formato do plugin **Spaced Repetition** do Obsidian (repetição
 
 | Comando | O que faz |
 |---|---|
-| `ferramentas/lembretes.bat` (duplo clique) ou `node ferramentas/lembretes.js 10` | sorteia 10 perguntas; as respostas aparecem depois do Enter |
+| `ferramentas/lembretes.bat` (duplo clique, Windows) ou `node ferramentas/lembretes.js 10` | sorteia 10 perguntas; as respostas aparecem depois do Enter |
 | `node ferramentas/lembretes.js 5 Ecommerce` | só perguntas de uma trilha (qualquer trecho do caminho serve: `ia-aplicada`, `shopee`) |
 | `node ferramentas/exportar-para-ia.js` | gera `exportacao/notas.jsonl`, `perguntas.jsonl` e `perguntas-chat.jsonl` |
-| `node ferramentas/inserir-perguntas.js <pasta> <arquivo.json>` | insere perguntas em lote a partir de um JSON `{ "nota.md": [["pergunta", "resposta"]] }` |
+| `node ferramentas/inserir-perguntas.js <pasta> <arquivo.json>` | insere perguntas em lote a partir de um JSON `{ "nota.md": [["pergunta", "resposta"]] }` e acrescenta a tag `flashcards`; pula as notas que já têm a seção |
+
+O `lembretes.bat` é um atalho para Windows: chama o `lembretes.js` com o Node.js. No Linux ou no macOS, use os comandos `node`. Os lembretes não sorteiam perguntas das cópias em `*/Fontes/*` nem dos modelos.
 
 A pasta `exportacao/` fica fora do git: é gerada a partir das notas e pode ser recriada a qualquer momento.
 
@@ -57,11 +59,12 @@ A pasta `exportacao/` fica fora do git: é gerada a partir das notas e pode ser 
 
 - cópias de código de terceiros (`*/Fontes/*`), por causa da licença;
 - `Templates/`, que são esqueletos;
-- `Diario/` e `Inbox/`, que são pessoais, a menos que você rode com `--incluir-pessoal`.
+- `Diario/` e `Inbox/`, que são pessoais, a menos que você rode com `--incluir-pessoal`;
+- o `README.md` da raiz, que descreve o repositório e não é nota.
 
 ## Rotina sugerida
 
-- **Todo dia (5 min):** `lembretes.bat` com 5 perguntas.
+- **Todo dia (5 min):** `node ferramentas/lembretes.js 5`, com 5 perguntas (o duplo clique no `lembretes.bat` sorteia 10).
 - **Ao criar uma nota:** escrever 3 a 6 perguntas de revisão na hora, enquanto o assunto está fresco.
 - **Na revisão semanal:** notas novas da semana ganharam perguntas? ([[07-Rotina-do-Cofre|rotina do cofre]])
 - **Antes de treinar ou indexar:** rodar o exportador e conferir notas com `verificado_em` antigo.
@@ -70,7 +73,7 @@ A pasta `exportacao/` fica fora do git: é gerada a partir das notas e pode ser 
 
 Qual o formato de uma pergunta de revisão no cofre? :: Uma linha com a pergunta, dois-pontos duplos e a resposta, dentro da seção "Perguntas de revisão".
 
-Como sortear lembretes do cofre? :: Clicar duas vezes em ferramentas/lembretes.bat ou rodar node ferramentas/lembretes.js com a quantidade e, opcionalmente, a trilha.
+Como sortear lembretes do cofre? :: Rodar node ferramentas/lembretes.js com a quantidade e, opcionalmente, a trilha, ou, no Windows, clicar duas vezes em ferramentas/lembretes.bat, que sorteia 10.
 
 Como gerar os arquivos para treinar ou alimentar uma IA? :: Rodar node ferramentas/exportar-para-ia.js, que cria os arquivos JSONL em exportacao/.
 

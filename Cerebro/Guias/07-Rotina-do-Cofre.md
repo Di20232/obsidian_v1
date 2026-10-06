@@ -27,7 +27,16 @@ Criar uma nota em `Diario/` e inserir o [[Template-Revisao-Semanal|modelo de rev
 
 O cofre é um repositório git desde 23/09/2026. Cada vez que você salva, fica um ponto de restauração: dá para voltar qualquer nota a qualquer versão salva, mesmo que outro agente ou um clique errado a tenha sobrescrito.
 
-**Salvar:** clicar duas vezes em `ferramentas/salvar-cofre.bat`, na pasta do cofre pelo Explorador de Arquivos. Ele verifica os links, mostra o que mudou e grava.
+**Salvar:** no Windows, clicar duas vezes em `ferramentas/salvar-cofre.bat`, na pasta do cofre pelo Explorador de Arquivos. Em qualquer sistema, rodar no terminal aberto na pasta do cofre:
+
+```bash
+node ferramentas/salvar-cofre.js "o que mudou"
+```
+
+Ele verifica os links, mostra o que mudou e grava. Sem mensagem, usa "Cofre em AAAA-MM-DD HH:MM (N arquivos)". Grava tudo o que não está no `.gitignore` (`git add -A`), sem pedir confirmação. O ponto de restauração fica só neste computador: o script não faz `git push`.
+
+> [!info] Os `.bat` são atalhos para Windows
+> `salvar-cofre.bat` e `lembretes.bat` só chamam, com o Node.js, o script `.js` de mesmo nome em `ferramentas/`. No Linux ou no macOS, use `node ferramentas/<script>.js`.
 
 **Ver o histórico de uma nota:**
 
@@ -38,16 +47,16 @@ git log --oneline -- "Cerebro/Projetos/00-Indice.md"
 **Ver como a nota estava numa versão:**
 
 ```bash
-git show 37d467e:"Cerebro/Projetos/00-Indice.md"
+git show 8ab2c88:"Cerebro/Projetos/00-Indice.md"
 ```
 
 **Restaurar a nota para essa versão** (sobrescreve a atual; o estado de agora continua recuperável se já estiver salvo):
 
 ```bash
-git restore --source 37d467e -- "Cerebro/Projetos/00-Indice.md"
+git restore --source 8ab2c88 -- "Cerebro/Projetos/00-Indice.md"
 ```
 
-Troque `37d467e` pelo código que o `git log` mostrar. Os comandos rodam no terminal aberto na pasta do cofre.
+`8ab2c88` é o código que o `git log` acima mostra para essa nota (a fotografia inicial do cofre, de 23/09/2026). Troque pelo código da versão que você quer. Os comandos rodam no terminal aberto na pasta do cofre.
 
 > [!seguranca] Por que isso existe
 > Em 15/09/2026 uma sessão sobrescreveu o índice de projetos criado por outra, e não havia como recuperar. O git resolve exatamente esse caso — desde que se salve com frequência. Antes e depois de pedir a um agente que mexa no cofre, salve.
@@ -62,7 +71,7 @@ Por padrão ignora as cópias de código em `*/Fontes/*`, onde links como `[[peo
 
 ## Lembretes e exportação para IA
 
-`ferramentas/lembretes.bat` sorteia perguntas de revisão do cofre para relembrar, e `node ferramentas/exportar-para-ia.js` gera os arquivos de treino. Convenções e comandos em [[08-Cofre-para-IA-e-Lembretes|Cofre para IA e lembretes]].
+`ferramentas/lembretes.bat` (Windows) ou `node ferramentas/lembretes.js` sorteia perguntas de revisão do cofre para relembrar, e `node ferramentas/exportar-para-ia.js` gera os arquivos de treino. Convenções e comandos em [[08-Cofre-para-IA-e-Lembretes|Cofre para IA e lembretes]].
 
 ## Encontrar notas soltas
 
@@ -70,7 +79,9 @@ Por padrão ignora as cópias de código em `*/Fontes/*`, onde links como `[[peo
 node ferramentas/notas-soltas.js
 ```
 
-Lista as notas **isoladas** (nenhuma ligação), **sem entrada** (ninguém aponta para elas, então só são achadas por busca) e **sem saída** (não apontam para nada). Uma vez por mês, na revisão semanal, vale rodar e ligar o que apareceu. Os modelos em `Templates/` sempre aparecem como "sem saída" e está certo: um link dentro de um modelo seria copiado para toda nota nova.
+Lista as notas **isoladas** (nenhuma ligação), **sem entrada** (ninguém aponta para elas, então só são achadas por busca) e **sem saída** (não apontam para nada). Por padrão ignora as cópias de código em `*/Fontes/*`; `--tudo` inclui essas cópias. Uma vez por mês, na revisão semanal, vale rodar e ligar o que apareceu. Dois casos aparecem sempre e estão certos:
+- os modelos de conceito, decisão, problema, projeto e tecnologia, como "sem saída": os links deles são espaços vazios (`[[]]`) para preencher, porque um link fixo seria copiado para toda nota nova;
+- o `README.md` da raiz, como "sem entrada": ele descreve o repositório para quem chega pelo GitHub, e nenhuma nota precisa apontar para ele.
 
 ## Configuração do Obsidian que sustenta a rotina
 
@@ -87,7 +98,7 @@ Veja também: [[Guias/05-Git-e-VS-Code-no-Dia-a-Dia|Git e VS Code no dia a dia]]
 
 ## Perguntas de revisão
 
-Como salvar um ponto de restauração do cofre? :: Clicando duas vezes em ferramentas/salvar-cofre.bat, que verifica os links e grava no git.
+Como salvar um ponto de restauração do cofre? :: Com node ferramentas/salvar-cofre.js, ou no Windows com duplo clique em ferramentas/salvar-cofre.bat, que verifica os links e grava no git deste computador.
 
 Como ver o histórico de uma nota do cofre? :: Com git log --oneline -- "caminho/da/nota.md".
 

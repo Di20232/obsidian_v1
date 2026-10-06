@@ -5,12 +5,14 @@
 //   perguntas.jsonl       pares pergunta/resposta das seções "Perguntas de revisão"
 //   perguntas-chat.jsonl  os mesmos pares no formato de conversa (messages: user/assistant)
 // Fica de fora por padrão: cópias de código de terceiros (*/Fontes/*), modelos, Diário e Inbox.
+// Fica de fora sempre: o README.md da raiz, que descreve o repositório e não é nota.
 const fs = require('fs');
 const path = require('path');
 const { root, listarNotas, lerNota, extrairPerguntas, limparMarkdown } = require('./cofre-comum');
 
 const pessoal = process.argv.includes('--incluir-pessoal');
 const excluir = c =>
+  c === 'README.md' ||
   /\/Fontes\//.test(c) ||
   c.startsWith('Cerebro/Templates/') ||
   (!pessoal && (c.startsWith('Cerebro/Diario/') || c.startsWith('Cerebro/Inbox/')));
