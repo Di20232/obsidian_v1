@@ -6,11 +6,12 @@
 # Exportação para IA: gerada a partir das notas, recriável a qualquer momento
 exportacao/
 
+# Saídas dos experimentos de GAN (modelos treinados, desenhos, histórico): recriáveis rodando os scripts
+GANs/exemplos/saida/
+__pycache__/
+
 # Lixeira interna do Obsidian
 .trash/
-
-# Script de trabalho com dados de servidor interno: fica só no computador
-ativar_9227.bat
 
 # Arquivos de sistema
 .DS_Store

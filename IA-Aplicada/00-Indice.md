@@ -40,4 +40,5 @@ Ela também explica **o próprio cofre como dado de treino**. A nota [[06-Prepar
 
 - [[Cerebro/Tecnologias/08-Claude-Code|Claude Code]] — um agente de IA usado no dia a dia deste cofre
 - [[Cerebro/Guias/08-Cofre-para-IA-e-Lembretes|Cofre para IA e lembretes]] — as convenções e ferramentas de exportação
+- [[GANs/00-Indice|GANs]] — redes adversariais generativas, outra família de modelos gerativos, com um experimento que treina uma GAN nas notas do cofre
 - [[Ecommerce/00-Indice|E-commerce]] — onde a IA entra na operação de uma loja

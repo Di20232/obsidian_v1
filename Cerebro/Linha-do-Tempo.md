@@ -82,6 +82,12 @@ Volta para [[00-Cerebro|🧠 Cérebro]].
 - **Por que importa:** a perda de 15/09 — um índice sobrescrito sem volta — deixa de ser possível para qualquer coisa já salva. E o cofre deixa de depender de uma sessão grande de consolidação: passa a crescer um pouco por dia.
 - **Links:** [[Guias/07-Rotina-do-Cofre|Rotina do cofre]] · [[Diario/00-Diario|Diário]] · [[Templates/Template-Revisao-Semanal|Revisão semanal]]
 
+### 2026-10-06 — O cofre vai para o GitHub e treina a primeira IA com as próprias notas
+
+- **O que aconteceu:** o cofre foi publicado no GitHub como repositório público. No mesmo dia nasceu a trilha [[../GANs/00-Indice|GANs]], com dois experimentos que rodam numa CPU comum: uma GAN 2D que mostra o colapso de modos acontecendo e uma GAN de texto treinada na prosa do próprio cofre.
+- **Por que importa:** é a primeira vez que as notas viram dado de treino, como previsto no [[Guias/08-Cofre-para-IA-e-Lembretes|guia do cofre para IA]], e a regra de deixar Diário e Inbox de fora foi aplicada na prática. Publicar também exige revisar o que vai junto, inclusive o histórico do git.
+- **Links:** [[../GANs/08-GAN-em-PyTorch|GAN em PyTorch]] · [[../GANs/10-Experimento-GAN-com-as-Notas|Experimento com as notas]]
+
 ## Revisão
 
 Ao fim de um projeto ou trimestre, releia os marcos e transforme padrões recorrentes em notas de prática, tecnologia ou problema resolvido.

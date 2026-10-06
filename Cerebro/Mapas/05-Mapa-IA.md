@@ -37,6 +37,8 @@ Conecte ideias de IA a [[00-Mapa-Programacao|Programação]], [[02-Mapa-Dados|Da
 
 A prática de tudo isso está na trilha [[../../IA-Aplicada/00-Indice|IA Aplicada]]: como os modelos funcionam, prompts, busca semântica, RAG, fine-tuning, preparação de dados, avaliação, agentes e riscos.
 
+Para entender modelos que **geram** imagens e outros dados, a trilha [[../../GANs/00-Indice|GANs]] explica as redes adversariais generativas: gerador × discriminador, por que o treino é instável, como avaliar, a comparação com modelos de difusão e os riscos dos deepfakes. Inclui dois experimentos que rodam numa CPU comum.
+
 ## Perguntas de revisão
 
 O que significa humano no circuito? :: Uma pessoa responsável revisa as decisões importantes tomadas com IA.

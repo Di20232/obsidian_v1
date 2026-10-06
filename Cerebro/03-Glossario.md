@@ -16,6 +16,7 @@ cssclasses: [cerebro-nota, cerebro-geral]
 | Framework | estrutura pronta que orienta a criação de aplicações | [[../Bootstrap/00-Indice|Bootstrap]] |
 | Front-end | parte que a pessoa vê e usa | [[Mapas/01-Mapa-Web|Mapa Web]] |
 | Back-end | regras, dados e integrações que rodam no servidor | [[Mapas/01-Mapa-Web|Mapa Web]] |
+| GAN | par de redes neurais em que um gerador cria exemplos falsos e um discriminador tenta separá-los dos reais | [[../GANs/00-Indice|GANs]] |
 | Repositório | pasta de projeto acompanhada pelo Git | [[../Programacao-Geral/03-Git-e-Controle-de-Versao|Git]] |
 | Teste | verificação automatizada ou manual de um comportamento esperado | [[../Programacao-Geral/12-Debugging-e-Testes|Testes]] |
 
@@ -28,6 +29,8 @@ O que é deploy? :: Disponibilizar uma versão do sistema para uso.
 O que é um framework? :: Uma estrutura pronta que orienta a criação de aplicações.
 
 O que é um repositório? :: Uma pasta de projeto acompanhada pelo Git.
+
+O que é uma GAN? :: Um par de redes neurais em que um gerador cria exemplos falsos e um discriminador tenta separá-los dos reais.
 
 O que é uma API? :: Um contrato para programas conversarem entre si.
 
