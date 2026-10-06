@@ -7,7 +7,7 @@ importado_em: 2026-09-15
 
 # Di20232/contro-vend-public - fontes completas
 
-[[Cerebro/GitHub/00-Indice|Central GitHub]] Â· [[Cerebro/GitHub/Arquivos/Di20232--contro-vend-public--8ca882161809.zip|Baixar copia integral ZIP]]
+[[Cerebro/GitHub/00-Indice|Central GitHub]] · [[Cerebro/GitHub/Arquivos/Di20232--contro-vend-public--8ca882161809.zip|Baixar copia integral ZIP]]
 
 Snapshot da branch master, commit 8ca882161809413bbadfe4997e80a2ec7ae29991. Todos os 43 arquivos da arvore publica estao catalogados abaixo. Os arquivos de texto estao legiveis nas notas; binarios ficam preservados no ZIP. O historico completo de commits, issues e pull requests nao faz parte deste snapshot.
 

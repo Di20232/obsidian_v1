@@ -7,7 +7,7 @@ importado_em: 2026-09-15
 
 # eugeniughelbur/obsidian-second-brain - fontes completas
 
-[[Cerebro/GitHub/00-Indice|Central GitHub]] Â· [[Cerebro/GitHub/Arquivos/eugeniughelbur--obsidian-second-brain--02fba47d3e49.zip|Baixar copia integral ZIP]]
+[[Cerebro/GitHub/00-Indice|Central GitHub]] · [[Cerebro/GitHub/Arquivos/eugeniughelbur--obsidian-second-brain--02fba47d3e49.zip|Baixar copia integral ZIP]]
 
 Snapshot da branch main, commit 02fba47d3e4904caa2026d07f3cacfb4abfb34b9. Todos os 354 arquivos da arvore publica estao catalogados abaixo. Os arquivos de texto estao legiveis nas notas; binarios ficam preservados no ZIP. O historico completo de commits, issues e pull requests nao faz parte deste snapshot.
 

@@ -7,7 +7,7 @@ importado_em: 2026-09-15
 
 # Di20232/byteShop - fontes completas
 
-[[Cerebro/GitHub/00-Indice|Central GitHub]] Â· [[Cerebro/GitHub/Arquivos/Di20232--byteShop--515ae40e5052.zip|Baixar copia integral ZIP]]
+[[Cerebro/GitHub/00-Indice|Central GitHub]] · [[Cerebro/GitHub/Arquivos/Di20232--byteShop--515ae40e5052.zip|Baixar copia integral ZIP]]
 
 Snapshot da branch master, commit 515ae40e505206cd9057bbe5ffcdb3dab36080b5. Todos os 88 arquivos da arvore publica estao catalogados abaixo. Os arquivos de texto estao legiveis nas notas; binarios ficam preservados no ZIP. O historico completo de commits, issues e pull requests nao faz parte deste snapshot.
 
