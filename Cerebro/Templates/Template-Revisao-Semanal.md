@@ -16,6 +16,8 @@ Leva de 20 a 30 minutos. Siga a ordem: cada passo alimenta o seguinte.
 
 Para cada item: vira nota nova, melhora uma nota existente ou é descartado.
 
+- [ ] As notas novas da semana ganharam [[Guias/08-Cofre-para-IA-e-Lembretes|perguntas de revisão]]?
+
 ## 2. Projetos ativos
 
 - [ ] Atualizar estado e próximo passo em cada projeto que teve sessão na semana — [[Projetos/00-Indice|Projetos]]

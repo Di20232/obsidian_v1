@@ -2,6 +2,7 @@
 tags: [template, conceito]
 cssclasses: [cerebro-nota, cerebro-geral]
 ---
+<!-- Troque cerebro-geral pela classe do assunto, por exemplo cerebro-python. A lista está na Legenda de Cores. -->
 
 # {{Título do conceito}}
 

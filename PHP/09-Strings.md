@@ -48,7 +48,7 @@ echo mb_strlen($texto);           // tamanho em caracteres: 15 -> equivalente a 
 > [!warning] Texto com acento: use as funções `mb_`
 > `strtoupper`, `strtolower` e `strlen` trabalham com **bytes**, não com letras. Em UTF-8, o "á" ocupa 2 bytes. Por isso `strtoupper("  Olá, Mundo!  ")` devolve `"  OLá, MUNDO!  "` (o "á" continua minúsculo) e `strlen` do mesmo texto dá 16, não 15. As versões `mb_` (de *multibyte*) convertem e contam letras de verdade. O mesmo vale para `substr` e `$texto[0]`: com acento, use `mb_substr`. Saída conferida com o PHP 8.3.6 em 06/10/2026.
 >
-> Se o PHP disser que `mb_strtoupper` não existe, a extensão `mbstring` está desligada: no `php.ini`, tire o `;` do começo da linha `;extension=mbstring`.
+> Se o PHP disser que `mb_strtoupper` não existe, a extensão `mbstring` está desligada: no `php.ini`, tire o `;` do começo da linha `;extension=mbstring`. Na instalação pelo ZIP da [[02-Preparando-o-Ambiente|nota 02]], a pasta do PHP traz o `php.ini-development`, mas não o `php.ini`: copie o primeiro com o nome `php.ini` e faça a troca nele.
 
 | Python | JavaScript | PHP |
 |---|---|---|

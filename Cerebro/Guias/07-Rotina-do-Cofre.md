@@ -56,7 +56,7 @@ git show 8ab2c88:"Cerebro/Projetos/00-Indice.md"
 git restore --source 8ab2c88 -- "Cerebro/Projetos/00-Indice.md"
 ```
 
-`8ab2c88` é o código que o `git log` acima mostra para essa nota (a fotografia inicial do cofre, de 23/09/2026). Troque pelo código da versão que você quer. Os comandos rodam no terminal aberto na pasta do cofre.
+`8ab2c88` é o código mais antigo que o `git log` acima mostra para essa nota (a fotografia inicial do cofre, de 23/09/2026). Troque pelo código da versão que você quer. Os comandos rodam no terminal aberto na pasta do cofre.
 
 > [!seguranca] Por que isso existe
 > Em 15/09/2026 uma sessão sobrescreveu o índice de projetos criado por outra, e não havia como recuperar. O git resolve exatamente esse caso — desde que se salve com frequência. Antes e depois de pedir a um agente que mexa no cofre, salve.
@@ -79,9 +79,7 @@ Por padrão ignora as cópias de código em `*/Fontes/*`, onde links como `[[peo
 node ferramentas/notas-soltas.js
 ```
 
-Lista as notas **isoladas** (nenhuma ligação), **sem entrada** (ninguém aponta para elas, então só são achadas por busca) e **sem saída** (não apontam para nada). Por padrão ignora as cópias de código em `*/Fontes/*`; `--tudo` inclui essas cópias. Uma vez por mês, na revisão semanal, vale rodar e ligar o que apareceu. Dois casos aparecem sempre e estão certos:
-- os modelos de conceito, decisão, problema, projeto e tecnologia, como "sem saída": os links deles são espaços vazios (`[[]]`) para preencher, porque um link fixo seria copiado para toda nota nova;
-- o `README.md` da raiz, como "sem entrada": ele descreve o repositório para quem chega pelo GitHub, e nenhuma nota precisa apontar para ele.
+Lista as notas **isoladas** (nenhuma ligação), **sem entrada** (ninguém aponta para elas, então só são achadas por busca) e **sem saída** (não apontam para nada). Por padrão ignora as cópias de código em `*/Fontes/*`; `--tudo` inclui essas cópias. Uma vez por mês, na revisão semanal, vale rodar e ligar o que apareceu. Um caso aparece sempre e está certo: os modelos de conceito, decisão, problema, projeto e tecnologia, como "sem saída". Os links deles são espaços vazios (`[[]]`) para preencher, porque um link fixo seria copiado para toda nota nova.
 
 ## Configuração do Obsidian que sustenta a rotina
 

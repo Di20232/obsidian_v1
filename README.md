@@ -78,7 +78,7 @@ Cada trilha tem um `00-Indice.md` e notas numeradas para ler em ordem. As notas 
 | [JavaScript](JavaScript/00-Indice.md) | 18 | o mesmo formato do Python, mais assincronismo e DOM | [Mercadinho Seu João](Cerebro/Projetos/06-Mercadinho-Seu-Joao.md) |
 | [PHP](PHP/00-Indice.md) | 16 | formulários, superglobais, POO, PDO com MySQL e SQLite | — |
 | [CSS](CSS/00-Indice.md) | 10 | seletores, box model, flexbox, grid, responsividade, animações | interfaces do Mercadinho (HTML, CSS e JavaScript servidos pelo backend) e do CTL-TINTA-FL |
-| [TailwindCSS](TailwindCSS/00-Indice.md) | 7 | utility-first, layout, estados, dark mode (Tailwind 3) | CTL-TINTA-FL: classes Tailwind no Reflex ([Problema 08](Cerebro/Problemas-Resolvidos/08-Toast-Invisivel-com-Classes-Tailwind.md)) |
+| [TailwindCSS](TailwindCSS/00-Indice.md) | 7 | utility-first, layout, estados, dark mode (Tailwind 3) | front-end do [byteShop](Cerebro/GitHub/byteShop/01-Arquitetura-e-Aprendizados.md) (Tailwind 4); no CTL-TINTA-FL, só como erro: classe Tailwind usada como valor de CSS no Reflex ([Problema 08](Cerebro/Problemas-Resolvidos/08-Toast-Invisivel-com-Classes-Tailwind.md)) |
 | [Bootstrap](Bootstrap/00-Indice.md) | 7 | Bootstrap 5: grid, componentes, utilitários | — |
 | [SQLite](SQLite/00-Indice.md) | 8 | banco sem servidor, tipos dinâmicos, CRUD, uso com Python e PHP | CTL-TINTA-FL ([SQLite na prática](Cerebro/Tecnologias/03-SQLite-na-Pratica.md)) |
 | [MySQL](MySQL/00-Indice.md) | 12 | tabelas, CRUD, joins, agregação, índices, transações, usuários | conceitos aplicados no PostgreSQL do Mercadinho |
@@ -223,7 +223,7 @@ A saída vai para `GANs/exemplos/saida/`, fora do git. Os resultados mudam de m�
 | Todo dia | Abrir a nota do dia, que nasce em `Cerebro/Diario` com o modelo. Jogar ideias em **Capturas**. Ao terminar, uma linha em **Próximo passo**. |
 | Ao criar uma nota | Escrever 3 a 6 perguntas de revisão na hora, enquanto o assunto está fresco. |
 | Ao resolver um bug | Registrar na hora com o [modelo de problema](Cerebro/Templates/Template-Problema.md). |
-| Toda semana, 20 a 30 min | Criar uma nota em `Diario/` com o [modelo de revisão](Cerebro/Templates/Template-Revisao-Semanal.md): esvaziar capturas, atualizar projetos, registrar problemas e decisões, marcar marcos na Linha do Tempo, salvar. O guia [Cofre para IA e lembretes](Cerebro/Guias/08-Cofre-para-IA-e-Lembretes.md) pede também conferir se as notas novas da semana ganharam perguntas. |
+| Toda semana, 20 a 30 min | Criar uma nota em `Diario/` com o [modelo de revisão](Cerebro/Templates/Template-Revisao-Semanal.md): esvaziar capturas, atualizar projetos, registrar problemas e decisões, marcar marcos na Linha do Tempo, salvar. No passo 1, o modelo pede também conferir se as notas novas da semana ganharam perguntas, como sugere o guia [Cofre para IA e lembretes](Cerebro/Guias/08-Cofre-para-IA-e-Lembretes.md). |
 
 Uma ideia vira nota assim: captura no Inbox → título que dê para achar depois → explicação, exemplo e quando **não** usar → pelo menos dois links. Se já existe nota sobre o assunto, melhore essa nota em vez de criar uma duplicata.
 
@@ -248,7 +248,7 @@ Esses comandos gravam o ponto de restauração só na sua máquina. Para guardar
 
 ## Ferramentas do cofre
 
-A pasta `ferramentas/` tem os scripts que a rotina usa. Eles precisam só do Node.js, sem pacotes extras, e rodam a partir da raiz em qualquer sistema: `node ferramentas/<script>.js`. Os dois `.bat` são atalhos para Windows: com duplo clique, chamam o `.js` de mesmo nome.
+A pasta `ferramentas/` tem os scripts que a rotina usa. Eles precisam só do Node.js, sem pacotes extras (o `salvar-cofre.js` usa também o Git), e rodam a partir da raiz em qualquer sistema: `node ferramentas/<script>.js`. Os dois `.bat` são atalhos para Windows: com duplo clique, chamam o `.js` de mesmo nome.
 
 | Script | O que faz | Comando |
 |---|---|---|

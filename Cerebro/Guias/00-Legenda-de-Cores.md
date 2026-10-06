@@ -33,7 +33,7 @@ As cores tornam o cofre mais rápido de ler. Elas indicam o **assunto**, não a 
 
 O snippet ativo é `cerebro-todas-as-notas`. Ele aplica títulos, links, faixa lateral e fundo sutil por assunto, tanto na leitura quanto na edição. Os tons são ajustados para temas claro e escuro. As pastas das notas também recebem cores no explorador de arquivos.
 
-No grafo, cada uma das 22 classes de assunto tem um grupo de cor em `.obsidian/graph.json`, com o tom do tema escuro. Por isso alguns assuntos dividem a mesma cor no grafo: central e GitHub, IA e Bootstrap, Tailwind e dados, Web e projetos.
+No grafo, cada uma das 22 classes de assunto tem um grupo de cor em `.obsidian/graph.json`, com o tom do tema escuro. Central e GitHub, IA e Bootstrap usam a mesma cor em todo lugar. Tailwind e dados, Web e projetos têm tons diferentes no tema claro e ficam iguais no grafo e no tema escuro.
 
 O outro snippet, `cerebro-cores`, é a paleta antiga: fica desligado e não precisa ser ativado.
 

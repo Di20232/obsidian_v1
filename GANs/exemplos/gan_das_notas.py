@@ -38,7 +38,8 @@ PASTA_SAIDA = Path(__file__).parent / "saida"
 ARQUIVO_MODELO = PASTA_SAIDA / "gan_das_notas.pt"
 ARQUIVO_HISTORICO = PASTA_SAIDA / "historico.csv"
 
-# Mesma política da exportação para IA: nada pessoal, nada de código de terceiros.
+# Política da exportação para IA: nada pessoal, nada de código de terceiros.
+# Diferença: o exportar-para-ia.js deixa de fora o README.md da raiz; este script o lê.
 PASTAS_EXCLUIDAS = {"Templates", "Diario", "Inbox", "Fontes", "exportacao", "exemplos"}
 CARACTERES = "abcdefghijklmnopqrstuvwxyzáàâãéêíóôõúüç0123456789 .,;:!?()-%/\"'"
 PALAVRA = re.compile(r"[a-záàâãéêíóôõúüç]{3,}")  # 3+ letras: "a", "o" e "e" valeriam até por acaso

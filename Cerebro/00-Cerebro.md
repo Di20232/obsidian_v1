@@ -60,7 +60,7 @@ Quatro práticas de base e cinco extraídas dos projetos, incluindo [[Praticas/0
 | [[../JavaScript/00-Indice\|JavaScript]] | [[Projetos/06-Mercadinho-Seu-Joao\|Mercadinho Seu João]] |
 | [[../SQLite/00-Indice\|SQLite]] | CTL-TINTA-FL |
 | [[../MySQL/00-Indice\|MySQL]] | conceitos aplicados no PostgreSQL |
-| [[../CSS/00-Indice\|CSS]] · [[../TailwindCSS/00-Indice\|Tailwind]] · [[../Bootstrap/00-Indice\|Bootstrap]] | CSS na interface do Mercadinho e nos estilos do Reflex no CTL-TINTA-FL; Tailwind no [[Problemas-Resolvidos/08-Toast-Invisivel-com-Classes-Tailwind\|toast do CTL-TINTA-FL]]; Bootstrap ainda em nenhum projeto |
+| [[../CSS/00-Indice\|CSS]] · [[../TailwindCSS/00-Indice\|Tailwind]] · [[../Bootstrap/00-Indice\|Bootstrap]] | CSS na interface do Mercadinho e nos estilos do Reflex no CTL-TINTA-FL; Tailwind 4 no front-end do [[GitHub/byteShop/01-Arquitetura-e-Aprendizados\|byteShop]]; no CTL-TINTA-FL, só como erro: classe usada como valor de CSS ([[Problemas-Resolvidos/08-Toast-Invisivel-com-Classes-Tailwind\|toast invisível]]); Bootstrap ainda em nenhum projeto |
 | [[../PHP/00-Indice\|PHP]] | — |
 | [[../IA-Aplicada/00-Indice\|IA Aplicada]] — prompts, RAG, fine-tuning, avaliação, riscos | [[Tecnologias/08-Claude-Code\|Claude Code]], [[Guias/08-Cofre-para-IA-e-Lembretes\|este cofre como dado de treino]] |
 | [[../GANs/00-Indice\|GANs]] — gerador × discriminador, treino, WGAN, avaliação, deepfakes | [[../GANs/10-Experimento-GAN-com-as-Notas\|uma GAN treinada nas notas deste cofre]] |

@@ -20,7 +20,7 @@ Python/exemplos/tarefas.txt
 .trash/
 
 # Script de trabalho com dados de servidor interno: fica só no computador
-ativar_9227.bat
+ativar_*.bat
 
 # Arquivos de sistema
 .DS_Store
