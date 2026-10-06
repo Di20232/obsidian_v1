@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $vaultRoot = Split-Path -Parent $PSScriptRoot
 $encoding = New-Object System.Text.UTF8Encoding($false)
 $repos = Get-Content -Raw -Encoding UTF8 (Join-Path $PSScriptRoot 'repositorios.json') | ConvertFrom-Json

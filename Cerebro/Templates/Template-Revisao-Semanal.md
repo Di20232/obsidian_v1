@@ -16,6 +16,8 @@ Leva de 20 a 30 minutos. Siga a ordem: cada passo alimenta o seguinte.
 
 Para cada item: vira nota nova, melhora uma nota existente ou é descartado.
 
+- [ ] As notas novas da semana ganharam [[Guias/08-Cofre-para-IA-e-Lembretes|perguntas de revisão]]?
+
 ## 2. Projetos ativos
 
 - [ ] Atualizar estado e próximo passo em cada projeto que teve sessão na semana — [[Projetos/00-Indice|Projetos]]
@@ -31,7 +33,7 @@ Para cada item: vira nota nova, melhora uma nota existente ou é descartado.
 
 ## 5. Salvar
 
-- [ ] Clicar duas vezes em `ferramentas/salvar-cofre.bat` (verifica links e grava um ponto de restauração)
+- [ ] Clicar duas vezes em `ferramentas/salvar-cofre.bat` (Windows) ou rodar `node ferramentas/salvar-cofre.js` (qualquer sistema): verifica links e grava um ponto de restauração no git local
 
 ## Anotações da revisão
 

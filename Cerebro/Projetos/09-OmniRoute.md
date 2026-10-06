@@ -1,6 +1,6 @@
 ---
 tags: [projeto]
-status: ideia
+status: apenas-iniciado
 cssclasses: [cerebro-nota, cerebro-projetos]
 ---
 

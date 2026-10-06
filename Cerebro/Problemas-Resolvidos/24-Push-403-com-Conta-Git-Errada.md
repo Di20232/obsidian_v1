@@ -1,6 +1,6 @@
 ---
 tags: [problema-resolvido, git, github, ambiente, windows, flashcards]
-status: resolvido
+status: bloqueado
 cssclasses: [cerebro-nota, cerebro-problemas]
 ---
 

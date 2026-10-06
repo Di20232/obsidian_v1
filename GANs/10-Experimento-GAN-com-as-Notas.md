@@ -13,9 +13,9 @@ O script `GANs/exemplos/gan_das_notas.py` treina uma GAN de texto com a prosa de
 
 ## Os dados: o que entra e o que fica de fora
 
-O script segue a mesma política da exportação para IA ([[Cerebro/Guias/08-Cofre-para-IA-e-Lembretes|cofre para IA]]):
+O script segue a política da exportação para IA ([[Cerebro/Guias/08-Cofre-para-IA-e-Lembretes|cofre para IA]]), com uma diferença: o `README.md` da raiz, que a exportação deixa de fora, entra no corpus.
 
-- **entra:** as notas `.md` de todas as trilhas e do `Cerebro/`;
+- **entra:** as notas `.md` de todas as trilhas e do `Cerebro/`, e o `README.md` da raiz;
 - **fica de fora:** `Diario/` e `Inbox/` (pessoais), `Templates/`, cópias de código de terceiros (`*/Fontes/*`), pastas ocultas como `.obsidian/` e `.imports/`, e os próprios exemplos.
 
 A limpeza tira tudo que não é prosa: frontmatter, blocos de código, links (fica só o texto visível), tabelas, callouts e URLs. Depois passa tudo para minúsculas e mantém um vocabulário fixo de 63 caracteres (letras com acento, dígitos, espaço e pontuação básica). Os trechos de treino começam sempre no início de uma palavra.

@@ -1,7 +1,7 @@
 ---
 tags: [template, problema-resolvido]
 status: resolvido
-cssclasses: [cerebro-nota, cerebro-geral]
+cssclasses: [cerebro-nota, cerebro-problemas]
 ---
 
 # {{Sintoma curto}}

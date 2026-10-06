@@ -33,7 +33,7 @@ Não comece pelo checkout completo. Entregue primeiro um catálogo navegável co
 
 ## Links relacionados
 
-- [[../../Ecommerce/00-Indice|Trilha de E-commerce]] — o lado de negócio: plataformas prontas, pagamentos, frete, lei e divulgação. Vale ler [[../../Ecommerce/03-Plataformas-Comparadas|Plataformas comparadas]] antes de decidir construir do zero
+- [[../../Ecommerce/00-Indice|Trilha de E-commerce]] — o lado de negócio: plataformas prontas, pagamentos, frete, lei, divulgação, marketplaces e tráfego pago. Vale ler [[../../Ecommerce/03-Plataformas-Comparadas|Plataformas comparadas]] antes de decidir construir do zero
 - [[../Mapas/01-Mapa-Web|Mapa Web]]
 - [[../Mapas/02-Mapa-Dados|Mapa de Dados]]
 - [[../Mapas/03-Mapa-Engenharia|Engenharia de Software]]

@@ -6,7 +6,7 @@ cssclasses: [cerebro-nota, cerebro-problemas]
 
 # 🔧 Problemas Resolvidos
 
-Este é o histórico que converte horas de investigação em atalhos confiáveis para o futuro. Cada nota segue **sintoma → causa-raiz → correção → prevenção**.
+Este é o histórico que converte horas de investigação em atalhos confiáveis para o futuro. Quase toda nota segue **sintoma → causa-raiz → correção → prevenção**. As exceções: 01 e 03 são roteiros de diagnóstico, 13 é uma dúvida conceitual e 24 segue em aberto.
 
 Volta para [[../00-Cerebro|🧠 Cérebro]].
 
@@ -24,7 +24,7 @@ Use [[../Templates/Template-Problema|Template de Problema]] depois de confirmar 
 | 13 | [[13-Acesso-Externo-ao-Localhost\|Outra pessoa acessar meu localhost]] | Link copiado não funciona para o colega |
 | 17 | [[17-Containers-Orfaos-em-System32\|Containers órfãos em System32]] | `docker ps` mostra containers que você não subiu |
 | 18 | [[18-Porta-3000-Presa-por-Processo-Orfao\|Porta presa por processo órfão]] | Porta em uso por processo sem dono |
-| 24 | [[24-Push-403-com-Conta-Git-Errada\|Push 403 por conta Git errada]] | Permissão negada com credencial válida |
+| 24 | [[24-Push-403-com-Conta-Git-Errada\|Push 403 por conta Git errada]] (🔴 em aberto) | Permissão negada com credencial válida |
 
 ## Docker e banco de dados
 

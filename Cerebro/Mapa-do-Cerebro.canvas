@@ -71,6 +71,16 @@
       "color": "3"
     },
     {
+      "id": "complementar",
+      "type": "file",
+      "file": "Cerebro/Mapas/06-Mapa-Complementar.md",
+      "x": 520,
+      "y": -530,
+      "width": 300,
+      "height": 160,
+      "color": "3"
+    },
+    {
       "id": "pratica",
       "type": "file",
       "file": "Cerebro/Projetos/00-Indice.md",
@@ -121,6 +131,7 @@
     { "id": "e7", "fromNode": "centro", "fromSide": "bottom", "toNode": "pratica", "toSide": "top", "color": "2" },
     { "id": "e8", "fromNode": "centro", "fromSide": "top", "toNode": "estudo", "toSide": "bottom", "color": "5" },
     { "id": "e9", "fromNode": "pratica", "fromSide": "bottom", "toNode": "github", "toSide": "top", "color": "6" },
-    { "id": "e10", "fromNode": "github", "fromSide": "right", "toNode": "second-brain", "toSide": "left", "color": "6" }
+    { "id": "e10", "fromNode": "github", "fromSide": "right", "toNode": "second-brain", "toSide": "left", "color": "6" },
+    { "id": "e11", "fromNode": "centro", "fromSide": "right", "toNode": "complementar", "toSide": "left", "color": "3" }
   ]
 }

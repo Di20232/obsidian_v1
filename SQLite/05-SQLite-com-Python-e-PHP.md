@@ -61,7 +61,7 @@ Diferente de MySQL, onde os dados vivem "dentro" do servidor, o arquivo SQLite �
 ## Banco em memória: útil para testes
 
 ```python
-conexao = sqlite3.connect(":memory:")   # usado em todos os exemplos desta trilha
+conexao = sqlite3.connect(":memory:")   # usado nos exemplos 03 e 04 desta trilha; o 05 grava no arquivo tarefas.db
 ```
 
 `:memory:` cria um banco que existe só enquanto o programa roda, sem nunca tocar o disco — extremamente rápido, e ideal para testes automatizados (ver [[../Programacao-Geral/12-Debugging-e-Testes]]), onde você quer um banco "limpo" a cada execução, sem deixar arquivos para trás.

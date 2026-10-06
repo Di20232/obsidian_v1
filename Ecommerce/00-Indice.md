@@ -7,7 +7,7 @@ verificado_em: 2026-09-23
 
 # 🛒 E-commerce
 
-Esta trilha cobre o que acontece **fora do código** de uma loja virtual: escolher o modelo de negócio, montar a loja na Shopify, receber pagamentos e entregar no Brasil, operar pedidos e estoque, cumprir a lei e divulgar. O lado técnico de construir uma loja do zero está no [[Cerebro/Projetos/04-Planejamento-de-E-commerce|Planejamento de E-commerce]] e no [[Cerebro/GitHub/byteShop/01-Arquitetura-e-Aprendizados|byteShop]].
+Esta trilha cobre o que acontece **fora do código** de uma loja virtual: escolher o modelo de negócio, montar a loja na Shopify, receber pagamentos e entregar no Brasil, operar pedidos e estoque, cumprir a lei, divulgar, vender em marketplaces e anunciar com tráfego pago. O lado técnico de construir uma loja do zero está no [[Cerebro/Projetos/04-Planejamento-de-E-commerce|Planejamento de E-commerce]] e no [[Cerebro/GitHub/byteShop/01-Arquitetura-e-Aprendizados|byteShop]].
 
 > [!warning] Informação que envelhece
 > Preços, taxas, planos e regras fiscais mudam. Onde uma nota traz um número desses, ela diz quando foi conferido. Antes de decidir com base nele, confira de novo na fonte.

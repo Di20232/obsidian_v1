@@ -29,7 +29,7 @@ Esta trilha segue o mesmo formato do [[../Python/00-Indice|curso de Python]]: ca
 
 ## Exemplos executáveis
 
-Cada nota (a partir da 03) tem um arquivo correspondente em `JavaScript/exemplos/`. Rode com o Node.js instalado (nota 02):
+As notas 03 a 16 têm um arquivo correspondente em `JavaScript/exemplos/` (a 17 não tem exemplo). Rode com o Node.js instalado (nota 02):
 
 ```bash
 node 03_ola_mundo.js

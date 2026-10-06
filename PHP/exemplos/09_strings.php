@@ -11,10 +11,10 @@ echo "Ano que vem: " . ($idade + 1) . "\n";
 
 $texto = "  Olá, Mundo!  ";
 echo trim($texto) . "\n";
-echo strtolower($texto) . "\n";
-echo strtoupper($texto) . "\n";
+echo mb_strtolower($texto) . "\n";   // mb_: entende acentos (UTF-8)
+echo mb_strtoupper($texto) . "\n";   // "  OLÁ, MUNDO!  " (strtoupper deixaria o "á" minúsculo)
 echo str_replace("Olá", "Oi", $texto) . "\n";
-echo strlen($texto) . "\n";
+echo mb_strlen($texto) . "\n";       // 15 caracteres (strlen contaria 16 bytes: o "á" ocupa 2)
 
 echo $nome[0] . "\n";
 echo substr($nome, 0, 3) . "\n";

@@ -10,9 +10,10 @@ Ponto de entrada do cofre. Aqui convergem duas coisas que se sustentam: **o que 
 
 ## Começar por aqui
 
-### Novidades do GitHub — 15/09/2026
+### Atalhos
 
-- [[GitHub/00-Indice|Seus repositórios: código, documentação e aprendizados]]
+- [[Linha-do-Tempo|Linha do Tempo]] — o que mudou por último no cofre, com data
+- [[GitHub/00-Indice|Seus repositórios: código, documentação e aprendizados]] (retrato importado em 15/09/2026)
 - [[GitHub/Second-Brain/01-Guia-em-Portugues|Obsidian Second Brain: guia em português]]
 - [[GitHub/Second-Brain/02-Catalogo-de-Comandos|47 comandos documentados]]
 - [[Guias/00-Legenda-de-Cores|Cores por assunto em todas as notas]]
@@ -30,10 +31,10 @@ Ponto de entrada do cofre. Aqui convergem duas coisas que se sustentam: **o que 
 ## As áreas
 
 ### 📦 [[Projetos/00-Indice|Projetos]]
-Nove projetos registrados — quatro de planejamento e requisitos, cinco com código executado, bugs corrigidos e commits reais.
+Nove projetos registrados. Quatro vêm de conversas anteriores: uma entrega local, requisitos, uma ideia a validar e um planejamento. Cinco vêm das sessões no Claude Code: três sistemas com código executado e bugs corrigidos, um bloqueado no push e um que só foi iniciado.
 
 ### 🔧 [[Problemas-Resolvidos/00-Indice|Problemas Resolvidos]]
-**O acervo mais valioso.** 24 casos com sintoma, causa-raiz, correção e prevenção. É o lugar para olhar **antes** de investigar do zero.
+**O acervo mais valioso.** 24 casos. Em 20 deles o registro traz sintoma, causa-raiz, correção e prevenção; os outros quatro são dois roteiros de diagnóstico, uma dúvida conceitual e um caso ainda em aberto. É o lugar para olhar **antes** de investigar do zero.
 
 ### ⚙️ [[Tecnologias/00-Indice|Tecnologias na Prática]]
 [[Tecnologias/01-Reflex|Reflex]] · [[Tecnologias/02-Flask|Flask]] · [[Tecnologias/03-SQLite-na-Pratica|SQLite]] · [[Tecnologias/04-Docker|Docker]] · [[Tecnologias/05-Prisma-e-PostgreSQL|Prisma e PostgreSQL]] · [[Tecnologias/06-Git-e-GitHub|Git e GitHub]] · [[Tecnologias/07-Streamlit|Streamlit]] · [[Tecnologias/08-Claude-Code|Claude Code]]
@@ -59,13 +60,13 @@ Quatro práticas de base e cinco extraídas dos projetos, incluindo [[Praticas/0
 | [[../JavaScript/00-Indice\|JavaScript]] | [[Projetos/06-Mercadinho-Seu-Joao\|Mercadinho Seu João]] |
 | [[../SQLite/00-Indice\|SQLite]] | CTL-TINTA-FL |
 | [[../MySQL/00-Indice\|MySQL]] | conceitos aplicados no PostgreSQL |
-| [[../CSS/00-Indice\|CSS]] · [[../TailwindCSS/00-Indice\|Tailwind]] · [[../Bootstrap/00-Indice\|Bootstrap]] | interfaces dos três sistemas |
+| [[../CSS/00-Indice\|CSS]] · [[../TailwindCSS/00-Indice\|Tailwind]] · [[../Bootstrap/00-Indice\|Bootstrap]] | CSS na interface do Mercadinho e nos estilos do Reflex no CTL-TINTA-FL; Tailwind 4 no front-end do [[GitHub/byteShop/01-Arquitetura-e-Aprendizados\|byteShop]]; no CTL-TINTA-FL, só como erro: classe usada como valor de CSS ([[Problemas-Resolvidos/08-Toast-Invisivel-com-Classes-Tailwind\|toast invisível]]); Bootstrap ainda em nenhum projeto |
 | [[../PHP/00-Indice\|PHP]] | — |
 | [[../IA-Aplicada/00-Indice\|IA Aplicada]] — prompts, RAG, fine-tuning, avaliação, riscos | [[Tecnologias/08-Claude-Code\|Claude Code]], [[Guias/08-Cofre-para-IA-e-Lembretes\|este cofre como dado de treino]] |
 | [[../GANs/00-Indice\|GANs]] — gerador × discriminador, treino, WGAN, avaliação, deepfakes | [[../GANs/10-Experimento-GAN-com-as-Notas\|uma GAN treinada nas notas deste cofre]] |
 | [[../Financas/00-Indice\|Finanças do pequeno negócio]] — caixa, DRE, preço, impostos, crédito | [[Projetos/02-Sistema-de-Vendas-e-Estoque\|Sistema de vendas e estoque]], [[Projetos/06-Mercadinho-Seu-Joao\|Mercadinho Seu João]] |
 | [[../Seguranca-Web/00-Indice\|Segurança Web]] — OWASP Top 10, senhas, sessões, injeção, XSS, CSRF, incidentes | [[Praticas/07-Seguranca-em-Apps-Locais\|Segurança em apps locais]], [[Problemas-Resolvidos/21-SQL-Injection-por-Token-de-URL\|SQL injection no Projeto W]] |
-| [[../Ecommerce/00-Indice\|E-commerce]] — Shopify, operação e divulgação | [[Projetos/04-Planejamento-de-E-commerce\|Planejamento de E-commerce]], [[Projetos/03-Loja-de-Infoprodutos-sobre-IA\|Loja de infoprodutos]], [[GitHub/byteShop/01-Arquitetura-e-Aprendizados\|byteShop]] |
+| [[../Ecommerce/00-Indice\|E-commerce]] — Shopify, operação, divulgação, marketplaces e tráfego pago | [[Projetos/04-Planejamento-de-E-commerce\|Planejamento de E-commerce]], [[Projetos/03-Loja-de-Infoprodutos-sobre-IA\|Loja de infoprodutos]], [[GitHub/byteShop/01-Arquitetura-e-Aprendizados\|byteShop]] |
 
 ## Os cinco aprendizados que mais custaram caro
 

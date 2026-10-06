@@ -26,6 +26,8 @@ Ficam de fora, por padrão:
 - **modelos** de nota (`Templates/`), que são esqueletos vazios;
 - **Diário** e **Inbox**, que são rascunhos pessoais. Só entram com `--incluir-pessoal`, depois de revisar.
 
+O `README.md` da raiz também fica de fora, sempre: ele descreve o repositório e não é nota.
+
 ## Checklist antes de treinar
 
 ### Direito de usar

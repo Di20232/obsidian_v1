@@ -28,7 +28,7 @@ Exercícios de algoritmos em Python (`ex01.py` … `ex05.py`), clonados do repos
 
 O push falhou com **403**: o Git da máquina está autenticado como **Di20232**, mas o repositório de destino pertence a **diego2600612** — e essa conta não tem permissão de escrita nele.
 
-→ Solução completa em [[../Problemas-Resolvidos/24-Push-403-com-Conta-Git-Errada|Push 403 — conta Git errada]] e contexto em [[../Ambiente/03-Contas-Git|Contas Git]].
+→ Caminhos para resolver em [[../Problemas-Resolvidos/24-Push-403-com-Conta-Git-Errada|Push 403 — conta Git errada]] e contexto em [[../Ambiente/03-Contas-Git|Contas Git]].
 
 **Próximo passo:** limpar a credencial salva no Gerenciador de Credenciais do Windows e logar como `diego2600612` — ou dar permissão de colaborador para `Di20232`.
 

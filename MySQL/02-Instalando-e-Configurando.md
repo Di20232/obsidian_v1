@@ -56,7 +56,17 @@ Em vez de digitar comando por comando, é comum guardar vários comandos SQL em 
 mysql -u root -p loja < script.sql
 ```
 
-Isso executa cada comando do arquivo `script.sql`, em ordem, no banco `loja` — é assim que os exemplos desta trilha devem ser testados.
+Isso executa cada comando do arquivo `script.sql`, em ordem, no banco `loja`.
+
+Os exemplos desta trilha (`MySQL/exemplos/`) não usam o banco `loja`: o `03_criando_tabelas.sql` cria o banco `biblioteca` (`CREATE DATABASE IF NOT EXISTS biblioteca;` e `USE biblioteca;`), e os seguintes começam com `USE biblioteca;`. Por isso, rode-os **sem** nome de banco, de dentro da pasta `MySQL/exemplos/`, em ordem, a partir do 03 — os seguintes dependem do que os anteriores criaram:
+
+```bash
+mysql -u root -p < 03_criando_tabelas.sql
+```
+
+Passar `loja` nesse comando, sem ter criado esse banco antes, faz o cliente recusar a conexão (`Unknown database 'loja'`).
+
+Para recomeçar do zero, rode o 03 de novo: ele apaga e recria `livros` e `emprestimos`. A tabela `contas`, criada pelo 09, continua lá; antes de rodar o 09 outra vez, apague-a com `DROP TABLE contas;`, porque ele insere as contas com ids fixos (1 e 2) e falharia por chave duplicada.
 
 ## Erros comuns nesta etapa
 
@@ -75,6 +85,8 @@ Como conectar ao MySQL pela linha de comando? :: Com mysql -u root -p, que pede 
 Para que serve o comando USE? :: Define o banco usado pelos comandos seguintes, evitando o erro No database selected.
 
 Como rodar um arquivo .sql inteiro no MySQL? :: Com mysql -u root -p nome_do_banco < script.sql.
+
+Por que os exemplos desta trilha rodam sem nome de banco no comando mysql? :: Porque o 03 cria o banco biblioteca e cada script já tem USE biblioteca.
 
 A senha do root do MySQL é a mesma do Windows? :: Não; são completamente separadas.
 

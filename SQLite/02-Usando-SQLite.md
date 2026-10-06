@@ -64,7 +64,7 @@ print(cursor.fetchone())
 conexao.close()
 ```
 
-Esse é o padrão que você já viu em [[../Python/09-Listas-Tuplas-Dicionarios]] e [[../PHP/14-PHP-com-Banco-de-Dados]] (via PDO) — a partir daqui, os exemplos desta trilha alternam entre arquivos `.sql` (para rodar com o cliente `sqlite3`) e scripts Python (para rodar sem instalar nada a mais).
+Esse é o padrão que você já viu em [[../Python/09-Listas-Tuplas-Dicionarios]] e [[../PHP/14-PHP-com-Banco-de-Dados]] (via PDO) — a partir daqui, os exemplos desta trilha (`SQLite/exemplos/`) são scripts Python, para rodar sem instalar nada a mais. O cliente `sqlite3` é opcional: serve para digitar os mesmos comandos SQL direto no terminal.
 
 ## Exercício
 
