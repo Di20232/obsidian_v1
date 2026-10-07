@@ -53,12 +53,12 @@ USE loja;
 Em vez de digitar comando por comando, é comum guardar vários comandos SQL em um arquivo e rodar tudo de uma vez. Peça ao próprio cliente que leia o arquivo, com o comando `source`. Assim o comando é o mesmo no PowerShell, no Prompt de Comando (cmd) e no bash:
 
 ```bash
-mysql -u root -p loja -e "source script.sql"
+mysql -u root -p --default-character-set=utf8mb4 loja -e "source script.sql"
 ```
 
-Isso executa cada comando do arquivo `script.sql`, em ordem, no banco `loja`. O `-e` manda o cliente rodar um comando e sair. Se você já está conectado, no prompt `mysql>`, o equivalente é `SOURCE script.sql;`.
+Isso executa cada comando do arquivo `script.sql`, em ordem, no banco `loja`. O `-e` manda o cliente rodar um comando e sair. O `--default-character-set=utf8mb4` faz os acentos chegarem certos (veja abaixo). Se você já está conectado, no prompt `mysql>`, o equivalente é `SOURCE script.sql;`.
 
-Muitos tutoriais usam `mysql -u root -p loja < script.sql`. Essa forma só funciona no bash e no cmd: no PowerShell, o `<` é um operador reservado, e o comando para com `ParserError` antes de chamar o `mysql`. Outra forma comum, `Get-Content script.sql | mysql -u root -p loja`, roda no PowerShell 7, mas estraga os acentos no Windows PowerShell 5.1 (`powershell`): lá, o texto que vai pelo pipe para um programa é convertido com `$OutputEncoding`, que por padrão é ASCII, e o `ã` vira `?`. Prefira o `source`.
+Muitos tutoriais usam `mysql -u root -p loja < script.sql`. Essa forma só funciona no bash e no cmd: no PowerShell, o `<` é um operador reservado, e o comando para com `ParserError` antes de chamar o `mysql`. Outra forma comum, `Get-Content script.sql | mysql -u root -p loja`, roda no PowerShell 7, mas estraga os acentos no Windows PowerShell 5.1 (`powershell`), com ou sem a opção de charset: lá, o `Get-Content` lê arquivo sem BOM na página de código ANSI do sistema, e o texto que vai pelo pipe para um programa é convertido com `$OutputEncoding`, que por padrão é ASCII. Os acentos viram `?`. Prefira o `source`, com a opção de charset.
 
 Os exemplos desta trilha (`MySQL/exemplos/`) não usam o banco `loja`: o `03_criando_tabelas.sql` cria o banco `biblioteca` (`CREATE DATABASE IF NOT EXISTS biblioteca;` e `USE biblioteca;`), e os seguintes começam com `USE biblioteca;`. Por isso, rode-os **sem** nome de banco, de dentro da pasta `MySQL/exemplos/`, em ordem, a partir do 03 — os seguintes dependem do que os anteriores criaram:
 
@@ -70,7 +70,7 @@ Passar `loja` nesse comando, sem ter criado esse banco antes, faz o cliente recu
 
 Depois, troque o nome do arquivo (`04_crud.sql`, `05_where_order_limit.sql` e assim por diante, até o 09). Para digitar a senha uma vez só, conecte com `mysql -u root -p --default-character-set=utf8mb4` e rode, um depois do outro, `SOURCE 03_criando_tabelas.sql;`, `SOURCE 04_crud.sql;` etc.
 
-O `--default-character-set=utf8mb4` cuida dos acentos. Os scripts estão em UTF-8 (`O Cortiço`, `Grande Sertão`). Sem essa opção, o cliente lê o arquivo na codificação do sistema (no Windows, a página de código configurada), e os acentos podem ser gravados trocados: com o cliente em `latin1`, `Sertão` fica gravado como `SertÃ£o`.
+O `--default-character-set=utf8mb4` cuida dos acentos de qualquer script salvo em UTF-8, como os desta trilha (`O Cortiço`, `Grande Sertão`). Sem essa opção, o cliente lê o arquivo na codificação do sistema (no Windows, a página de código configurada), e os acentos podem ser gravados trocados: com o cliente em `latin1`, `Sertão` fica gravado como `SertÃ£o`.
 
 **Arquivo em outra pasta.** O `source` usa como nome do arquivo tudo o que vem depois dele, espaços incluídos, e não tira aspas: `source "meu script.sql"` falha com `Failed to open file`. O mais simples é entrar na pasta com `cd` (aí sim com aspas, se o caminho tiver espaço) e passar só o nome do arquivo. Outra saída é o caminho relativo à pasta atual, escrito com `/`, que o Windows aceita. Da raiz do cofre:
 
@@ -97,7 +97,7 @@ Como conectar ao MySQL pela linha de comando? :: Com mysql -u root -p, que pede 
 
 Para que serve o comando USE? :: Define o banco usado pelos comandos seguintes, evitando o erro No database selected.
 
-Como rodar um arquivo .sql inteiro no MySQL, em qualquer terminal? :: Com mysql -u root -p nome_do_banco -e "source script.sql" ou, já conectado, com SOURCE script.sql;
+Como rodar um arquivo .sql inteiro no MySQL, em qualquer terminal? :: Com mysql -u root -p --default-character-set=utf8mb4 nome_do_banco -e "source script.sql" ou, já conectado, com SOURCE script.sql;
 
 Por que mysql -u root -p loja < script.sql não funciona no PowerShell? :: Porque no PowerShell o < é um operador reservado; o comando para com ParserError antes de chamar o mysql.
 
