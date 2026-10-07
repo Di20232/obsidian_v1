@@ -164,17 +164,17 @@ Os exemplos de Python, JavaScript, PHP e SQLite foram rodados (Python 3.13, Node
 - `PHP/exemplos/14_banco_dados.php` cria `PHP/exemplos/banco.db`.
 - `SQLite/exemplos/05_persistencia.py` cria ou atualiza `SQLite/exemplos/tarefas.db`.
 
-**MySQL.** Os scripts formam uma sequência sobre o banco `biblioteca`, criado pelo 03. Rode em ordem, sem nome de banco no comando. Os comandos abaixo são para bash ou Git Bash:
+**MySQL.** Os scripts formam uma sequência sobre o banco `biblioteca`, criado pelo 03. Rode em ordem, sem nome de banco no comando. Este comando serve no PowerShell, no Prompt de Comando (cmd) e no bash:
 
 ```bash
-mysql -u root -p -t < MySQL/exemplos/03_criando_tabelas.sql
-# ... um por um até o 09, ou de uma vez:
-cat MySQL/exemplos/0*.sql | mysql -u root -p -t
+mysql -u root -p --default-character-set=utf8mb4 -e "source MySQL/exemplos/03_criando_tabelas.sql"
 ```
 
-No PowerShell, o `<` não funciona. Use `Get-Content MySQL\exemplos\03_criando_tabelas.sql | mysql -u root -p -t`.
+Repita trocando o arquivo, até o 09. Para digitar a senha uma vez só, conecte com `mysql -u root -p --default-character-set=utf8mb4` e, no prompt, rode `source MySQL/exemplos/03_criando_tabelas.sql`, depois o 04 e assim por diante. O `source` faz o próprio cliente ler o arquivo. O `--default-character-set=utf8mb4` faz os acentos dos scripts (`Cortiço`, `Sertão`) chegarem certos ao banco.
 
-Não dá para repetir sem limpar. Na segunda vez, o 09 falha por chave duplicada, porque o 03 não apaga a tabela `contas`. O 08 rodado de novo sozinho falha porque os índices já existem. Para recomeçar, `DROP DATABASE biblioteca;`. O 09 cria o usuário `app_biblioteca@localhost` com a senha de exemplo `senha_forte_aqui`; remova depois com `DROP USER 'app_biblioteca'@'localhost';`. Esses scripts nunca rodaram num MySQL real (veja o aviso em [MySQL](MySQL/00-Indice.md)).
+As formas com `<` e com `Get-Content` não servem em todo terminal. `mysql ... < arquivo.sql` só funciona no bash e no cmd; no PowerShell, o `<` é reservado e dá `ParserError`. `Get-Content arquivo.sql | mysql ...` roda no PowerShell 7, mas no Windows PowerShell 5.1 os acentos viram `?`, porque o pipe para um programa usa `$OutputEncoding`, ASCII por padrão. No bash, para rodar todos de uma vez: `cat MySQL/exemplos/0*.sql | mysql -u root -p -t --default-character-set=utf8mb4`. Backup e restauração estão em [Boas práticas](MySQL/11-Boas-Praticas-e-Proximos-Passos.md): `mysqldump` com `--result-file`, não com `>`, que no 5.1 grava o arquivo em UTF-16.
+
+Não dá para repetir sem limpar. Na segunda vez, o 09 falha por chave duplicada, porque o 03 não apaga a tabela `contas`. O 08 rodado de novo sozinho falha porque os índices já existem. Para recomeçar, `DROP DATABASE biblioteca;`. O 09 cria o usuário `app_biblioteca@localhost` com a senha de exemplo `senha_forte_aqui`; remova depois com `DROP USER 'app_biblioteca'@'localhost';`. Em 06/10/2026, os scripts rodaram sem erro no MariaDB 10.11, com o `source`, no bash e no PowerShell 7.5, no Linux. Num MySQL, ainda não (veja o aviso em [MySQL](MySQL/00-Indice.md)), nem no Windows.
 
 ### Experimentos de GAN
 
