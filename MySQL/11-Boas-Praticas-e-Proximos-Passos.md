@@ -18,14 +18,20 @@ Combinado com [[../Programacao-Geral/09-SQL-e-Bancos-de-Dados]], você agora sab
 ## Backup: o hábito que evita desastres
 
 ```bash
-mysqldump -u root -p biblioteca > backup_biblioteca.sql
+mysqldump -u root -p biblioteca --result-file=backup_biblioteca.sql
 ```
 
-Gera um arquivo `.sql` com todos os comandos necessários para **recriar** o banco do zero — a defesa real contra o cenário de "rodei um `DELETE` sem `WHERE` sem querer" (mencionado em [[04-CRUD-Insert-Select-Update-Delete]]). Restaurar:
+Gera um arquivo `.sql` com todos os comandos necessários para **recriar** as tabelas do banco, com os dados — a defesa real contra o cenário de "rodei um `DELETE` sem `WHERE` sem querer" (mencionado em [[04-CRUD-Insert-Select-Update-Delete]]). O `--result-file` (forma curta: `-r`) faz o próprio `mysqldump` gravar o arquivo, então o resultado é o mesmo no PowerShell, no Prompt de Comando (cmd) e no bash. A documentação do MySQL recomenda essa opção no Windows.
+
+Muitos tutoriais usam `mysqldump -u root -p biblioteca > backup_biblioteca.sql`. No bash e no PowerShell 7.5, isso gera o mesmo arquivo. No Windows PowerShell 5.1 (`powershell`), o `>` grava o arquivo em UTF-16, e o `mysql` recusa esse arquivo na restauração (`ASCII '\0' appeared in the statement`).
+
+Restaurar:
 
 ```bash
-mysql -u root -p biblioteca < backup_biblioteca.sql
+mysql -u root -p biblioteca -e "source backup_biblioteca.sql"
 ```
+
+O banco precisa existir: o arquivo recria as tabelas, não o banco. Se você apagou o banco inteiro, crie-o de novo antes, com `mysql -u root -p -e "CREATE DATABASE biblioteca"`. A forma `mysql -u root -p biblioteca < backup_biblioteca.sql` não funciona no PowerShell, pelo motivo visto em [[02-Instalando-e-Configurando]].
 
 Em produção, backups devem ser **automáticos e regulares**, não um hábito manual esporádico.
 
@@ -70,7 +76,11 @@ Em produção, ferramentas como o **slow query log** do MySQL registram automati
 
 Qual a convenção de nomes de tabelas e colunas? :: Tabelas no plural em snake_case e colunas em snake_case; chave estrangeira como cliente_id.
 
-Como fazer backup de um banco MySQL? :: Com mysqldump -u root -p banco > backup.sql, restaurando com mysql -u root -p banco < backup.sql.
+Como fazer backup de um banco MySQL? :: Com mysqldump -u root -p banco --result-file=backup.sql, restaurando com mysql -u root -p banco -e "source backup.sql".
+
+Por que usar --result-file em vez de > no mysqldump? :: Porque no Windows PowerShell 5.1 o > grava o arquivo em UTF-16, que o mysql recusa ao restaurar; com --result-file, o próprio mysqldump grava o arquivo.
+
+O que fazer antes de restaurar o backup de um banco apagado? :: Criar o banco de novo com CREATE DATABASE, porque o arquivo do mysqldump recria só as tabelas.
 
 O que é uma migration? :: Um arquivo que descreve uma mudança incremental na estrutura do banco, versionado junto com o código.
 
